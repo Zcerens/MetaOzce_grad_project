@@ -1,0 +1,965 @@
+  {
+                "@context": "http://schema.org",
+                "@type": "ItemList",
+                "itemListElement": [
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Nuhun Gemisi Deluxe Hotel Spa",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Nuhun_Gemisi_Deluxe_Hotel_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03073/450x300/tsr03073637956506989587198.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03073/450x300/tsr03073637956506989587198.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "26971 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.6",
+                                "bestRating": "10",
+                                "reviewCount": "393"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Bafra"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Concorde Luxury Resort Casino",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Concorde_Luxury_Resort_Casino",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07631/450x300/tsr07631637368209202540370.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07631/450x300/tsr07631637368209202540370.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "60000 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.2",
+                                "bestRating": "10",
+                                "reviewCount": "244"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Bafra"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Acapulco Resort Convention Spa Hotel",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Acapulco_Resort_Convention_Spa_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00229/450x300/tsr00229637153780106435233.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00229/450x300/tsr00229637153780106435233.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "32000 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.7",
+                                "bestRating": "10",
+                                "reviewCount": "722"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne | Çatalköy"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Merit Park Hotel Casino",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Merit_Park_Hotel_Casino",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03811/450x300/tsr03811637767992150799790.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03811/450x300/tsr03811637767992150799790.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "66150 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.1",
+                                "bestRating": "10",
+                                "reviewCount": "276"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne | Kervansaray"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 5,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Kaya Artemis Resort Casino",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Kaya_Artemis_Resort_Casino",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01710/450x300/tsr01710638127452727648785.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01710/450x300/tsr01710638127452727648785.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.9",
+                                "bestRating": "10",
+                                "reviewCount": "296"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Bafra"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 6,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Vuni Palace Hotel",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Vuni_Palace_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01616/450x300/tsr01616637246347681461755.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01616/450x300/tsr01616637246347681461755.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.5",
+                                "bestRating": "10",
+                                "reviewCount": "264"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne | Reyhanlı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 7,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Lords Palace Hotel Casino Spa",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Lords_Palace_Hotel_Casino_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06299/450x300/tsr06299637246322242692118.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06299/450x300/tsr06299637246322242692118.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.9",
+                                "bestRating": "10",
+                                "reviewCount": "216"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 8,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Salamis Bay Conti",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Salamis_Bay_Conti",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00212/450x300/tsr00212638126650029572941.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00212/450x300/tsr00212638126650029572941.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.9",
+                                "bestRating": "10",
+                                "reviewCount": "484"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Magosa"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 9,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Les Ambassadeurs Hotel",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Les_Ambassadeurs_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07680/450x300/tsr07680638265695514829869.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07680/450x300/tsr07680638265695514829869.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9",
+                                "bestRating": "10",
+                                "reviewCount": "59"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 10,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Elexus Hotel Resort Casino",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Elexus_Hotel_Resort_Casino",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05574/450x300/tsr05574637244499854197058.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05574/450x300/tsr05574637244499854197058.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "352"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne | Çatalköy"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 11,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "The Arkın İskele Hotel Casino",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#The_Ark%c4%b1n_%c4%b0skele_Hotel_Casino",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12536/450x300/tsr12536638279706526266337.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12536/450x300/tsr12536638279706526266337.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.2",
+                                "bestRating": "10",
+                                "reviewCount": "60"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Magosa"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 12,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Oscar Resort Hotel",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Oscar_Resort_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00226/450x300/tsr00226637242032542260413.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00226/450x300/tsr00226637242032542260413.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.3",
+                                "bestRating": "10",
+                                "reviewCount": "291"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 13,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Chamada Prestige Hotel Casino Spa",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Chamada_Prestige_Hotel_Casino_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12128/450x300/tsr12128638234619624234709.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12128/450x300/tsr12128638234619624234709.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.2",
+                                "bestRating": "10",
+                                "reviewCount": "115"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne | Çatalköy"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 14,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Arkın Palm Beach",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Ark%c4%b1n_Palm_Beach",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03325/450X300/tsr03325637909856611436965.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03325/450X300/tsr03325637909856611436965.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.2",
+                                "bestRating": "10",
+                                "reviewCount": "119"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Magosa | Develimanı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 15,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Merit Crystal Cove Hotel",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Merit_Crystal_Cove_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00235/450x300/tsr00235637162610578651481.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00235/450x300/tsr00235637162610578651481.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.2",
+                                "bestRating": "10",
+                                "reviewCount": "198"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne | Alsancak"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 16,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Dome Hotel",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Dome_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00221/450x300/tsr00221638040341823020956.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00221/450x300/tsr00221638040341823020956.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.1",
+                                "bestRating": "10",
+                                "reviewCount": "377"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 17,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Cratos Premium Hotel",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Cratos_Premium_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02750/450x300/tsr02750637617789107045857.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02750/450x300/tsr02750637617789107045857.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.4",
+                                "bestRating": "10",
+                                "reviewCount": "33"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne | Çatalköy"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 18,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Denizkızı Hotel",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Denizk%c4%b1z%c4%b1_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00224/450x300/tsr00224637251489736104148.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00224/450x300/tsr00224637251489736104148.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.6",
+                                "bestRating": "10",
+                                "reviewCount": "54"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne | Alsancak"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 19,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Merit Royal Hotel Casino",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Merit_Royal_Hotel_Casino",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04022/450X300/tsr04022638149130793653653.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04022/450X300/tsr04022638149130793653653.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8",
+                                "bestRating": "10",
+                                "reviewCount": "3"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne | Alsancak"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 20,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Grand Pasha Kyrenia Hotel Casino Spa",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Grand_Pasha_Kyrenia_Hotel_Casino_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04236/450x300/tsr04236638010772892939018.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04236/450x300/tsr04236638010772892939018.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "322"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 21,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Uptown Büyük Anadolu Girne Hotel",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Uptown_B%c3%bcy%c3%bck_Anadolu_Girne_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03182/450x300/tsr03182638271979340745350.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03182/450x300/tsr03182638271979340745350.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.5",
+                                "bestRating": "10",
+                                "reviewCount": "32"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 22,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "The Arkın Colony Hotel",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#The_Ark%c4%b1n_Colony_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00496/450x300/tsr00496637248850985121543.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00496/450x300/tsr00496637248850985121543.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.1",
+                                "bestRating": "10",
+                                "reviewCount": "140"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 23,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Merit Royal Premium Hotel Casino",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Merit_Royal_Premium_Hotel_Casino",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04518/450X300/tsr04518638149126459910831.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04518/450X300/tsr04518638149126459910831.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "11"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne | Alsancak"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 24,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Grand Pasha Lefkoşa Hotel Casino Spa",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Grand_Pasha_Lefko%c5%9fa_Hotel_Casino_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02678/450X300/tsr02678637098481715272812.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02678/450X300/tsr02678637098481715272812.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.2",
+                                "bestRating": "10",
+                                "reviewCount": "112"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Lefkoşa"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 25,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Concorde Tower Casino Convention Spa",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Concorde_Tower_Casino_Convention_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11406/450x300/tsr11406637647142739562390.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11406/450x300/tsr11406637647142739562390.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.2",
+                                "bestRating": "10",
+                                "reviewCount": "90"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Lefkoşa"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 26,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Kaya Palazzo Resort Casino",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Kaya_Palazzo_Resort_Casino",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07741/450x300/tsr07741637647918691701320.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07741/450x300/tsr07741637647918691701320.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.5",
+                                "bestRating": "10",
+                                "reviewCount": "215"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 27,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Merit Lefkoşa Hotel Casino",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Merit_Lefko%c5%9fa_Hotel_Casino",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02244/450x300/tsr02244637777701883855213.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02244/450x300/tsr02244637777701883855213.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.1",
+                                "bestRating": "10",
+                                "reviewCount": "189"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Lefkoşa"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 28,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Merit Royal Diamond Hotel Casino",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Merit_Royal_Diamond_Hotel_Casino",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12222/450x300/tsr12222637958158917372174.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12222/450x300/tsr12222637958158917372174.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9",
+                                "bestRating": "10",
+                                "reviewCount": "23"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 29,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Riverside Garden Resort",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Riverside_Garden_Resort",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00216/450x300/tsr00216637816380156020677.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00216/450x300/tsr00216637816380156020677.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.3",
+                                "bestRating": "10",
+                                "reviewCount": "8"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Girne | Lapta"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 30,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Royal Palace Otel",
+                        "url": "https://www.tatilsepeti.com/kibris-otelleri#Royal_Palace_Otel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12290/450x300/tsr12290637849420251272715.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12290/450x300/tsr12290637849420251272715.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.1",
+                                "bestRating": "10",
+                                "reviewCount": "19"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kıbrıs - Lefkoşa"
+                        }
+                        ]
+                        }
+                        }
+                    
+                ]
+                }

@@ -1,0 +1,965 @@
+ {
+                "@context": "http://schema.org",
+                "@type": "ItemList",
+                "itemListElement": [
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "The Sign Şile Hotel Spa ( Ex Şile Gardens Hotel Spa)",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#The_Sign_%c5%9eile_Hotel_Spa_(_Ex_%c5%9eile_Gardens_Hotel_Spa)",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01903/450X300/tsr01903637248867916740659.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01903/450X300/tsr01903637248867916740659.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "17500 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.2",
+                                "bestRating": "10",
+                                "reviewCount": "57"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "İstanbul - Şile | Kumbaba"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Kervansaray Termal Otel",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Kervansaray_Termal_Otel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00249/450x300/tsr00249637242041547110762.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00249/450x300/tsr00249637242041547110762.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "13600 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.5",
+                                "bestRating": "10",
+                                "reviewCount": "70"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Bursa - Çekirge"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Almira Hotel Thermal Spa",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Almira_Hotel_Thermal_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00482/450x300/tsr00482637842566630205416.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00482/450x300/tsr00482637842566630205416.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "14012 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.9",
+                                "bestRating": "10",
+                                "reviewCount": "24"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Bursa - Osmangazi"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Çelik Palas Convention Center Thermal Spa",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#%c3%87elik_Palas_Convention_Center_Thermal_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01055/450x300/tsr01055638040300144053290.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01055/450x300/tsr01055638040300144053290.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "15739 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.6",
+                                "bestRating": "10",
+                                "reviewCount": "39"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Bursa - Çekirge"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 5,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Mövenpick Hotel Thermal Spa Bursa",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#M%c3%b6venpick_Hotel_Thermal_Spa_Bursa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07266/450x300/tsr07266638036832333374797.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07266/450x300/tsr07266638036832333374797.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.1",
+                                "bestRating": "10",
+                                "reviewCount": "38"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Bursa - Bursa Merkez"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 6,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Adrina Termal Health Spa Hotel",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Adrina_Termal_Health_Spa_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02679/450x300/tsr02679637245343654559228.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02679/450x300/tsr02679637245343654559228.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9",
+                                "bestRating": "10",
+                                "reviewCount": "152"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Balıkesir - Edremit | Güre"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 7,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Marigold Thermal Spa Hotel",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Marigold_Thermal_Spa_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02762/450x300/tsr02762637186658293017395.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02762/450x300/tsr02762637186658293017395.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.2",
+                                "bestRating": "10",
+                                "reviewCount": "46"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Bursa - Osmangazi | Çekirge"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 8,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Hattuşa Vacation Thermal Club Kazdağları",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Hattu%c5%9fa_Vacation_Thermal_Club_Kazda%c4%9flar%c4%b1",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05531/450x300/tsr05531637224689556668918.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05531/450x300/tsr05531637224689556668918.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.4",
+                                "bestRating": "10",
+                                "reviewCount": "140"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Balıkesir - Edremit | Güre"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 9,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Elite World Grand Sapanca Hotel",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Elite_World_Grand_Sapanca_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/10327/450x300/tsr10327637275531101451831.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/10327/450x300/tsr10327637275531101451831.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9",
+                                "bestRating": "10",
+                                "reviewCount": "340"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Sakarya - Sapanca | Göl"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 10,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Oksijen Zone Hotels Uludağ",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Oksijen_Zone_Hotels_Uluda%c4%9f",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11360/450x300/tsr11360638307221970191231.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11360/450x300/tsr11360638307221970191231.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "9"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Bursa - Uludağ | 1. Bölge"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 11,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Güre Saruhan Termal Hotel",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#G%c3%bcre_Saruhan_Termal_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/TesisResim/01584/tsr01584635488962775420000.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/TesisResim/01584/tsr01584635488962775420000.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.9",
+                                "bestRating": "10",
+                                "reviewCount": "56"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Balıkesir - Edremit | Güre"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 12,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Form Thermal Hotel Spa Kazdağları",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Form_Thermal_Hotel_Spa_Kazda%c4%9flar%c4%b1",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07972/450x300/tsr07972637335351805560545.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07972/450x300/tsr07972637335351805560545.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.2",
+                                "bestRating": "10",
+                                "reviewCount": "43"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Balıkesir - Edremit | Güre"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 13,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Thermalium Wellness Spa Hotel By Vima",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Thermalium_Wellness_Spa_Hotel_By_Vima",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/10968/450x300/tsr10968637266229849964576.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/10968/450x300/tsr10968637266229849964576.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.4",
+                                "bestRating": "10",
+                                "reviewCount": "37"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Yalova - Termal"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 14,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Black Bird Thermal Hotel",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Black_Bird_Thermal_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02361/450x300/tsr02361637691149505237711.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02361/450x300/tsr02361637691149505237711.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.1",
+                                "bestRating": "10",
+                                "reviewCount": "68"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Yalova - Termal"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 15,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "The Green Park Kartepe",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#The_Green_Park_Kartepe",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01309/450x300/tsr01309638032644304690133.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01309/450x300/tsr01309638032644304690133.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.3",
+                                "bestRating": "10",
+                                "reviewCount": "36"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kocaeli - Kartepe | Maşukiye"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 16,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Maxwell Resort Thermal Hotel Spa",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Maxwell_Resort_Thermal_Hotel_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12935/450x300/tsr12935638194038088132397.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12935/450x300/tsr12935638194038088132397.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.6",
+                                "bestRating": "10",
+                                "reviewCount": "10"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Yalova - Termal"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 17,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Abant Kartal Yuvası Otel",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Abant_Kartal_Yuvas%c4%b1_Otel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01388/450x300/tsr01388637352478135022869.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01388/450x300/tsr01388637352478135022869.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.6",
+                                "bestRating": "10",
+                                "reviewCount": "39"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Bolu - Abant | Abant Yolu"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 18,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Sapanca Çayır Çimen Otel",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Sapanca_%c3%87ay%c4%b1r_%c3%87imen_Otel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05635/450x300/tsr05635637290430594967223.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05635/450x300/tsr05635637290430594967223.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9",
+                                "bestRating": "10",
+                                "reviewCount": "10"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Sakarya - Sapanca"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 19,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Boyugüzel Termal",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Boyug%c3%bczel_Termal",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02913/450x300/tsr02913638314167840597987.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02913/450x300/tsr02913638314167840597987.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.3",
+                                "bestRating": "10",
+                                "reviewCount": "11"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Bursa - Çekirge"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 20,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Sarot Thermal Palace Apart Hotel",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Sarot_Thermal_Palace_Apart_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/10765/450x300/tsr10765638006752650382663.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/10765/450x300/tsr10765638006752650382663.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.4",
+                                "bestRating": "10",
+                                "reviewCount": "38"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Bolu - Mudurnu"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 21,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Ascot Hotel Büyükada",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Ascot_Hotel_B%c3%bcy%c3%bckada",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03930/450x300/tsr03930637333704204750912.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03930/450x300/tsr03930637333704204750912.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.4",
+                                "bestRating": "10",
+                                "reviewCount": "15"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "İstanbul - Adalar | Büyükada"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 22,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Abant Köşk Oteli",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Abant_K%c3%b6%c5%9fk_Oteli",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01484/450x300/tsr01484638285741572193202.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01484/450x300/tsr01484638285741572193202.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.4",
+                                "bestRating": "10",
+                                "reviewCount": "9"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Bolu - Abant | Abant Gölü"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 23,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Hope Sapanca",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Hope_Sapanca",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12547/450x300/tsr12547637939296898984544.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12547/450x300/tsr12547637939296898984544.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.5",
+                                "bestRating": "10",
+                                "reviewCount": "14"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Sakarya - Sapanca"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 24,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Zir Dream Thermal Spa Hotel",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Zir_Dream_Thermal_Spa_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05196/450x300/tsr05196637631150115839384.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05196/450x300/tsr05196637631150115839384.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.4",
+                                "bestRating": "10",
+                                "reviewCount": "63"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Yalova - Termal"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 25,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Limak Thermal Boutique Hotel",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Limak_Thermal_Boutique_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02899/450x300/tsr02899637351655129022342.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02899/450x300/tsr02899637351655129022342.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.2",
+                                "bestRating": "10",
+                                "reviewCount": "41"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Yalova - Termal | Gökçe Dere Mah."
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 26,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Sapanca Alfa Suites Spa",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Sapanca_Alfa_Suites_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/08233/450x300/tsr08233638193116438326276.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/08233/450x300/tsr08233638193116438326276.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.5",
+                                "bestRating": "10",
+                                "reviewCount": "22"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Sakarya - Sapanca"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 27,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Abant Bahçeli Köşk",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Abant_Bah%c3%a7eli_K%c3%b6%c5%9fk",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04858/450X300/tsr04858638159452450407412.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04858/450X300/tsr04858638159452450407412.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.1",
+                                "bestRating": "10",
+                                "reviewCount": "35"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Bolu - Abant"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 28,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Wyndham Çerkezköy",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Wyndham_%c3%87erkezk%c3%b6y",
+                        "image": "https://cdn.tatilsepeti.com/Files/TesisResim/10025/tsr10025637037271541437737.gif",
+                        "photo": "https://cdn.tatilsepeti.com/Files/TesisResim/10025/tsr10025637037271541437737.gif",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.7",
+                                "bestRating": "10",
+                                "reviewCount": "4"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Tekirdağ - Çerkezköy"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 29,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Büyükada Comfort Hotel",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#B%c3%bcy%c3%bckada_Comfort_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06674/450x300/tsr06674637335179837812407.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06674/450x300/tsr06674637335179837812407.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.9",
+                                "bestRating": "10",
+                                "reviewCount": "18"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "İstanbul - Adalar | Büyükada"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 30,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Kazdağları Allia Thermal Health Spa",
+                        "url": "https://www.tatilsepeti.com/istanbula-yakin-oteller#Kazda%c4%9flar%c4%b1_Allia_Thermal_Health_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11670/450x300/tsr11670637586794928856600.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11670/450x300/tsr11670637586794928856600.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.1",
+                                "bestRating": "10",
+                                "reviewCount": "17"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Balıkesir - Edremit | Güre"
+                        }
+                        ]
+                        }
+                        }
+                    
+                ]
+                }
