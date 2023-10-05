@@ -1,0 +1,1836 @@
+
+            <script type="application/ld+json">
+                {
+                "@context": "http://schema.org",
+                "@type": "ItemList",
+                "itemListElement": [
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Orange County Alanya",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Orange_County_Alanya",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05847/450x300/tsr05847638248404633489340.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05847/450x300/tsr05847638248404633489340.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "19300 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.5",
+                                "bestRating": "10",
+                                "reviewCount": "234"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Okurcalar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Club Paradiso",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Club_Paradiso",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00317/450X300/tsr00317637698264083083232.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00317/450X300/tsr00317637698264083083232.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "15867 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.5",
+                                "bestRating": "10",
+                                "reviewCount": "44"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Kestel"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Kirman Arycanda De Luxe",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Kirman_Arycanda_De_Luxe",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00897/450x300/tsr00897638023890277045672.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00897/450x300/tsr00897638023890277045672.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "34520 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "44"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Okurcalar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Haydarpasha Palace",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Haydarpasha_Palace",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05769/450x300/tsr05769637778537859125466.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05769/450x300/tsr05769637778537859125466.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "30000 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.1",
+                                "bestRating": "10",
+                                "reviewCount": "59"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Türkler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 5,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Meryan Beach Hotel Spa",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Meryan_Beach_Hotel_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02026/450x300/tsr02026638252841379104097.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02026/450x300/tsr02026638252841379104097.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.9",
+                                "bestRating": "10",
+                                "reviewCount": "67"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Okurcalar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 6,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Beach Club Doğanay",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Beach_Club_Do%c4%9fanay",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02240/450x300/tsr02240638030754353393836.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02240/450x300/tsr02240638030754353393836.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.9",
+                                "bestRating": "10",
+                                "reviewCount": "23"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Konaklı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 7,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Crystal Land Of Paradise",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Crystal_Land_Of_Paradise",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/08537/450x300/tsr08537638209756597835287.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/08537/450x300/tsr08537638209756597835287.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.8",
+                                "bestRating": "10",
+                                "reviewCount": "28"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Türkler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 8,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Kirman Sidera Luxury Spa",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Kirman_Sidera_Luxury_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00377/450x300/tsr00377638271949532547963.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00377/450x300/tsr00377638271949532547963.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "46"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Okurcalar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 9,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Kahya Resort Aqua Spa",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Kahya_Resort_Aqua_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01974/450x300/tsr01974638036862528872391.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01974/450x300/tsr01974638036862528872391.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.9",
+                                "bestRating": "10",
+                                "reviewCount": "91"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Konaklı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 10,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Justiniano Deluxe Resort",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Justiniano_Deluxe_Resort",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03839/450x300/tsr03839637852796217603909.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03839/450x300/tsr03839637852796217603909.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.6",
+                                "bestRating": "10",
+                                "reviewCount": "20"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Okurcalar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 11,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Feniks Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Feniks_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12892/450x300/tsr12892638265020527845659.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12892/450x300/tsr12892638265020527845659.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 12,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Senza The Inn Resort Spa",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Senza_The_Inn_Resort_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04320/450x300/tsr04320638218444502296754.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04320/450x300/tsr04320638218444502296754.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.3",
+                                "bestRating": "10",
+                                "reviewCount": "16"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Türkler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 13,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Laguna Beach Alya Resort Spa",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Laguna_Beach_Alya_Resort_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05764/450x300/tsr05764638204331303365159.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05764/450x300/tsr05764638204331303365159.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "28"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Okurcalar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 14,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Galeri Resort Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Galeri_Resort_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01900/450X300/tsr01900638066345550383120.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01900/450X300/tsr01900638066345550383120.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "75"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Okurcalar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 15,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Serenity Queen Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Serenity_Queen_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12761/450x300/tsr12761638229545358359073.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12761/450x300/tsr12761638229545358359073.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Konaklı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 16,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Kirman Leodikya Resort",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Kirman_Leodikya_Resort",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01717/450x300/tsr01717638029101231458508.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01717/450x300/tsr01717638029101231458508.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.7",
+                                "bestRating": "10",
+                                "reviewCount": "9"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Okurcalar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 17,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Utopia World Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Utopia_World_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01697/450x300/tsr01697637344664177084291.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01697/450x300/tsr01697637344664177084291.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.2",
+                                "bestRating": "10",
+                                "reviewCount": "17"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Kargıcak"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 18,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Saphir Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Saphir_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00320/450x300/tsr00320637299836967997320.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00320/450x300/tsr00320637299836967997320.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.9",
+                                "bestRating": "10",
+                                "reviewCount": "71"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Konaklı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 19,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Xoria Deluxe",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Xoria_Deluxe",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02131/450x300/tsr02131637616800419781271.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02131/450x300/tsr02131637616800419781271.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.2",
+                                "bestRating": "10",
+                                "reviewCount": "15"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 20,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Bera Hotel Alanya",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Bera_Hotel_Alanya",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02547/450x300/tsr02547637957356479940756.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02547/450x300/tsr02547637957356479940756.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.7",
+                                "bestRating": "10",
+                                "reviewCount": "50"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Konaklı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 21,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Diamond Hill Resort",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Diamond_Hill_Resort",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03341/450x300/tsr03341637812361232890359.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03341/450x300/tsr03341637812361232890359.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.1",
+                                "bestRating": "10",
+                                "reviewCount": "100"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Tosmur"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 22,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Sun Star Resort",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Sun_Star_Resort",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04930/450x300/tsr04930637333506903252168.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04930/450x300/tsr04930637333506903252168.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7",
+                                "bestRating": "10",
+                                "reviewCount": "62"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 23,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Timo Deluxe Resort",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Timo_Deluxe_Resort",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01581/450x300/tsr01581637926168733505407.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01581/450x300/tsr01581637926168733505407.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.9",
+                                "bestRating": "10",
+                                "reviewCount": "139"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Konaklı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 24,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Seaphoria Beach Resort",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Seaphoria_Beach_Resort",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12894/450x300/tsr12894638120688651641983.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12894/450x300/tsr12894638120688651641983.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Okurcalar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 25,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Sirius Deluxe Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Sirius_Deluxe_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04850/450x300/tsr04850637593695536350269.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04850/450x300/tsr04850637593695536350269.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.7",
+                                "bestRating": "10",
+                                "reviewCount": "25"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 26,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Saphir Resort Spa",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Saphir_Resort_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01661/450x300/tsr01661637139190731390280.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01661/450x300/tsr01661637139190731390280.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.1",
+                                "bestRating": "10",
+                                "reviewCount": "55"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Okurcalar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 27,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Club Sun Heaven Family Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Club_Sun_Heaven_Family_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04918/450X300/tsr04918637150537030380367.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04918/450X300/tsr04918637150537030380367.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8",
+                                "bestRating": "10",
+                                "reviewCount": "2"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 28,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Grand Uysal Beach Spa Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Grand_Uysal_Beach_Spa_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07319/450x300/tsr07319637687017802552329.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07319/450x300/tsr07319637687017802552329.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.7",
+                                "bestRating": "10",
+                                "reviewCount": "25"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 29,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Club Sun Heaven Sea Bird Beach Otel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Club_Sun_Heaven_Sea_Bird_Beach_Otel",
+                        "image": "https://cdn.tatilsepeti.com/Files/TesisResim/07945/tsr07945637134683152062633.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/TesisResim/07945/tsr07945637134683152062633.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Konaklı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 30,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Scylax Family Club",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Scylax_Family_Club",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12295/450x300/tsr12295637979653372826593.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12295/450x300/tsr12295637979653372826593.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.2",
+                                "bestRating": "10",
+                                "reviewCount": "33"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                    
+                ]
+                }
+            </script>
+
+<script type="application/ld+json">
+                {
+                "@context": "http://schema.org",
+                "@type": "ItemList",
+                "itemListElement": [
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "White City Resort Spa",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#White_City_Resort_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03642/450x300/tsr03642637545375636211405.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03642/450x300/tsr03642637545375636211405.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "25474 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.3",
+                                "bestRating": "10",
+                                "reviewCount": "29"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Türkler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Alan Xafira Deluxe Resort Spa",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Alan_Xafira_Deluxe_Resort_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04313/450x300/tsr04313637246299692533867.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04313/450x300/tsr04313637246299692533867.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "19880 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.4",
+                                "bestRating": "10",
+                                "reviewCount": "160"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Türkler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Hedef Resort Hotel Spa",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Hedef_Resort_Hotel_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01635/450x300/tsr01635637329143702480677.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01635/450x300/tsr01635637329143702480677.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "11375 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7",
+                                "bestRating": "10",
+                                "reviewCount": "288"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Konaklı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "First Class Hotel Alanya",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#First_Class_Hotel_Alanya",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01653/450x300/tsr01653637329271632828911.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01653/450x300/tsr01653637329271632828911.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "12500 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.1",
+                                "bestRating": "10",
+                                "reviewCount": "65"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Kargıcak"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 5,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Grand Kolibri Prestige Spa",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Grand_Kolibri_Prestige_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11341/450x300/tsr11341637804417755371381.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11341/450x300/tsr11341637804417755371381.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.5",
+                                "bestRating": "10",
+                                "reviewCount": "73"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Avsallar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 6,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Holiday Park Resort Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Holiday_Park_Resort_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01514/450x300/tsr01514638103226096949464.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01514/450x300/tsr01514638103226096949464.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.2",
+                                "bestRating": "10",
+                                "reviewCount": "15"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Okurcalar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 7,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Holiday Garden Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Holiday_Garden_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05920/450x300/tsr05920638103215423212274.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05920/450x300/tsr05920638103215423212274.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.9",
+                                "bestRating": "10",
+                                "reviewCount": "8"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Okurcalar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 8,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Campus Hill Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Campus_Hill_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/09619/450x300/tsr09619637610982658741172.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/09619/450x300/tsr09619637610982658741172.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.7",
+                                "bestRating": "10",
+                                "reviewCount": "46"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 9,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Club Porto Amore Adult Only",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Club_Porto_Amore_Adult_Only",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11847/450x300/tsr11847637677416698825685.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11847/450x300/tsr11847637677416698825685.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 10,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Klas More Beach Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Klas_More_Beach_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07856/450x300/tsr07856637744011323513287.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07856/450x300/tsr07856637744011323513287.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.1",
+                                "bestRating": "10",
+                                "reviewCount": "31"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 11,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Modern Saraylar Halal Hotel Spa",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Modern_Saraylar_Halal_Hotel_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05782/450x300/tsr05782637347362927570842.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05782/450x300/tsr05782637347362927570842.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9",
+                                "bestRating": "10",
+                                "reviewCount": "17"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Avsallar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 12,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Arsi Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Arsi_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04795/450x300/tsr04795638163799090073584.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04795/450x300/tsr04795638163799090073584.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 13,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Artemis Princess Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Artemis_Princess_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/TesisResim/01890/tsr01890636262186787736433.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/TesisResim/01890/tsr01890636262186787736433.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Obagöl"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 14,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Club Kastalia Holiday Village",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Club_Kastalia_Holiday_Village",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01811/450x300/tsr01811637248944600125066.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01811/450x300/tsr01811637248944600125066.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "24"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Konaklı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 15,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Blue Fish Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Blue_Fish_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00805/450x300/tsr00805637251554790225930.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00805/450x300/tsr00805637251554790225930.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.3",
+                                "bestRating": "10",
+                                "reviewCount": "16"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Konaklı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 16,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Alaiye Kleopatra Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Alaiye_Kleopatra_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00919/450x300/tsr00919637334307196653366.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00919/450x300/tsr00919637334307196653366.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.5",
+                                "bestRating": "10",
+                                "reviewCount": "7"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Kleopatra"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 17,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Mysea Hotels İncekum",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Mysea_Hotels_%c4%b0ncekum",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06831/450x300/tsr06831637902087019256376.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06831/450x300/tsr06831637902087019256376.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.2",
+                                "bestRating": "10",
+                                "reviewCount": "13"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Türkler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 18,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Asrın Beach Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Asr%c4%b1n_Beach_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02383/450x300/tsr02383637345600843563057.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02383/450x300/tsr02383637345600843563057.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.6",
+                                "bestRating": "10",
+                                "reviewCount": "110"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | İncekum"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 19,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Taç Premier Hotel Spa",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Ta%c3%a7_Premier_Hotel_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/TesisResim/02550/tsr02550636171351829895677.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/TesisResim/02550/tsr02550636171351829895677.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9",
+                                "bestRating": "10",
+                                "reviewCount": "19"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 20,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Kleopatra Arsi Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Kleopatra_Arsi_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04794/450X300/tsr04794638180420140086323.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04794/450X300/tsr04794638180420140086323.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 21,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Sun Star Beach",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Sun_Star_Beach",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01886/450x300/tsr01886637308659608218833.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01886/450x300/tsr01886637308659608218833.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.3",
+                                "bestRating": "10",
+                                "reviewCount": "26"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Mahmutlar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 22,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Arsi Paradise Beach Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Arsi_Paradise_Beach_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12897/450x300/tsr12897638163788035122660.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12897/450x300/tsr12897638163788035122660.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 23,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Arsi Blue Beach Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Arsi_Blue_Beach_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12910/450x300/tsr12910638125872573691453.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12910/450x300/tsr12910638125872573691453.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 24,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Gardenia Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Gardenia_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01738/450x300/tsr01738637335184592083487.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01738/450x300/tsr01738637335184592083487.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.9",
+                                "bestRating": "10",
+                                "reviewCount": "4"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Kleopatra"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 25,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Blue Wave Suite Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Blue_Wave_Suite_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03321/450x300/tsr03321637905362253745838.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03321/450x300/tsr03321637905362253745838.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "111"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Obagöl"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 26,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Avena Resort Spa Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Avena_Resort_Spa_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04576/450x300/tsr04576637824241000824852.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04576/450x300/tsr04576637824241000824852.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.9",
+                                "bestRating": "10",
+                                "reviewCount": "45"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Obagöl"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 27,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "White City Beach Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#White_City_Beach_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01772/450X300/tsr01772637546009209758317.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01772/450X300/tsr01772637546009209758317.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.5",
+                                "bestRating": "10",
+                                "reviewCount": "16"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Konaklı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 28,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Club Mermaid Village",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Club_Mermaid_Village",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02532/450x300/tsr02532637334331868126951.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02532/450x300/tsr02532637334331868126951.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.2",
+                                "bestRating": "10",
+                                "reviewCount": "16"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Türkler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 29,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Hedef Kleopatra Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Hedef_Kleopatra_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11412/450x300/tsr11412637896969254954584.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11412/450x300/tsr11412637896969254954584.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.2",
+                                "bestRating": "10",
+                                "reviewCount": "62"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 30,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Senza Grand Santana Hotel",
+                        "url": "https://www.tatilsepeti.com/alanya-otelleri#Senza_Grand_Santana_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02410/450x300/tsr02410638218413134242163.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02410/450x300/tsr02410638218413134242163.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.1",
+                                "bestRating": "10",
+                                "reviewCount": "2"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Alanya | Mahmutlar"
+                        }
+                        ]
+                        }
+                        }
+                    
+                ]
+                }
+            </script>

@@ -1,0 +1,269 @@
+  <script type="application/ld+json">
+                {
+                "@context": "http://schema.org",
+                "@type": "ItemList",
+                "itemListElement": [
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Side Yeşilöz Hotel",
+                        "url": "https://www.tatilsepeti.com/manavgat-otelleri#Side_Ye%c5%9fil%c3%b6z_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/TesisResim/06392/tsr06392635995425542051024.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/TesisResim/06392/tsr06392635995425542051024.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "10688 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Manavgat"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Summer Rose Hotel",
+                        "url": "https://www.tatilsepeti.com/manavgat-otelleri#Summer_Rose_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12276/450X300/tsr12276638174324944904939.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12276/450X300/tsr12276638174324944904939.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "4850 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.6",
+                                "bestRating": "10",
+                                "reviewCount": "26"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Manavgat"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Maison Green Hill",
+                        "url": "https://www.tatilsepeti.com/manavgat-otelleri#Maison_Green_Hill",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11711/450X300/tsr11711638168175249650084.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11711/450X300/tsr11711638168175249650084.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "12500 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Manavgat"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Side Güneş Hotel",
+                        "url": "https://www.tatilsepeti.com/manavgat-otelleri#Side_G%c3%bcne%c5%9f_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12822/450X300/tsr12822638121377552561633.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12822/450X300/tsr12822638121377552561633.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "4588 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Manavgat"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 5,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Adora Calma Beach",
+                        "url": "https://www.tatilsepeti.com/manavgat-otelleri#Adora_Calma_Beach",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12007/450X300/tsr12007638207128974902736.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12007/450X300/tsr12007638207128974902736.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Manavgat"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 6,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "The Sansa Hotel",
+                        "url": "https://www.tatilsepeti.com/manavgat-otelleri#The_Sansa_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/09741/450x300/tsr09741637151368017359503.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/09741/450x300/tsr09741637151368017359503.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Manavgat"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 7,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Throne Beach Resort Spa",
+                        "url": "https://www.tatilsepeti.com/manavgat-otelleri#Throne_Beach_Resort_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/08298/450x300/tsr08298637441457490681109.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/08298/450x300/tsr08298637441457490681109.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.2",
+                                "bestRating": "10",
+                                "reviewCount": "41"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Manavgat"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 8,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Fun Sun Smart World Side",
+                        "url": "https://www.tatilsepeti.com/manavgat-otelleri#Fun_Sun_Smart_World_Side",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12151/450x300/tsr12151637812997595824650.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12151/450x300/tsr12151637812997595824650.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Manavgat"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 9,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "New Garden Side Apart",
+                        "url": "https://www.tatilsepeti.com/manavgat-otelleri#New_Garden_Side_Apart",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11300/450X300/tsr11300637640323940942157.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11300/450X300/tsr11300637640323940942157.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Manavgat"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 10,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Selen Motel Side",
+                        "url": "https://www.tatilsepeti.com/manavgat-otelleri#Selen_Motel_Side",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11994/450X300/tsr11994637729205642257849.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11994/450X300/tsr11994637729205642257849.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Manavgat"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 11,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Kaliye Hotel Aspendos",
+                        "url": "https://www.tatilsepeti.com/manavgat-otelleri#Kaliye_Hotel_Aspendos",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12755/450x300/tsr12755638049062708288599.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12755/450x300/tsr12755638049062708288599.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Antalya - Manavgat"
+                        }
+                        ]
+                        }
+                        }
+                    
+                ]
+                }
+            </script>
