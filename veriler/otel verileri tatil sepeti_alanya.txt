@@ -1,5 +1,4 @@
-
-            <script type="application/ld+json">
+          
                 {
                 "@context": "http://schema.org",
                 "@type": "ItemList",
@@ -925,9 +924,8 @@
                     
                 ]
                 }
-            </script>
+         
 
-<script type="application/ld+json">
                 {
                 "@context": "http://schema.org",
                 "@type": "ItemList",
@@ -1833,4 +1831,4 @@
                     
                 ]
                 }
-            </script>
+        

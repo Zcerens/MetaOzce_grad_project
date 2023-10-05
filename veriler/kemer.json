@@ -1,6 +1,4 @@
-                "items": [
-                        
-                        {
+[                        {
                         "id": "274",
                         "name": "Queens Park Le Jardin Resort Spa",
                         "currency": "TL",
@@ -357,6 +355,5 @@
                         "url": "/istanbul-beach-hotel",
                         "product_image_url": "https://cdn.tatilsepeti.com/Files/Images/Tesis/09730/450X300/tsr09730637586790661074603.jpg",
                         }
-                        
-                ]
-  
+        
+                    ] 
