@@ -1,0 +1,947 @@
+   <script type="application/ld+json">
+                {
+                "@context": "http://schema.org",
+                "@type": "ItemList",
+                "itemListElement": [
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Richmond Ephesus Resort",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Richmond_Ephesus_Resort",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00175/450x300/tsr00175638201851057777288.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00175/450x300/tsr00175638201851057777288.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "5250 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "119"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Pamucak"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Le Bleu Hotel Resort",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Le_Bleu_Hotel_Resort",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11506/450x300/tsr11506637788097365013238.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11506/450x300/tsr11506637788097365013238.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "3940 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.4",
+                                "bestRating": "10",
+                                "reviewCount": "40"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Kuşadası Merkez"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Kuştur Club Holiday Village",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Ku%c5%9ftur_Club_Holiday_Village",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00889/450x300/tsr00889637242021045064723.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00889/450x300/tsr00889637242021045064723.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "4277 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.1",
+                                "bestRating": "10",
+                                "reviewCount": "75"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Bayraklıdede"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Palm Wings Beach Resort Spa Kuşadası",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Palm_Wings_Beach_Resort_Spa_Ku%c5%9fadas%c4%b1",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03718/450x300/tsr03718637428603066076499.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03718/450x300/tsr03718637428603066076499.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "4505 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "87"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Davutlar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 5,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Ladonia Hotels Adakule",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Ladonia_Hotels_Adakule",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/10794/450x300/tsr10794638089642265287255.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/10794/450x300/tsr10794638089642265287255.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.6",
+                                "bestRating": "10",
+                                "reviewCount": "235"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Bayraklıdede"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 6,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Palm Wings Ephesus Hotel",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Palm_Wings_Ephesus_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05810/450x300/tsr05810637244436050751701.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05810/450x300/tsr05810637244436050751701.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.1",
+                                "bestRating": "10",
+                                "reviewCount": "79"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Pamucak"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 7,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Seven Seas Sealight Elite",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Seven_Seas_Sealight_Elite",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07600/450x300/tsr07600637315453509586029.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07600/450x300/tsr07600637315453509586029.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.4",
+                                "bestRating": "10",
+                                "reviewCount": "125"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Kuşadası Merkez"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 8,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Fantasia De Luxe Kuşadası",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Fantasia_De_Luxe_Ku%c5%9fadas%c4%b1",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06793/450x300/tsr06793638243454867248143.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06793/450x300/tsr06793638243454867248143.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "168"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Yavansu"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 9,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Otium Sealight Beach Resort",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Otium_Sealight_Beach_Resort",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07601/450X300/tsr07601638091325377904482.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07601/450X300/tsr07601638091325377904482.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.7",
+                                "bestRating": "10",
+                                "reviewCount": "152"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Yavansu"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 10,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Signature Blue Resort",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Signature_Blue_Resort",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12115/450X300/tsr12115638028253153486337.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12115/450X300/tsr12115638028253153486337.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.6",
+                                "bestRating": "10",
+                                "reviewCount": "22"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Yavansu"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 11,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Grand Belish Hotel",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Grand_Belish_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02755/450x300/tsr02755638016004267860127.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02755/450x300/tsr02755638016004267860127.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "162"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Davutlar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 12,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Sealight Family Club",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Sealight_Family_Club",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/08162/450X300/tsr08162638091298047954611.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/08162/450X300/tsr08162638091298047954611.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "69"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Yavansu"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 13,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Unique Life Style Hotel",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Unique_Life_Style_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11465/450x300/tsr11465637788862342551612.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11465/450x300/tsr11465637788862342551612.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Yavansu"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 14,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Palmin Hotel",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Palmin_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03387/450x300/tsr03387637648093291239539.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03387/450x300/tsr03387637648093291239539.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.6",
+                                "bestRating": "10",
+                                "reviewCount": "29"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Kadınlar Denizi"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 15,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Wyndham Residence Kuşadası Golf Spa",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Wyndham_Residence_Ku%c5%9fadas%c4%b1_Golf_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03362/450x300/tsr03362638112937714954764.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03362/450x300/tsr03362638112937714954764.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.7",
+                                "bestRating": "10",
+                                "reviewCount": "48"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Kuşadası Merkez"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 16,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Aqua Fantasy Aquapark Hotel Spa",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Aqua_Fantasy_Aquapark_Hotel_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00474/450x300/tsr00474638124228768819509.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00474/450x300/tsr00474638124228768819509.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.6",
+                                "bestRating": "10",
+                                "reviewCount": "47"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Pamucak"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 17,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Doubletree By Hilton Kuşadası",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Doubletree_By_Hilton_Ku%c5%9fadas%c4%b1",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04033/450x300/tsr04033637572016568140046.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04033/450x300/tsr04033637572016568140046.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.1",
+                                "bestRating": "10",
+                                "reviewCount": "11"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Kuşadası Merkez"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 18,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Faustina Hotel",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Faustina_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01397/450x300/tsr01397637952224080767706.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01397/450x300/tsr01397637952224080767706.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.9",
+                                "bestRating": "10",
+                                "reviewCount": "14"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Güzelçamlı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 19,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Asena Beach Hotel Kuşadası",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Asena_Beach_Hotel_Ku%c5%9fadas%c4%b1",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00842/450x300/tsr00842637246344740960644.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00842/450x300/tsr00842637246344740960644.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.4",
+                                "bestRating": "10",
+                                "reviewCount": "25"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Kadınlar Denizi"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 20,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Charisma De Luxe Hotel",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Charisma_De_Luxe_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01608/450x300/tsr01608638145867025475481.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01608/450x300/tsr01608638145867025475481.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "3"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Kuşadası Merkez"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 21,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Tui Blue Ephesus Otel Aqua Fantasy Aqua Park Tatil Köyü",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Tui_Blue_Ephesus_Otel_Aqua_Fantasy_Aqua_Park_Tatil_K%c3%b6y%c3%bc",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/08562/450x300/tsr08562637523689567807621.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/08562/450x300/tsr08562637523689567807621.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.9",
+                                "bestRating": "10",
+                                "reviewCount": "5"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Pamucak"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 22,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Seven For Life Thermal Hotel",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Seven_For_Life_Thermal_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12587/450x300/tsr12587638042834755678953.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12587/450x300/tsr12587638042834755678953.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.5",
+                                "bestRating": "10",
+                                "reviewCount": "32"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Davutlar"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 23,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Marina Hotel Kuşadası",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Marina_Hotel_Ku%c5%9fadas%c4%b1",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02841/450x300/tsr02841637780345057674199.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02841/450x300/tsr02841637780345057674199.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.2",
+                                "bestRating": "10",
+                                "reviewCount": "10"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Kuşadası Merkez"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 24,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "İlayda Avantgarde Hotel",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#%c4%b0layda_Avantgarde_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04459/450x300/tsr04459637346501167543029.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04459/450x300/tsr04459637346501167543029.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9",
+                                "bestRating": "10",
+                                "reviewCount": "1"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Kuşadası Merkez"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 25,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Martı Beach Hotel",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Mart%c4%b1_Beach_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04471/450x300/tsr04471637818098809587762.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04471/450x300/tsr04471637818098809587762.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.6",
+                                "bestRating": "10",
+                                "reviewCount": "40"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Kadınlar Denizi"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 26,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Akbulut Otel Spa",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Akbulut_Otel_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02704/450x300/tsr02704637465665830314225.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02704/450x300/tsr02704637465665830314225.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.7",
+                                "bestRating": "10",
+                                "reviewCount": "18"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Güzelçamlı"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 27,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Belmare Hotel",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Belmare_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04613/450x300/tsr04613637346402495605050.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04613/450x300/tsr04613637346402495605050.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.3",
+                                "bestRating": "10",
+                                "reviewCount": "23"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Yavansu"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 28,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Hotel By Karaaslan Inn",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Hotel_By_Karaaslan_Inn",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06373/450X300/tsr06373637900438761041989.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06373/450X300/tsr06373637900438761041989.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Kuşadası Merkez"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 29,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Sentinus Beach Hotel",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#Sentinus_Beach_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12791/450x300/tsr12791638073031586158804.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12791/450x300/tsr12791638073031586158804.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"6.6",
+                                "bestRating": "10",
+                                "reviewCount": "7"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Bayraklıdede"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 30,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Kınalıkaya Beach Hotel",
+                        "url": "https://www.tatilsepeti.com/kusadasi-otelleri#K%c4%b1nal%c4%b1kaya_Beach_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03009/450x300/tsr03009637808040387333551.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03009/450x300/tsr03009637808040387333551.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"6.9",
+                                "bestRating": "10",
+                                "reviewCount": "7"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Kuşadası - Güzelçamlı"
+                        }
+                        ]
+                        }
+                        }
+                    
+                ]
+                }
+            </script>

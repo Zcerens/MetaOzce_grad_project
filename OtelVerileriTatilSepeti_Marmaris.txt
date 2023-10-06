@@ -1,0 +1,949 @@
+
+
+          
+                {
+                "@context": "http://schema.org",
+                "@type": "ItemList",
+                "itemListElement": [
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Pineta Park Deluxe Hotel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Pineta_Park_Deluxe_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01589/450x300/tsr01589638031756824177584.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01589/450x300/tsr01589638031756824177584.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "5200 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.4",
+                                "bestRating": "10",
+                                "reviewCount": "31"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Merkez"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Elegance Hotel Marmaris",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Elegance_Hotel_Marmaris",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00145/450x300/tsr00145637246318106530162.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00145/450x300/tsr00145637246318106530162.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "6120 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9",
+                                "bestRating": "10",
+                                "reviewCount": "29"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Siteler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Marmaris Park Hotel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Marmaris_Park_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00117/450x300/tsr00117638246698615137935.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00117/450x300/tsr00117638246698615137935.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "3000 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "225"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - İçmeler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Cettia Beach Resort +16",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Cettia_Beach_Resort_%2b16",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03027/450x300/tsr03027637249860871052819.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03027/450x300/tsr03027637249860871052819.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "4760 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.8",
+                                "bestRating": "10",
+                                "reviewCount": "19"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Siteler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 5,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "D Maris Bay",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#D_Maris_Bay",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03011/450x300/tsr03011638089566453315950.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03011/450x300/tsr03011638089566453315950.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.7",
+                                "bestRating": "10",
+                                "reviewCount": "22"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Hisarönü"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 6,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Turunç Premium Hotel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Turun%c3%a7_Premium_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04840/450x300/tsr04840637713008919387060.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04840/450x300/tsr04840637713008919387060.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.7",
+                                "bestRating": "10",
+                                "reviewCount": "96"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Turunç"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 7,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Elite World Marmaris",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Elite_World_Marmaris",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05011/450x300/tsr05011638162264406074200.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05011/450x300/tsr05011638162264406074200.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.9",
+                                "bestRating": "10",
+                                "reviewCount": "15"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - İçmeler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 8,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Green Nature Diamond",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Green_Nature_Diamond",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05081/450x300/tsr05081637249744193800597.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/05081/450x300/tsr05081637249744193800597.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.2",
+                                "bestRating": "10",
+                                "reviewCount": "12"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Siteler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 9,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Fortezza Beach Resort",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Fortezza_Beach_Resort",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07742/450x300/tsr07742638149112512754023.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/07742/450x300/tsr07742638149112512754023.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.4",
+                                "bestRating": "10",
+                                "reviewCount": "46"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Hisarönü"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 10,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Martı Resort Hotel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Mart%c4%b1_Resort_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00147/450x300/tsr00147638181122474105769.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00147/450x300/tsr00147638181122474105769.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.2",
+                                "bestRating": "10",
+                                "reviewCount": "93"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - İçmeler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 11,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Premier Nergis Beach",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Premier_Nergis_Beach",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/10608/450x300/tsr10608637400884246279855.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/10608/450x300/tsr10608637400884246279855.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.4",
+                                "bestRating": "10",
+                                "reviewCount": "31"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Merkez | Armutalan"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 12,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Martı La Perla",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Mart%c4%b1_La_Perla",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00150/450x300/tsr00150638181118816314957.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00150/450x300/tsr00150638181118816314957.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.6",
+                                "bestRating": "10",
+                                "reviewCount": "39"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - İçmeler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 13,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Angels Marmaris Hotel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Angels_Marmaris_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03689/450x300/tsr03689637776771513220250.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/03689/450x300/tsr03689637776771513220250.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.8",
+                                "bestRating": "10",
+                                "reviewCount": "37"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Bozburun"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 14,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Ada Julian Hotel Marmaris(16+)",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Ada_Julian_Hotel_Marmaris(16%2b)",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06108/450x300/tsr06108637333541352401531.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06108/450x300/tsr06108637333541352401531.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.3",
+                                "bestRating": "10",
+                                "reviewCount": "24"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Merkez"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 15,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Marmaris Bay Resort By Mp Hotels +16",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Marmaris_Bay_Resort_By_Mp_Hotels_%2b16",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/10593/450x300/tsr10593637806142384322243.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/10593/450x300/tsr10593637806142384322243.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.1",
+                                "bestRating": "10",
+                                "reviewCount": "74"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Merkez"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 16,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Sea Star Marmaris +16",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Sea_Star_Marmaris_%2b16",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04315/450x300/tsr04315638036856645934856.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04315/450x300/tsr04315638036856645934856.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.2",
+                                "bestRating": "10",
+                                "reviewCount": "67"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - İçmeler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 17,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Club Munamar Beach Resort",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Club_Munamar_Beach_Resort",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01828/450x300/tsr01828637878801870926992.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01828/450x300/tsr01828637878801870926992.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.8",
+                                "bestRating": "10",
+                                "reviewCount": "54"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - İçmeler | Cumhuriyet Mahallesi"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 18,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Mirage World Hotel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Mirage_World_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01847/450x300/tsr01847638089655792571561.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01847/450x300/tsr01847638089655792571561.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.3",
+                                "bestRating": "10",
+                                "reviewCount": "59"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - İçmeler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 19,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Green Nature Resort Spa",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Green_Nature_Resort_Spa",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01844/450x300/tsr01844637439839366060319.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01844/450x300/tsr01844637439839366060319.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.2",
+                                "bestRating": "10",
+                                "reviewCount": "21"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Siteler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 20,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Pineta Club Hotel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Pineta_Club_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02650/450x300/tsr02650638030957123332197.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/02650/450x300/tsr02650638030957123332197.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"6.8",
+                                "bestRating": "10",
+                                "reviewCount": "51"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Armutalan"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 21,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Grand Cettia Hotel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Grand_Cettia_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00440/450x300/tsr00440637840832318228645.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/00440/450x300/tsr00440637840832318228645.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"9.3",
+                                "bestRating": "10",
+                                "reviewCount": "6"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Armutalan"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 22,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Sesin Hotel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Sesin_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01420/450x300/tsr01420637400007290757888.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/01420/450x300/tsr01420637400007290757888.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.7",
+                                "bestRating": "10",
+                                "reviewCount": "11"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Siteler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 23,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Palmea Hotel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Palmea_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04919/450x300/tsr04919637333550176438598.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04919/450x300/tsr04919637333550176438598.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.5",
+                                "bestRating": "10",
+                                "reviewCount": "46"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Armutalan"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 24,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Hotel Caprea Marmaris",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Hotel_Caprea_Marmaris",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12549/450x300/tsr12549638246844536353576.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/12549/450x300/tsr12549638246844536353576.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Siteler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 25,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Club Viva Hotel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Club_Viva_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06434/450x300/tsr06434637594514184736151.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06434/450x300/tsr06434637594514184736151.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"8.5",
+                                "bestRating": "10",
+                                "reviewCount": "1"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Armutalan"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 26,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "My Dream Hotel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#My_Dream_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04986/450x300/tsr04986638166376645365150.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/04986/450x300/tsr04986638166376645365150.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.1",
+                                "bestRating": "10",
+                                "reviewCount": "7"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Siteler"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 27,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Caprice Beach Hotel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Caprice_Beach_Hotel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06498/450x300/tsr06498637346404298118395.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/06498/450x300/tsr06498637346404298118395.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7",
+                                "bestRating": "10",
+                                "reviewCount": "49"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Merkez"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 28,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Ramitos Hotel Turunç",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Ramitos_Hotel_Turun%c3%a7",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/13316/450x300/tsr13316638255500365712035.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/13316/450x300/tsr13316638255500365712035.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - Turunç"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 29,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Munamar Park Otel",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Munamar_Park_Otel",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11414/450x300/tsr11414637488278523829997.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/11414/450x300/tsr11414637488278523829997.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"7.5",
+                                "bestRating": "10",
+                                "reviewCount": "34"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - İçmeler | Altınsahil Mevkii"
+                        }
+                        ]
+                        }
+                        }
+                            ,
+                    
+                    
+                        {
+                        "@type": "ListItem",
+                        "position": 30,
+                        "item": {
+                        "@type": "Hotel",
+                        "name": "Arbatt Marmaris",
+                        "url": "https://www.tatilsepeti.com/marmaris-otelleri#Arbatt_Marmaris",
+                        "image": "https://cdn.tatilsepeti.com/Files/Images/Tesis/13064/450x300/tsr13064638216421337367095.jpg",
+                        "photo": "https://cdn.tatilsepeti.com/Files/Images/Tesis/13064/450x300/tsr13064638216421337367095.jpg",
+                        "telephone": "444 44 20",
+                        "priceRange": "0 TRY",
+                                                    
+                                "aggregateRating": [
+                                {
+                                "@type":"AggregateRating",
+                                "ratingValue":"6.6",
+                                "bestRating": "10",
+                                "reviewCount": "6"
+                                }
+                                ],
+                            
+                        "address": [
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Marmaris - İçmeler | Cumhuriyet Mahallesi"
+                        }
+                        ]
+                        }
+                        }
+                    
+                ]
+                }
+       
