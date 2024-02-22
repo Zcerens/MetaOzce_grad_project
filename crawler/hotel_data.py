@@ -1,23 +1,24 @@
 import requests
 from bs4 import BeautifulSoup
 import sqlite3
+import re
 
 main_url = 'https://www.tatilsepeti.com/yurtici-oteller'
 base_url = 'https://www.tatilsepeti.com/yurtici-oteller?sayfa={}'
 
 # SQLite veritabanına bağlanma
-conn = sqlite3.connect('hotelDB1.db')
+conn = sqlite3.connect('hotelDB2.db')
 cursor = conn.cursor()
 
 # Tablo oluşturma (Eğer tablo henüz oluşturulmamışsa)
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS otel (
         otel_ad TEXT,
-        "Hava Alanına Uzaklığı" TEXT DEFAULT "No Info",
-        "Denize Uzaklığı" TEXT DEFAULT "No Info",
-        "Sahil Uzunluğu" TEXT DEFAULT "No Info",
-        "Plaj" TEXT DEFAULT "No Info",  
-        "İskele" TEXT DEFAULT "No Info",   
+        "Bölge" TEXT DEFAULT "Null",
+        "Hava Alanına Uzaklığı" TEXT DEFAULT "Null",
+        "Denize Uzaklığı" TEXT DEFAULT "Null",
+        "Plaj" TEXT DEFAULT "Null",  
+        "İskele" TEXT DEFAULT "Null",   
         "A la Carte Restoran" TEXT DEFAULT "0",
         "Açık Restoran" TEXT DEFAULT "0",
         "Kapalı Restoran" TEXT DEFAULT "0",
@@ -54,9 +55,8 @@ for page_number in range(1, 170):  # Örneğin 10 sayfa varsa
             otel_urls.append(otel_url)
 
         # Her bir otel detay sayfasından verileri çekme
-        for otel_url in otel_urls:  # İlk 20 oteli al
-            otel_response = requests.get(otel_url)
-
+        for otel_url in otel_urls:  
+            otel_response = requests.get(otel_url, timeout=30) 
             if otel_response.status_code == 200:
                 otel_content = otel_response.content
                 otel_soup = BeautifulSoup(otel_content, 'html.parser')
@@ -72,6 +72,10 @@ for page_number in range(1, 170):  # Örneğin 10 sayfa varsa
                 if existing_data is None:
                     # Veritabanına ekleme
                     cursor.execute('INSERT INTO otel (otel_ad) VALUES (?)', (otel_ad,))
+                    # Otel adını çekme
+                    otel_region = otel_soup.find('h1', class_='hotel__name pull-left')
+                    otel_ad = otel_ad_element.text.strip() if otel_ad_element else 'Bilinmeyen Otel Adı'
+
                     
                     # Otel Özellikleri başlığı altındaki verileri çekme
                     konum_bilgileri = otel_soup.find('div', class_='row location-info')
@@ -79,6 +83,12 @@ for page_number in range(1, 170):  # Örneğin 10 sayfa varsa
                     ucretsiz_aktiviteler = otel_soup.find('div', class_='row free-activities')
                     ucretli_aktiviteler = otel_soup.find('div', class_='row paid-activities')                
                     cocuk_aktiviteleri = otel_soup.find('div', class_='row activities-for-children')
+                        # Bölge bilgisini çekme
+                    bölge = otel_soup.find('div', class_='hotel__region')
+                    if bölge:
+                        bölge_text = bölge.get_text(strip=True).split('Haritada Görüntüle')[0:]  # 'Bolu', '-', 'Abant-Abant', 'Gölü' şeklinde bir liste döner
+                        bölge_metni = ' '.join(bölge_text)  # 'Bolu - Abant-Abant Gölü' olarak birleştirme
+                        cursor.execute('UPDATE otel SET "Bölge" = ? WHERE otel_ad = ?', (bölge_metni, otel_ad))
 
                     if konum_bilgileri:
                         # Mevcut sütun adlarını al
@@ -97,7 +107,16 @@ for page_number in range(1, 170):  # Örneğin 10 sayfa varsa
                                     # ":" karakterini kaldırma
                                     baslik = baslik.split(':')[0]
                                     if baslik in column_names:
-                                        cursor.execute(f'UPDATE otel SET "{baslik}" = ? WHERE otel_ad = ?', (deger, otel_ad))
+                                        if baslik == "Hava Alanına Uzaklığı":
+                                            sayi = re.findall(r'\d+', deger)
+                                            uzaklik = sayi[0] if sayi else "No Info"
+                                            havaalani_adi_search = re.search(r'([^0-9]+)', deger)
+                                            havaalani_adi = havaalani_adi_search.group(0) if havaalani_adi_search else "No Info"
+                                            uzaklik_metni = f"{uzaklik} km, {havaalani_adi}"  # Uzaklık metnini oluştur
+                                            cursor.execute('UPDATE otel SET "Hava Alanına Uzaklığı" = ? WHERE otel_ad = ?', (uzaklik_metni, otel_ad))
+                                        else:
+                                            deger = deger if deger.strip() else "No Info"
+                                            cursor.execute(f'UPDATE otel SET "{baslik}" = ? WHERE otel_ad = ?', (deger, otel_ad))
 
                     # Otel Özellikleri başlığı altındaki verileri çekme
                     for ozellik in [otel_ozellikleri,ucretsiz_aktiviteler,ucretli_aktiviteler,cocuk_aktiviteleri]:
@@ -128,7 +147,7 @@ for page_number in range(1, 170):  # Örneğin 10 sayfa varsa
                                                 # Mevcut sütun adıyla eşleşen özellikler için değeri güncelleme
                                                 cursor.execute(f'UPDATE otel SET "{ozellik_adi}" = ? WHERE otel_ad = ?', (adet, otel_ad))
                                     else: 
-                                        if ozellik in column_names:
+                                        if ozellik in column_names:                                           
                                             cursor.execute(f'UPDATE otel SET "{ozellik}" = ? WHERE otel_ad = ?', (adet, otel_ad))
 
         # Değişiklikleri kaydetme
