@@ -1,0 +1,6 @@
+user_id,hotel_features
+User 1,spa,pool,free_wifi,childcare
+User 2,restaurant,free_wifi,gym,parking
+User 3,restaurant,gym,parking,room_service
+User 4,spa,pool,restaurant,free_wifi,childcare,parking
+User 5,restaurant,free_wifi,gym,parking,room_service
