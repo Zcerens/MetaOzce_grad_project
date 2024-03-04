@@ -2,13 +2,12 @@ import requests
 from bs4 import BeautifulSoup
 import sqlite3
 import re
-import time 
 
+main_url = 'https://www.tatilsepeti.com/yurtici-oteller'
+base_url = 'https://www.tatilsepeti.com/yurtici-oteller?sayfa={}'
 
-main_url = 'https://www.tatilsepeti.com/yurtici-oteller?ara=oda:1;tarih:24.04.2024,30.04.2024&filtreler=bolge:8,24,60,101'
-base_url = 'https://www.tatilsepeti.com/yurtici-oteller?sayfa={}&filtreler=bolge:8,24,60,101&ara=oda:1;tarih:24.04.2024,30.04.2024'
 # SQLite veritabanına bağlanma
-conn = sqlite3.connect('hotelDB5.db')
+conn = sqlite3.connect('hotelDB6.db')
 cursor = conn.cursor()
 
 # Tablo oluşturma (Eğer tablo henüz oluşturulmamışsa)
@@ -37,8 +36,7 @@ cursor.execute('''
 ''')
 
 # Ana sayfa ve diğer sayfaları ziyaret etme
-for page_number in range(1, 53):  
-    
+for page_number in range(1, 170):  # Örneğin 10 sayfa varsa
     if page_number == 1:
         page_url = main_url
     else:
@@ -51,19 +49,10 @@ for page_number in range(1, 53):
 
         # Ana sayfadaki otel URL'lerini bulma
         otel_urls = []
-        otel_butons = soup.find_all('a', class_='btn btn-block btn-primary')
-        for otel_buton in otel_butons:
+        otel_butonlari = soup.find_all('a', class_='btn btn-block btn-primary')
+        for otel_buton in otel_butonlari:
             otel_url = 'https://www.tatilsepeti.com' + otel_buton['href']
             otel_urls.append(otel_url)
-
-        #time.sleep(20)
-        otel_prices = []
-        otel_prices_butons = soup.find_all('p', class_='discount-price')
-        for price in otel_prices_butons:
-            fiyat = price.text.strip()
-            otel_prices.append(fiyat)
-            print("Otel Fiyatı:",otel_prices)
-
 
         # Her bir otel detay sayfasından verileri çekme
         for otel_url in otel_urls:  
@@ -163,7 +152,6 @@ for page_number in range(1, 53):
 
         # Değişiklikleri kaydetme
         conn.commit()
-        time.sleep(10)
 
 # Bağlantıyı kapatma
 conn.close()
