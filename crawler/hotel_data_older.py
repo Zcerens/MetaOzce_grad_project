@@ -8,45 +8,29 @@ import time
 main_url = 'https://www.tatilsepeti.com/yurtici-oteller?ara=oda:1;tarih:24.04.2024,30.04.2024&filtreler=bolge:8,24,60,101'
 base_url = 'https://www.tatilsepeti.com/yurtici-oteller?sayfa={}&filtreler=bolge:8,24,60,101&ara=oda:1;tarih:24.04.2024,30.04.2024'
 # SQLite veritabanına bağlanma
-conn = sqlite3.connect('hotelDB8.db')
+conn = sqlite3.connect('hotelDB5.db')
 cursor = conn.cursor()
 
 # Tablo oluşturma (Eğer tablo henüz oluşturulmamışsa)
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS otel (
-        otel_ad TEXT,       
+        otel_ad TEXT,
         "Bölge" TEXT DEFAULT "Null",
         "Hava Alanına Uzaklığı" TEXT DEFAULT "Null",
         "Denize Uzaklığı" TEXT DEFAULT "Null",
         "Plaj" TEXT DEFAULT "Null",  
         "İskele" TEXT DEFAULT "Null",   
         "A la Carte Restoran" TEXT DEFAULT "0",
-        "Asansör" TEXT DEFAULT "0",     
         "Açık Restoran" TEXT DEFAULT "0",
         "Kapalı Restoran" TEXT DEFAULT "0",
         "Açık Havuz" TEXT DEFAULT "0",
         "Kapalı Havuz" TEXT DEFAULT "0",
+        "Asansör" TEXT DEFAULT "0",
         "Bedensel Engelli Odası" TEXT DEFAULT "0",
-        "Bar" TEXT DEFAULT "0",
-        "Su Kaydırağı" TEXT DEFAULT "0",     
-        "Balo Salonu" TEXT DEFAULT "0",     
-        "Kuaför" TEXT DEFAULT "0",
-        "Otopark" TEXT DEFAULT "0",      
         "Market" TEXT DEFAULT "0",
+        "Su Kaydırağı" TEXT DEFAULT "0",
         "Sauna" TEXT DEFAULT "0",
         "Doktor" TEXT DEFAULT "0",
-        "Beach Voley" TEXT DEFAULT "0",
-        "Fitness" TEXT DEFAULT "0",
-        "Canlı Eğlence" TEXT DEFAULT "0",
-        "Wireless Internet" TEXT DEFAULT "0",
-        "Animasyon" TEXT DEFAULT "0",
-        "Sörf" TEXT DEFAULT "0",
-        "Paraşüt" TEXT DEFAULT "0",
-        "Araç Kiralama" TEXT DEFAULT "0",
-        "Kano" TEXT DEFAULT "0",
-        "SPA" TEXT DEFAULT "0",
-        "Masaj" TEXT DEFAULT "0",
-        "Masa Tenisi" TEXT DEFAULT "0",
         "Çocuk Havuzu" TEXT DEFAULT "0",
         "Çocuk Parkı" TEXT DEFAULT "0"
     )
@@ -72,6 +56,13 @@ for page_number in range(1, 53):
             otel_url = 'https://www.tatilsepeti.com' + otel_buton['href']
             otel_urls.append(otel_url)
 
+        #time.sleep(20)
+        otel_prices = []
+        otel_prices_butons = soup.find_all('p', class_='discount-price')
+        for price in otel_prices_butons:
+            fiyat = price.text.strip()
+            otel_prices.append(fiyat)
+            print("Otel Fiyatı:",otel_prices)
 
 
         # Her bir otel detay sayfasından verileri çekme
@@ -80,21 +71,13 @@ for page_number in range(1, 53):
             if otel_response.status_code == 200:
                 otel_content = otel_response.content
                 otel_soup = BeautifulSoup(otel_content, 'html.parser')
-               # time.sleep(10)
+
                 # Otel adını çekme
                 otel_ad_element = otel_soup.find('h1', class_='hotel__name pull-left')
                 otel_ad = otel_ad_element.text.strip() if otel_ad_element else 'Bilinmeyen Otel Adı'
-                # Fiyat bilgisini çekme
-              #  fiyat_element = otel_soup.find('div', class_='content-loading__load-box--price')
-               # fiyat = fiyat_element.text.strip() if fiyat_element else 'Bilinmeyen Fiyat'
-
-
 
                 # Veritabanında aynı otel adı var mı kontrol etme
                 cursor.execute('SELECT * FROM otel WHERE otel_ad = ?', (otel_ad,))
-
-
-               # cursor.execute('INSERT INTO otel (otel_ad, otel_fiyat) VALUES (?, ?)', (otel_ad, fiyat))
                 existing_data = cursor.fetchone()
 
                 if existing_data is None:
