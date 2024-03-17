@@ -12,7 +12,7 @@ driver = webdriver.Chrome()
 main_url = 'https://www.tatilsepeti.com/yurtici-oteller?ara=oda:1;tarih:24.04.2024,30.04.2024&filtreler=bolge:8,24,60,101'
 base_url = 'https://www.tatilsepeti.com/yurtici-oteller?sayfa={}&filtreler=bolge:8,24,60,101&ara=oda:1;tarih:24.04.2024,30.04.2024'
 # SQLite veritabanına bağlanma
-conn = sqlite3.connect('hotelDB26.db')
+conn = sqlite3.connect('hotelDB1.db')
 cursor = conn.cursor()
 
 # Tablo oluşturma (Eğer tablo henüz oluşturulmamışsa)
@@ -70,7 +70,7 @@ for page_number in range(1, 53):  #53
     
 
     # Sayfanın tamamen yüklendiğinden emin olmak için bir süre bekleyin (Selenium'un bekleme fonksiyonları kullanılır)
-    WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, 'discount-price')))
+    WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.CLASS_NAME, 'discount-price')))
 
     # Sayfanın tamamını kaydırmak için Javascript kullanıyoruz.
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
@@ -100,7 +100,7 @@ for page_number in range(1, 53):  #53
         driver.get(otel_url)
       
         # Sayfanın tamamen yüklendiğinden emin olmak için bir süre bekleyin (Selenium'un bekleme fonksiyonları kullanılır)
-        WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, 'hotel')))
+        WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.CLASS_NAME, 'hotel')))
 
         otel_content = driver.page_source
         otel_soup = BeautifulSoup(otel_content, 'html.parser')
