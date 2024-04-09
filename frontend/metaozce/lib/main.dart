@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:metaozce/pages/SigninPage/signin_screen.dart';
 import 'package:metaozce/const/constant.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:metaozce/pages/SignupPage/signup_screen.dart';
+import 'package:metaozce/pages/WelcomePage/welcome_screen.dart';
 
 
 void main() {
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
               iconTheme: IconThemeData(
               color: iconColor, // Tüm ikonların rengini gri yap
             ),
-            textTheme: GoogleFonts.poppinsTextTheme(
+            textTheme: GoogleFonts.jostTextTheme(//  textTheme: GoogleFonts.poppinsTextTheme(  //textTheme: GoogleFonts.jostTextTheme(
               Theme.of(context).textTheme,
               
             ),
@@ -48,6 +50,6 @@ class MyApp extends StatelessWidget {
                 borderSide: BorderSide.none,
               ),
             )),
-        home: SigninScreen());
+        home: WelcomeScreen());
   }
 }

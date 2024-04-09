@@ -9,7 +9,7 @@ class Background extends StatelessWidget {
     required this.child,
     required this.title,
     this.topImage = "assets/background.png",
-    this.bottomImage = "assets/background.png",
+    this.bottomImage = "assets/background1.png",
   }) : super(key: key);
 
   final String topImage, bottomImage;
@@ -21,9 +21,9 @@ class Background extends StatelessWidget {
         centerTitle: true,
         title: Text(
           '${title}',
-          style: TextStyle(color: kPrimaryColor),
+          style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: kPrimaryLightColor,
+        backgroundColor: kPrimaryColor,
       ),
       // bottomNavigationBar:
       resizeToAvoidBottomInset: false,
@@ -31,13 +31,13 @@ class Background extends StatelessWidget {
         fit: StackFit.expand,
         alignment: Alignment.center,
         children: <Widget>[
-          Positioned(
-            top: MediaQuery.of(context).size.height * 0.1,
+         /* Positioned(
+            top: MediaQuery.of(context).size.height * 0,
             child: Image.asset(
               bottomImage,
             ),
-            width: 1000,
-          ),
+            
+          ),*/
           SafeArea(child: child),
         ],
       ),

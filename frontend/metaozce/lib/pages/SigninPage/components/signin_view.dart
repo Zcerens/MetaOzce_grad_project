@@ -4,6 +4,9 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:metaozce/const/constant.dart';
 import 'package:metaozce/pages/HomePage/home_screen.dart';
 import 'package:metaozce/pages/SignupPage/signup_screen.dart';
+import 'package:metaozce/widgets/navigationBar.dart';
+import 'package:fluttertoast/fluttertoast.dart';
+import 'dart:async';
 
 class SigninView extends StatefulWidget {
   const SigninView({Key? key}) : super(key: key);
@@ -13,7 +16,6 @@ class SigninView extends StatefulWidget {
 }
 
 class _SigninViewState extends State<SigninView> {
-
   final TextEditingController controller = TextEditingController();
 
   final formKey = GlobalKey<FormState>();
@@ -28,197 +30,194 @@ class _SigninViewState extends State<SigninView> {
 
   @override
   Widget build(BuildContext context) {
-    return  ListView(
-        children: [
-          Center(
+    return ListView(
+      children: [
+        Center(
             child: Form(
-                        key: formKey,
-                        child: Column(
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                
-                                left: 8,
-                                right: 8,
-                              ),
-                              child: Container(
-                                width: MediaQuery.of(context).size.width * 3,
-                                child: Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
-                                  
-                                ),
-                              ),
-                            ),
-                          /*  Image.asset(
-                              "assets/logo/logodhp2.PNG",
-                              width: 200,
-                            ),*/
-                            Padding(
-                              padding: EdgeInsets.only(
-                                  left: 45, right: 45, bottom: 20,top:50),
-                              child: Column(
-                                children: [
-                                  SizedBox(
-                                    height: defaultPadding,
+          key: formKey,
+          child: Column(
+            children: [
+              Padding(
+                padding:
+                    EdgeInsets.only(left: 45, right: 45, bottom: 20, top: 50),
+                child: Column(
+                  children: [
+                    SizedBox(
+                      height: defaultPadding,
+                    ),
+                    Text(
+                      "HELLO SIGN IN",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w600,
+                          fontSize: 30),
+                      textAlign: TextAlign.center, // Metni ortala
+                    ),
+                    SizedBox(
+                      height: defaultPadding * 10,
+                    ),
+                    buildUsername(),
+                    const SizedBox(height: defaultPadding),
+                    buildPassword(),
+                    const SizedBox(height: defaultPadding),
+                    Align(
+                      alignment: Alignment.bottomRight,
+                      child: Padding(
+                        padding: EdgeInsets.only(right: 16, bottom: 35),
+                        child: RichText(
+                          text: TextSpan(
+                              style:
+                                  TextStyle(color: textColorMid, fontSize: 15),
+                              children: [
+                                TextSpan(
+                                  text: "Forgot password?",
+                                  style: TextStyle(
+                                    color: kPrimaryColor,
                                   ),
-                                  Text(
-                                    "HELLO SIGNIN",
-                                    style: GoogleFonts.ubuntu(
-                                        textStyle: TextStyle(color: Colors.white,
-                                            fontWeight: FontWeight.w500,
-                                            fontSize: 30)),
-                                    textAlign: TextAlign.center, // Metni ortala
-                                  ),
-                                  
-                                  SizedBox(
-                                    height: defaultPadding * 10,
-                                  ),
-                                  buildUsername(),
-                                  const SizedBox(height: defaultPadding),
-                                  buildPassword(),
-                                  const SizedBox(height: defaultPadding),
-                                  Align(
-                                    alignment: Alignment.bottomRight,
-                                    child: Padding(
-                                      padding: EdgeInsets.only(right: 25),
-                                      child: RichText(
-                                        text: TextSpan(
-                                            style: TextStyle(
-                                                color: textColorMid,
-                                                fontSize: 15),
-                                            children: [
-                                              TextSpan(
-                                                  text:
-                                                      "Forgot password?",
-                                                  style: GoogleFonts.roboto(
-                                                    textStyle: TextStyle(
-                                                      color: kPrimaryColor,
-                                                      
-                                                   
-                                                    ),
-                                                  ),
-                                                  )
-                                            ]),
-                                      ),
-                                    ),
-                                  ),
-                                  const SizedBox(height: defaultPadding * 2),
-                                  buildLogin(),
-                                  const SizedBox(height: defaultPadding),
-                                  Center(//todo logolar buraya da gelebilir
-                                  ),
-                                  const SizedBox(height: defaultPadding),
-                                  Align(
-                                    alignment: Alignment.bottomCenter,
-                                    child: Padding(
-                                      padding: EdgeInsets.only(right: 0),
-                                      child: RichText(
-                                        text: TextSpan(
-                                            style: GoogleFonts.roboto(
-                                              textStyle: TextStyle(
-                                                  color: textColorMid,
-                                                  fontSize: 14),
-                                            ),
-                                            children: [
-                                             //todo buraya logolar gelecek gmail vs.
-                                            ]),
-                                      ),
-                                    ),
-                                  ),
-                                 const SizedBox(height: defaultPadding),
-                                  Align(
-                                    alignment: Alignment.bottomCenter,
-                                    child: Padding(
-                                      padding: EdgeInsets.only(right: 0),
-                                      child: RichText(
-                                        text: TextSpan(
-                                            style: GoogleFonts.roboto(
-                                              textStyle: TextStyle(
-                                                  color: textColorMid,
-                                                  fontSize: 14),
-                                            ),
-                                            children: [
-                                              TextSpan(
-                                                  text: "Don't have account?" ),
-                                              TextSpan(
-                                                  text: " " +
-                                                      "Signup",
-                                                  style: TextStyle(
-                                                    fontSize: 15,
-                                                    color: kPrimaryColor,
-                                                    fontWeight: FontWeight.bold,
-                                                    
-                                                  ),
-                                                  recognizer:
-                                                      TapGestureRecognizer()
-                                                        ..onTap = () {
-                                                          Navigator.push(
-                                                              context,
-                                                              MaterialPageRoute(
-                                                                  builder:
-                                                                      (context) =>
-                                                                          SignupScreen()));
-                                                        })
-                                            ]),
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ],
+                                )
+                              ]),
                         ),
-                      )
-                   
+                      ),
+                    ),
+                    const SizedBox(height: defaultPadding * 8),
+                    buildLogin(),
+                    Align(
+                      alignment: Alignment.bottomCenter,
+                      child: Padding(
+                        padding: EdgeInsets.only(right: 0),
+                        child: RichText(
+                          text: TextSpan(
+                              style:
+                                  TextStyle(color: textColorMid, fontSize: 14),
+                              children: [
+                                //todo buraya logolar gelecek gmail vs.
+                              ]),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: defaultPadding),
+                    Align(
+                      alignment: Alignment.bottomCenter,
+                      child: Padding(
+                        padding: EdgeInsets.only(right: 0),
+                        child: RichText(
+                          text: TextSpan(
+                              style:
+                                  TextStyle(color: textColorMid, fontSize: 14),
+                              children: [
+                                TextSpan(text: "Don't have account?"),
+                                TextSpan(
+                                    text: " " + "Signup",
+                                    style: TextStyle(
+                                      fontSize: 15,
+                                      color: kPrimaryColor,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                    recognizer: TapGestureRecognizer()
+                                      ..onTap = () {
+                                        Navigator.push(
+                                            context,
+                                            MaterialPageRoute(
+                                                builder: (context) =>
+                                                    SignupScreen()));
+                                      })
+                              ]),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
           ),
-        ],
-      
+        )),
+      ],
     );
   }
 
-Widget buildLogin() => Builder(
-      builder: (context) => SizedBox(
-        width: double.infinity, // Genişlik ayarı
-        child: ElevatedButton(
-          onPressed: () {
-            final isValid = formKey.currentState!.validate();
-            if (isValid) {
-             Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => HomeScreen()),
-            );
-            }
-          },
-          style: ElevatedButton.styleFrom(
-            backgroundColor: kPrimaryColor, // Buton rengi
-            textStyle: TextStyle(
-              fontSize: MediaQuery.of(context).size.width * 0.045,
-            ),
-            elevation: 4, // Butonun yüksekliği
-            shadowColor: Colors.grey, // Gölgelenme rengi
-            padding: EdgeInsets.symmetric(vertical: 16), // Buton iç içe boşluk
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(50), // Buton köşelerinin yuvarlanma derecesi
-            ),
-            minimumSize: Size(double.infinity, 50), // Butonun minimum boyutu
-            tapTargetSize: MaterialTapTargetSize.shrinkWrap, // Basılma boyutu
-            animationDuration: Duration(milliseconds: 300), // Animasyon süresi
-            // Butona basıldığında ara rengin belirlenmesi
-      ),
-          child: Text("SIGN IN",style: TextStyle(color: kPrimaryWhiteColor),),
-        ),
-      ),
-    );
+  bool _isButtonDisabled = false;
 
-   bool flagUsername = false;
- Widget buildUsername() => TextFormField(
+  Widget buildLogin() => Builder(
+        builder: (context) => SizedBox(
+          width: double.infinity, // Genişlik ayarı
+          child: ElevatedButton(
+            onPressed: _isButtonDisabled
+                ? null
+                : () {
+                    setState(() {
+                      _isButtonDisabled = true;
+                    });
+
+                    final Timer timer = Timer(Duration(seconds: 1), () {
+                      setState(() {
+                        _isButtonDisabled = false;
+                      });
+                    });
+
+                    final isValid = formKey.currentState!.validate();
+                    if (isValid && flagPassword && flagUsername) {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => NavigationBarMy(),
+                        ),
+                      ).then((value) {
+                        timer.cancel();
+                        setState(() {
+                          _isButtonDisabled = false;
+                        });
+                      });
+                      ;
+                    } else if (!flagUsername) {
+                      Fluttertoast.showToast(
+                          fontSize: 15,
+                          toastLength: Toast.LENGTH_LONG,
+                          msg: "Username cannot be empty.",
+                          gravity: ToastGravity.BOTTOM,
+                          backgroundColor: Colors.red);
+                    } else if (!flagPassword) {
+                      Fluttertoast.showToast(
+                          fontSize: 15,
+                          toastLength: Toast.LENGTH_LONG,
+                          msg: "Password cannot be empty.",
+                          gravity: ToastGravity.BOTTOM,
+                          backgroundColor: Colors.red);
+                    } else {}
+                  },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: kPrimaryColor, // Buton rengi
+              textStyle: TextStyle(
+                fontSize: MediaQuery.of(context).size.width * 0.045,
+              ),
+              elevation: 4, // Butonun yüksekliği
+              shadowColor: Colors.grey, // Gölgelenme rengi
+              padding:
+                  EdgeInsets.symmetric(vertical: 16), // Buton iç içe boşluk
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(
+                    50), // Buton köşelerinin yuvarlanma derecesi
+              ),
+              minimumSize: Size(double.infinity, 50), // Butonun minimum boyutu
+              tapTargetSize: MaterialTapTargetSize.shrinkWrap, // Basılma boyutu
+              animationDuration:
+                  Duration(milliseconds: 300), // Animasyon süresi
+              // Butona basıldığında ara rengin belirlenmesi
+            ),
+            child: Text("SIGN IN",
+                style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w600,
+                    fontSize: 20)),
+          ),
+        ),
+      );
+
+  bool flagUsername = false;
+  Widget buildUsername() => TextFormField(
         decoration: InputDecoration(
           // labelText: 'Username',
           hintText: "Username",
-          suffixIcon: flagUsername
-              ? Icon(Icons.check, color: iconColor)
-              : null,
+          suffixIcon: flagUsername ? Icon(Icons.check, color: iconColor) : null,
           icon: Icon(Icons.person),
           fillColor: Colors.transparent,
           filled: true,
@@ -234,12 +233,12 @@ Widget buildLogin() => Builder(
           ),
         ),
         style: TextStyle(
-          color: flagUsername ?kPrimaryColor : grey,
+          color: flagUsername ? kPrimaryColor : grey,
         ),
         maxLength: 30,
         onChanged: (value) {
           setState(() {
-            if (value!.length < 5) {
+            if (value!.length < 1) {
               flagUsername = false;
             } else {
               flagUsername = true;
@@ -249,7 +248,8 @@ Widget buildLogin() => Builder(
         },
       );
 
-  bool flagPassword = false;Widget buildPassword() => TextFormField(
+  bool flagPassword = false;
+  Widget buildPassword() => TextFormField(
         controller: _controller,
         decoration: InputDecoration(
           suffixIcon: IconButton(
@@ -259,9 +259,9 @@ Widget buildLogin() => Builder(
               });
             },
             icon: Icon(
-                hidePassword ? Icons.visibility_off : Icons.visibility,
-                color: hidePassword ? grey : kPrimaryColor,
-              ),
+              hidePassword ? Icons.visibility_off : Icons.visibility,
+              color: hidePassword ? grey : kPrimaryColor,
+            ),
           ),
           //   labelText: 'Password',
           hintText: "Password",
@@ -281,12 +281,14 @@ Widget buildLogin() => Builder(
           border: InputBorder.none, // Çerçeve yok
         ),
         style: TextStyle(
-          color: flagPassword ? Color.fromARGB(255, 9, 129, 228) : Color.fromARGB(255, 168, 168, 168),
+          color: flagPassword
+              ? Color.fromARGB(255, 9, 129, 228)
+              : Color.fromARGB(255, 168, 168, 168),
         ),
         maxLength: 20,
         onChanged: (value) {
           setState(() {
-            if (value!.length < 7) {
+            if (value!.length < 1) {
               flagPassword = false;
             } else {
               flagPassword = true;
@@ -297,7 +299,4 @@ Widget buildLogin() => Builder(
         keyboardType: TextInputType.visiblePassword,
         obscureText: hidePassword,
       );
-
-
-
 }

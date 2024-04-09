@@ -1,26 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:metaozce/components/background.dart';
 
-class ProfileScreen extends StatefulWidget {
-  const ProfileScreen({Key? key}) : super(key: key);
 
-  @override
-  _ProfileScreenState createState() => _ProfileScreenState();
-}
+import 'components/profile_view.dart';
 
-class _ProfileScreenState extends State<ProfileScreen> {
+class ProfileScreen extends StatelessWidget {
+  const ProfileScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Profil Sayfası'),
-      ),
-      body: Center(
-        child: Container(
-          width: 200,
-          height: 200,
-          color: Colors.yellow,
-        ),
-      ),
+    return Background(
+      title: "Profile",
+      child: ProfileScreenView(),
     );
   }
 }

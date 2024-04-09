@@ -8,8 +8,8 @@ class BackgroundInit extends StatelessWidget {
     Key? key,
     required this.child,
     
-    this.topImage = "assets/background.png",
-    this.bottomImage = "assets/background.png",
+    this.topImage = "assets/background1.png",
+    this.bottomImage = "assets/background1.png",
   }) : super(key: key);
 
   final String topImage, bottomImage;
@@ -29,7 +29,7 @@ class BackgroundInit extends StatelessWidget {
             child: Image.asset(
               bottomImage,
             ),
-            width: 1000,
+            width: MediaQuery.of(context).size.width * 1,
           ),
           SafeArea(child: child),
         ],
