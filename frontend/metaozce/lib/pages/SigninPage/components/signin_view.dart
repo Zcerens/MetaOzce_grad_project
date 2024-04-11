@@ -56,75 +56,86 @@ class _SigninViewState extends State<SigninView> {
                     SizedBox(
                       height: defaultPadding * 10,
                     ),
-                    buildUsername(),
-                    const SizedBox(height: defaultPadding),
-                    buildPassword(),
-                    const SizedBox(height: defaultPadding),
-                    Align(
-                      alignment: Alignment.bottomRight,
+                    SingleChildScrollView(
+                      physics: BouncingScrollPhysics(
+                          parent: AlwaysScrollableScrollPhysics()),
                       child: Padding(
-                        padding: EdgeInsets.only(right: 16, bottom: 35),
-                        child: RichText(
-                          text: TextSpan(
-                              style:
-                                  TextStyle(color: textColorMid, fontSize: 15),
-                              children: [
-                                TextSpan(
-                                  text: "Forgot password?",
-                                  style: TextStyle(
-                                    color: kPrimaryColor,
-                                  ),
-                                )
-                              ]),
+                        padding: EdgeInsets.fromLTRB(8, 30, 8, 8),
+                        child: Column(
+                          children: [
+                            buildUsername(),
+                            const SizedBox(height: defaultPadding),
+                            buildPassword(),
+                            const SizedBox(height: defaultPadding),
+                            Align(
+                              alignment: Alignment.bottomRight,
+                              child: Padding(
+                                padding: EdgeInsets.only(right: 16, bottom: 35),
+                                child: RichText(
+                                  text: TextSpan(
+                                      style: TextStyle(
+                                          color: textColorMid, fontSize: 15),
+                                      children: [
+                                        TextSpan(
+                                          text: "Forgot password?",
+                                          style: TextStyle(
+                                            color: kPrimaryColor,
+                                          ),
+                                        )
+                                      ]),
+                                ),
+                              ),
+                            ),
+                            const SizedBox(height: defaultPadding * 8),
+                            buildLogin(),
+                            Align(
+                              alignment: Alignment.bottomCenter,
+                              child: Padding(
+                                padding: EdgeInsets.only(right: 0),
+                                child: RichText(
+                                  text: TextSpan(
+                                      style: TextStyle(
+                                          color: textColorMid, fontSize: 14),
+                                      children: [
+                                        //todo buraya logolar gelecek gmail vs.
+                                      ]),
+                                ),
+                              ),
+                            ),
+                            const SizedBox(height: defaultPadding),
+                            Align(
+                              alignment: Alignment.bottomCenter,
+                              child: Padding(
+                                padding: EdgeInsets.only(right: 0),
+                                child: RichText(
+                                  text: TextSpan(
+                                      style: TextStyle(
+                                          color: textColorMid, fontSize: 14),
+                                      children: [
+                                        TextSpan(text: "Don't have account?"),
+                                        TextSpan(
+                                            text: " " + "Signup",
+                                            style: TextStyle(
+                                              fontSize: 15,
+                                              color: kPrimaryColor,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                            recognizer: TapGestureRecognizer()
+                                              ..onTap = () {
+                                                Navigator.push(
+                                                    context,
+                                                    MaterialPageRoute(
+                                                        builder: (context) =>
+                                                            SignupScreen()));
+                                              })
+                                      ]),
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
                       ),
-                    ),
-                    const SizedBox(height: defaultPadding * 8),
-                    buildLogin(),
-                    Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Padding(
-                        padding: EdgeInsets.only(right: 0),
-                        child: RichText(
-                          text: TextSpan(
-                              style:
-                                  TextStyle(color: textColorMid, fontSize: 14),
-                              children: [
-                                //todo buraya logolar gelecek gmail vs.
-                              ]),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(height: defaultPadding),
-                    Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Padding(
-                        padding: EdgeInsets.only(right: 0),
-                        child: RichText(
-                          text: TextSpan(
-                              style:
-                                  TextStyle(color: textColorMid, fontSize: 14),
-                              children: [
-                                TextSpan(text: "Don't have account?"),
-                                TextSpan(
-                                    text: " " + "Signup",
-                                    style: TextStyle(
-                                      fontSize: 15,
-                                      color: kPrimaryColor,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                    recognizer: TapGestureRecognizer()
-                                      ..onTap = () {
-                                        Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                                builder: (context) =>
-                                                    SignupScreen()));
-                                      })
-                              ]),
-                        ),
-                      ),
-                    ),
+                    )
                   ],
                 ),
               ),

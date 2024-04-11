@@ -10,7 +10,7 @@ dependencies:
   curved_navigation_bar: ^1.0.3
   flutter:
     sdk: flutter
-  flutter_social_button: ^1.1.4+1
+  flutter_signin_button: ^2.0.0
   fluttertoast: ^8.2.4
   google_fonts: ^6.2.1
 

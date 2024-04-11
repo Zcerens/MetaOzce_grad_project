@@ -30,47 +30,44 @@ class _SignupViewState extends State<SignupView> {
       false; //giriş yapınca true olacak, dbye gönderilecek, öbür sayfalarda dbden çekilecek
   bool hidePassword = true;
   bool hidePasswordAgain = true;
-void showToast(String message, Color backgroundColor) {
-  Fluttertoast.showToast(
-    fontSize: 15,
-    toastLength: Toast.LENGTH_LONG,
-    msg: message,
-    gravity: ToastGravity.BOTTOM,
-    backgroundColor: backgroundColor,
-  );
-}
-void checkFlagsAndShowToast() {
-  if (!flagFullname) {
-    showToast("Fullname can't be shorter than 5 characters.", Colors.red);
-  } else if (!flagUsername) {
-    showToast("Username can't be shorter than 5 characters.", Colors.red);
-  } else if (!flagPassword) {
-    showToast("Password can't be shorter than 7 characters.", Colors.red);
-  } else if (!flagPasswordAgain) {
-    showToast("Password Again can't be shorter than 7 characters.", Colors.red);
-  } else if (controllerPassword.text != controllerPasswordAgain.text) {
-    showToast("Passwords do not match.", Colors.red);
+  void showToast(String message, Color backgroundColor) {
+    Fluttertoast.showToast(
+      fontSize: 15,
+      toastLength: Toast.LENGTH_LONG,
+      msg: message,
+      gravity: ToastGravity.BOTTOM,
+      backgroundColor: backgroundColor,
+    );
   }
-}
+
+  void checkFlagsAndShowToast() {
+    if (!flagFullname) {
+      showToast("Fullname can't be shorter than 5 characters.", Colors.red);
+    } else if (!flagUsername) {
+      showToast("Username can't be shorter than 5 characters.", Colors.red);
+    } else if (!flagPassword) {
+      showToast("Password can't be shorter than 7 characters.", Colors.red);
+    } else if (!flagPasswordAgain) {
+      showToast(
+          "Password Again can't be shorter than 7 characters.", Colors.red);
+    } else if (controllerPassword.text != controllerPasswordAgain.text) {
+      showToast("Passwords do not match.", Colors.red);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
-    return ListView(
+    return Column(
       children: [
         Center(
             child: Form(
           key: formKey,
           child: Column(
             children: [
-              Padding(
-                padding: const EdgeInsets.only(
-                  left: 8,
-                  right: 8,
-                ),
-                child: Container(
-                  width: MediaQuery.of(context).size.width * 3,
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  ),
+              Container(
+                width: MediaQuery.of(context).size.width * 3,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 ),
               ),
               /*  Image.asset(
@@ -96,63 +93,74 @@ void checkFlagsAndShowToast() {
                     SizedBox(
                       height: defaultPadding * 11,
                     ),
-                    buildFullname(),
-                    const SizedBox(height: defaultPadding),
-                    buildUsername(),
-                    const SizedBox(height: defaultPadding),
-                    buildPassword(),
-                    const SizedBox(height: defaultPadding),
-                    buildPasswordAgain(),
-                    const SizedBox(height: defaultPadding),
-                    const SizedBox(height: defaultPadding * 2),
-                    buildLogin(),
-                    const SizedBox(height: defaultPadding),
-                    Center(//todo logolar buraya da gelebilir
-                        ),
-                    Align(
-                      alignment: Alignment.bottomCenter,
+                    SingleChildScrollView(
+                    
+      
+                  physics: BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
                       child: Padding(
-                        padding: EdgeInsets.only(right: 0),
-                        child: RichText(
-                          text: TextSpan(
-                              style:
-                                  TextStyle(color: textColorMid, fontSize: 14),
-                              children: [
-                                //todo buraya logolar gelecek gmail vs.
-                              ]),
+                        padding:EdgeInsets.fromLTRB(8, 30, 8, 8),
+                        child: Column(
+                          children: [
+                            buildFullname(),
+                            const SizedBox(height: defaultPadding),
+                            buildUsername(),
+                            const SizedBox(height: defaultPadding),
+                            buildPassword(),
+                            const SizedBox(height: defaultPadding),
+                            buildPasswordAgain(),
+                            const SizedBox(height: defaultPadding),                      
+                            buildLogin(),
+                            const SizedBox(height: defaultPadding),
+                            Center(//todo logolar buraya da gelebilir
+                                ),
+                            Align(
+                              alignment: Alignment.bottomCenter,
+                              child: Padding(
+                                padding: EdgeInsets.only(right: 0),
+                                child: RichText(
+                                  text: TextSpan(
+                                      style: TextStyle(
+                                          color: textColorMid, fontSize: 14),
+                                      children: [
+                                        //todo buraya logolar gelecek gmail vs.
+                                      ]),
+                                ),
+                              ),
+                            ),
+                            const SizedBox(height: defaultPadding * 0.1),
+                            Align(
+                              alignment: Alignment.bottomCenter,
+                              child: Padding(
+                                padding: EdgeInsets.only(right: 0),
+                                child: RichText(
+                                  text: TextSpan(
+                                      style: TextStyle(
+                                          color: textColorMid, fontSize: 14),
+                                      children: [
+                                        TextSpan(text: "Already have account?"),
+                                        TextSpan(
+                                            text: " " + "Sign in",
+                                            style: TextStyle(
+                                              fontSize: 15,
+                                              color: kPrimaryColor,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                            recognizer: TapGestureRecognizer()
+                                              ..onTap = () {
+                                                Navigator.push(
+                                                    context,
+                                                    MaterialPageRoute(
+                                                        builder: (context) =>
+                                                            SigninScreen()));
+                                              })
+                                      ]),
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
                       ),
-                    ),
-                    const SizedBox(height: defaultPadding * 0.1),
-                    Align(
-                      alignment: Alignment.bottomCenter,
-                      child: Padding(
-                        padding: EdgeInsets.only(right: 0),
-                        child: RichText(
-                          text: TextSpan(
-                              style:
-                                  TextStyle(color: textColorMid, fontSize: 14),
-                              children: [
-                                TextSpan(text: "Already have account?"),
-                                TextSpan(
-                                    text: " " + "Sign in",
-                                    style: TextStyle(
-                                      fontSize: 15,
-                                      color: kPrimaryColor,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                    recognizer: TapGestureRecognizer()
-                                      ..onTap = () {
-                                        Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                                builder: (context) =>
-                                                    SigninScreen()));
-                                      })
-                              ]),
-                        ),
-                      ),
-                    ),
+                    )
                   ],
                 ),
               ),
@@ -202,9 +210,8 @@ void checkFlagsAndShowToast() {
                           _isButtonDisabled = false;
                         });
                       });
-                    } 
-                    else {
-                       checkFlagsAndShowToast();
+                    } else {
+                      checkFlagsAndShowToast();
                     }
                   },
             style: ElevatedButton.styleFrom(
@@ -336,9 +343,7 @@ void checkFlagsAndShowToast() {
           border: InputBorder.none, // Çerçeve yok
         ),
         style: TextStyle(
-          color: flagPassword
-              ? kPrimaryColor
-              : grey,
+          color: flagPassword ? kPrimaryColor : grey,
         ),
         maxLength: 20,
         onChanged: (value) {
@@ -386,9 +391,7 @@ void checkFlagsAndShowToast() {
           border: InputBorder.none, // Çerçeve yok
         ),
         style: TextStyle(
-          color: flagPasswordAgain
-              ? kPrimaryColor
-              : grey,
+          color: flagPasswordAgain ? kPrimaryColor : grey,
         ),
         maxLength: 20,
         onChanged: (value) {
