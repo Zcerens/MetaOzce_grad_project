@@ -15,7 +15,14 @@ df = pd.read_csv("duzenlenmis_otel_veritabani_DB3.csv")
 df.dropna(inplace=True)
 
 
-kullanici_tercihleri = {'Bar':1, 'Asansör':1, 'Açık Havuz':0, 'Kapalı Havuz':1}
+#kullanici_tercihleri = {'A la Carte Restoran':7,   'Asansör':1, 'Açık Restoran': 1, 'Kapalı Restoran': 1, 'Açık Havuz':5, 'Kapalı Havuz':1,
+#                        'Bedensel Engelli Odası':1, 'Bar':7, 'Su Kaydırağı': 1, 'Balo Salonu':0, 'Kuaför':1, 'Otopark':1,
+#                        'Market':0, 'Sauna':1, 'Doktor':1, 'Beach Voley': 1, 'Çocuk Parkı':0
+#                        }
+
+kullanici_tercihleri = {'A la Carte Restoran':7,   'Asansör':1, 'Açık Restoran': 1, 'Kapalı Restoran': 1, 'Açık Havuz':5, 'Kapalı Havuz':1,
+                        'Bedensel Engelli Odası':1, 'Bar':7, 'Su Kaydırağı': 1, 'Balo Salonu':0, 'Kuaför':1, 'Otopark':1
+                        }
 
 
 # Kullanıcının tercih ettiği özelliklerdeki otelleri filtreleyin

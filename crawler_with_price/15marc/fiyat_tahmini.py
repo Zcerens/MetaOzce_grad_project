@@ -2,13 +2,13 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 
 # CSV dosyasından verileri okuyun
-df = pd.read_csv("antalya_veritabani.csv")
+df = pd.read_csv("duzenlenmis_otel_veritabani.csv")
 
 # Eksik değerlere sahip gözlemleri veri setinden çıkarın
 df.dropna(inplace=True)
 
 
-kullanici_tercihleri = {'Kano':0}
+kullanici_tercihleri = {'Bar':1}
 
 
 # Kullanıcının tercih ettiği özelliklerdeki otelleri filtreleyin
