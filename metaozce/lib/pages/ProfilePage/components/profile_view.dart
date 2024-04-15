@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:metaozce/pages/MyHotelsPage/my_hotels.dart';
+import 'package:metaozce/pages/MyHotelsPage/components/my_hotels.dart';
 import 'package:metaozce/pages/MyHotelsPage/my_hotels_screen.dart';
 
 import 'package:metaozce/pages/SignupPage/signup_screen.dart';
 import 'package:metaozce/const/constant.dart';
-import 'package:metaozce/pages/HomePage/home.dart';
+import 'package:metaozce/pages/HomePage/components/home_view.dart';
 
 
 import 'entity/profile_menu.dart';
@@ -50,7 +50,7 @@ class ProfileScreenView extends StatelessWidget {
             text: "Feedback",
             icon: Icon(Icons.feedback,  color: kPrimaryColor,),
             press: () => Navigator.push(context,
-                MaterialPageRoute(builder: (context) => HomePage())),
+                MaterialPageRoute(builder: (context) => HomeView())),
           ),
           ProfileMenu(
             text: "Logout",

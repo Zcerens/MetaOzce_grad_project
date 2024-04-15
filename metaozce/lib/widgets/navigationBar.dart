@@ -6,7 +6,7 @@ import 'package:metaozce/pages/ProfilePage/components/profile_view.dart';
 import 'package:metaozce/pages/ProfilePage/profile_screen.dart';
 
 import 'package:metaozce/pages/SigninPage/signin_screen.dart';
-import 'package:metaozce/pages/HomePage/home.dart';
+import 'package:metaozce/pages/HomePage/components/home_view.dart';
 
 
 
@@ -34,7 +34,7 @@ class _NavigationBarMyState extends State<NavigationBarMy> {
   Widget build(BuildContext context) {
     int currentIndex = 0;
     final screens = [
-      HomePage(),
+      HomeView(),
       ProfileScreen(),
       
     ];

@@ -5,8 +5,8 @@ import 'package:metaozce/const/constant.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:metaozce/pages/SignupPage/signup_screen.dart';
 import 'package:metaozce/pages/WelcomePage/welcome_screen.dart';
-import 'package:metaozce/pages/HomePage/home.dart';
-import 'package:metaozce/pages/MyHotelsPage/my_hotels.dart';
+import 'package:metaozce/pages/HomePage/components/home_view.dart';
+import 'package:metaozce/pages/MyHotelsPage/components/my_hotels.dart';
 import 'package:metaozce/widgets/navigationBar.dart';
 
 
