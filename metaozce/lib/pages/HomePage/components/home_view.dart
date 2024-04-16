@@ -1,12 +1,14 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:metaozce/const/constant.dart';
+import 'package:metaozce/pages/DetailPage/detail_screen.dart';
 
 import 'package:metaozce/pages/HomePage/components/widgets/city_item.dart';
 import 'package:metaozce/pages/HomePage/components/widgets/data.dart';
 import 'package:metaozce/pages/HomePage/components/widgets/feauture_item.dart';
 
 import 'package:metaozce/pages/HomePage/components/widgets/recommend_item.dart';
+import 'package:metaozce/pages/HomePage/components/widgets/search_item.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({Key? key}) : super(key: key);
@@ -19,7 +21,9 @@ class _HomeViewState extends State<HomeView> {
   String selectedCity = "İstanbul";
   List filteredRecommends = [];
   final TextEditingController searchController = TextEditingController();
-  List searchHotels = [];
+  List<Map<String, dynamic>> searchHotels = [];
+  bool tiklandi = false;
+  FocusNode focusNode = FocusNode();
 
   void queryListener() {
     search(searchController.text);
@@ -28,13 +32,16 @@ class _HomeViewState extends State<HomeView> {
   void search(String query) {
     if (query.isEmpty) {
       setState(() {
-        searchHotels = recommends;
+        searchHotels = List<Map<String, dynamic>>.from(
+            recommends); // recommends listesini searchHotels'e atar.
       });
     } else {
       setState(() {
         searchHotels = recommends
-            .where((e) => e.toLowerCase().contains(query.toLowerCase()))
-            .toList();
+            .where((e) => (e['name'] as String)
+                .toLowerCase()
+                .contains(query.toLowerCase()))
+            .toList(); // Query'ye göre otel isimlerini filtreler ve searchHotels'e atar.
       });
     }
   }
@@ -49,12 +56,20 @@ class _HomeViewState extends State<HomeView> {
   void initState() {
     super.initState();
     searchController.addListener(queryListener);
+    focusNode.addListener(() {
+      if (!focusNode.hasFocus) {
+        setState(() {
+          tiklandi = false; // Klavye kapatıldığında tiklandi'yi false yap
+        });
+      }
+    });
   }
 
   @override
   void dispose() {
     searchController.removeListener(queryListener);
     searchController.dispose();
+    focusNode.dispose();
     super.dispose();
   }
 
@@ -108,7 +123,6 @@ class _HomeViewState extends State<HomeView> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-        // buildSearch(),
           Padding(
             padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
             child: Text(
@@ -120,7 +134,8 @@ class _HomeViewState extends State<HomeView> {
               ),
             ),
           ),
-          _buildSearchBar(),
+          _buildSearch(),
+         
           _buildCities(),
           const SizedBox(
             height: 10,
@@ -156,7 +171,6 @@ class _HomeViewState extends State<HomeView> {
             ),
           ),
           _buildFeauture(),
-         
         ],
       ),
     );
@@ -197,48 +211,9 @@ class _HomeViewState extends State<HomeView> {
     );
   }
 
-  Widget _buildSearchBar() {
-    return Container(
-      margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
-      height: MediaQuery.of(context).size.width * 0.1,
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(12.0),
-        border: Border.all(color: Colors.grey),
-      ),
-      child: Theme(
-        data: ThemeData(
-          primaryColor: Colors.transparent,
-          hintColor: Colors.transparent,
-        ),
-        child: TextField(
-          onChanged: (value) {
-            // Kullanıcının girdiği değeri al
-            String filterText = value.toLowerCase();
-            // Önerileri filtrele
-            List filteredRecommends = recommends.where((recommend) {
-              return recommend['name'].toLowerCase().contains(filterText);
-            }).toList();
 
-            setState(() {
-              this.filteredRecommends = filteredRecommends;
-            });
-          },
-          cursorColor: Colors.black,
-          decoration: const InputDecoration(
-            hintText: "Search for hotels...",
-            hintStyle: TextStyle(
-                color: Colors.black87,
-                fontSize: 14.0,
-                fontWeight: FontWeight.w500), // Placeholder metin stili
-            prefixIcon: Icon(Icons.search, color: iconColor),
-            border: InputBorder.none,
-            contentPadding: EdgeInsets.symmetric(horizontal: 15.0),
-          ),
-        ),
-      ),
-    );
-  }
 
+  
   _buildFeauture() {
     return SingleChildScrollView(
       padding: EdgeInsets.fromLTRB(15, 5, 0, 5),
@@ -279,33 +254,69 @@ class _HomeViewState extends State<HomeView> {
     );
   }
 
-  buildSearch(){
-     return Column(
-            children: [ 
-              SearchBar(
-            controller: searchController,
-            hintText: "Search..",
-            leading: IconButton(
-              icon: Icon(Icons.search),
-              onPressed: () {},
+
+
+  _buildSearch() {
+    return Column(
+      children: [
+        Container(
+          height: MediaQuery.of(context).size.height * 0.06,
+          child: Padding(
+            padding: const EdgeInsets.only(left: 10.0, right: 10),
+            child: SearchBar(
+              focusNode: focusNode,
+              onTap: () {
+                setState(() {
+                  tiklandi = true;
+                });
+              },
+              onSubmitted: (value) {
+                setState(() {
+                  tiklandi = false;
+                });
+              },
+              controller: searchController,
+              hintText: "Search..",
+              leading: IconButton(
+                icon: Icon(Icons.search),
+                onPressed: () {},
+              ),
             ),
           ),
-         
-              ListView.builder(
-                itemCount: searchHotels.isEmpty ? searchHotels.length : recommends.length,
-                itemBuilder: (context,index){
-                  final hotel = searchHotels.isEmpty ? recommends[index]  : searchHotels[index];
-                  return Card(
-                    child: Column(
-                      children: [
-                        Text(hotel)
-                      ],
+        ),
+        Padding(
+          padding: const EdgeInsets.only(left:8.0, right:8.0),
+          child: Container(
+            height: tiklandi
+                ? MediaQuery.of(context).size.height * 0.2
+                : MediaQuery.of(context).size.height * 0.01,
+            child: ListView.builder(
+              itemCount: tiklandi ? searchHotels.length : recommends.length,
+              itemBuilder: (context, index) {
+                final hotel = tiklandi ? searchHotels[index] : recommends[index];
+                return Card(
+                  child: ListTile(
+                    leading: CircleAvatar(
+                      backgroundImage: NetworkImage(hotel["image"]),
                     ),
-                  );
-              
-                },
-              ),
-            ],
-          );
+                    title: Text(hotel["name"]),
+                    subtitle: Text(hotel["location"]),
+                    
+                    onTap: () {
+                      Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => DetailScreen(data: hotel)), 
+        );
+                    },
+                  ),
+                );
+              },
+            ),
+          ),
+        ),
+      ],
+    );
   }
+
+  
 }

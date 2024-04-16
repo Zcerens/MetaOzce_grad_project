@@ -3,10 +3,17 @@ import 'package:flutter/material.dart';
 import 'package:metaozce/const/constant.dart';
 import 'package:metaozce/pages/DetailPage/components/widgets/detail_item.dart';
 
-class DetailView extends StatelessWidget {
+class DetailView extends StatefulWidget {
   final Map<String, dynamic> data;
 
   const DetailView({Key? key, required this.data}) : super(key: key);
+
+  @override
+  _DetailView createState() => _DetailView();
+}
+
+class _DetailView extends State<DetailView> {
+  int _currentIndex = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -16,22 +23,15 @@ class DetailView extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            DetailItem(data: data),
-        
-             _buildHotelDetail(context)
-           
-             
-             
-               
-              
-          
+            DetailItem(data: widget.data),
+            _buildHotelDetail(context),
           ],
         ),
       ),
     );
   }
 
-  _buildHotelDetail(BuildContext context) {
+  Widget _buildHotelDetail(BuildContext context) {
     return Container(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -50,42 +50,83 @@ class DetailView extends StatelessWidget {
             ],
           ),
           SizedBox(height: 10),
-          Center(
-            child: Container(
-              width: MediaQuery.of(context).size.width * 0.85,
-              height: MediaQuery.of(context).size.width * 0.4,
-              child: Card(
-                color: Colors.white,
-                elevation: 5,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(6.0),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.all(10.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'Type: ${data["type"]}',
-                        style: TextStyle(fontSize: 15.0),
-                      ),
-                      SizedBox(height: 5),
-                      Text(
-                        'Rate: ${data["rate"]}',
-                        style: TextStyle(fontSize: 15.0),
-                      ),
-                      SizedBox(height: 5),
-                      Text(
-                        'Price: ${data["price"]}',
-                        style: TextStyle(fontSize: 15.0),
-                      ),
-                    ],
+          CarouselSlider(
+            options: CarouselOptions(
+              height: MediaQuery.of(context).size.width * 0.5,
+              viewportFraction: 0.9,
+              enlargeCenterPage: true,
+              onPageChanged: (index, reason) {
+                setState(() {
+                  _currentIndex = index;
+                });
+              },
+            ),
+            items: [
+              _buildDetailBox(context, 'Type: ${widget.data["type"]}', 'Rate: ${widget.data["rate"]}',
+                  'Price: ${widget.data["price"]}'),
+              _buildDetailBox(context, 'Type: ${widget.data["type"]}', 'Rate: ${widget.data["rate"]}',
+                  'Price: ${widget.data["price"]}'),
+              _buildDetailBox(context, 'Type: ${widget.data["type"]}', 'Rate: ${widget.data["rate"]}',
+                  'Price: ${widget.data["price"]}'),
+            ],
+          ),
+          SizedBox(height: 10),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              for (int i = 0; i < 3; i++)
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 2.0),
+                  child: Container(
+                    width: 6,
+                    height: 6,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: i == _currentIndex ? Colors.black : Colors.grey,
+                    ),
                   ),
                 ),
-              ),
-            ),
+            ],
           ),
         ],
+      ),
+    );
+  }
+
+  Widget _buildDetailBox(BuildContext context, String type, String rate, String price) {
+    return Center(
+      child: Container(
+        width: MediaQuery.of(context).size.width * 0.9, // Adjust width as needed
+        child: Card(
+          color: Colors.white,
+          elevation: 10,
+          shape: RoundedRectangleBorder(
+            side: BorderSide(color: kPrimaryBackColor, width: 2),
+            borderRadius: BorderRadius.circular(6.0),
+          ),
+          child: Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  type,
+                  style: TextStyle(fontSize: 15.0),
+                ),
+                SizedBox(height: 5),
+                Text(
+                  rate,
+                  style: TextStyle(fontSize: 15.0),
+                ),
+                SizedBox(height: 5),
+                Text(
+                  price,
+                  style: TextStyle(fontSize: 15.0),
+                ),
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }

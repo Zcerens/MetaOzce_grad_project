@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:metaozce/pages/MyHotelsPage/components/my_hotels.dart';
+import 'package:metaozce/pages/MyHotelsPage/components/my_hotels_view.dart';
 import 'package:metaozce/pages/MyHotelsPage/my_hotels_screen.dart';
 
 import 'package:metaozce/pages/SignupPage/signup_screen.dart';

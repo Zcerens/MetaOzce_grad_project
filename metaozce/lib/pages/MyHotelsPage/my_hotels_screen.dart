@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:metaozce/components/background.dart';
-import 'package:metaozce/pages/MyHotelsPage/components/my_hotels.dart';
+import 'package:metaozce/pages/MyHotelsPage/components/my_hotels_view.dart';
 
 
 class MyHotelsScreen extends StatelessWidget {

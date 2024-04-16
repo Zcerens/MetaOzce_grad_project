@@ -121,7 +121,7 @@ List features = [
   },
 ];
 
-List recommends = [
+List<Map<String, dynamic>> recommends = [
   {
     "id": 110,
     "name": "Luxury King",
