@@ -5,6 +5,8 @@ import com.example.hotel_gp.Service.HotelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/hotel")
 
@@ -14,22 +16,15 @@ public class HotelController {
 
     @GetMapping("/{hotel_id}")
     public Hotel getHotelById(@PathVariable int hotel_id){
+
         return hotelService.findById(hotel_id).orElse(null);
     }
-
-    @PostMapping
-    public Hotel createHotel(@RequestBody Hotel hotel){
-        return hotelService.saveOrUpdate(hotel);
+    @GetMapping("/region/{region}")
+    public List<Hotel> getHotelsByRegion(@PathVariable String region){
+        return hotelService.findByRegion(region);
     }
 
-    @PutMapping("/{hotel_id}")
-    public Hotel updateHotel(@PathVariable int hotel_id, @RequestBody Hotel hotel){
-        hotel.setHotel_id(hotel_id);
-        return hotelService.saveOrUpdate(hotel);
-    }
 
-    @DeleteMapping("/{hotel_id}")
-    public void deleteHotel(@PathVariable int hotel_id){
-        hotelService.deleteById(hotel_id);
-    }
+
+
 }

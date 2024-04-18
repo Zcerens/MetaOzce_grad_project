@@ -24,13 +24,7 @@ public class HotelServiceImpl implements HotelService{
     }
 
     @Override
-    public Hotel saveOrUpdate(Hotel hotel) {
-        return hotelRepository.save(hotel);
-    }
-
-    @Override
-    public void deleteById(int hotel_id) {
-        hotelRepository.deleteById(hotel_id);
-
+    public List<Hotel> findByRegion(String region) {
+        return hotelRepository.findByRegion(region);
     }
 }

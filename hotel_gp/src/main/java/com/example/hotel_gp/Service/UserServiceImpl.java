@@ -10,8 +10,10 @@ import java.util.Optional;
 @Service
 
 public class UserServiceImpl implements UserService{
+
     @Autowired
     private UserRepository userRepository;
+
     @Override
     public List<User> findAll() {
         return userRepository.findAll();
@@ -27,10 +29,22 @@ public class UserServiceImpl implements UserService{
 
         return userRepository.save(user);
     }
+    @Override
+    public boolean existsByUsername(String username) {
+        return userRepository.existsByUsername(username);
+    }
 
     @Override
-    public void deleteById(int user_id) {
-        userRepository.deleteById(user_id);
-
+    public User createUser(User user) {
+        if (!existsByUsername(user.getUsername())) {
+            userRepository.save(user);
+        } else {
+            // Kullanıcı adı zaten var, gerekli işlem yapılabilir
+            // Örneğin, istisna fırlatılabilir veya uygun bir geri bildirim sağlanabilir.
+            throw new IllegalArgumentException("Username is already in use.");
+        }
+        return user;
     }
+
+
 }

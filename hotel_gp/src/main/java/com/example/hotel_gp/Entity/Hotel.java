@@ -16,5 +16,7 @@ public class Hotel {
     private int hotel_id;
     @Column(length = 100)
     private String name;
+    @Column (length = 250)
+    private String region;
 
 }

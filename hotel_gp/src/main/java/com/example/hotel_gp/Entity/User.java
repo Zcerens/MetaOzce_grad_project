@@ -1,13 +1,12 @@
 package com.example.hotel_gp.Entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
+
 
 @Entity
 @Data
+@Table(name = "user_table")
 
 public class User {
     @Id
@@ -16,10 +15,13 @@ public class User {
     private int user_id;
     @Column(length = 40)
     private String fullname;
-    @Column(length = 20)
+    @Column(length = 20, unique = true)
     private String username;
-    @Column(length = 20)
+    @Column(length = 60)
     private String password;
+
+
+
 
 
 

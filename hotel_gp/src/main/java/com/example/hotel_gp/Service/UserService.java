@@ -9,5 +9,9 @@ public interface UserService {
     List<User>findAll();
     Optional<User> findById(int user_id);
     User saveOrUpdate(User user);
-    void deleteById(int user_id);
+
+
+    boolean existsByUsername(String username);
+
+    User createUser(User user);
 }

@@ -23,8 +23,8 @@ public class HotelUserHistoryServiceImpl implements HotelUserHistoryService{
     }
 
     @Override
-    public HotelUserHistory saveOrUpdate(HotelUserHistory hotelUserHistory) {
-        return hotelUserHistoryRepository.save(hotelUserHistory);
+    public Integer saveOrUpdate(HotelUserHistory hotelUserHistory) {
+        return hotelUserHistoryRepository.save(hotelUserHistory).getId();
     }
 
     @Override

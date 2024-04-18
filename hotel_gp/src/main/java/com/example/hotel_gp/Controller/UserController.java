@@ -3,6 +3,8 @@ package com.example.hotel_gp.Controller;
 import com.example.hotel_gp.Entity.User;
 import com.example.hotel_gp.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -17,9 +19,17 @@ public class UserController {
         return userService.findById(user_id).orElse(null);
     }
 
-    @PostMapping
-    public User createUser(@RequestBody User user){
-        return userService.saveOrUpdate(user);
+    @PostMapping("/create")
+    public ResponseEntity<?> createUser(@RequestBody User user) {
+        // Kullanıcı adının benzersiz olduğunu kontrol et
+        if (!userService.existsByUsername(user.getUsername())) {
+            // Eğer kullanıcı adı benzersizse, kullanıcıyı oluştur ve 201 Created durumuyla geri dön
+            User createdUser = userService.createUser(user);
+            return ResponseEntity.status(HttpStatus.CREATED).body(createdUser);
+        } else {
+            // Eğer kullanıcı adı zaten varsa, 409 Conflict durumuyla birlikte özel bir mesaj döndür
+            return ResponseEntity.status(HttpStatus.CONFLICT).body("Username is already in use.");
+        }
     }
 
     @PutMapping("/{user_id}")
@@ -28,8 +38,5 @@ public class UserController {
         return userService.saveOrUpdate(user);
     }
 
-    @DeleteMapping("/{user_id}")
-    public void deleteUser(@PathVariable int user_id){
-        userService.deleteById(user_id);
-    }
+
 }

@@ -8,7 +8,7 @@ import java.util.Optional;
 public interface HotelService {
     List<Hotel> findAll();
     Optional<Hotel> findById(int hotel_id);
-    Hotel saveOrUpdate(Hotel hotel);
-    void deleteById(int hotel_id);
+    List<Hotel> findByRegion(String region);
+
 
 }

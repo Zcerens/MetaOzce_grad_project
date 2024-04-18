@@ -1,8 +1,12 @@
 package com.example.hotel_gp.Controller;
 
+import com.example.hotel_gp.Entity.Hotel;
 import com.example.hotel_gp.Entity.HotelUserHistory;
+import com.example.hotel_gp.Entity.User;
 import com.example.hotel_gp.Service.HotelUserHistoryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -16,16 +20,24 @@ public class HotelUserHistoryController {
         return hotelUserHistoryService.findById(id).orElse(null);
     }
 
-    @PostMapping
-    public HotelUserHistory createHistory(@RequestBody HotelUserHistory hotelUserHistory){
-        return hotelUserHistoryService.saveOrUpdate(hotelUserHistory);
+    @PostMapping("/create")
+    public ResponseEntity<String> createHistory(@RequestBody HotelUserHistory hotelUserHistory){
+        ResponseEntity<String> responseEntity = null;
+        try {
+            Integer integer = Integer.valueOf(hotelUserHistoryService.saveOrUpdate(hotelUserHistory));
+            responseEntity = new ResponseEntity<String>("Account " + integer + " created", HttpStatus.OK);
+        } catch (Exception e) {
+            responseEntity = new ResponseEntity<String>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+
+        return responseEntity;
     }
 
-    @PutMapping("/{id}")
-    public HotelUserHistory updateHistory(@PathVariable int id, @RequestBody HotelUserHistory hotelUserHistory){
-        hotelUserHistory.setHotel_id(id);
-        return hotelUserHistoryService.saveOrUpdate(hotelUserHistory);
-    }
+//    @PutMapping("/update/{id}")
+//    public HotelUserHistory updateHistory(@PathVariable Hotel hotel, @RequestBody HotelUserHistory hotelUserHistory){
+//        hotelUserHistory.setHotel(hotel);
+//        return hotelUserHistoryService.saveOrUpdate(hotelUserHistory);
+//    }
 
     @DeleteMapping("/{id}")
     public void deleteHistory(@PathVariable int id){

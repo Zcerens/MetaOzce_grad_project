@@ -8,6 +8,6 @@ import java.util.Optional;
 public interface HotelUserHistoryService {
     List<HotelUserHistory> findAll();
     Optional<HotelUserHistory> findById(int id);
-    HotelUserHistory saveOrUpdate(HotelUserHistory hotelUserHistory);
+    Integer saveOrUpdate(HotelUserHistory hotelUserHistory);
     void deleteById(int id);
 }
