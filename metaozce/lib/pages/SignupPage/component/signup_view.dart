@@ -2,11 +2,14 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:metaozce/const/constant.dart';
+import 'package:metaozce/entity/User.dart';
 
 import 'package:metaozce/pages/SigninPage/signin_screen.dart';
 import 'package:metaozce/pages/SignupPage/signup_screen.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'dart:async';
+
+import 'package:metaozce/service/signup_service.dart';
 
 class SignupView extends StatefulWidget {
   const SignupView({Key? key}) : super(key: key);
@@ -53,6 +56,22 @@ class _SignupViewState extends State<SignupView> {
     } else if (controllerPassword.text != controllerPasswordAgain.text) {
       showToast("Passwords do not match.", Colors.red);
     }
+  }
+
+  signupOnPage(String fullname, String username, String password) async{
+  final apiService = SignupService();
+  final newUser = User(
+    fullname: fullname,
+    username: username,
+    password: password
+  );
+
+  try {
+    final response = await apiService.createUser(newUser);
+    print('Response: ${response.data}');
+  } catch (e) {
+    print('Error: $e');
+  }
   }
 
   @override
@@ -173,73 +192,79 @@ class _SignupViewState extends State<SignupView> {
 
   bool _isButtonDisabled = false;
 
-  Widget buildLogin() => Builder(
-        builder: (context) => SizedBox(
-          width: double.infinity,
-          child: ElevatedButton(
-            onPressed: _isButtonDisabled
-                ? null
-                : () {
-                    setState(() {
-                      _isButtonDisabled = true;
-                    });
+Widget buildLogin() => Builder(
+  builder: (context) => SizedBox(
+    width: double.infinity,
+    child: ElevatedButton(
+      onPressed: _isButtonDisabled
+        ? null
+        : () async {
+          setState(() {
+            _isButtonDisabled = true;
+          });
 
-                    final Timer timer = Timer(Duration(seconds: 1), () {
-                      setState(() {
-                        _isButtonDisabled = false;
-                      });
-                    });
+          final Timer timer = Timer(Duration(seconds: 1), () {
+            setState(() {
+              _isButtonDisabled = false;
+            });
+          });
 
-                    final isValid = formKey.currentState!.validate();
-                    if (flagFullname &&
-                        flagPasswordAgain &&
-                        flagPassword &&
-                        isValid) {
-                      Fluttertoast.showToast(
-                          fontSize: 15,
-                          toastLength: Toast.LENGTH_LONG,
-                          msg: "Kayıt başarılır",
-                          gravity: ToastGravity.BOTTOM,
-                          backgroundColor: Colors.green);
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => SigninScreen()),
-                      ).then((value) {
-                        timer.cancel();
-                        setState(() {
-                          _isButtonDisabled = false;
-                        });
-                      });
-                    } else {
-                      checkFlagsAndShowToast();
-                    }
-                  },
-            style: ElevatedButton.styleFrom(
-              backgroundColor: _isButtonDisabled ? Colors.grey : kPrimaryColor,
-              textStyle: TextStyle(
-                fontSize: MediaQuery.of(context).size.width * 0.045,
-              ),
-              elevation: 4,
-              shadowColor: Colors.grey,
-              padding: EdgeInsets.symmetric(vertical: 16),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(50),
-              ),
-              minimumSize: Size(double.infinity, 50),
-              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-              animationDuration: Duration(milliseconds: 300),
-            ),
-            child: Text(
-              "SIGN UP",
-              style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.w600,
-                fontSize: 20,
-              ),
-            ),
-          ),
+          final isValid = formKey.currentState!.validate();
+          if (flagFullname &&
+              flagPasswordAgain &&
+              flagPassword &&
+              isValid) {
+          
+
+            // User nesnesini signupOnPage fonksiyonuna gönder ve kaydı yap
+            await signupOnPage(controllerFullname.text, controllerUsername.text, controllerPassword.text);
+            Fluttertoast.showToast(
+              fontSize: 15,
+              toastLength: Toast.LENGTH_LONG,
+              msg: "Kayıt başarılır",
+              gravity: ToastGravity.BOTTOM,
+              backgroundColor: Colors.green,
+            );
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => SigninScreen()),
+            ).then((value) {
+              timer.cancel();
+              setState(() {
+                _isButtonDisabled = false;
+              });
+            });
+          } else {
+            checkFlagsAndShowToast();
+          }
+        },
+      style: ElevatedButton.styleFrom(
+        backgroundColor: _isButtonDisabled ? Colors.grey : kPrimaryColor,
+        textStyle: TextStyle(
+          fontSize: MediaQuery.of(context).size.width * 0.045,
         ),
-      );
+        elevation: 4,
+        shadowColor: Colors.grey,
+        padding: EdgeInsets.symmetric(vertical: 16),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(50),
+        ),
+        minimumSize: Size(double.infinity, 50),
+        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+        animationDuration: Duration(milliseconds: 300),
+      ),
+      child: Text(
+        "SIGN UP",
+        style: TextStyle(
+          color: Colors.white,
+          fontWeight: FontWeight.w600,
+          fontSize: 20,
+        ),
+      ),
+    ),
+  ),
+);
+
 
   Widget buildFullname() => TextFormField(
         controller: controllerFullname,
