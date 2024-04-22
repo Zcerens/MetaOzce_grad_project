@@ -2,11 +2,14 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:metaozce/const/constant.dart';
-import 'package:metaozce/pages/HomePage/home_screen.dart';
+import 'package:metaozce/entity/User.dart';
+
 import 'package:metaozce/pages/SigninPage/signin_screen.dart';
 import 'package:metaozce/pages/SignupPage/signup_screen.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'dart:async';
+
+import 'package:metaozce/service/signup_service.dart';
 
 class SignupView extends StatefulWidget {
   const SignupView({Key? key}) : super(key: key);
@@ -55,6 +58,19 @@ class _SignupViewState extends State<SignupView> {
     }
   }
 
+  signupOnPage(String fullname, String username, String password) async {
+    final apiService = SignupService();
+    final newUser =
+        User(fullname: fullname, username: username, password: password);
+
+    try {
+      final response = await apiService.createUser(newUser);
+      print('Response: ${response.data}');
+    } catch (e) {
+      print('Error: $e');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -94,11 +110,10 @@ class _SignupViewState extends State<SignupView> {
                       height: defaultPadding * 11,
                     ),
                     SingleChildScrollView(
-                    
-      
-                  physics: BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
+                      physics: BouncingScrollPhysics(
+                          parent: AlwaysScrollableScrollPhysics()),
                       child: Padding(
-                        padding:EdgeInsets.fromLTRB(8, 30, 8, 8),
+                        padding: EdgeInsets.fromLTRB(8, 30, 8, 8),
                         child: Column(
                           children: [
                             buildFullname(),
@@ -108,7 +123,7 @@ class _SignupViewState extends State<SignupView> {
                             buildPassword(),
                             const SizedBox(height: defaultPadding),
                             buildPasswordAgain(),
-                            const SizedBox(height: defaultPadding),                      
+                            const SizedBox(height: defaultPadding),
                             buildLogin(),
                             const SizedBox(height: defaultPadding),
                             Center(//todo logolar buraya da gelebilir
@@ -179,7 +194,7 @@ class _SignupViewState extends State<SignupView> {
           child: ElevatedButton(
             onPressed: _isButtonDisabled
                 ? null
-                : () {
+                : () async {
                     setState(() {
                       _isButtonDisabled = true;
                     });
@@ -195,12 +210,16 @@ class _SignupViewState extends State<SignupView> {
                         flagPasswordAgain &&
                         flagPassword &&
                         isValid) {
+                      
+                      await signupOnPage(controllerFullname.text,
+                          controllerUsername.text, controllerPassword.text);
                       Fluttertoast.showToast(
-                          fontSize: 15,
-                          toastLength: Toast.LENGTH_LONG,
-                          msg: "Kayıt başarılır",
-                          gravity: ToastGravity.BOTTOM,
-                          backgroundColor: Colors.green);
+                        fontSize: 15,
+                        toastLength: Toast.LENGTH_LONG,
+                        msg: "Kayıt başarılır",
+                        gravity: ToastGravity.BOTTOM,
+                        backgroundColor: Colors.green,
+                      );
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => SigninScreen()),

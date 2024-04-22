@@ -2,14 +2,14 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:metaozce/const/constant.dart';
-import 'package:metaozce/pages/HomePage/home_screen.dart';
+
 import 'package:metaozce/pages/SignupPage/signup_screen.dart';
 import 'package:metaozce/widgets/navigationBar.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'dart:async';
-
+import 'package:dio/dio.dart';
 class SigninView extends StatefulWidget {
-  const SigninView({Key? key}) : super(key: key);
+   SigninView({Key? key}) : super(key: key);
 
   @override
   State<SigninView> createState() => _SigninViewState();
@@ -27,7 +27,23 @@ class _SigninViewState extends State<SigninView> {
   String? username = "";
   String? password = "";
   final _controller = TextEditingController();
+  final Dio _dio = Dio();
+  Future<dynamic> getHotelById(int id) async {
+                      try {
+                        final response = await _dio.get(
+                          'http://80.253.246.51:8080/hotel/$id',
+                        );
+                        final responseData = response.data;
+                        print(responseData["id"]);
 
+                        print(responseData["otelAd"]);
+                        print(responseData["fiyat"]);
+                        return responseData;
+                      } catch (error) {
+                        print('Error fetching hotel with ID : $error'); // Hata mesajını yazdır
+                        throw Exception('Failed to get hotel with ID: $error');
+                      }
+                    }
   @override
   Widget build(BuildContext context) {
     return ListView(
@@ -156,7 +172,11 @@ class _SigninViewState extends State<SigninView> {
                 ? null
                 : () {
                     setState(() {
+
                       _isButtonDisabled = true;
+                     getHotelById(1);
+
+                      
                     });
 
                     final Timer timer = Timer(Duration(seconds: 1), () {

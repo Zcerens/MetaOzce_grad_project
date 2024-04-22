@@ -1,11 +1,13 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:metaozce/const/constant.dart';
+
 import 'package:flutter/material.dart';
-import 'package:metaozce/pages/HomePage/home_screen.dart';
+import 'package:metaozce/const/constant.dart';
+
 import 'package:metaozce/pages/ProfilePage/components/profile_view.dart';
 import 'package:metaozce/pages/ProfilePage/profile_screen.dart';
 
 import 'package:metaozce/pages/SigninPage/signin_screen.dart';
+import 'package:metaozce/pages/HomePage/components/home_view.dart';
 
 
 
@@ -33,7 +35,7 @@ class _NavigationBarMyState extends State<NavigationBarMy> {
   Widget build(BuildContext context) {
     int currentIndex = 0;
     final screens = [
-      ProfileScreen(),
+      HomeView(),
       ProfileScreen(),
       
     ];

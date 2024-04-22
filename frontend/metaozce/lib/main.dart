@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+
 import 'package:metaozce/pages/SigninPage/signin_screen.dart';
 import 'package:metaozce/const/constant.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:metaozce/pages/SignupPage/signup_screen.dart';
 import 'package:metaozce/pages/WelcomePage/welcome_screen.dart';
+import 'package:metaozce/pages/HomePage/components/home_view.dart';
+import 'package:metaozce/pages/MyHotelsPage/components/my_hotels_view.dart';
+import 'package:metaozce/widgets/navigationBar.dart';
 
 
 void main() {
@@ -17,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'PersonelApp',
+        title: 'MetaOzceApp',
         theme: ThemeData(
               iconTheme: IconThemeData(
               color: iconColor, // Tüm ikonların rengini gri yap
@@ -50,6 +54,6 @@ class MyApp extends StatelessWidget {
                 borderSide: BorderSide.none,
               ),
             )),
-        home: WelcomeScreen());
+        home: SigninScreen());
   }
 }

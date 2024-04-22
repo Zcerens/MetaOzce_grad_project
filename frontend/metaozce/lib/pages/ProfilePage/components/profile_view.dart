@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:metaozce/pages/HomePage/home_screen.dart';
+import 'package:metaozce/pages/MyHotelsPage/components/my_hotels_view.dart';
+import 'package:metaozce/pages/MyHotelsPage/my_hotels_screen.dart';
+
 import 'package:metaozce/pages/SignupPage/signup_screen.dart';
 import 'package:metaozce/const/constant.dart';
+import 'package:metaozce/pages/HomePage/components/home_view.dart';
 
 
 import 'entity/profile_menu.dart';
@@ -28,7 +31,9 @@ class ProfileScreenView extends StatelessWidget {
             text: "Visited Hotels",
             icon: Icon(Icons.hotel,  color: kPrimaryColor,),
             
-            press: () {},
+            press: () {Navigator.push(context,
+                MaterialPageRoute(builder: (context) => MyHotelsScreen()));
+                },
           ),
           ProfileMenu(
             text: "Motification",
@@ -45,7 +50,7 @@ class ProfileScreenView extends StatelessWidget {
             text: "Feedback",
             icon: Icon(Icons.feedback,  color: kPrimaryColor,),
             press: () => Navigator.push(context,
-                MaterialPageRoute(builder: (context) => HomeScreen())),
+                MaterialPageRoute(builder: (context) => HomeView())),
           ),
           ProfileMenu(
             text: "Logout",

@@ -1,26 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:metaozce/components/background.dart';
+import 'package:metaozce/pages/HomePage/components/home_view.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
 
-  @override
-  _HomeScreenState createState() => _HomeScreenState();
-}
 
-class _HomeScreenState extends State<HomeScreen> {
+
+class ProfileScreen extends StatelessWidget {
+  const ProfileScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Boş Sayfa'),
-      ),
-      body: Center(
-        child: Container(
-          width: 200,
-          height: 200,
-          color: Colors.pink,
-        ),
-      ),
+    return Background(
+      title: "Home",
+      child: HomeView(),
     );
   }
 }
