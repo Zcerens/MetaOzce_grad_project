@@ -18,19 +18,3 @@ class SignupService {
 }
 
 
-// Kullanım örneği
-// void main() async {
-//   final apiService = SignupService();
-//   final newUser = User(
-//     fullname: 'John Doe',
-//     username: 'johndoe',
-//     password: 'password123',
-//   );
-
-//   try {
-//     final response = await apiService.createUser(newUser);
-//     print('Response: ${response.data}');
-//   } catch (e) {
-//     print('Error: $e');
-//   }
-// }

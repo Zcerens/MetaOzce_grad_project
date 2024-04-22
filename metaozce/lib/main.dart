@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'PersonelApp',
+        title: 'MetaOzceApp',
         theme: ThemeData(
               iconTheme: IconThemeData(
               color: iconColor, // Tüm ikonların rengini gri yap
@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
                 borderSide: BorderSide.none,
               ),
             )),
-        home: SignupScreen
+        home: NavigationBarMy
         
         ());
   }

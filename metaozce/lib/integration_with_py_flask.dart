@@ -28,8 +28,8 @@ class _OtelListesiState extends State<OtelListesi> {
   List<String> onerilenOteller = [];
 
   Future<void> fetchOnerilenOteller(String oncekiOtelAd) async {
-    
-   final response = await http.get(Uri.parse('http://127.0.0.1:5000/onerilen-oteller/$oncekiOtelAd'));
+    final response = await http.get(Uri.parse('http://80.253.246.51:5000/onerilen-oteller/$oncekiOtelAd'));
+
 
     print(response);
    if (response.statusCode == 200) {
@@ -42,13 +42,11 @@ class _OtelListesiState extends State<OtelListesi> {
 }
 
 
-  //   http.get(Uri.parse('http://127.0.0.1:54792/onerilen-oteller/$oncekiOtelAd')).then((response)=>
-  //    onerilenOteller = List<String>.from(jsonDecode(response.body))).catchError((error) => print(error));
   }
 
   @override
   void initState() {
-    fetchOnerilenOteller('Adam Eve'); // Örnek olarak
+    fetchOnerilenOteller('Adam Eve'); 
     super.initState();
   }
 

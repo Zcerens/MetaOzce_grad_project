@@ -9,6 +9,9 @@ import 'package:metaozce/pages/HomePage/components/widgets/feauture_item.dart';
 
 import 'package:metaozce/pages/HomePage/components/widgets/recommend_item.dart';
 import 'package:metaozce/pages/HomePage/components/widgets/search_item.dart';
+import 'package:metaozce/service/hotel_service.dart';
+import 'package:metaozce/service/hotel_user_history_service.dart';
+import 'package:metaozce/service/python_service.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({Key? key}) : super(key: key);
@@ -24,6 +27,38 @@ class _HomeViewState extends State<HomeView> {
   List<Map<String, dynamic>> searchHotels = [];
   bool tiklandi = false;
   FocusNode focusNode = FocusNode();
+  List<dynamic> allUserHistoryHotels = [];
+  List<dynamic> allRecommendsHotels = [];
+
+  fetchAllHotelUserHistory() async {
+    final HotelUserHistoryService hotelUserHistoryService =
+        HotelUserHistoryService();
+    // HotelUserHistoryService'deki getHotelHistoryById metodunu çağırarak bir otel al
+    try {
+      final hotelData =
+          await hotelUserHistoryService.getHotelHistoryByUserId(102);
+      allUserHistoryHotels = List<dynamic>.from(hotelData);
+      print(allUserHistoryHotels);
+      print('Hotel Data: $hotelData');
+      //fetchAllRecommendHotels();
+    } catch (e) {
+      print('Error: $e');
+    }
+  }
+
+  fetchAllRecommendHotels() async {
+    final PythonEntegration pythonEntegration = PythonEntegration();
+    // HotelUserHistoryService'deki getHotelHistoryById metodunu çağırarak bir otel al
+    try {
+      final recommendsData = await pythonEntegration
+          .getAllRecommendHotels(allUserHistoryHotels[0]['hotel']['otelAd']);
+      allRecommendsHotels = List<dynamic>.from(recommendsData);
+      print(allRecommendsHotels);
+      print('Hotel Data: $recommendsData');
+    } catch (e) {
+      print('Error: $e');
+    }
+  }
 
   void queryListener() {
     search(searchController.text);
@@ -55,6 +90,8 @@ class _HomeViewState extends State<HomeView> {
   @override
   void initState() {
     super.initState();
+    fetchAllHotelUserHistory();
+   // fetchAllRecommendHotels();
     searchController.addListener(queryListener);
     focusNode.addListener(() {
       if (!focusNode.hasFocus) {
@@ -135,7 +172,6 @@ class _HomeViewState extends State<HomeView> {
             ),
           ),
           _buildSearch(),
-         
           _buildCities(),
           const SizedBox(
             height: 10,
@@ -176,59 +212,75 @@ class _HomeViewState extends State<HomeView> {
     );
   }
 
-  _buildReccommended() {
-    List<Map<String, dynamic>> favoritedFeatures = [];
-
-    return CarouselSlider(
-      options: CarouselOptions(
-        height: MediaQuery.of(context).size.height * 0.4,
-        enlargeCenterPage: true,
-        disableCenter: true,
-        viewportFraction: .75,
-      ),
-      items: List.generate(
-        recommends.length,
-        (index) {
-          if (recommends[index]["is_favorited"]) {
-            favoritedFeatures.add(recommends[index]);
-          }
-          return RecommendItem(
-            data: recommends[index],
-            onTapFavorite: () {
-              setState(() {
-                recommends[index]["is_favorited"] =
-                    !recommends[index]["is_favorited"];
-                if (recommends[index]["is_favorited"]) {
-                  favoritedFeatures.add(recommends[index]);
-                } else {
-                  favoritedFeatures.remove(recommends[index]);
-                }
-              });
-            },
-          );
-        },
-      ),
-    );
-  }
-
-
-
-  
-  _buildFeauture() {
-    return SingleChildScrollView(
-      padding: EdgeInsets.fromLTRB(15, 5, 0, 5),
-      scrollDirection: Axis.vertical,
-      child: Column(
-        children: List.generate(
-          features.length,
-          (index) => Padding(
-            padding: const EdgeInsets.only(bottom: 10),
-            child: FeautureItem(
-              data: features[index],
-            ),
+_buildReccommended() {
+  return FutureBuilder(
+    future: fetchAllRecommendHotels(),
+    builder: (context, snapshot) {
+      if (snapshot.connectionState == ConnectionState.waiting) {
+        return CircularProgressIndicator();
+      } else if (snapshot.hasError) {
+        return Text('Error: ${snapshot.error}');
+      } else {
+        // Veriler başarıyla alındı
+        return CarouselSlider(
+          options: CarouselOptions(
+            height: MediaQuery.of(context).size.height * 0.4,
+            enlargeCenterPage: true,
+            disableCenter: true,
+            viewportFraction: .75,
           ),
-        ),
-      ),
+          items: List.generate(
+            allRecommendsHotels.length,
+            (index) {
+              return RecommendItem(
+                data: allRecommendsHotels[index],
+                onTapFavorite: () {
+                  setState(() {
+                    // İlgili işlemler
+                  });
+                },
+              );
+            },
+          ),
+        );
+      }
+    },
+  );
+}
+
+
+  _buildFeauture() {
+    final HotelService _hotelService = HotelService();
+
+    return FutureBuilder(
+      future: _hotelService.getHotelAll(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return Center(child: CircularProgressIndicator());
+        } else if (snapshot.hasError) {
+          return Center(child: Text('Error: ${snapshot.error}'));
+        } else {
+          // Veri başarıyla alındı
+          List<dynamic> allHotels = [];
+          allHotels = _hotelService.hotels;
+
+          return SingleChildScrollView(
+            padding: EdgeInsets.fromLTRB(15, 5, 0, 5),
+            scrollDirection: Axis.vertical,
+            child: Column(
+              children: List.generate(
+                allHotels.length,
+                (index) => Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: FeautureItem(
+                    data: allHotels[index],
+                  ),
+                ),
+              ),
+            ),
+          );
+        }
+      },
     );
   }
 
@@ -253,8 +305,6 @@ class _HomeViewState extends State<HomeView> {
       ),
     );
   }
-
-
 
   _buildSearch() {
     return Column(
@@ -285,7 +335,7 @@ class _HomeViewState extends State<HomeView> {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.only(left:8.0, right:8.0),
+          padding: const EdgeInsets.only(left: 8.0, right: 8.0),
           child: Container(
             height: tiklandi
                 ? MediaQuery.of(context).size.height * 0.2
@@ -293,7 +343,8 @@ class _HomeViewState extends State<HomeView> {
             child: ListView.builder(
               itemCount: tiklandi ? searchHotels.length : recommends.length,
               itemBuilder: (context, index) {
-                final hotel = tiklandi ? searchHotels[index] : recommends[index];
+                final hotel =
+                    tiklandi ? searchHotels[index] : recommends[index];
                 return Card(
                   child: ListTile(
                     leading: CircleAvatar(
@@ -301,12 +352,12 @@ class _HomeViewState extends State<HomeView> {
                     ),
                     title: Text(hotel["name"]),
                     subtitle: Text(hotel["location"]),
-                    
                     onTap: () {
                       Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => DetailScreen(data: hotel)), 
-        );
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => DetailScreen(data: hotel)),
+                      );
                     },
                   ),
                 );
@@ -317,6 +368,4 @@ class _HomeViewState extends State<HomeView> {
       ],
     );
   }
-
-  
 }

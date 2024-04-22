@@ -49,7 +49,7 @@ class DetailItem extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            _buildImage(),
+           // _buildImage(),
             Container(
               width: width - 20,
               padding: EdgeInsets.fromLTRB(5, 10, 5, 0),
@@ -60,7 +60,7 @@ class DetailItem extends StatelessWidget {
                   SizedBox(
                     height: 5,
                   ),
-                  _buildInfo(),
+                  //_buildInfo(),
                 ],
               ),
             )
@@ -71,8 +71,9 @@ class DetailItem extends StatelessWidget {
   }
 
   Widget _buildName() {
+    
     return Text(
-      data["name"],
+      data.otelAd.toString(),
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
       style: TextStyle(
@@ -91,7 +92,7 @@ class DetailItem extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              data["location"],
+              data["otelAd"],
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(
@@ -103,7 +104,7 @@ class DetailItem extends StatelessWidget {
               height: 8,
             ),
             Text(
-              data["price"],
+              data["bolge"],
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(

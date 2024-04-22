@@ -1,6 +1,7 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:metaozce/const/constant.dart';
+
 import 'package:flutter/material.dart';
+import 'package:metaozce/const/constant.dart';
 
 import 'package:metaozce/pages/ProfilePage/components/profile_view.dart';
 import 'package:metaozce/pages/ProfilePage/profile_screen.dart';

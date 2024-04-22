@@ -24,6 +24,7 @@ class RecommendItem extends StatelessWidget {
   final GestureTapCallback? onTapFavorite;
   final GestureTapCallback? onTap;
 
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -53,7 +54,7 @@ class RecommendItem extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            _buildImage(context),
+          _buildImage(context),
             Container(
               width: width - 20,
               padding: EdgeInsets.fromLTRB(5, 10, 5, 0),
@@ -64,7 +65,7 @@ class RecommendItem extends StatelessWidget {
                   SizedBox(
                     height: 5,
                   ),
-                  _buildInfo(),
+                //  _buildInfo(),
                 ],
               ),
             )
@@ -76,7 +77,7 @@ class RecommendItem extends StatelessWidget {
 
   Widget _buildName() {
     return Text(
-      data["name"],
+      data,
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
       style: TextStyle(
@@ -129,7 +130,7 @@ class RecommendItem extends StatelessWidget {
 
   Widget _buildImage(BuildContext context) {
     return CustomImage(
-      data["image"],
+     "https://images.unsplash.com/photo-1505692952047-1a78307da8f2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
       width: double.infinity,
       height: MediaQuery.of(context).size.width * 0.45,
       radius: 15,

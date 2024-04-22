@@ -42,7 +42,7 @@ class FeautureItem extends StatelessWidget {
         ),
         child: Row(
           children: [
-            _buildImage(context),
+           _buildImage(context),
             const SizedBox(
               width: 10,
             ),
@@ -60,7 +60,7 @@ class FeautureItem extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          data["name"],
+          data["otelAd"],
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
           style: TextStyle(
@@ -73,7 +73,7 @@ class FeautureItem extends StatelessWidget {
           height: 5,
         ),
         Text(
-          data["type"],
+          data["bolge"],
           style: TextStyle(
             fontSize: 12,
             color: AppColor.labelColor,
@@ -82,7 +82,7 @@ class FeautureItem extends StatelessWidget {
         const SizedBox(
           height: 15,
         ),
-        _buildRateAndPrice(),
+       // _buildRateAndPrice(),
       ],
     );
   }
@@ -118,7 +118,7 @@ class FeautureItem extends StatelessWidget {
 
   Widget _buildImage(BuildContext context) {
     return CustomImage(
-      data["image"],
+      "https://images.unsplash.com/photo-1598928636135-d146006ff4be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
       radius: 15,
       height: MediaQuery.of(context).size.width * 0.2,
     );

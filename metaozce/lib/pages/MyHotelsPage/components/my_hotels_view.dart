@@ -4,7 +4,9 @@ import 'package:metaozce/const/constant.dart';
 import 'package:metaozce/pages/DetailPage/detail_screen.dart';
 
 import 'package:metaozce/pages/HomePage/components/widgets/data.dart';
-import 'package:metaozce/pages/MyHotelsPage/components/widgets/hotel_item.dart'; // Renkleri içe aktardık
+import 'package:metaozce/pages/MyHotelsPage/components/widgets/hotel_item.dart';
+import 'package:metaozce/service/hotel_service.dart';
+import 'package:metaozce/service/hotel_user_history_service.dart'; // Renkleri içe aktardık
 
 class MyHotelsView extends StatefulWidget {
   @override
@@ -14,11 +16,58 @@ class MyHotelsView extends StatefulWidget {
 class _MyHotelsViewState extends State<MyHotelsView> {
   final TextEditingController searchController = TextEditingController();
 
-  List<Map<String, dynamic>> searchHotels = [];
+  List<dynamic> searchHotels = [];
 
   bool tiklandi = false;
 
   FocusNode focusNode = FocusNode();
+  List<dynamic> allHotels = [];
+  List<dynamic> allUserHistoryHotels = [];
+
+  fetchAllHotels() async {
+    final HotelService hotelService = HotelService();
+
+    // HotelService'deki getHotelWithId metodunu çağırarak bir otel al
+    try {
+      List<dynamic> oteller = await hotelService.getHotelAll();
+      setState(() {
+        allHotels = List<dynamic>.from(oteller); // Tüm otelleri güncelle
+        searchHotels = List<dynamic>.from(allHotels); // Başlangıçta tüm otelleri arama sonuçları olarak ayarla
+      });
+      print('Hotel Data: $allHotels');
+      return allHotels;
+    } catch (e) {
+      print('Error: $e');
+    }
+  }
+
+  fetchAllHotelUserHistory() async {
+    final HotelUserHistoryService hotelUserHistoryService =HotelUserHistoryService();
+    // HotelUserHistoryService'deki getHotelHistoryById metodunu çağırarak bir otel al
+   try {
+    final hotelData = await hotelUserHistoryService.getHotelHistoryByUserId(102);
+    allUserHistoryHotels = List<dynamic>.from(hotelData);
+    print(allUserHistoryHotels);
+    print('Hotel Data: $hotelData');
+  } catch (e) {
+    print('Error: $e');
+  }
+  }
+
+  createHotelUserHistory(int hotelId, int userId) async {
+
+      final HotelUserHistoryService hotelUserHistoryService = HotelUserHistoryService();
+
+  // HotelService'deki getHotelWithId metodunu çağırarak bir otel al
+  try {
+  final response =  await hotelUserHistoryService.createHotelHistory(hotelId, 102); //TODO UserId değişecek
+
+    print('Response : $response');
+  } catch (e) {
+    print('Error: $e');
+  }
+  }
+  
 
   void queryListener() {
     search(searchController.text);
@@ -27,13 +76,13 @@ class _MyHotelsViewState extends State<MyHotelsView> {
   void search(String query) {
     if (query.isEmpty) {
       setState(() {
-        searchHotels = List<Map<String, dynamic>>.from(
-            recommends); // recommends listesini searchHotels'e atar.
+        searchHotels = List<dynamic>.from(
+            allHotels); // Tüm otelleri arama sonuçları olarak ayarla
       });
     } else {
       setState(() {
-        searchHotels = recommends
-            .where((e) => (e['name'] as String)
+        searchHotels = allHotels
+            .where((e) => (e['otelAd'] as String)
                 .toLowerCase()
                 .contains(query.toLowerCase()))
             .toList(); // Query'ye göre otel isimlerini filtreler ve searchHotels'e atar.
@@ -44,6 +93,8 @@ class _MyHotelsViewState extends State<MyHotelsView> {
   @override
   void initState() {
     super.initState();
+    fetchAllHotels();
+    fetchAllHotelUserHistory();
     searchController.addListener(queryListener);
     focusNode.addListener(() {
       if (!focusNode.hasFocus) {
@@ -65,46 +116,51 @@ class _MyHotelsViewState extends State<MyHotelsView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          _buildSearch(),
-          SizedBox(height: 10),
-               Padding(
-            padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
-            child: Text(
-              "My Visited Hotel",
-              style: TextStyle(
-                color: Colors.black,
-                fontWeight: FontWeight.w500,
-                fontSize: 22,
-              ),
+      body: tiklandi
+          ? Container(
+              //color: Colors.teal,
+              height: MediaQuery.of(context).size.height * 0.9,
+              child: _buildSearch(),
+            )
+          : Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                _buildSearch(),
+                SizedBox(height: 10),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
+                  child: Text(
+                    "My Visited Hotel",
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontWeight: FontWeight.w500,
+                      fontSize: 22,
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: ListView.builder(
+                    itemCount: allUserHistoryHotels.length, // Otellerin sayısı
+                    itemBuilder: (context, index) {
+                      final hotel = allUserHistoryHotels[index];
+                      return HotelItem(
+                        data: hotel,
+                      );
+                    },
+                  ),
+                ),
+              ],
             ),
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount: recommends.length, // Otellerin sayısı
-              itemBuilder: (context, index) {
-                final hotel = recommends[index];
-                return HotelItem(
-                  data: hotel,
-                  
-                );
-              },
-            ),
-          ),
-        ],
-      ),
     );
   }
 
   _buildSearch() {
     return Column(
       children: [
-        Container(
+        SizedBox(
           height: MediaQuery.of(context).size.height * 0.08,
           child: Padding(
-            padding: const EdgeInsets.only(left: 10.0, right: 1, top:10),
+            padding: const EdgeInsets.only(left: 10.0, right: 1, top: 10),
             child: SearchBar(
               focusNode: focusNode,
               onTap: () {
@@ -118,7 +174,7 @@ class _MyHotelsViewState extends State<MyHotelsView> {
                 });
               },
               controller: searchController,
-              hintText: "Search..",
+              hintText: "Add..",
               leading: IconButton(
                 icon: Icon(Icons.search),
                 onPressed: () {},
@@ -127,35 +183,99 @@ class _MyHotelsViewState extends State<MyHotelsView> {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.only(left: 8.0, right: 8.0),
+          padding: const EdgeInsets.all(20),
           child: Container(
-            height: tiklandi
-                ? MediaQuery.of(context).size.height * 0.2
-                : MediaQuery.of(context).size.height * 0.01,
-            child: ListView.builder(
-              itemCount: tiklandi ? searchHotels.length : recommends.length,
-              itemBuilder: (context, index) {
-                final hotel =
-                    tiklandi ? searchHotels[index] : recommends[index];
-                return Card(
-                  child: ListTile(
-                    leading: CircleAvatar(
-                      backgroundImage: NetworkImage(hotel["image"]),
-                    ),
-                    title: Text(hotel["name"]),
-                    subtitle: Text(hotel["location"]),
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => DetailScreen(data: hotel)),
-                      );
-                    },
-                  ),
-                );
-              },
-            ),
-          ),
+              height: tiklandi
+                  ? MediaQuery.of(context).size.height * 0.6
+                  : MediaQuery.of(context).size.height * 0.001,
+              child: searchHotels.isEmpty
+                  ? Center(
+                      child: Text(
+                        "Not Found",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    )
+                  : ListView.builder(
+                      itemCount: tiklandi
+                          ? searchHotels.length + 1
+                          : allHotels.length + 1,
+                      itemBuilder: (context, index) {
+                        if (index ==
+                            (tiklandi
+                                ? searchHotels.length
+                                : allHotels.length)) {
+                          // Son eleman, yani artı butonu
+                          return Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: GestureDetector(
+                              onTap: () {
+                                // Artı butonuna basıldığında yapılacak işlemler
+                                // Örneğin yeni bir otel eklemek için bir işlevi çağırabilirsiniz
+                                // Örnek:
+                               
+                              },
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(8),
+                                  color:
+                                      Colors.amber, // Butonun arka plan rengi
+                                ),
+                                child: Center(
+                                  child: Icon(
+                                    Icons.add,
+                                    color: Colors.white, // Buton ikonunun rengi
+                                  ),
+                                ),
+                              ),
+                            ),
+                          );
+                        } else {
+                          final hotel =
+                              tiklandi ? searchHotels[index] : allHotels[index];
+
+                          return Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: ListTile(
+                              focusColor: Colors.amber,
+                              leading: CircleAvatar(
+                                  // backgroundImage: NetworkImage(hotel["image"]),
+                                  ),
+                              title: Text(
+                                hotel["otelAd"],
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              trailing: IconButton(
+                                icon: Icon(Icons.add),
+                                onPressed: () {
+                                   createHotelUserHistory(searchHotels[index]['id'], 52);//TODO
+                                },
+                              ),
+                              subtitle: Text(
+                                hotel["bolge"],
+                                style: TextStyle(
+                                  fontSize: 14,
+                                ),
+                              ),
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        DetailScreen(data: hotel),
+                                  ),
+                                );
+                              },
+                            ),
+                          );
+                        }
+                      },
+                    )),
         ),
       ],
     );

@@ -58,20 +58,17 @@ class _SignupViewState extends State<SignupView> {
     }
   }
 
-  signupOnPage(String fullname, String username, String password) async{
-  final apiService = SignupService();
-  final newUser = User(
-    fullname: fullname,
-    username: username,
-    password: password
-  );
+  signupOnPage(String fullname, String username, String password) async {
+    final apiService = SignupService();
+    final newUser =
+        User(fullname: fullname, username: username, password: password);
 
-  try {
-    final response = await apiService.createUser(newUser);
-    print('Response: ${response.data}');
-  } catch (e) {
-    print('Error: $e');
-  }
+    try {
+      final response = await apiService.createUser(newUser);
+      print('Response: ${response.data}');
+    } catch (e) {
+      print('Error: $e');
+    }
   }
 
   @override
@@ -113,11 +110,10 @@ class _SignupViewState extends State<SignupView> {
                       height: defaultPadding * 11,
                     ),
                     SingleChildScrollView(
-                    
-      
-                  physics: BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
+                      physics: BouncingScrollPhysics(
+                          parent: AlwaysScrollableScrollPhysics()),
                       child: Padding(
-                        padding:EdgeInsets.fromLTRB(8, 30, 8, 8),
+                        padding: EdgeInsets.fromLTRB(8, 30, 8, 8),
                         child: Column(
                           children: [
                             buildFullname(),
@@ -127,7 +123,7 @@ class _SignupViewState extends State<SignupView> {
                             buildPassword(),
                             const SizedBox(height: defaultPadding),
                             buildPasswordAgain(),
-                            const SizedBox(height: defaultPadding),                      
+                            const SizedBox(height: defaultPadding),
                             buildLogin(),
                             const SizedBox(height: defaultPadding),
                             Center(//todo logolar buraya da gelebilir
@@ -192,79 +188,77 @@ class _SignupViewState extends State<SignupView> {
 
   bool _isButtonDisabled = false;
 
-Widget buildLogin() => Builder(
-  builder: (context) => SizedBox(
-    width: double.infinity,
-    child: ElevatedButton(
-      onPressed: _isButtonDisabled
-        ? null
-        : () async {
-          setState(() {
-            _isButtonDisabled = true;
-          });
+  Widget buildLogin() => Builder(
+        builder: (context) => SizedBox(
+          width: double.infinity,
+          child: ElevatedButton(
+            onPressed: _isButtonDisabled
+                ? null
+                : () async {
+                    setState(() {
+                      _isButtonDisabled = true;
+                    });
 
-          final Timer timer = Timer(Duration(seconds: 1), () {
-            setState(() {
-              _isButtonDisabled = false;
-            });
-          });
+                    final Timer timer = Timer(Duration(seconds: 1), () {
+                      setState(() {
+                        _isButtonDisabled = false;
+                      });
+                    });
 
-          final isValid = formKey.currentState!.validate();
-          if (flagFullname &&
-              flagPasswordAgain &&
-              flagPassword &&
-              isValid) {
-          
-
-            // User nesnesini signupOnPage fonksiyonuna gönder ve kaydı yap
-            await signupOnPage(controllerFullname.text, controllerUsername.text, controllerPassword.text);
-            Fluttertoast.showToast(
-              fontSize: 15,
-              toastLength: Toast.LENGTH_LONG,
-              msg: "Kayıt başarılır",
-              gravity: ToastGravity.BOTTOM,
-              backgroundColor: Colors.green,
-            );
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => SigninScreen()),
-            ).then((value) {
-              timer.cancel();
-              setState(() {
-                _isButtonDisabled = false;
-              });
-            });
-          } else {
-            checkFlagsAndShowToast();
-          }
-        },
-      style: ElevatedButton.styleFrom(
-        backgroundColor: _isButtonDisabled ? Colors.grey : kPrimaryColor,
-        textStyle: TextStyle(
-          fontSize: MediaQuery.of(context).size.width * 0.045,
+                    final isValid = formKey.currentState!.validate();
+                    if (flagFullname &&
+                        flagPasswordAgain &&
+                        flagPassword &&
+                        isValid) {
+                      
+                      await signupOnPage(controllerFullname.text,
+                          controllerUsername.text, controllerPassword.text);
+                      Fluttertoast.showToast(
+                        fontSize: 15,
+                        toastLength: Toast.LENGTH_LONG,
+                        msg: "Kayıt başarılır",
+                        gravity: ToastGravity.BOTTOM,
+                        backgroundColor: Colors.green,
+                      );
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SigninScreen()),
+                      ).then((value) {
+                        timer.cancel();
+                        setState(() {
+                          _isButtonDisabled = false;
+                        });
+                      });
+                    } else {
+                      checkFlagsAndShowToast();
+                    }
+                  },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: _isButtonDisabled ? Colors.grey : kPrimaryColor,
+              textStyle: TextStyle(
+                fontSize: MediaQuery.of(context).size.width * 0.045,
+              ),
+              elevation: 4,
+              shadowColor: Colors.grey,
+              padding: EdgeInsets.symmetric(vertical: 16),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(50),
+              ),
+              minimumSize: Size(double.infinity, 50),
+              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+              animationDuration: Duration(milliseconds: 300),
+            ),
+            child: Text(
+              "SIGN UP",
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.w600,
+                fontSize: 20,
+              ),
+            ),
+          ),
         ),
-        elevation: 4,
-        shadowColor: Colors.grey,
-        padding: EdgeInsets.symmetric(vertical: 16),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(50),
-        ),
-        minimumSize: Size(double.infinity, 50),
-        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-        animationDuration: Duration(milliseconds: 300),
-      ),
-      child: Text(
-        "SIGN UP",
-        style: TextStyle(
-          color: Colors.white,
-          fontWeight: FontWeight.w600,
-          fontSize: 20,
-        ),
-      ),
-    ),
-  ),
-);
-
+      );
 
   Widget buildFullname() => TextFormField(
         controller: controllerFullname,

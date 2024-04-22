@@ -1,7 +1,10 @@
+import 'dart:convert';
+
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:metaozce/const/constant.dart';
 import 'package:metaozce/pages/DetailPage/components/widgets/detail_item.dart';
+import 'package:metaozce/service/detail_service.dart';
 
 class DetailView extends StatefulWidget {
   final Map<String, dynamic> data;
@@ -14,19 +17,33 @@ class DetailView extends StatefulWidget {
 
 class _DetailView extends State<DetailView> {
   int _currentIndex = 0;
-
+  final DetailService _detailService = DetailService();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        padding: EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            DetailItem(data: widget.data),
-            _buildHotelDetail(context),
-          ],
-        ),
+      body: FutureBuilder(
+        future: _detailService.getHotelWithId(2),
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return Center(child: CircularProgressIndicator());
+          } else if (snapshot.hasError) {
+            return Center(child: Text('Error: ${snapshot.error}'));
+          } else {
+            // Veri başarıyla alındı
+            final responseData = snapshot.data;
+          
+            return SingleChildScrollView(
+              padding: EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                 // DetailItem(data:responseData), // widget.data yerine responseData kullanılmalı
+                  _buildHotelDetail(context),
+                ],
+              ),
+            );
+          }
+        },
       ),
     );
   }
@@ -62,11 +79,20 @@ class _DetailView extends State<DetailView> {
               },
             ),
             items: [
-              _buildDetailBox(context, 'Type: ${widget.data["type"]}', 'Rate: ${widget.data["rate"]}',
+              _buildDetailBox(
+                  context,
+                  'Type: ${widget.data["type"]}',
+                  'Rate: ${widget.data["rate"]}',
                   'Price: ${widget.data["price"]}'),
-              _buildDetailBox(context, 'Type: ${widget.data["type"]}', 'Rate: ${widget.data["rate"]}',
+              _buildDetailBox(
+                  context,
+                  'Type: ${widget.data["type"]}',
+                  'Rate: ${widget.data["rate"]}',
                   'Price: ${widget.data["price"]}'),
-              _buildDetailBox(context, 'Type: ${widget.data["type"]}', 'Rate: ${widget.data["rate"]}',
+              _buildDetailBox(
+                  context,
+                  'Type: ${widget.data["type"]}',
+                  'Rate: ${widget.data["rate"]}',
                   'Price: ${widget.data["price"]}'),
             ],
           ),
@@ -93,10 +119,12 @@ class _DetailView extends State<DetailView> {
     );
   }
 
-  Widget _buildDetailBox(BuildContext context, String type, String rate, String price) {
+  Widget _buildDetailBox(
+      BuildContext context, String type, String rate, String price) {
     return Center(
       child: Container(
-        width: MediaQuery.of(context).size.width * 0.9, // Adjust width as needed
+        width:
+            MediaQuery.of(context).size.width * 0.9, // Adjust width as needed
         child: Card(
           color: Colors.white,
           elevation: 10,

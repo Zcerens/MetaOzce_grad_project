@@ -38,17 +38,17 @@ class HotelItem extends StatelessWidget {
         child: Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        CircleAvatar(
-          radius: 40,
-          backgroundImage: NetworkImage(data['image']),
-        ),
+        // CircleAvatar(
+        //   radius: 40,
+        //   backgroundImage: NetworkImage(data['image']),
+        // ),
         SizedBox(width: 10),
         Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                data['name'],
+                data['hotel']['otelAd'],
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 16,
@@ -56,7 +56,7 @@ class HotelItem extends StatelessWidget {
               ),
               SizedBox(height: 5),
               Text(
-                data['price'],
+                data['hotel']['bolge'],
                 style: TextStyle(
                   fontSize: 14,
                   color: Colors.grey,
@@ -72,7 +72,7 @@ class HotelItem extends StatelessWidget {
                   ),
                   SizedBox(width: 5),
                   Text(
-                    data['location'],
+                    data['hotel']['bolge'],
                     style: TextStyle(fontSize: 14),
                   ),
                 ],
