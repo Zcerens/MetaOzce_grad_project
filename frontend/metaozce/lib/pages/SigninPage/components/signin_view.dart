@@ -27,23 +27,7 @@ class _SigninViewState extends State<SigninView> {
   String? username = "";
   String? password = "";
   final _controller = TextEditingController();
-  final Dio _dio = Dio();
-  Future<dynamic> getHotelById(int id) async {
-                      try {
-                        final response = await _dio.get(
-                          'http://80.253.246.51:8080/hotel/$id',
-                        );
-                        final responseData = response.data;
-                        print(responseData["id"]);
 
-                        print(responseData["otelAd"]);
-                        print(responseData["fiyat"]);
-                        return responseData;
-                      } catch (error) {
-                        print('Error fetching hotel with ID : $error'); // Hata mesajını yazdır
-                        throw Exception('Failed to get hotel with ID: $error');
-                      }
-                    }
   @override
   Widget build(BuildContext context) {
     return ListView(
@@ -171,13 +155,7 @@ class _SigninViewState extends State<SigninView> {
             onPressed: _isButtonDisabled
                 ? null
                 : () {
-                    setState(() {
-
-                      _isButtonDisabled = true;
-                     getHotelById(1);
-
-                      
-                    });
+                  
 
                     final Timer timer = Timer(Duration(seconds: 1), () {
                       setState(() {

@@ -21,7 +21,7 @@ class FeautureItem extends StatelessWidget {
       onTap: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => DetailScreen(data: data)), // DetailPage'e veri geçmek için 'data' parametresini kullandım
+          MaterialPageRoute(builder: (context) => DetailScreen(data: data["id"])), // DetailPage'e veri geçmek için 'data' parametresini kullandım
         );
       },
       child: Container(
@@ -100,12 +100,12 @@ class FeautureItem extends StatelessWidget {
         ),
         Expanded(
           child: Text(
-            data["rate"],
+           data["score"],
             style: TextStyle(fontSize: 12, color: Colors.grey),
           ),
         ),
         Text(
-          data["price"],
+         data["fiyat"],
           style: TextStyle(
             fontSize: 14,
             fontWeight: FontWeight.w500,
@@ -118,7 +118,8 @@ class FeautureItem extends StatelessWidget {
 
   Widget _buildImage(BuildContext context) {
     return CustomImage(
-      "https://images.unsplash.com/photo-1598928636135-d146006ff4be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+
+      data["imageurl"]==null? "https://images.unsplash.com/photo-1598928636135-d146006ff4be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60":data["imageurl"],
       radius: 15,
       height: MediaQuery.of(context).size.width * 0.2,
     );

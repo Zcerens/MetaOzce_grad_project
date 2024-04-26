@@ -35,8 +35,8 @@ class HotelService {
 
       return hotels;
     } catch (error) {
-      print('Error fetching hotel with ID : $error'); // Hata mesajını yazdır
-      throw Exception('Failed to get hotel with ID: $error');
+      print('Error fetching getHotelAll : $error'); // Hata mesajını yazdır
+      throw Exception('Failed to getHotelAll: $error');
     }
   }
 
@@ -51,6 +51,6 @@ void main() async {
     //final hotelData = await hotelService.getHotelHistoryById(53);
     //print('Hotel Data: $hotelData');
   } catch (e) {
-    print('Error: $e');
+    print('Error hotelService: $e');
   }
 }

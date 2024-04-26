@@ -7,7 +7,7 @@ import 'package:metaozce/pages/DetailPage/components/widgets/detail_item.dart';
 import 'package:metaozce/service/detail_service.dart';
 
 class DetailView extends StatefulWidget {
-  final Map<String, dynamic> data;
+  final int data;
 
   const DetailView({Key? key, required this.data}) : super(key: key);
 
@@ -22,7 +22,7 @@ class _DetailView extends State<DetailView> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: FutureBuilder(
-        future: _detailService.getHotelWithId(2),
+        future: _detailService.getHotelById(widget.data),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return Center(child: CircularProgressIndicator());
@@ -30,15 +30,15 @@ class _DetailView extends State<DetailView> {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else {
             // Veri başarıyla alındı
-            final responseData = snapshot.data;
+            var responseData = snapshot.data;
           
             return SingleChildScrollView(
               padding: EdgeInsets.all(16.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                 // DetailItem(data:responseData), // widget.data yerine responseData kullanılmalı
-                  _buildHotelDetail(context),
+                  DetailItem(data:responseData), // widget.data yerine responseData kullanılmalı
+                  _buildHotelDetail(context,responseData),
                 ],
               ),
             );
@@ -48,7 +48,7 @@ class _DetailView extends State<DetailView> {
     );
   }
 
-  Widget _buildHotelDetail(BuildContext context) {
+  Widget _buildHotelDetail(BuildContext context, dynamic responseData) {
     return Container(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -81,19 +81,19 @@ class _DetailView extends State<DetailView> {
             items: [
               _buildDetailBox(
                   context,
-                  'Type: ${widget.data["type"]}',
-                  'Rate: ${widget.data["rate"]}',
-                  'Price: ${widget.data["price"]}'),
+                  'Type: ${responseData["type"]}',
+                  'Rate: ${responseData["score"]}',
+                  'Price: ${responseData["fiyat"]}'),
               _buildDetailBox(
                   context,
-                  'Type: ${widget.data["type"]}',
-                  'Rate: ${widget.data["rate"]}',
-                  'Price: ${widget.data["price"]}'),
+                   'Type: ${responseData["type"]}',
+                  'Rate: ${responseData["score"]}',
+                  'Price: ${responseData["fiyat"]}'),
               _buildDetailBox(
                   context,
-                  'Type: ${widget.data["type"]}',
-                  'Rate: ${widget.data["rate"]}',
-                  'Price: ${widget.data["price"]}'),
+                  'Type: ${responseData["type"]}',
+                  'Rate: ${responseData["score"]}',
+                  'Price: ${responseData["fiyat"]}'),
             ],
           ),
           SizedBox(height: 10),

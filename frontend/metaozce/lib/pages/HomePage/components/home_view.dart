@@ -356,7 +356,7 @@ _buildReccommended() {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => DetailScreen(data: hotel)),
+                            builder: (context) => DetailScreen(data: searchHotels[index]['id'])),
                       );
                     },
                   ),

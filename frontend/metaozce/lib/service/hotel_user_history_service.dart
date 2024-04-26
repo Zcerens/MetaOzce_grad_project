@@ -33,8 +33,8 @@ class HotelUserHistoryService {
      
       return responseData;
     } catch (error) {
-      print('Error fetching hotel with ID : $error'); // Hata mesajını yazdır
-      throw Exception('Failed to get hotel with ID: $error');
+      print('Error fetching getAllHotelHistory : $error'); // Hata mesajını yazdır
+      throw Exception('Failed to get getAllHotelHistory: $error');
     }
   }
 
@@ -45,7 +45,7 @@ class HotelUserHistoryService {
       );
       final responseData = response.data;
 
-      print(responseData["user"]["fullname"]);
+   //   print(responseData["user"]["fullname"]);
       return responseData;
     } catch (error) {
       print('Error fetching hotel with ID : $error'); // Hata mesajını yazdır
@@ -65,8 +65,8 @@ class HotelUserHistoryService {
       //print(responseData["user"]["fullname"]);
       return responseData;
     } catch (error) {
-      print('Error fetching hotel with ID : $error'); // Hata mesajını yazdır
-      throw Exception('Failed to get hotel with ID: $error');
+      print('Error fetching hotel with HotelHistoryByUserId : $error'); // Hata mesajını yazdır
+      throw Exception('Failed to get hotel with HotelHistoryByUserId: $error');
     }
   }
 }

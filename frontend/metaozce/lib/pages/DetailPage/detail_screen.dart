@@ -8,7 +8,7 @@ class DetailScreen extends StatelessWidget {
   const DetailScreen({  Key? key,
     required this.data,
   }) : super(key: key);
-    final data;
+    final int data;
 
   @override
   Widget build(BuildContext context) {

@@ -31,7 +31,7 @@ class RecommendItem extends StatelessWidget {
        onTap: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => DetailScreen(data: data)), // DetailPage'e veri geçmek için 'data' parametresini kullandım
+          MaterialPageRoute(builder: (context) => DetailScreen(data: 1)), //TODO DetailPage'e veri geçmek için 'data' parametresini kullandım
         );
       },
       child: Container(

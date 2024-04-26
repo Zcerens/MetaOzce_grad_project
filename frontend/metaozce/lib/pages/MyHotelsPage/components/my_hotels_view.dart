@@ -155,129 +155,109 @@ class _MyHotelsViewState extends State<MyHotelsView> {
   }
 
   _buildSearch() {
-    return Column(
-      children: [
-        SizedBox(
-          height: MediaQuery.of(context).size.height * 0.08,
-          child: Padding(
-            padding: const EdgeInsets.only(left: 10.0, right: 1, top: 10),
-            child: SearchBar(
-              focusNode: focusNode,
-              onTap: () {
-                setState(() {
-                  tiklandi = true;
-                });
-              },
-              onSubmitted: (value) {
-                setState(() {
-                  tiklandi = false;
-                });
-              },
-              controller: searchController,
-              hintText: "Add..",
-              leading: IconButton(
-                icon: Icon(Icons.search),
-                onPressed: () {},
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.08,
+            child: Padding(
+              padding: const EdgeInsets.only(left: 10.0, right: 1, top: 10),
+              child: SearchBar(
+                focusNode: focusNode,
+                onTap: () {
+                  setState(() {
+                    tiklandi = true;
+                  });
+                },
+                onSubmitted: (value) {
+                  setState(() {
+                    tiklandi = false;
+                  });
+                },
+                controller: searchController,
+                hintText: "Add..",
+                leading: IconButton(
+                  icon: Icon(Icons.search),
+                  onPressed: () {},
+                ),
               ),
             ),
           ),
-        ),
-        Padding(
-          padding: const EdgeInsets.all(20),
-          child: Container(
-              height: tiklandi
-                  ? MediaQuery.of(context).size.height * 0.6
-                  : MediaQuery.of(context).size.height * 0.001,
-              child: searchHotels.isEmpty
-                  ? Center(
-                      child: Text(
-                        "Not Found",
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold,
+          Padding(
+            padding: const EdgeInsets.all(20),
+            child: Container(
+                height: tiklandi
+                    ? MediaQuery.of(context).size.height * 0.75
+                    : MediaQuery.of(context).size.height * 0.001,
+                child: searchHotels.isEmpty
+                    ? Padding( padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.2),
+                        child: Text(
+                          "Not Found",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
-                      ),
-                    )
-                  : ListView.builder(
-                      itemCount: tiklandi
-                          ? searchHotels.length + 1
-                          : allHotels.length + 1,
-                      itemBuilder: (context, index) {
-                        if (index ==
-                            (tiklandi
-                                ? searchHotels.length
-                                : allHotels.length)) {
-                          // Son eleman, yani artı butonu
-                          return Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: GestureDetector(
-                              onTap: () {
-                                // Artı butonuna basıldığında yapılacak işlemler
-                                // Örneğin yeni bir otel eklemek için bir işlevi çağırabilirsiniz
-                                // Örnek:
-                               
-                              },
-                              child: Container(
-                                decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(8),
-                                  color:
-                                      Colors.amber, // Butonun arka plan rengi
-                                ),
-                                child: Center(
-                                  child: Icon(
-                                    Icons.add,
-                                    color: Colors.white, // Buton ikonunun rengi
+                      )
+                    : ListView.builder(
+                        itemCount: tiklandi
+                            ? searchHotels.length + 1
+                            : allHotels.length + 1,
+                        itemBuilder: (context, index) {
+                          if (index ==
+                              (tiklandi
+                                  ? searchHotels.length
+                                  : allHotels.length)) {
+                            // Son eleman, yani artı butonu
+                            return Container(color: Colors.red,
+                            );
+                          } else {
+                            final hotel =
+                                tiklandi ? searchHotels[index] : allHotels[index];
+      
+                            return Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: ListTile(
+                                focusColor: Colors.amber,
+                                leading: CircleAvatar(
+                                     backgroundImage: NetworkImage(hotel["imageurl"]),
+                                    ),
+                                title: Text(
+                                  hotel["otelAd"],
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
                                   ),
                                 ),
-                              ),
-                            ),
-                          );
-                        } else {
-                          final hotel =
-                              tiklandi ? searchHotels[index] : allHotels[index];
-
-                          return Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: ListTile(
-                              focusColor: Colors.amber,
-                              leading: CircleAvatar(
-                                  // backgroundImage: NetworkImage(hotel["image"]),
-                                  ),
-                              title: Text(
-                                hotel["otelAd"],
-                                style: TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.bold,
+                                trailing: IconButton(
+                                  icon: Icon(Icons.add),
+                                  onPressed: () {
+                                     createHotelUserHistory(searchHotels[index]['id'], 52);//TODO
+                                  },
                                 ),
-                              ),
-                              trailing: IconButton(
-                                icon: Icon(Icons.add),
-                                onPressed: () {
-                                   createHotelUserHistory(searchHotels[index]['id'], 52);//TODO
+                                subtitle: Text(
+                                  hotel["bolge"],
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                  ),
+                                ),
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) =>
+                                          DetailScreen(data: hotel["id"]),
+                                    ),
+                                  );
                                 },
                               ),
-                              subtitle: Text(
-                                hotel["bolge"],
-                                style: TextStyle(
-                                  fontSize: 14,
-                                ),
-                              ),
-                              onTap: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) =>
-                                        DetailScreen(data: hotel),
-                                  ),
-                                );
-                              },
-                            ),
-                          );
-                        }
-                      },
-                    )),
-        ),
-      ],
+                            );
+                          }
+                        },
+                      )),
+          ),
+        ],
+      ),
     );
   }
 }
