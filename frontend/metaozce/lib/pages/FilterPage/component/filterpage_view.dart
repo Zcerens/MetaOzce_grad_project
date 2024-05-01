@@ -15,18 +15,15 @@ class FilteredPageView extends StatefulWidget {
 }
 
 class _FilteredPageViewState extends State<FilteredPageView> {
- int? _selectedNumber;
-    String? _selectedFeature;
-    bool? _selectedOption; 
+    int _selectedNumber=1;
+    String? _selectedFeature ;
+    bool _selectedOption=true; 
 
 
   @override
   void initState() {
     super.initState();
-    
-    int? _selectedNumber=1;
-    String? _selectedFeature;
-    bool _selectedOption = true; // true: Yes, false: No
+
    
   }
 
@@ -132,7 +129,7 @@ Widget buildSelectNumber() {
         ),
         DropdownMenuItem<int>(
           value: 2,
-          child: Text(""),
+          child: Text("Select"),
         ),
       ]);
     } else {
@@ -144,10 +141,10 @@ Widget buildSelectNumber() {
       );
       
       items.addAll(
-        List.generate(20, (index) {
+        List.generate(5, (index) {
           return DropdownMenuItem<int>(
             value: index + 1,
-            child: Text((index + 1).toString()),
+            child: (index)<4?Text((index + 1).toString()):Text((index + 1).toString()+"+"),
           );
         }),
       );

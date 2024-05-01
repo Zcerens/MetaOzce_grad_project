@@ -13,7 +13,10 @@ class HotelService {
     String numberStr=number.toString();
     
     String url = 'http://80.253.246.51:8080/hotel/get';
-    if (feature != null && number != null) {
+    if(feature == null ){
+      url='http://80.253.246.51:8080/hotel/get';
+    }
+    else if (feature != null && number != null) {
       url += '?feature=$feature&numberStr=$numberStr';
     } else if (feature != null) {
       url += '?feature=$feature';
