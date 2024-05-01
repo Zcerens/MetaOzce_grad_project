@@ -8,6 +8,7 @@ import 'package:metaozce/pages/WelcomePage/welcome_screen.dart';
 import 'package:metaozce/pages/HomePage/components/home_view.dart';
 import 'package:metaozce/pages/MyHotelsPage/components/my_hotels_view.dart';
 import 'package:metaozce/widgets/navigationBar.dart';
+import 'package:metaozce/pages/FilterPage/filterpage_screen.dart';
 
 
 void main() {
@@ -54,6 +55,6 @@ class MyApp extends StatelessWidget {
                 borderSide: BorderSide.none,
               ),
             )),
-        home: SigninScreen());
+        home: FilterPageScreen());
   }
 }
