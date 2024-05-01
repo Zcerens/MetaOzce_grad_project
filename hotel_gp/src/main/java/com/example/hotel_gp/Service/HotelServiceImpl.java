@@ -14,6 +14,7 @@ import java.util.Optional;
 public class HotelServiceImpl implements HotelService{
     @Autowired
     private HotelRepository hotelRepository;
+
     @Override
     public List<Hotel> findAll() {
         return hotelRepository.findAll();
@@ -21,8 +22,17 @@ public class HotelServiceImpl implements HotelService{
 
     @Override
     //read
-    public Optional<Hotel> findById(int id) {
+    public Optional<Hotel> findHotelById(int id) {
         return hotelRepository.findById(id);
+    }
+
+  
+
+    @Override
+    public List<Hotel> findByAllColumnsContainingAndNumberGreaterThanEqual(String feature, int number) {
+       
+            return hotelRepository.findByAllColumnsContainingAndNumberGreaterThanEqual(feature, number);
+        
     }
 
   /*  @Override

@@ -10,4 +10,5 @@ public interface HotelUserHistoryService {
     Optional<HotelUserHistory> findById(int id);
     Integer saveOrUpdate(HotelUserHistory hotelUserHistory);
     void deleteById(int id);
+    List<HotelUserHistory> findByUserId(int userId);
 }

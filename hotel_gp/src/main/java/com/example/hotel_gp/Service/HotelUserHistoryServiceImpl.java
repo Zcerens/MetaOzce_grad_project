@@ -12,6 +12,7 @@ import java.util.Optional;
 public class HotelUserHistoryServiceImpl implements HotelUserHistoryService{
     @Autowired
     private HotelUserHistoryRepository hotelUserHistoryRepository;
+    
     @Override
     public List<HotelUserHistory> findAll() {
         return hotelUserHistoryRepository.findAll();
@@ -31,5 +32,10 @@ public class HotelUserHistoryServiceImpl implements HotelUserHistoryService{
     public void deleteById(int id) {
         hotelUserHistoryRepository.deleteById(id);
 
+    }
+
+    @Override
+    public List<HotelUserHistory> findByUserId(int userId) {
+        return hotelUserHistoryRepository.findByUser_Id(userId);
     }
 }

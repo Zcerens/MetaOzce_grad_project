@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import java.util.List;
 
 @RestController
 @RequestMapping("/hotel-user")
@@ -32,6 +33,17 @@ public class HotelUserHistoryController {
 
         return responseEntity;
     }
+
+    @GetMapping("/get")
+    public ResponseEntity<List<HotelUserHistory>> findAllUsers(){
+        return ResponseEntity.ok(hotelUserHistoryService.findAll());
+    }
+
+    @GetMapping("/user/{userId}")
+public List<HotelUserHistory> getHistoryByUserId(@PathVariable("userId") int userId) {
+    return hotelUserHistoryService.findByUserId(userId);
+}
+
     
 
 //    @PutMapping("/update/{id}")
