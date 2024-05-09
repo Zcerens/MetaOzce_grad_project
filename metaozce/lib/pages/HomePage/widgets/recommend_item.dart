@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:metaozce/color.dart';
+import 'package:metaozce/pages/HomePage/components/widgets/color.dart';
+
 
 import 'custom_image.dart';
 

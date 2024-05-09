@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:metaozce/color.dart';
+import 'package:metaozce/pages/HomePage/components/widgets/color.dart';
 
 
 class CustomImage extends StatelessWidget {

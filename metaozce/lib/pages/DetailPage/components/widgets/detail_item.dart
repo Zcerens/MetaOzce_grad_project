@@ -49,7 +49,7 @@ class DetailItem extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-           // _buildImage(),
+            _buildImage(),
             Container(
               width: width - 20,
               padding: EdgeInsets.fromLTRB(5, 10, 5, 0),
@@ -73,7 +73,7 @@ class DetailItem extends StatelessWidget {
   Widget _buildName() {
     
     return Text(
-      data.otelAd.toString(),
+      data["otelAd"],
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
       style: TextStyle(
@@ -126,7 +126,9 @@ class DetailItem extends StatelessWidget {
 
   Widget _buildImage() {
     return CustomImage(
-      data["image"],
+      
+      data["imageurl"]==null? "https://images.unsplash.com/photo-1598928636135-d146006ff4be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60":data["imageurl"],
+     
       width: double.infinity,
       height: 190,
       radius: 15,

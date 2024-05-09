@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:metaozce/color.dart';
+import 'package:metaozce/pages/HomePage/components/widgets/color.dart';
 import 'package:metaozce/const/constant.dart';
-import 'package:metaozce/data.dart';
+import 'package:metaozce/pages/HomePage/components/widgets/data.dart';
 import 'package:metaozce/pages/MyHotelsPage/widgets/hotel_item.dart'; // Renkleri içe aktardık
 
 class MyHotelsPage extends StatelessWidget {

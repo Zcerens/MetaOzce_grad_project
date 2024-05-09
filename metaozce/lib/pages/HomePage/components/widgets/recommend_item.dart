@@ -31,7 +31,7 @@ class RecommendItem extends StatelessWidget {
        onTap: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => DetailScreen(data: data)), // DetailPage'e veri geçmek için 'data' parametresini kullandım
+          MaterialPageRoute(builder: (context) => DetailScreen(data: 1)), //TODO DetailPage'e veri geçmek için 'data' parametresini kullandım
         );
       },
       child: Container(
@@ -65,7 +65,7 @@ class RecommendItem extends StatelessWidget {
                   SizedBox(
                     height: 5,
                   ),
-                //  _buildInfo(),
+                 _buildInfo(),
                 ],
               ),
             )
@@ -77,7 +77,7 @@ class RecommendItem extends StatelessWidget {
 
   Widget _buildName() {
     return Text(
-      data,
+      data['otel_ad'],
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
       style: TextStyle(
@@ -96,7 +96,7 @@ class RecommendItem extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              data["location"],
+              data["bolge"],
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(
@@ -108,7 +108,7 @@ class RecommendItem extends StatelessWidget {
               height: 8,
             ),
             Text(
-              data["price"],
+              "₺" + data["fiyat"].toString() +" TL",
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(
@@ -119,18 +119,18 @@ class RecommendItem extends StatelessWidget {
             ),
           ],
         ),
-        FavoriteBox(
-          size: 16,
-          onTap: onTapFavorite,
-          isFavorited: data["is_favorited"],
-        )
+        // FavoriteBox(
+        //   size: 16,
+        //   onTap: onTapFavorite,
+        //   isFavorited: data["is_favorited"],
+        // )
       ],
     );
   }
 
   Widget _buildImage(BuildContext context) {
     return CustomImage(
-     "https://images.unsplash.com/photo-1505692952047-1a78307da8f2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    data["imageurl"]==null? "https://images.unsplash.com/photo-1598928636135-d146006ff4be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60":data["imageurl"],
       width: double.infinity,
       height: MediaQuery.of(context).size.width * 0.45,
       radius: 15,

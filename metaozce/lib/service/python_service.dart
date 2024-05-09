@@ -15,8 +15,8 @@ Future<dynamic> getAllRecommendHotels(String oncekiOtelAd) async {
      
       return responseData;
     } catch (error) {
-      print('Error fetching hotel with ID : $error'); // Hata mesajını yazdır
-      throw Exception('Failed to get hotel with ID: $error');
+      print('Error fetching hotel with getAllRecommendHotels : $error'); // Hata mesajını yazdır
+      throw Exception('Failed to get hotel with getAllRecommendHotels: $error');
     }
   }
   

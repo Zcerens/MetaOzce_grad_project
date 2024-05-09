@@ -7,9 +7,9 @@ import 'package:metaozce/pages/SignupPage/signup_screen.dart';
 import 'package:metaozce/widgets/navigationBar.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'dart:async';
-
+import 'package:dio/dio.dart';
 class SigninView extends StatefulWidget {
-  const SigninView({Key? key}) : super(key: key);
+   SigninView({Key? key}) : super(key: key);
 
   @override
   State<SigninView> createState() => _SigninViewState();
@@ -155,9 +155,7 @@ class _SigninViewState extends State<SigninView> {
             onPressed: _isButtonDisabled
                 ? null
                 : () {
-                    setState(() {
-                      _isButtonDisabled = true;
-                    });
+                  
 
                     final Timer timer = Timer(Duration(seconds: 1), () {
                       setState(() {

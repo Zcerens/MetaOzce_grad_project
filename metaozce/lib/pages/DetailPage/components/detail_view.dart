@@ -7,7 +7,7 @@ import 'package:metaozce/pages/DetailPage/components/widgets/detail_item.dart';
 import 'package:metaozce/service/detail_service.dart';
 
 class DetailView extends StatefulWidget {
-  final Map<String, dynamic> data;
+  final int data;
 
   const DetailView({Key? key, required this.data}) : super(key: key);
 
@@ -18,37 +18,45 @@ class DetailView extends StatefulWidget {
 class _DetailView extends State<DetailView> {
   int _currentIndex = 0;
   final DetailService _detailService = DetailService();
+  var responseData;
+
+  @override
+  void initState() {
+    super.initState();
+    fetchHotelDetail();
+  }
+
+  fetchHotelDetail() async {
+    try {
+      final hotelData = await _detailService.getHotelById(widget.data);
+      setState(() {
+        responseData = hotelData;
+      });
+      print('Hotel Data: $hotelData');
+    } catch (e) {
+      print('Error: $e');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: FutureBuilder(
-        future: _detailService.getHotelWithId(2),
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return Center(child: CircularProgressIndicator());
-          } else if (snapshot.hasError) {
-            return Center(child: Text('Error: ${snapshot.error}'));
-          } else {
-            // Veri başarıyla alındı
-            final responseData = snapshot.data;
-          
-            return SingleChildScrollView(
+      body: responseData == null
+          ? Center(child: CircularProgressIndicator())
+          : SingleChildScrollView(
               padding: EdgeInsets.all(16.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                 // DetailItem(data:responseData), // widget.data yerine responseData kullanılmalı
-                  _buildHotelDetail(context),
+                  DetailItem(data: responseData),
+                  _buildHotelDetail(context, responseData),
                 ],
               ),
-            );
-          }
-        },
-      ),
+            ),
     );
   }
 
-  Widget _buildHotelDetail(BuildContext context) {
+  Widget _buildHotelDetail(BuildContext context, dynamic responseData) {
     return Container(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -79,21 +87,25 @@ class _DetailView extends State<DetailView> {
               },
             ),
             items: [
+            _buildDetailBox(
+                context,
+                'Bölge: ${responseData["bolge"]}',
+                'Fiyat Aralığı: ${responseData["fiyat_araligi"]}',
+                'Denize Uzaklık: ${responseData["denizedenize_uzakligiUzakligi"]}',
+                
+              ),
               _buildDetailBox(
-                  context,
-                  'Type: ${widget.data["type"]}',
-                  'Rate: ${widget.data["rate"]}',
-                  'Price: ${widget.data["price"]}'),
+                context,
+                'Havaalanına Uzaklık: ${responseData["hava_alanina_uzakligi"]}',
+                'Plaj: ${responseData["plaj"]}',
+                'İskele: ${responseData["iskele"] == 0 ? 'Yok' : 'Var'} ',
+              ),
               _buildDetailBox(
-                  context,
-                  'Type: ${widget.data["type"]}',
-                  'Rate: ${widget.data["rate"]}',
-                  'Price: ${widget.data["price"]}'),
-              _buildDetailBox(
-                  context,
-                  'Type: ${widget.data["type"]}',
-                  'Rate: ${widget.data["rate"]}',
-                  'Price: ${widget.data["price"]}'),
+                context,
+                'Açık Restoran: ${responseData["acik_restoran"]}',
+                'Kapalı Restoran: ${responseData["kapali_restoran"]}',
+                'Açık Havuz: ${responseData["acik_havuz"]}',
+              ),
             ],
           ),
           SizedBox(height: 10),

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:metaozce/color.dart';
-
+import 'package:metaozce/pages/HomePage/components/widgets/color.dart';
 class CityItem extends StatelessWidget {
   const CityItem({
     Key? key,
