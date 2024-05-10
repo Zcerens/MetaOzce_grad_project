@@ -2,6 +2,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:metaozce/const/constant.dart';
 import 'package:metaozce/pages/DetailPage/detail_screen.dart';
 
 import 'package:metaozce/pages/HomePage/components/widgets/color.dart';
@@ -65,7 +66,7 @@ class RecommendItem extends StatelessWidget {
                   SizedBox(
                     height: 5,
                   ),
-                //  _buildInfo(),
+                 _buildInfo(),
                 ],
               ),
             )
@@ -77,7 +78,7 @@ class RecommendItem extends StatelessWidget {
 
   Widget _buildName() {
     return Text(
-      data,
+      data['otel_ad'],
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
       style: TextStyle(
@@ -95,42 +96,47 @@ class RecommendItem extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              data["location"],
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: TextStyle(
-                color: AppColor.labelColor,
-                fontSize: 13,
+             Row(
+                children: [
+                  Icon(
+                    Icons.location_on,
+                    color: kPrimaryColor,
+                    size: 16,
+                  ),
+                  SizedBox(width: 5),
+                  Text(
+                    data['bolge'],
+                    style: TextStyle(fontSize: 14),
+                  ),
+                ],
               ),
-            ),
             const SizedBox(
               height: 8,
             ),
             Text(
-              data["price"],
+               " "+data["fiyat"].toString() +" TL",
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(
-                color: AppColor.primary,
-                fontSize: 15,
-                fontWeight: FontWeight.w600,
+                color: Color.fromARGB(255, 58, 58, 58),
+                fontSize: 13,
+                fontWeight: FontWeight.w700,
               ),
             ),
           ],
         ),
-        FavoriteBox(
-          size: 16,
-          onTap: onTapFavorite,
-          isFavorited: data["is_favorited"],
-        )
+        // FavoriteBox(
+        //   size: 16,
+        //   onTap: onTapFavorite,
+        //   isFavorited: data["is_favorited"],
+        // )
       ],
     );
   }
 
   Widget _buildImage(BuildContext context) {
     return CustomImage(
-     "https://images.unsplash.com/photo-1505692952047-1a78307da8f2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    data["imageurl"]==null? "https://images.unsplash.com/photo-1598928636135-d146006ff4be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60":data["imageurl"],
       width: double.infinity,
       height: MediaQuery.of(context).size.width * 0.45,
       radius: 15,

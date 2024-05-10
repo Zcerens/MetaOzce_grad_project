@@ -56,7 +56,7 @@ class _MyHotelsViewState extends State<MyHotelsView> {
 
   createHotelUserHistory(int hotelId, int userId) async {
 
-      final HotelUserHistoryService hotelUserHistoryService = HotelUserHistoryService();
+  final HotelUserHistoryService hotelUserHistoryService = HotelUserHistoryService();
 
   // HotelService'deki getHotelWithId metodunu çağırarak bir otel al
   try {

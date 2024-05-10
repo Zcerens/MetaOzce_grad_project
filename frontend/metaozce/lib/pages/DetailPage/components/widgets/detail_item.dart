@@ -2,6 +2,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:metaozce/const/constant.dart';
 import 'package:metaozce/pages/DetailPage/detail_screen.dart';
 
 import 'package:metaozce/pages/HomePage/components/widgets/color.dart';
@@ -60,7 +61,8 @@ class DetailItem extends StatelessWidget {
                   SizedBox(
                     height: 5,
                   ),
-                  //_buildInfo(),
+                  _buildInfo(),
+                  _buildRateAndPrice(),
                 ],
               ),
             )
@@ -91,28 +93,21 @@ class DetailItem extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              data["otelAd"],
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: TextStyle(
-                color: AppColor.labelColor,
-                fontSize: 13,
+            Row(
+                children: [
+                  Icon(
+                    Icons.location_on,
+                    color: kPrimaryColor,
+                    size: 16,
+                  ),
+                  SizedBox(width: 5),
+                  Text(
+                    data['bolge'],
+                    style: TextStyle(fontSize: 14),
+                  ),
+                ],
               ),
-            ),
-            const SizedBox(
-              height: 8,
-            ),
-            Text(
-              data["bolge"],
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: TextStyle(
-                color: AppColor.primary,
-                fontSize: 15,
-                fontWeight: FontWeight.w600,
-              ),
-            ),
+            
           ],
         ),
         // FavoriteBox(
@@ -134,4 +129,44 @@ class DetailItem extends StatelessWidget {
       radius: 15,
     );
   }
+
+   Widget _buildRateAndPrice() {
+return Row(
+  children: [
+    if (data["score"] != null && data["score"].isNotEmpty)
+  Icon( 
+          Icons.star,
+          size: 17,
+          color: AppColor.yellow,
+        ),
+  
+
+
+    if (data["score"] != null && data["score"].isNotEmpty)
+      SizedBox(
+        width: 3,
+      ),
+    Expanded(
+      flex: 2,
+      child: Text(
+        data["score"] ?? "", // null kontrolü
+        style: TextStyle(fontSize: 15, color: Colors.grey),
+      ),
+    ),
+    Text(
+        data["fiyat"],
+        style: TextStyle(
+          
+          fontSize: 14,
+          fontWeight: FontWeight.w700,
+          color: Color.fromARGB(255, 58, 58, 58),
+        ),
+      ),
+    
+  ],
+);
+
+  }
+
+ 
 }

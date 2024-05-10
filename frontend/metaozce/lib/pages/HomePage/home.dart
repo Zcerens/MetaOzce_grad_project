@@ -164,7 +164,7 @@ Widget _buildSearchBar() {
     height: 40.0, // Arama çubuğunun yüksekliği
     decoration: BoxDecoration(
       borderRadius: BorderRadius.circular(12.0), // Köşelerin yuvarlanma yarıçapı
-      border: Border.all(color: Colors.grey), // Kenar çizgisi rengi ve kalınlığı
+      border: Border.all(color: Color.fromARGB(255, 215, 239, 243),), // Kenar çizgisi rengi ve kalınlığı
     ),
     child: Theme(
       data: ThemeData(

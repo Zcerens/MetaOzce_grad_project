@@ -55,6 +55,6 @@ class MyApp extends StatelessWidget {
                 borderSide: BorderSide.none,
               ),
             )),
-        home: FilterPageScreen());
+        home: NavigationBarMy());
   }
 }

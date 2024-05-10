@@ -35,7 +35,8 @@ class HotelItem extends StatelessWidget {
         ),
       ],
         ),
-        child: Row(
+        child: 
+        Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         // CircleAvatar(
@@ -44,41 +45,65 @@ class HotelItem extends StatelessWidget {
         // ),
         SizedBox(width: 10),
         Expanded(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+          child: Row(
+  crossAxisAlignment: CrossAxisAlignment.start,
+  children: [
+    Expanded(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            data['hotel']['otelAd'],
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 16,
+            ),
+          ),
+          SizedBox(height: 5),
+          Text(
+            data['hotel']['bolge'],
+            style: TextStyle(
+              fontSize: 14,
+              color: Colors.grey,
+            ),
+          ),
+          SizedBox(height: 5),
+          Row(
             children: [
-              Text(
-                data['hotel']['otelAd'],
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 16,
-                ),
+              Icon(
+                Icons.location_on,
+                color: kPrimaryColor2,
+                size: 16,
               ),
-              SizedBox(height: 5),
+              SizedBox(width: 5),
               Text(
                 data['hotel']['bolge'],
-                style: TextStyle(
-                  fontSize: 14,
-                  color: Colors.grey,
-                ),
-              ),
-              SizedBox(height: 5),
-              Row(
-                children: [
-                  Icon(
-                    Icons.location_on,
-                    color: kPrimaryColor2,
-                    size: 16,
-                  ),
-                  SizedBox(width: 5),
-                  Text(
-                    data['hotel']['bolge'],
-                    style: TextStyle(fontSize: 14),
-                  ),
-                ],
+                style: TextStyle(fontSize: 14),
               ),
             ],
           ),
+        ],
+      ),
+    ),
+    GestureDetector(
+      onTap: () {
+        print("otel kaldırıldı.");//todo
+      },
+      child: Container(
+        padding: EdgeInsets.all(8),
+        decoration: BoxDecoration(
+          color: const Color.fromARGB(255, 129, 9, 1),
+          borderRadius: BorderRadius.circular(15),
+        ),
+        child: Icon(
+          Icons.delete_forever,
+          color: Colors.white,
+        ),
+      ),
+    ),
+  ],
+)
+
         ),
       ],
         ),

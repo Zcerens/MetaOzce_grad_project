@@ -1,7 +1,9 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:metaozce/const/constant.dart';
+import 'package:metaozce/pages/DetailPage/components/detail_view.dart';
 import 'package:metaozce/pages/DetailPage/detail_screen.dart';
+import 'package:metaozce/pages/FilterPage/filterpage_screen.dart';
 
 import 'package:metaozce/pages/HomePage/components/widgets/city_item.dart';
 import 'package:metaozce/pages/HomePage/components/widgets/data.dart';
@@ -24,7 +26,7 @@ class _HomeViewState extends State<HomeView> {
   String selectedCity = "İstanbul";
   List filteredRecommends = [];
   final TextEditingController searchController = TextEditingController();
-  List<Map<String, dynamic>> searchHotels = [];
+  List<dynamic> searchHotels = [];
   bool tiklandi = false;
   FocusNode focusNode = FocusNode();
   List<dynamic> allUserHistoryHotels = [];
@@ -38,8 +40,8 @@ class _HomeViewState extends State<HomeView> {
       final hotelData =
           await hotelUserHistoryService.getHotelHistoryByUserId(102);
       allUserHistoryHotels = List<dynamic>.from(hotelData);
-      print(allUserHistoryHotels);
-      print('Hotel Data: $hotelData');
+      //print(allUserHistoryHotels);
+      //print('Hotel Data: $hotelData');
       //fetchAllRecommendHotels();
     } catch (e) {
       print('Error: $e');
@@ -53,8 +55,28 @@ class _HomeViewState extends State<HomeView> {
       final recommendsData = await pythonEntegration
           .getAllRecommendHotels(allUserHistoryHotels[0]['hotel']['otelAd']);
       allRecommendsHotels = List<dynamic>.from(recommendsData);
-      print(allRecommendsHotels);
-      print('Hotel Data: $recommendsData');
+      //print(allRecommendsHotels);
+      //print('Hotel Data: $recommendsData');
+    } catch (e) {
+      print('Error: $e');
+    }
+  }
+
+  List<dynamic> allHotels = [];
+
+  fetchAllHotels() async {
+    final HotelService hotelService = HotelService();
+
+    // HotelService'deki getHotelWithId metodunu çağırarak bir otel al
+    try {
+      List<dynamic> oteller = await hotelService.getHotelAll();
+      setState(() {
+        allHotels = List<dynamic>.from(oteller); // Tüm otelleri güncelle
+        searchHotels = List<dynamic>.from(
+            allHotels); // Başlangıçta tüm otelleri arama sonuçları olarak ayarla
+      });
+      //print('Hotel Data: $allHotels');
+      return allHotels;
     } catch (e) {
       print('Error: $e');
     }
@@ -68,12 +90,12 @@ class _HomeViewState extends State<HomeView> {
     if (query.isEmpty) {
       setState(() {
         searchHotels = List<Map<String, dynamic>>.from(
-            recommends); // recommends listesini searchHotels'e atar.
+            allHotels); // all Hotel listesini searchHotels'e atar.
       });
     } else {
       setState(() {
-        searchHotels = recommends
-            .where((e) => (e['name'] as String)
+        searchHotels = allHotels
+            .where((e) => (e['otelAd'] as String)
                 .toLowerCase()
                 .contains(query.toLowerCase()))
             .toList(); // Query'ye göre otel isimlerini filtreler ve searchHotels'e atar.
@@ -90,8 +112,9 @@ class _HomeViewState extends State<HomeView> {
   @override
   void initState() {
     super.initState();
+    fetchAllHotels();
     fetchAllHotelUserHistory();
-   // fetchAllRecommendHotels();
+    // fetchAllRecommendHotels();
     searchController.addListener(queryListener);
     focusNode.addListener(() {
       if (!focusNode.hasFocus) {
@@ -112,47 +135,25 @@ class _HomeViewState extends State<HomeView> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.white,
-      body: CustomScrollView(
+    return 
+     
+      CustomScrollView(
         slivers: [
           SliverAppBar(
             backgroundColor: Colors.white,
             pinned: true,
             snap: true,
             floating: true,
-            title: _builAppBar(),
+            //title: _builAppBar(),
           ),
           SliverToBoxAdapter(
             child: _buildBody(context),
           ),
         ],
-      ),
-    );
+      );
   }
 
-  Widget _builAppBar() {
-    return Row(
-      children: [
-        Icon(
-          Icons.place_outlined,
-          color: Colors.blue,
-          size: 20,
-        ),
-        const SizedBox(
-          width: 3,
-        ),
-        Text(
-          selectedCity,
-          style: TextStyle(
-            color: Colors.blue,
-            fontSize: 13,
-          ),
-        ),
-        const Spacer(),
-      ],
-    );
-  }
+  
 
   _buildBody(BuildContext context) {
     return SingleChildScrollView(
@@ -163,36 +164,37 @@ class _HomeViewState extends State<HomeView> {
           Padding(
             padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
             child: Text(
-              "The Best Hotel Rooms",
+              "Welcome to MetaOzce App",
               style: TextStyle(
-                color: Colors.black,
+                color:  Color.fromARGB(255, 51, 51, 51),
                 fontWeight: FontWeight.w600,
                 fontSize: 22,
               ),
             ),
           ),
           _buildSearch(),
-          _buildCities(),
+          //_buildCities(),
           const SizedBox(
             height: 10,
           ),
+          buildButton(),
           Padding(
-            padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
+            padding: const EdgeInsets.fromLTRB(15, 0, 15, 0),
             child: Text(
               "Reccommended",
               style: TextStyle(
-                color: Colors.black,
+                color:  Color.fromARGB(255, 51, 51, 51),
                 fontWeight: FontWeight.w500,
                 fontSize: 22,
               ),
             ),
-          ),
+          ),Divider(color: kPrimaryColor,height:20,),
           _buildReccommended(),
           const SizedBox(
             height: 15,
           ),
           Padding(
-            padding: EdgeInsets.fromLTRB(15, 0, 15, 10),
+            padding: EdgeInsets.fromLTRB(15, 0, 15,0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -201,88 +203,81 @@ class _HomeViewState extends State<HomeView> {
                   style: TextStyle(
                       fontSize: 22,
                       fontWeight: FontWeight.w500,
-                      color: Colors.black),
+                      color: Color.fromARGB(255, 51, 51, 51)),
                 ),
+                Divider(color: kPrimaryColor,height:20,),
               ],
             ),
           ),
-          _buildFeauture(),
+          _buildFeature(),
         ],
       ),
     );
   }
 
-_buildReccommended() {
-  return FutureBuilder(
-    future: fetchAllRecommendHotels(),
-    builder: (context, snapshot) {
-      if (snapshot.connectionState == ConnectionState.waiting) {
-        return CircularProgressIndicator();
-      } else if (snapshot.hasError) {
-        return Text('Error: ${snapshot.error}');
-      } else {
-        // Veriler başarıyla alındı
-        return CarouselSlider(
-          options: CarouselOptions(
-            height: MediaQuery.of(context).size.height * 0.4,
-            enlargeCenterPage: true,
-            disableCenter: true,
-            viewportFraction: .75,
-          ),
-          items: List.generate(
-            allRecommendsHotels.length,
-            (index) {
-              return RecommendItem(
-                data: allRecommendsHotels[index],
-                onTapFavorite: () {
-                  setState(() {
-                    // İlgili işlemler
-                  });
-                },
-              );
-            },
-          ),
-        );
-      }
-    },
-  );
-}
-
-
-  _buildFeauture() {
-    final HotelService _hotelService = HotelService();
-
+  _buildReccommended() {
     return FutureBuilder(
-      future: _hotelService.getHotelAll(),
+      future: fetchAllRecommendHotels(),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return Center(child: CircularProgressIndicator());
+          return CircularProgressIndicator();
         } else if (snapshot.hasError) {
-          return Center(child: Text('Error: ${snapshot.error}'));
+          return Text('Error: ${snapshot.error}');
         } else {
-          // Veri başarıyla alındı
-          List<dynamic> allHotels = [];
-          allHotels = _hotelService.hotels;
-
-          return SingleChildScrollView(
-            padding: EdgeInsets.fromLTRB(15, 5, 0, 5),
-            scrollDirection: Axis.vertical,
-            child: Column(
-              children: List.generate(
-                allHotels.length,
-                (index) => Padding(
-                  padding: const EdgeInsets.only(bottom: 10),
-                  child: FeautureItem(
-                    data: allHotels[index],
-                  ),
-                ),
-              ),
+          // Veriler başarıyla alındı
+          return CarouselSlider(
+            options: CarouselOptions(
+              height: MediaQuery.of(context).size.height * 0.4,
+              enlargeCenterPage: true,
+              disableCenter: true,
+              viewportFraction: .75,
+            ),
+            items: List.generate(
+              allRecommendsHotels.length,
+              (index) {
+                return RecommendItem(
+                  data: allRecommendsHotels[index],
+                  onTapFavorite: () {
+                    setState(() {
+                      // İlgili işlemler
+                    });
+                  },
+                );
+              },
             ),
           );
         }
       },
     );
   }
+
+_buildFeature() {
+
+
+    return SingleChildScrollView(
+    padding: EdgeInsets.fromLTRB(0, 5, 0, 5),
+    scrollDirection: Axis.vertical,
+    child: ListView.builder(
+      shrinkWrap: true,
+      physics: NeverScrollableScrollPhysics(),
+      itemCount: allHotels.length,
+      itemBuilder: (context, index) {
+        // Sadece ekranda görünecek olan otelleri yükle
+        if (index < 20) {
+          return Padding(
+            padding: const EdgeInsets.only(bottom: 10),
+            child: FeautureItem(
+              data: allHotels[index],
+            ),
+          );
+        } else {
+          return Container(); // Diğer oteller için boş bir Container döndür
+        }
+      },
+    ),
+  );
+  }
+
 
   _buildCities() {
     return SingleChildScrollView(
@@ -307,65 +302,134 @@ _buildReccommended() {
   }
 
   _buildSearch() {
-    return Column(
-      children: [
-        Container(
-          height: MediaQuery.of(context).size.height * 0.06,
-          child: Padding(
-            padding: const EdgeInsets.only(left: 10.0, right: 10),
-            child: SearchBar(
-              focusNode: focusNode,
-              onTap: () {
-                setState(() {
-                  tiklandi = true;
-                });
-              },
-              onSubmitted: (value) {
-                setState(() {
-                  tiklandi = false;
-                });
-              },
-              controller: searchController,
-              hintText: "Search..",
-              leading: IconButton(
-                icon: Icon(Icons.search),
-                onPressed: () {},
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          Container(
+            height: MediaQuery.of(context).size.height * 0.06,
+            child: Padding(
+              padding: const EdgeInsets.only(left: 10.0, right: 10),
+              child: SearchBar(
+                focusNode: focusNode,
+                onTap: () {
+                  setState(() {
+                    tiklandi = true;
+                  });
+                },
+                onSubmitted: (value) {
+                  setState(() {
+                    tiklandi = false;
+                  });
+                },
+                controller: searchController,
+                hintText: "Search..",
+                leading: IconButton(
+                  icon: Icon(Icons.search),
+                  onPressed: () {},
+                ),
               ),
             ),
           ),
-        ),
-        Padding(
-          padding: const EdgeInsets.only(left: 8.0, right: 8.0),
-          child: Container(
-            height: tiklandi
-                ? MediaQuery.of(context).size.height * 0.2
-                : MediaQuery.of(context).size.height * 0.01,
-            child: ListView.builder(
-              itemCount: tiklandi ? searchHotels.length : recommends.length,
-              itemBuilder: (context, index) {
-                final hotel =
-                    tiklandi ? searchHotels[index] : recommends[index];
-                return Card(
-                  child: ListTile(
-                    leading: CircleAvatar(
-                      backgroundImage: NetworkImage(hotel["image"]),
+          Padding(
+            padding: const EdgeInsets.only(left: 8.0, right: 8.0),
+            child: Container(
+              height: tiklandi
+                  ? MediaQuery.of(context).size.height * 0.75
+                  : MediaQuery.of(context).size.height * 0.001,
+              child: ListView.builder(
+                itemCount: tiklandi ? searchHotels.length : allHotels.length,
+                itemBuilder: (context, index) {
+                  final hotel =
+                      tiklandi ? searchHotels[index] : allHotels[index];
+                  return Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: ListTile(
+                      focusColor: Colors.amber,
+                      leading: CircleAvatar(
+                        backgroundImage: NetworkImage(hotel["imageurl"]),
+                      ),
+                      title: Text(
+                        hotel["otelAd"],
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      // trailing: IconButton(
+                      //   icon: Icon(Icons.add),
+                      //   onPressed: () {
+                      //      //TODO
+                      //   },
+                      // ),
+                      subtitle: Text(
+                        hotel["bolge"],
+                        style: TextStyle(
+                          fontSize: 14,
+                        ),
+                      ),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                DetailScreen(data: hotel["id"]),
+                          ),
+                        );
+                      },
                     ),
-                    title: Text(hotel["name"]),
-                    subtitle: Text(hotel["location"]),
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => DetailScreen(data: searchHotels[index]['id'])),
-                      );
-                    },
-                  ),
-                );
-              },
+                  );
+                },
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+Widget buildButton() {
+  return Padding(
+    padding: const EdgeInsets.only(right: 16.0), // Sağdan boşluk ekleyelim
+    child: Align(
+      alignment: Alignment.centerRight,
+      child: TextButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => FilterPageScreen()),
+          );
+        },
+        style: TextButton.styleFrom(
+          backgroundColor: Color.fromARGB(255, 238, 151, 38),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+              topLeft: Radius.circular(10),
+              bottomLeft: Radius.circular(10),
+              topRight: Radius.circular(30),
+              bottomRight: Radius.circular(30),
             ),
           ),
         ),
-      ],
-    );
-  }
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              Icons.wallet_membership,
+              color: Colors.white,
+            ),
+            SizedBox(width: 8), // Simge ile metin arasına boşluk ekleyelim
+            Text(
+              "Wallet",
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.white,
+              ),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
+}
+
 }

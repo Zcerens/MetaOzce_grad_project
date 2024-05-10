@@ -1,7 +1,8 @@
 
 import 'package:flutter/material.dart';
+import 'package:metaozce/pages/FilterPage/component/FeatureItemForFilter.dart';
 
-import 'package:metaozce/pages/HomePage/components/widgets/feauture_item.dart';
+
 
 import 'package:metaozce/service/hotel_service.dart';
 
@@ -181,20 +182,27 @@ Widget buildSelectNumber() {
           allHotels = _hotelService.hotels;
 
           return SingleChildScrollView(
-            padding: EdgeInsets.fromLTRB(15, 5, 0, 5),
-            scrollDirection: Axis.vertical,
-            child: Column(
-              children: List.generate(
-                allHotels.length,
-                (index) => Padding(
-                  padding: const EdgeInsets.only(bottom: 10),
-                  child: FeautureItem(
-                    data: allHotels[index],
-                  ),
-                ),
-              ),
+    padding: EdgeInsets.fromLTRB(0, 5, 0, 5),
+    scrollDirection: Axis.vertical,
+    child: ListView.builder(
+      shrinkWrap: true,
+      physics: NeverScrollableScrollPhysics(),
+      itemCount: allHotels.length,
+      itemBuilder: (context, index) {
+        // Sadece ekranda görünecek olan otelleri yükle
+        if (index < 20) {
+          return Padding(
+            padding: const EdgeInsets.only(bottom: 10),
+            child: FeatureItemForFilter(
+              data: allHotels[index],
             ),
           );
+        } else {
+          return Container(); // Diğer oteller için boş bir Container döndür
+        }
+      },
+    ),
+  );
         }
       },
     );
