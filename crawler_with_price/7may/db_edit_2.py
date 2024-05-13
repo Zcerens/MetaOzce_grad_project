@@ -14,17 +14,17 @@ df['score'] = df['score'].str.replace(',', '').astype(float) / 10
 
 
 
-def process_hava_alanina_uzakligi(deger):
-    if pd.isna(deger) or deger == 'No Info':
-        return None  # NaN veya "No Info" içeriyorsa None döndür
-    elif isinstance(deger, str):  # Eğer deger bir string ise
-        deger = deger.split(' ')[0]  # İlk kelimeyi al
-        if deger.isdigit():  # Eğer alınan değer bir sayı ise
-            return int(deger)  # Sayıyı integer'a dönüştür ve döndür
-    return None  # Yukarıdaki koşullar sağlanmazsa None döndür
+# def process_hava_alanina_uzakligi(deger):
+#     if pd.isna(deger) or deger == 'No Info':
+#         return None  # NaN veya "No Info" içeriyorsa None döndür
+#     elif isinstance(deger, str):  # Eğer deger bir string ise
+#         deger = deger.split(' ')[0]  # İlk kelimeyi al
+#         if deger.isdigit():  # Eğer alınan değer bir sayı ise
+#             return int(deger)  # Sayıyı integer'a dönüştür ve döndür
+#     return None  # Yukarıdaki koşullar sağlanmazsa None döndür
 
-# Hava Alanına Uzaklık sütununu düzenleme
-df['hava_alanina_uzakligi'] = df['hava_alanina_uzakligi'].apply(process_hava_alanina_uzakligi)
+# # Hava Alanına Uzaklık sütununu düzenleme
+# df['hava_alanina_uzakligi'] = df['hava_alanina_uzakligi'].apply(process_hava_alanina_uzakligi)
 
 
 
@@ -65,7 +65,7 @@ df['plaj'] = df['plaj'].apply(process_plaj_turu)
 
 
 # Direkt kaldırılacak column'lar
-df = df.drop('fiyat_araligi', axis=1)
+df = df.drop(['fiyat_araligi','hava_alanina_uzakligi'], axis=1)
 
 print(df.head())
 

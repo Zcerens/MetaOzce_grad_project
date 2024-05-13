@@ -19,7 +19,7 @@ df.fillna(df.mode().iloc[0], inplace=True)
 print(df)
 
 # Eğitim ve test setleri
-X = df.drop(['otel_ad', 'fiyat','imageurl', 'bolge' ], axis=1) # Bağımsız değişkenler
+X = df.drop(['otel_ad', 'fiyat','imageurl', 'bolge', 'id'], axis=1) # Bağımsız değişkenler
 y = df['fiyat'] # Bağımlı değişken
 
 
@@ -68,6 +68,7 @@ plt.xticks(rotation=90)
 plt.grid(axis='y', linestyle='--', alpha=0.6)
 plt.show()
 
+
 # Step 1: Make Your Predictions
 predicted_prices = model.predict(X)
 
@@ -78,7 +79,6 @@ predicted_prices_rounded = [round(abs(price), 1) * (-1 if price < 0 else 1) for 
 price_comparison = pd.DataFrame({
     'otel_ad': df['otel_ad'], 
     'fiyat': y, 
-    'hava_alanina_uzakligi': df['hava_alanina_uzakligi'],
     'denize_uzakligi': df['denize_uzakligi'],
     'plaj': df['plaj'],
     'a_la_carte_restoran': df['a_la_carte_restoran'],
@@ -122,26 +122,45 @@ price_comparison['Price Difference'] = [round(abs(diff), 1) * (-1 if diff < 0 el
 # Step 4: Fine-Tuning
 fair_price_threshold = 500  # Let's set a threshold, for example, 500 TL
 
-# Determine fair price range
+# Step 5: Calculate fair-price percentage
+price_comparison['Fair Price Percentage'] = abs(price_comparison['Price Difference'] / price_comparison['fiyat'] * 100)
+
+# Round fair-price percentage to two decimal places
+price_comparison['Fair Price Percentage'] = price_comparison['Fair Price Percentage'].round(2)
+
+# Determine fair price range based on fair-price percentage
 price_comparison['Fair Price Range'] = ''
-price_comparison.loc[price_comparison['Price Difference'] > fair_price_threshold, 'Fair Price Range'] = 'Low'
-price_comparison.loc[price_comparison['Price Difference'] < -fair_price_threshold, 'Fair Price Range'] = 'High'
-price_comparison.loc[(price_comparison['Price Difference'] <= fair_price_threshold) & (price_comparison['Price Difference'] >= -fair_price_threshold), 'Fair Price Range'] = 'Medium'
+price_comparison.loc[price_comparison['Price Difference'] < 0, 'Fair Price Range'] += ' (Underpriced)'
+
+# Handle division by zero or NaN
+price_comparison.loc[price_comparison['fiyat'] == 0, 'Fair Price Percentage'] = float('NaN')
+price_comparison.loc[price_comparison['Predicted Price'] == 0, 'Fair Price Percentage'] = float('NaN')
+
+# Determine fair price range based on fair-price percentage
+price_comparison['Fair Price Range'] = ''
+price_comparison.loc[price_comparison['Fair Price Percentage'] <= 5, 'Fair Price Range'] = 'Fair'
+price_comparison.loc[price_comparison['Fair Price Percentage'] > 5, 'Fair Price Range'] = 'Slight Overpriced'
+price_comparison.loc[price_comparison['Fair Price Percentage'] > 10, 'Fair Price Range'] = 'Overpriced'
+price_comparison.loc[price_comparison['Fair Price Percentage'] > 20, 'Fair Price Range'] = 'Significantly Overpriced'
+price_comparison.loc[price_comparison['Price Difference'] < 0, 'Fair Price Range'] += ' (Underpriced)'
+
+# Add + or - sign to Fair Price Percentage column
+price_comparison['Fair Price Percentage'] = price_comparison.apply(lambda x: f"{'- ' if x['Price Difference'] > 0 else '+ '}{abs(x['Fair Price Percentage'])}", axis=1)
 
 # Sıralama listesi oluştur
-desired_columns = ['otel_ad', 'fiyat', 'Predicted Price', 'Price Difference', 'Fair Price Range',
+desired_columns = ['otel_ad', 'fiyat', 'Predicted Price', 'Price Difference', 'Fair Price Range', 'Fair Price Percentage',
                    'bar', 'a_la_carte_restoran', 'plaj', 'acik_havuz', 'kapali_havuz', 'fitness',
                    'iskele', 'acik_restoran', 'sauna', 'animasyon', 'kuafor', 'spa', 'masa_tenisi',
                    'market', 'su_kaydiragi', 'beach_voley', 'doktor', 'otopark', 'wireless_internet',
                    'sorf', 'kapali_restoran', 'kano', 'cocuk_parki', 'arac_kiralama', 'balo_salonu',
-                   'masaj', 'cocuk_havuzu', 'parasut', 'denize_uzakligi', 'hava_alanina_uzakligi']
+                   'masaj', 'cocuk_havuzu', 'parasut', 'denize_uzakligi']
 
 # Sıralamayı uygula
 price_comparison = price_comparison.reindex(columns=desired_columns)
 
 # Create a SQLite database and write the DataFrame to it
-conn = sqlite3.connect('otel_veritabani_DB3.db')
-price_comparison.to_sql('otel_veritabani_DB3', conn, if_exists='replace', index=False)
+conn = sqlite3.connect('otel_veritabani_DB4.db')
+price_comparison.to_sql('otel_veritabani_DB4', conn, if_exists='replace', index=False)
 conn.close()
 
 # Display price comparison and fair price range
