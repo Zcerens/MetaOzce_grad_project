@@ -46,5 +46,21 @@ public class UserServiceImpl implements UserService{
         return user;
     }
 
+   
+    //login kontrol
+
+    @Override
+    public Optional<User> loginUser(String username, String password) {
+        return userRepository.findByUsernameAndPassword(username, password);
+    }
+
+    //login kontrol
+    @Override
+    public Optional<User> getUserById(int userId) {
+        return userRepository.findById(userId);
+    }
+
+    
+
 
 }

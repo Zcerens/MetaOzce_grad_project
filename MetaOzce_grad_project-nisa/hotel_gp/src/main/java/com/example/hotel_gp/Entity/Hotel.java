@@ -28,110 +28,116 @@ public class Hotel {
     @Column(name = "fiyat")
     private String fiyat;
 
+    @Column(name = "imageurl")
+    private String imageurl;
+
+    @Column(name = "score")
+    private String score;
+
     @Column(name = "fiyat_araligi", length = 250)
-    private String fiyatAraligi;
+    private String fiyat_araligi;
 
     @Column(name = "bolge", length = 250)
     private String bolge;
 
     @Column(name = "hava_alanina_uzakligi")
-    private String havaAlaninaUzakligi;
+    private String hava_alanina_uzakligi;
 
     @Column(name = "denize_uzakligi")
-    private String denizeUzakligi;
+    private String denizedenize_uzakligiUzakligi;
 
     @Column(name = "plaj")
     private String plaj;
 
     @Column(name = "iskele")
-    private String iskele;
+    private int iskele;
 
     @Column(name = "a_la_carte_restoran")
-    private String aLaCarteRestoran;
+    private int a_la_carte_restoran;
 
     @Column(name = "asansor")
-    private String asansor;
+    private int asansor;
 
     @Column(name = "acik_restoran")
-    private String acikRestoran;
+    private int acik_restoran;
 
     @Column(name = "kapali_restoran")
-    private String kapaliRestoran;
+    private int kapali_restoran;
 
     @Column(name = "acik_havuz")
-    private String acikHavuz;
+    private int acik_havuz;
 
     @Column(name = "kapali_havuz")
-    private String kapaliHavuz;
+    private int kapali_havuz;
 
     @Column(name = "bedensel_engelli_odasi")
-    private String bedenselEngelliOdasi;
+    private int bedensel_engelli_odasi;
 
     @Column(name = "bar")
-    private String bar;
+    private int bar;
 
     @Column(name = "su_kaydiragi")
-    private String suKaydiragi;
+    private int su_kaydiragi;
 
     @Column(name = "balo_salonu")
-    private String baloSalonu;
+    private int balo_salonu;
 
     @Column(name = "kuafor")
-    private String kuaför;
+    private int kuafor;
 
     @Column(name = "otopark")
-    private String otopark;
+    private int otopark;
 
     @Column(name = "market")
-    private String market;
+    private int market;
 
     @Column(name = "sauna")
-    private String sauna;
+    private int sauna;
 
     @Column(name = "doktor")
-    private String doktor;
+    private int doktor;
 
     @Column(name = "beach_voley")
-    private String beachVoley;
+    private int beach_voley;
 
     @Column(name = "fitness")
-    private String fitness;
+    private int fitness;
 
     @Column(name = "canli_eglence")
-    private String canliEglence;
+    private int canli_eglence;
 
     @Column(name = "wireless_internet")
-    private String wirelessInternet;
+    private int wireless_internet;
 
     @Column(name = "animasyon")
-    private String animasyon;
+    private int animasyon;
 
     @Column(name = "sorf")
-    private String sorf;
+    private int sorf;
 
     @Column(name = "parasut")
-    private String parasut;
+    private int parasut;
 
     @Column(name = "arac_kiralama")
-    private String aracKiralama;
+    private int arac_kiralama;
 
     @Column(name = "kano")
-    private String kano;
+    private int kano;
 
     @Column(name = "spa")
-    private String spa;
+    private int spa;
 
     @Column(name = "masaj")
-    private String masaj;
+    private int masaj;
 
     @Column(name = "masa_tenisi")
-    private String masaTenisi;
+    private int masa_tenisi;
 
     @Column(name = "cocuk_havuzu")
-    private String cocukHavuzu;
+    private int cocuk_havuzu;
 
     @Column(name = "cocuk_parki")
-    private String cocukParki;
+    private int cocuk_parki;
 
     // Getter ve setter'lar
 }

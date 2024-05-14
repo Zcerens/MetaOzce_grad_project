@@ -26,6 +26,15 @@ public class HotelServiceImpl implements HotelService{
         return hotelRepository.findById(id);
     }
 
+  
+
+    @Override
+    public List<Hotel> findByAllColumnsContainingAndNumberGreaterThanEqual(String feature, int number) {
+       
+            return hotelRepository.findByAllColumnsContainingAndNumberGreaterThanEqual(feature, number);
+        
+    }
+
   /*  @Override
     public List<Hotel> findByRegion(String region) {
         return hotelRepository.findByRegion(region);

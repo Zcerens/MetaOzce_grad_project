@@ -44,6 +44,20 @@ public List<HotelUserHistory> getHistoryByUserId(@PathVariable("userId") int use
     return hotelUserHistoryService.findByUserId(userId);
 }
 
+// kullanıcının history'den oteli silme
+@DeleteMapping("/user/{userId}/history/{hotelHistoryId}")
+public ResponseEntity<String> deleteHotelFromUserHistory(@PathVariable("userId") int userId,
+        @PathVariable("hotelHistoryId") int hotelHistoryId) {
+    ResponseEntity<String> responseEntity = null;
+    try {
+        hotelUserHistoryService.deleteHotelFromHotelUserHistory(userId, hotelHistoryId);
+        responseEntity = new ResponseEntity<String>("Hotel deleted from user history", HttpStatus.OK);
+    } catch (Exception e) {
+        responseEntity = new ResponseEntity<String>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+    return responseEntity;
+}
+
     
 
 //    @PutMapping("/update/{id}")
@@ -53,7 +67,7 @@ public List<HotelUserHistory> getHistoryByUserId(@PathVariable("userId") int use
 //    }
 
     @DeleteMapping("/{id}")
-    public void deleteHistory(@PathVariable int id){
+    public void deleteById(@PathVariable int id){
         hotelUserHistoryService.deleteById(id);
     }
 }

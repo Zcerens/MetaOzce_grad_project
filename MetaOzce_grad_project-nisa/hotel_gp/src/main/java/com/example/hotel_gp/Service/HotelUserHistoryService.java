@@ -2,7 +2,6 @@ package com.example.hotel_gp.Service;
 
 import com.example.hotel_gp.Entity.HotelUserHistory;
 
-import java.util.List;
 import java.util.*;
 
 public interface HotelUserHistoryService {
@@ -11,4 +10,11 @@ public interface HotelUserHistoryService {
     Integer saveOrUpdate(HotelUserHistory hotelUserHistory);
     void deleteById(int id);
     List<HotelUserHistory> findByUserId(int userId);
+    void deleteHotelFromHotelUserHistory(int userId, int hotelId);
+    boolean isHotelAlreadyAdded(int userId, int hotelId);
+    
+
+
 }
+
+

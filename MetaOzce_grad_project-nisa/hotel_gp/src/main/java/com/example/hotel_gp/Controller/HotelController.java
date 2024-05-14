@@ -25,9 +25,24 @@ public class HotelController {
 
     }
 
+   
+
     @GetMapping("/get")
-    public ResponseEntity<List<Hotel>> findAllHotels(){
-        return ResponseEntity.ok(hotelService.findAll());
+    public ResponseEntity<List<Hotel>> findAllHotels(@RequestParam(name = "numberStr",required = false) String numberStr,
+                                                      @RequestParam(name ="feature", required = false) String feature) {
+         int number=1 ;
+
+        if (numberStr != null) {
+            number = Integer.parseInt(numberStr);
+        }
+                                                       
+        List<Hotel> hotels;
+        if (feature == null) {
+            hotels = hotelService.findAll();
+        } else {
+            hotels = hotelService.findByAllColumnsContainingAndNumberGreaterThanEqual(feature, number);
+        }
+        return ResponseEntity.ok(hotels);
     }
    /*  @GetMapping("/region/{region}")
     public List<Hotel> getHotelsByRegion(@PathVariable String region){

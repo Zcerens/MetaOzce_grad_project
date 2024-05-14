@@ -46,5 +46,23 @@ public class UserController {
         return userService.saveOrUpdate(user);
     }
 
+    //login kontrolü
+    
+    @GetMapping("/login")
+    public ResponseEntity<?> loginUser(@RequestParam("username") String username, @RequestParam("password") String password) {
+        Optional<User> userOptional = userService.loginUser(username, password);
+        if (userOptional.isPresent()) {
+            int userId = userOptional.get().getId();
+            Optional<User> userDetailsOptional = userService.getUserById(userId);
+            if (userDetailsOptional.isPresent()) {
+                return ResponseEntity.ok(userDetailsOptional.get());
+            } else {
+                return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("User information could not be retrieved.");
+            }
+        } else {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid username or password.");
+        }
+    }
+
 
 }

@@ -7,8 +7,7 @@ import java.util.Optional;
 
 public interface HotelService {
     List<Hotel> findAll();
+   
+    List<Hotel> findByAllColumnsContainingAndNumberGreaterThanEqual(String feature, int number);
     Optional<Hotel> findHotelById(int id);
-    /*List<Hotel> findByRegion(String region);*/
-
-
 }
