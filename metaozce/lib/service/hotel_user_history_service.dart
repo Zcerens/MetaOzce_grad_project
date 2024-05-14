@@ -22,6 +22,7 @@ class HotelUserHistoryService {
       throw Exception('Failed to create hotel history: $error');
     }
   }
+ 
 
   Future<dynamic> getAllHotelHistory() async {
     try {
@@ -54,6 +55,7 @@ class HotelUserHistoryService {
   }
 
 
+
 //TODO get örneği
     Future<dynamic> getHotelHistoryByUserId(int userId) async {
     try {
@@ -69,6 +71,20 @@ class HotelUserHistoryService {
       throw Exception('Failed to get hotel with HotelHistoryByUserId: $error');
     }
   }
+
+    Future<Response> deleteHotelHistory(int user_id, int hotel_history_id) async {
+    try {
+     
+      final response = await _dio.delete(
+        'http://80.253.246.51:8080/hotel-user/user/$user_id/history/$hotel_history_id',
+        
+      );
+      return response;
+    } catch (error) {
+      throw Exception('Failed to delete hotel history: $error');
+    }
+  }
+
 }
 
 void main() async {
@@ -76,7 +92,7 @@ void main() async {
 
   // HotelService'deki getHotelWithId metodunu çağırarak bir otel al
   try {
-    final hotelData = await hotelUserHistoryService.getHotelHistoryByUserId(102);
+    final hotelData = await hotelUserHistoryService.deleteHotelHistory(102,302);
 
     print('Hotel Data: $hotelData');
   } catch (e) {

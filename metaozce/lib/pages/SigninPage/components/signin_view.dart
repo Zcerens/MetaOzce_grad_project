@@ -4,12 +4,15 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:metaozce/const/constant.dart';
 
 import 'package:metaozce/pages/SignupPage/signup_screen.dart';
+import 'package:metaozce/service/cache_service.dart';
+import 'package:metaozce/service/signin_service.dart';
 import 'package:metaozce/widgets/navigationBar.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'dart:async';
 import 'package:dio/dio.dart';
+
 class SigninView extends StatefulWidget {
-   SigninView({Key? key}) : super(key: key);
+  SigninView({Key? key}) : super(key: key);
 
   @override
   State<SigninView> createState() => _SigninViewState();
@@ -27,6 +30,38 @@ class _SigninViewState extends State<SigninView> {
   String? username = "";
   String? password = "";
   final _controller = TextEditingController();
+  final CacheService cacheService = CacheService();
+
+  loginUser(String username, String password) async {
+    final SigninService signinService = SigninService();
+
+    try {
+      // Kullanıcı giriş işlemini gerçekleştir
+      final userData = await signinService.loginUser(username, password);
+
+      // Giriş başarılıysa NavigationBarMy sayfasına yönlendir
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => NavigationBarMy(),
+        ),
+      );
+
+      final Map<String, dynamic> userCachedData =
+          userData.data as Map<String, dynamic>;
+
+      await cacheService.cacheUserData(
+        userCachedData['id'].toString(),
+        userCachedData['fullname'],
+        userCachedData['username'],
+        userCachedData['password'],
+      );
+
+      print('User Data: $userData');
+    } catch (e) {
+      print('Error: $e');
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -154,9 +189,7 @@ class _SigninViewState extends State<SigninView> {
           child: ElevatedButton(
             onPressed: _isButtonDisabled
                 ? null
-                : () {
-                  
-
+                : () async {
                     final Timer timer = Timer(Duration(seconds: 1), () {
                       setState(() {
                         _isButtonDisabled = false;
@@ -165,33 +198,30 @@ class _SigninViewState extends State<SigninView> {
 
                     final isValid = formKey.currentState!.validate();
                     if (isValid && flagPassword && flagUsername) {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => NavigationBarMy(),
-                        ),
-                      ).then((value) {
-                        timer.cancel();
-                        setState(() {
-                          _isButtonDisabled = false;
-                        });
+                      // Kullanıcı adı ve şifre doğrulandığında loginUser fonksiyonunu çağır
+                      await loginUser(username!, password!);
+
+                      timer.cancel();
+                      setState(() {
+                        _isButtonDisabled = false;
                       });
-                      ;
                     } else if (!flagUsername) {
                       Fluttertoast.showToast(
-                          fontSize: 15,
-                          toastLength: Toast.LENGTH_LONG,
-                          msg: "Username cannot be empty.",
-                          gravity: ToastGravity.BOTTOM,
-                          backgroundColor: Colors.red);
+                        fontSize: 15,
+                        toastLength: Toast.LENGTH_LONG,
+                        msg: "Username cannot be empty.",
+                        gravity: ToastGravity.BOTTOM,
+                        backgroundColor: Colors.red,
+                      );
                     } else if (!flagPassword) {
                       Fluttertoast.showToast(
-                          fontSize: 15,
-                          toastLength: Toast.LENGTH_LONG,
-                          msg: "Password cannot be empty.",
-                          gravity: ToastGravity.BOTTOM,
-                          backgroundColor: Colors.red);
-                    } else {}
+                        fontSize: 15,
+                        toastLength: Toast.LENGTH_LONG,
+                        msg: "Password cannot be empty.",
+                        gravity: ToastGravity.BOTTOM,
+                        backgroundColor: Colors.red,
+                      );
+                    }
                   },
             style: ElevatedButton.styleFrom(
               backgroundColor: kPrimaryColor, // Buton rengi
@@ -210,13 +240,15 @@ class _SigninViewState extends State<SigninView> {
               tapTargetSize: MaterialTapTargetSize.shrinkWrap, // Basılma boyutu
               animationDuration:
                   Duration(milliseconds: 300), // Animasyon süresi
-              // Butona basıldığında ara rengin belirlenmesi
             ),
-            child: Text("SIGN IN",
-                style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w600,
-                    fontSize: 20)),
+            child: Text(
+              "SIGN IN",
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.w600,
+                fontSize: 20,
+              ),
+            ),
           ),
         ),
       );

@@ -15,4 +15,12 @@ class User {
         'username': username,
         'password': password,
       };
+
+    factory User.fromJson(Map<String, dynamic> json) {
+    return User(
+      fullname: json['fullname'],
+      username: json['username'],
+      password: json['password'],
+    );
+  }
 }

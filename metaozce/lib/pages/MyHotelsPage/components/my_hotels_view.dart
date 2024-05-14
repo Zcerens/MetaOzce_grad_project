@@ -5,6 +5,7 @@ import 'package:metaozce/pages/DetailPage/detail_screen.dart';
 
 import 'package:metaozce/pages/HomePage/components/widgets/data.dart';
 import 'package:metaozce/pages/MyHotelsPage/components/widgets/hotel_item.dart';
+import 'package:metaozce/service/cache_service.dart';
 import 'package:metaozce/service/hotel_service.dart';
 import 'package:metaozce/service/hotel_user_history_service.dart'; // Renkleri içe aktardık
 
@@ -24,6 +25,24 @@ class _MyHotelsViewState extends State<MyHotelsView> {
   List<dynamic> allHotels = [];
   List<dynamic> allUserHistoryHotels = [];
 
+  Map<String, String> allUserData = {};
+
+  CacheService cacheService = CacheService();
+  getCachedUserData() async {
+    try {
+      final cachedUserData = await cacheService.getCachedUserData();
+      allUserData = cachedUserData;
+      allUserData["id"];
+      //print(allUserData);
+      //print(allUserData['id']);
+
+      print('Cached User Data: $cachedUserData');
+      // Önbellekten alınan verileri kullanarak işlem yapabilirsiniz
+    } catch (e) {
+      print('Error retrieving cached user data: $e');
+    }
+  }
+
   fetchAllHotels() async {
     final HotelService hotelService = HotelService();
 
@@ -32,7 +51,8 @@ class _MyHotelsViewState extends State<MyHotelsView> {
       List<dynamic> oteller = await hotelService.getHotelAll();
       setState(() {
         allHotels = List<dynamic>.from(oteller); // Tüm otelleri güncelle
-        searchHotels = List<dynamic>.from(allHotels); // Başlangıçta tüm otelleri arama sonuçları olarak ayarla
+        searchHotels = List<dynamic>.from(
+            allHotels); // Başlangıçta tüm otelleri arama sonuçları olarak ayarla
       });
       print('Hotel Data: $allHotels');
       return allHotels;
@@ -42,32 +62,37 @@ class _MyHotelsViewState extends State<MyHotelsView> {
   }
 
   fetchAllHotelUserHistory() async {
-    final HotelUserHistoryService hotelUserHistoryService =HotelUserHistoryService();
+    final HotelUserHistoryService hotelUserHistoryService =
+        HotelUserHistoryService();
     // HotelUserHistoryService'deki getHotelHistoryById metodunu çağırarak bir otel al
-   try {
-    final hotelData = await hotelUserHistoryService.getHotelHistoryByUserId(102);
-    allUserHistoryHotels = List<dynamic>.from(hotelData);
-    print(allUserHistoryHotels);
-    print('Hotel Data: $hotelData');
-  } catch (e) {
-    print('Error: $e');
-  }
+    try {
+      final hotelData = await hotelUserHistoryService
+          .getHotelHistoryByUserId(102); //TODO user id eklenecek
+      allUserHistoryHotels = List<dynamic>.from(hotelData);
+      print(allUserHistoryHotels);
+      print('Hotel Data: $hotelData');
+    } catch (e) {
+      print('Error: $e');
+    }
   }
 
   createHotelUserHistory(int hotelId, int userId) async {
+    //int mi String mi olacak
 
-  final HotelUserHistoryService hotelUserHistoryService = HotelUserHistoryService();
+    final HotelUserHistoryService hotelUserHistoryService =
+        HotelUserHistoryService();
 
-  // HotelService'deki getHotelWithId metodunu çağırarak bir otel al
-  try {
-  final response =  await hotelUserHistoryService.createHotelHistory(hotelId, 102); //TODO UserId değişecek
+    try {
+      final response = await hotelUserHistoryService.createHotelHistory(
+          hotelId, 102); //TODO UserId değişecek allUserData['id']
 
-    print('Response : $response');
-  } catch (e) {
-    print('Error: $e');
+      print('Response : $response');
+    } catch (e) {
+      print('Error: $e');
+    }
   }
-  }
-  
+
+
 
   void queryListener() {
     search(searchController.text);
@@ -93,8 +118,10 @@ class _MyHotelsViewState extends State<MyHotelsView> {
   @override
   void initState() {
     super.initState();
+    getCachedUserData();
     fetchAllHotels();
     fetchAllHotelUserHistory();
+    
     searchController.addListener(queryListener);
     focusNode.addListener(() {
       if (!focusNode.hasFocus) {
@@ -110,6 +137,7 @@ class _MyHotelsViewState extends State<MyHotelsView> {
     searchController.removeListener(queryListener);
     searchController.dispose();
     focusNode.dispose();
+  
     super.dispose();
   }
 
@@ -190,7 +218,9 @@ class _MyHotelsViewState extends State<MyHotelsView> {
                     ? MediaQuery.of(context).size.height * 0.75
                     : MediaQuery.of(context).size.height * 0.001,
                 child: searchHotels.isEmpty
-                    ? Padding( padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.2),
+                    ? Padding(
+                        padding: EdgeInsets.only(
+                            top: MediaQuery.of(context).size.height * 0.2),
                         child: Text(
                           "Not Found",
                           style: TextStyle(
@@ -209,19 +239,22 @@ class _MyHotelsViewState extends State<MyHotelsView> {
                                   ? searchHotels.length
                                   : allHotels.length)) {
                             // Son eleman, yani artı butonu
-                            return Container(color: Colors.red,
+                            return Container(
+                              color: Colors.red,
                             );
                           } else {
-                            final hotel =
-                                tiklandi ? searchHotels[index] : allHotels[index];
-      
+                            final hotel = tiklandi
+                                ? searchHotels[index]
+                                : allHotels[index];
+
                             return Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: ListTile(
                                 focusColor: Colors.amber,
                                 leading: CircleAvatar(
-                                     backgroundImage: NetworkImage(hotel["imageurl"]),
-                                    ),
+                                  backgroundImage:
+                                      NetworkImage(hotel["imageurl"]),
+                                ),
                                 title: Text(
                                   hotel["otelAd"],
                                   style: TextStyle(
@@ -232,8 +265,12 @@ class _MyHotelsViewState extends State<MyHotelsView> {
                                 trailing: IconButton(
                                   icon: Icon(Icons.add),
                                   onPressed: () {
-                                     createHotelUserHistory(searchHotels[index]['id'], 52);//TODO
+                                    
+                                    createHotelUserHistory(
+                                        searchHotels[index]['id'], 52); //TODO
+                                        fetchAllHotelUserHistory();
                                   },
+
                                 ),
                                 subtitle: Text(
                                   hotel["bolge"],
@@ -242,6 +279,7 @@ class _MyHotelsViewState extends State<MyHotelsView> {
                                   ),
                                 ),
                                 onTap: () {
+                                  
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(

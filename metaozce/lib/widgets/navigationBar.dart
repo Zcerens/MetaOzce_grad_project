@@ -2,6 +2,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 
 import 'package:flutter/material.dart';
 import 'package:metaozce/const/constant.dart';
+import 'package:metaozce/pages/FilterPage/filterpage_screen.dart';
 
 import 'package:metaozce/pages/ProfilePage/components/profile_view.dart';
 import 'package:metaozce/pages/ProfilePage/profile_screen.dart';
@@ -36,6 +37,7 @@ class _NavigationBarMyState extends State<NavigationBarMy> {
     int currentIndex = 0;
     final screens = [
       HomeView(),
+
       ProfileScreen(),
       
     ];
@@ -53,12 +55,15 @@ class _NavigationBarMyState extends State<NavigationBarMy> {
             Icon(
               Icons.home,
               color: Colors.white,
+              //size: 50,
             ),
+           
             Visibility(
               visible: true,
               child: Icon(
                 Icons.person,
                 color: Colors.white,
+               // size: 50,
               ),
             )
           ]),

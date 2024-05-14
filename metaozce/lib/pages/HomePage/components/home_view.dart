@@ -1,7 +1,9 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:metaozce/const/constant.dart';
+import 'package:metaozce/pages/DetailPage/components/detail_view.dart';
 import 'package:metaozce/pages/DetailPage/detail_screen.dart';
+import 'package:metaozce/pages/FilterPage/filterpage_screen.dart';
 
 import 'package:metaozce/pages/HomePage/components/widgets/city_item.dart';
 import 'package:metaozce/pages/HomePage/components/widgets/data.dart';
@@ -9,6 +11,7 @@ import 'package:metaozce/pages/HomePage/components/widgets/feauture_item.dart';
 
 import 'package:metaozce/pages/HomePage/components/widgets/recommend_item.dart';
 import 'package:metaozce/pages/HomePage/components/widgets/search_item.dart';
+import 'package:metaozce/service/cache_service.dart';
 import 'package:metaozce/service/hotel_service.dart';
 import 'package:metaozce/service/hotel_user_history_service.dart';
 import 'package:metaozce/service/python_service.dart';
@@ -29,7 +32,26 @@ class _HomeViewState extends State<HomeView> {
   FocusNode focusNode = FocusNode();
   List<dynamic> allUserHistoryHotels = [];
   List<dynamic> allRecommendsHotels = [];
+  Map<String,String> allUserData = {};
+  
 
+  CacheService cacheService = CacheService();
+  getCachedUserData() async {
+  try {
+    final cachedUserData = await cacheService.getCachedUserData();
+    allUserData = cachedUserData;
+    print(allUserData);
+    print(allUserData['id']);
+
+    print('Cached User Data: $cachedUserData');
+    // Önbellekten alınan verileri kullanarak işlem yapabilirsiniz
+  } catch (e) {
+    print('Error retrieving cached user data: $e');
+  }
+
+
+  }
+ 
   fetchAllHotelUserHistory() async {
     final HotelUserHistoryService hotelUserHistoryService =
         HotelUserHistoryService();
@@ -52,6 +74,7 @@ class _HomeViewState extends State<HomeView> {
     try {
       final recommendsData = await pythonEntegration
           .getAllRecommendHotels(allUserHistoryHotels[0]['hotel']['otelAd']);
+      //print(allUserHistoryHotels[0]['hotel']['otelAd']);
       allRecommendsHotels = List<dynamic>.from(recommendsData);
       //print(allRecommendsHotels);
       //print('Hotel Data: $recommendsData');
@@ -59,6 +82,8 @@ class _HomeViewState extends State<HomeView> {
       print('Error: $e');
     }
   }
+
+ 
 
   List<dynamic> allHotels = [];
 
@@ -112,7 +137,8 @@ class _HomeViewState extends State<HomeView> {
     super.initState();
     fetchAllHotels();
     fetchAllHotelUserHistory();
-    // fetchAllRecommendHotels();
+    fetchAllRecommendHotels();
+    getCachedUserData();
     searchController.addListener(queryListener);
     focusNode.addListener(() {
       if (!focusNode.hasFocus) {
@@ -133,44 +159,18 @@ class _HomeViewState extends State<HomeView> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.white,
-      body: CustomScrollView(
-        slivers: [
-          SliverAppBar(
-            backgroundColor: Colors.white,
-            pinned: true,
-            snap: true,
-            floating: true,
-            //title: _builAppBar(),
-          ),
-          SliverToBoxAdapter(
-            child: _buildBody(context),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _builAppBar() {
-    return Row(
-      children: [
-        // Icon(
-        //   Icons.place_outlined,
-        //   color: Colors.blue,
-        //   size: 20,
-        // ),
-        const SizedBox(
-          width: 3,
+    return CustomScrollView(
+      slivers: [
+        SliverAppBar(
+          backgroundColor: Colors.white,
+          pinned: true,
+          snap: true,
+          floating: true,
+          //title: _builAppBar(),
         ),
-        // Text(
-        //   selectedCity,
-        //   style: TextStyle(
-        //     color: Colors.blue,
-        //     fontSize: 13,
-        //   ),
-        // ),
-        const Spacer(),
+        SliverToBoxAdapter(
+          child: _buildBody(context),
+        ),
       ],
     );
   }
@@ -184,9 +184,10 @@ class _HomeViewState extends State<HomeView> {
           Padding(
             padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
             child: Text(
-              "Welcome to MetaOzce App",
+              
+              "Welcome to MetaOzce App ${allUserData['fullname']}",
               style: TextStyle(
-                color: Colors.black,
+                color: Color.fromARGB(255, 51, 51, 51),
                 fontWeight: FontWeight.w600,
                 fontSize: 22,
               ),
@@ -197,23 +198,28 @@ class _HomeViewState extends State<HomeView> {
           const SizedBox(
             height: 10,
           ),
+          buildButton(),
           Padding(
-            padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
+            padding: const EdgeInsets.fromLTRB(15, 0, 15, 0),
             child: Text(
               "Reccommended",
               style: TextStyle(
-                color: Colors.black,
+                color: Color.fromARGB(255, 51, 51, 51),
                 fontWeight: FontWeight.w500,
                 fontSize: 22,
               ),
             ),
+          ),
+          Divider(
+            color: kPrimaryColor,
+            height: 20,
           ),
           _buildReccommended(),
           const SizedBox(
             height: 15,
           ),
           Padding(
-            padding: EdgeInsets.fromLTRB(15, 0, 15, 10),
+            padding: EdgeInsets.fromLTRB(15, 0, 15, 0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -222,7 +228,11 @@ class _HomeViewState extends State<HomeView> {
                   style: TextStyle(
                       fontSize: 22,
                       fontWeight: FontWeight.w500,
-                      color: Colors.black),
+                      color: Color.fromARGB(255, 51, 51, 51)),
+                ),
+                Divider(
+                  color: kPrimaryColor,
+                  height: 20,
                 ),
               ],
             ),
@@ -235,67 +245,64 @@ class _HomeViewState extends State<HomeView> {
 
   _buildReccommended() {
     return FutureBuilder(
-      future: fetchAllRecommendHotels(),
-      builder: (context, snapshot) {
-        if (snapshot.connectionState == ConnectionState.waiting) {
-          return CircularProgressIndicator();
-        } else if (snapshot.hasError) {
-          return Text('Error: ${snapshot.error}');
-        } else {
-          // Veriler başarıyla alındı
-          return CarouselSlider(
-            options: CarouselOptions(
-              height: MediaQuery.of(context).size.height * 0.4,
-              enlargeCenterPage: true,
-              disableCenter: true,
-              viewportFraction: .75,
-            ),
-            items: List.generate(
-              allRecommendsHotels.length,
-              (index) {
-                return RecommendItem(
-                  data: allRecommendsHotels[index],
-                  onTapFavorite: () {
-                    setState(() {
-                      // İlgili işlemler
-                    });
-                  },
+            future: fetchAllRecommendHotels(),
+            builder: (context, snapshot) {
+              if (snapshot.connectionState == ConnectionState.waiting) {
+                return CircularProgressIndicator();
+              } else if (snapshot.hasError) {
+                return Text('Error: ${snapshot.error}');
+              } else {
+                // Veriler başarıyla alındı
+                return CarouselSlider(
+                  options: CarouselOptions(
+                    height: MediaQuery.of(context).size.height * 0.4,
+                    enlargeCenterPage: true,
+                    disableCenter: true,
+                    viewportFraction: .75,
+                  ),
+                  items: List.generate(
+                    allRecommendsHotels.length,
+                    (index) {
+                      return RecommendItem(
+                        data: allRecommendsHotels[index],
+                        onTapFavorite: () {
+                          setState(() {
+                            // İlgili işlemler
+                          });
+                        },
+                      );
+                    },
+                  ),
                 );
-              },
-            ),
+              }
+            },
           );
-        }
-      },
+  }
+
+  _buildFeature() {
+    return SingleChildScrollView(
+      padding: EdgeInsets.fromLTRB(0, 5, 0, 5),
+      scrollDirection: Axis.vertical,
+      child: ListView.builder(
+        shrinkWrap: true,
+        physics: NeverScrollableScrollPhysics(),
+        itemCount: allHotels.length,
+        itemBuilder: (context, index) {
+          // Sadece ekranda görünecek olan otelleri yükle
+          if (index < 20) {
+            return Padding(
+              padding: const EdgeInsets.only(bottom: 10),
+              child: FeautureItem(
+                data: allHotels[index],
+              ),
+            );
+          } else {
+            return Container(); // Diğer oteller için boş bir Container döndür
+          }
+        },
+      ),
     );
   }
-
-_buildFeature() {
-
-
-    return SingleChildScrollView(
-    padding: EdgeInsets.fromLTRB(15, 5, 0, 5),
-    scrollDirection: Axis.vertical,
-    child: ListView.builder(
-      shrinkWrap: true,
-      physics: NeverScrollableScrollPhysics(),
-      itemCount: allHotels.length,
-      itemBuilder: (context, index) {
-        // Sadece ekranda görünecek olan otelleri yükle
-        if (index < 20) {
-          return Padding(
-            padding: const EdgeInsets.only(bottom: 10),
-            child: FeautureItem(
-              data: allHotels[index],
-            ),
-          );
-        } else {
-          return Container(); // Diğer oteller için boş bir Container döndür
-        }
-      },
-    ),
-  );
-  }
-
 
   _buildCities() {
     return SingleChildScrollView(
@@ -401,6 +408,51 @@ _buildFeature() {
             ),
           ),
         ],
+      ),
+    );
+  }
+
+  Widget buildButton() {
+    return Padding(
+      padding: const EdgeInsets.only(right: 16.0), // Sağdan boşluk ekleyelim
+      child: Align(
+        alignment: Alignment.centerRight,
+        child: TextButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => FilterPageScreen()),
+            );
+          },
+          style: TextButton.styleFrom(
+            backgroundColor: Color.fromARGB(255, 238, 151, 38),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(10),
+                bottomLeft: Radius.circular(10),
+                topRight: Radius.circular(30),
+                bottomRight: Radius.circular(30),
+              ),
+            ),
+          ),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Icon(
+                Icons.wallet_membership,
+                color: Colors.white,
+              ),
+              SizedBox(width: 8), // Simge ile metin arasına boşluk ekleyelim
+              Text(
+                "Wallet",
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.white,
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }

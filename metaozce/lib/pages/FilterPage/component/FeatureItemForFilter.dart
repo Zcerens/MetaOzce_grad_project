@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:metaozce/const/constant.dart';
 import 'package:metaozce/pages/DetailPage/detail_screen.dart';
 import 'package:metaozce/pages/HomePage/components/widgets/color.dart';
+import 'package:metaozce/pages/HomePage/components/widgets/custom_image.dart';
 import 'package:metaozce/widgets/rating.dart';
 
 
-import 'custom_image.dart';
 
-class FeautureItem extends StatelessWidget {
-  const FeautureItem({
+
+class FeatureItemForFilter extends StatelessWidget {
+  const FeatureItemForFilter({
     Key? key,
     required this.data,
     this.onTap,
@@ -126,15 +127,29 @@ return Row(
         style: TextStyle(fontSize: 12, color: Colors.grey),
       ),
     ),
-    Text(
-        data["fiyat"],
-        style: TextStyle(
-          
-          fontSize: 14,
-          fontWeight: FontWeight.w700,
-          color: Color.fromARGB(255, 58, 58, 58),
-        ),
-      ),
+    Column(
+      children: [
+        Text(
+            data["fiyat"],
+            style: TextStyle(
+              
+              fontSize: 14,
+              fontWeight: FontWeight.w700,
+              color: Color.fromARGB(255, 139, 74, 0),
+            ),
+          ),
+         Text(
+  "7.500,00 TL",
+  style: TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w700,
+    color: Color.fromARGB(255, 124, 124, 124),
+    decoration: TextDecoration.lineThrough, // Yazı üstünü çizer
+  ),
+),
+
+      ],
+    ),
     
   ],
 );

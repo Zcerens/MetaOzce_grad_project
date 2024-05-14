@@ -9,7 +9,7 @@ class Background extends StatelessWidget {
     required this.child,
     required this.title,
     this.topImage = "assets/background.png",
-    this.bottomImage = "assets/background1.png",
+    this.bottomImage = "assets/d4.png",
   }) : super(key: key);
 
   final String topImage, bottomImage;
@@ -31,13 +31,15 @@ class Background extends StatelessWidget {
         fit: StackFit.expand,
         alignment: Alignment.center,
         children: <Widget>[
-         /* Positioned(
+          Positioned(
             top: MediaQuery.of(context).size.height * 0,
             child: Image.asset(
               bottomImage,
+               // Yeni genişlik parametresini uygula
+             
             ),
             
-          ),*/
+          ),
           SafeArea(child: child),
         ],
       ),

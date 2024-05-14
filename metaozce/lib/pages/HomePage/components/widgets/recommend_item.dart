@@ -2,6 +2,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:metaozce/const/constant.dart';
 import 'package:metaozce/pages/DetailPage/detail_screen.dart';
 
 import 'package:metaozce/pages/HomePage/components/widgets/color.dart';
@@ -95,26 +96,31 @@ class RecommendItem extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              data["bolge"],
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: TextStyle(
-                color: AppColor.labelColor,
-                fontSize: 13,
+             Row(
+                children: [
+                  Icon(
+                    Icons.location_on,
+                    color: kPrimaryColor,
+                    size: 16,
+                  ),
+                  SizedBox(width: 5),
+                  Text(
+                    data['bolge'],
+                    style: TextStyle(fontSize: 14),
+                  ),
+                ],
               ),
-            ),
             const SizedBox(
               height: 8,
             ),
             Text(
-              "₺" + data["fiyat"].toString() +" TL",
+               " "+data["fiyat"].toString() +" TL",
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               style: TextStyle(
-                color: AppColor.primary,
-                fontSize: 15,
-                fontWeight: FontWeight.w600,
+                color: Color.fromARGB(255, 58, 58, 58),
+                fontSize: 13,
+                fontWeight: FontWeight.w700,
               ),
             ),
           ],
