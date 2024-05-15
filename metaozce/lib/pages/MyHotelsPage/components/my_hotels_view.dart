@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:metaozce/const/constant.dart';
 import 'package:metaozce/pages/DetailPage/detail_screen.dart';
-
 import 'package:metaozce/pages/HomePage/components/widgets/data.dart';
 import 'package:metaozce/pages/MyHotelsPage/components/widgets/hotel_item.dart';
+import 'package:metaozce/pages/MyHotelsPage/my_hotels_screen.dart';
 import 'package:metaozce/service/cache_service.dart';
 import 'package:metaozce/service/hotel_service.dart';
-import 'package:metaozce/service/hotel_user_history_service.dart'; // Renkleri içe aktardık
+import 'package:metaozce/service/hotel_user_history_service.dart';
 
 class MyHotelsView extends StatefulWidget {
   @override
@@ -18,26 +18,44 @@ class _MyHotelsViewState extends State<MyHotelsView> {
   final TextEditingController searchController = TextEditingController();
 
   List<dynamic> searchHotels = [];
-
   bool tiklandi = false;
-
   FocusNode focusNode = FocusNode();
   List<dynamic> allHotels = [];
   List<dynamic> allUserHistoryHotels = [];
-
   Map<String, String> allUserData = {};
-
   CacheService cacheService = CacheService();
+  String userIdSon = "";
+
+  @override
+  void initState() {
+    super.initState();
+    getCachedUserData();
+  }
+
+  @override
+  void dispose() {
+    searchController.removeListener(queryListener);
+    searchController.dispose();
+    focusNode.dispose();
+    super.dispose();
+  }
+
   getCachedUserData() async {
     try {
       final cachedUserData = await cacheService.getCachedUserData();
-      allUserData = cachedUserData;
-      allUserData["id"];
-      //print(allUserData);
-      //print(allUserData['id']);
 
-      print('Cached User Data: $cachedUserData');
-      // Önbellekten alınan verileri kullanarak işlem yapabilirsiniz
+      final userId = cachedUserData['id'];
+      setState(() {
+        userIdSon = userId!;
+      });
+      if (userId != null) {
+        allUserData = cachedUserData;
+        fetchAllHotels();
+        fetchAllHotelUserHistory();
+      } else {
+        print('Cached User Data: $cachedUserData');
+        print('Error: User id is null');
+      }
     } catch (e) {
       print('Error retrieving cached user data: $e');
     }
@@ -45,17 +63,13 @@ class _MyHotelsViewState extends State<MyHotelsView> {
 
   fetchAllHotels() async {
     final HotelService hotelService = HotelService();
-
-    // HotelService'deki getHotelWithId metodunu çağırarak bir otel al
     try {
       List<dynamic> oteller = await hotelService.getHotelAll();
       setState(() {
-        allHotels = List<dynamic>.from(oteller); // Tüm otelleri güncelle
-        searchHotels = List<dynamic>.from(
-            allHotels); // Başlangıçta tüm otelleri arama sonuçları olarak ayarla
+        allHotels = List<dynamic>.from(oteller);
+        searchHotels = List<dynamic>.from(allHotels);
       });
-      print('Hotel Data: $allHotels');
-      return allHotels;
+      //print('Hotel Data: $allHotels');
     } catch (e) {
       print('Error: $e');
     }
@@ -64,35 +78,52 @@ class _MyHotelsViewState extends State<MyHotelsView> {
   fetchAllHotelUserHistory() async {
     final HotelUserHistoryService hotelUserHistoryService =
         HotelUserHistoryService();
-    // HotelUserHistoryService'deki getHotelHistoryById metodunu çağırarak bir otel al
     try {
       final hotelData = await hotelUserHistoryService
-          .getHotelHistoryByUserId(102); //TODO user id eklenecek
-      allUserHistoryHotels = List<dynamic>.from(hotelData);
-      print(allUserHistoryHotels);
-      print('Hotel Data: $hotelData');
+          .getHotelHistoryByUserId(int.parse(userIdSon));
+      setState(() {
+        allUserHistoryHotels = List<dynamic>.from(hotelData);
+      });
+      // print('Hotel Data: $hotelData');
     } catch (e) {
       print('Error: $e');
     }
   }
 
   createHotelUserHistory(int hotelId, int userId) async {
-    //int mi String mi olacak
-
     final HotelUserHistoryService hotelUserHistoryService =
         HotelUserHistoryService();
-
     try {
-      final response = await hotelUserHistoryService.createHotelHistory(
-          hotelId, 102); //TODO UserId değişecek allUserData['id']
-
-      print('Response : $response');
+      final response =
+          await hotelUserHistoryService.createHotelHistory(hotelId, userId);
+      Fluttertoast.showToast(
+          msg: "Hotel added to user history",
+          toastLength: Toast.LENGTH_SHORT,
+          gravity: ToastGravity.BOTTOM,
+          timeInSecForIosWeb: 1,
+          backgroundColor: Colors.green,
+          textColor: Colors.white,
+          fontSize: 16.0);
+          refreshMyHotels();
+           Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => MyHotelsScreen(),
+        ),
+      );
+      // print('Response : $response');
     } catch (e) {
       print('Error: $e');
+      Fluttertoast.showToast(
+          msg: "Hotel cannot add to user history",
+          toastLength: Toast.LENGTH_SHORT,
+          gravity: ToastGravity.BOTTOM,
+          timeInSecForIosWeb: 1,
+          backgroundColor: Colors.red,
+          textColor: Colors.white,
+          fontSize: 16.0);
     }
   }
-
-
 
   void queryListener() {
     search(searchController.text);
@@ -101,8 +132,7 @@ class _MyHotelsViewState extends State<MyHotelsView> {
   void search(String query) {
     if (query.isEmpty) {
       setState(() {
-        searchHotels = List<dynamic>.from(
-            allHotels); // Tüm otelleri arama sonuçları olarak ayarla
+        searchHotels = List<dynamic>.from(allHotels);
       });
     } else {
       setState(() {
@@ -110,35 +140,17 @@ class _MyHotelsViewState extends State<MyHotelsView> {
             .where((e) => (e['otelAd'] as String)
                 .toLowerCase()
                 .contains(query.toLowerCase()))
-            .toList(); // Query'ye göre otel isimlerini filtreler ve searchHotels'e atar.
+            .toList();
       });
     }
   }
 
-  @override
-  void initState() {
-    super.initState();
-    getCachedUserData();
-    fetchAllHotels();
-    fetchAllHotelUserHistory();
-    
-    searchController.addListener(queryListener);
-    focusNode.addListener(() {
-      if (!focusNode.hasFocus) {
-        setState(() {
-          tiklandi = false; // Klavye kapatıldığında tiklandi'yi false yap
-        });
-      }
+  void refreshMyHotels() {
+    setState(() {
+      // Verileri yeniden yükle
+      getCachedUserData();
+      fetchAllHotelUserHistory();
     });
-  }
-
-  @override
-  void dispose() {
-    searchController.removeListener(queryListener);
-    searchController.dispose();
-    focusNode.dispose();
-  
-    super.dispose();
   }
 
   @override
@@ -146,7 +158,6 @@ class _MyHotelsViewState extends State<MyHotelsView> {
     return Scaffold(
       body: tiklandi
           ? Container(
-              //color: Colors.teal,
               height: MediaQuery.of(context).size.height * 0.9,
               child: _buildSearch(),
             )
@@ -158,7 +169,7 @@ class _MyHotelsViewState extends State<MyHotelsView> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
                   child: Text(
-                    "My Visited Hotel",
+                    "My Visited Hotel ${userIdSon}",
                     style: TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.w500,
@@ -168,10 +179,12 @@ class _MyHotelsViewState extends State<MyHotelsView> {
                 ),
                 Expanded(
                   child: ListView.builder(
-                    itemCount: allUserHistoryHotels.length, // Otellerin sayısı
+                    itemCount: allUserHistoryHotels.length,
                     itemBuilder: (context, index) {
                       final hotel = allUserHistoryHotels[index];
                       return HotelItem(
+                        userId: userIdSon,
+                        refreshMyHotels: refreshMyHotels,
                         data: hotel,
                       );
                     },
@@ -214,85 +227,83 @@ class _MyHotelsViewState extends State<MyHotelsView> {
           Padding(
             padding: const EdgeInsets.all(20),
             child: Container(
-                height: tiklandi
-                    ? MediaQuery.of(context).size.height * 0.75
-                    : MediaQuery.of(context).size.height * 0.001,
-                child: searchHotels.isEmpty
-                    ? Padding(
-                        padding: EdgeInsets.only(
-                            top: MediaQuery.of(context).size.height * 0.2),
-                        child: Text(
-                          "Not Found",
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                          ),
+              height: tiklandi
+                  ? MediaQuery.of(context).size.height * 0.75
+                  : MediaQuery.of(context).size.height * 0.001,
+              child: searchHotels.isEmpty
+                  ? Padding(
+                      padding: EdgeInsets.only(
+                          top: MediaQuery.of(context).size.height * 0.2),
+                      child: Text(
+                        "Not Found",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
                         ),
-                      )
-                    : ListView.builder(
-                        itemCount: tiklandi
-                            ? searchHotels.length + 1
-                            : allHotels.length + 1,
-                        itemBuilder: (context, index) {
-                          if (index ==
-                              (tiklandi
-                                  ? searchHotels.length
-                                  : allHotels.length)) {
-                            // Son eleman, yani artı butonu
-                            return Container(
-                              color: Colors.red,
-                            );
-                          } else {
-                            final hotel = tiklandi
-                                ? searchHotels[index]
-                                : allHotels[index];
-
-                            return Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: ListTile(
-                                focusColor: Colors.amber,
-                                leading: CircleAvatar(
-                                  backgroundImage:
-                                      NetworkImage(hotel["imageurl"]),
+                      ),
+                    )
+                  : ListView.builder(
+                      itemCount: tiklandi
+                          ? searchHotels.length + 1
+                          : allHotels.length + 1,
+                      itemBuilder: (context, index) {
+                        if (index ==
+                            (tiklandi
+                                ? searchHotels.length
+                                : allHotels.length)) {
+                          return Container(
+                            color: Colors.red,
+                          );
+                        } else {
+                          final hotel =
+                              tiklandi ? searchHotels[index] : allHotels[index];
+                          return Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: ListTile(
+                              focusColor: Colors.amber,
+                              leading: CircleAvatar(
+                                backgroundImage:
+                                    NetworkImage(hotel["imageurl"]),
+                              ),
+                              title: Text(
+                                hotel["otelAd"],
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
                                 ),
-                                title: Text(
-                                  hotel["otelAd"],
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                trailing: IconButton(
-                                  icon: Icon(Icons.add),
-                                  onPressed: () {
-                                    
+                              ),
+                              trailing: IconButton(
+                                icon: Icon(Icons.add),
+                                onPressed: () {
+                                  setState(() {
                                     createHotelUserHistory(
-                                        searchHotels[index]['id'], 52); //TODO
-                                        fetchAllHotelUserHistory();
-                                  },
-
-                                ),
-                                subtitle: Text(
-                                  hotel["bolge"],
-                                  style: TextStyle(
-                                    fontSize: 14,
-                                  ),
-                                ),
-                                onTap: () {
-                                  
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) =>
-                                          DetailScreen(data: hotel["id"]),
-                                    ),
-                                  );
+                                        searchHotels[index]['id'],
+                                        int.parse(userIdSon));
+                                    refreshMyHotels();
+                                  });
                                 },
                               ),
-                            );
-                          }
-                        },
-                      )),
+                              subtitle: Text(
+                                hotel["bolge"],
+                                style: TextStyle(
+                                  fontSize: 14,
+                                ),
+                              ),
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        DetailScreen(data: hotel["id"]),
+                                  ),
+                                );
+                              },
+                            ),
+                          );
+                        }
+                      },
+                    ),
+            ),
           ),
         ],
       ),
@@ -303,33 +314,27 @@ class _MyHotelsViewState extends State<MyHotelsView> {
 Widget _buildSearchBar(BuildContext context) {
   return Container(
     margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
-    height:
-        MediaQuery.of(context).size.width * 0.1, // Arama çubuğunun yüksekliği
+    height: MediaQuery.of(context).size.width * 0.1,
     decoration: BoxDecoration(
-      borderRadius:
-          BorderRadius.circular(12.0), // Köşelerin yuvarlanma yarıçapı
-      border:
-          Border.all(color: Colors.grey), // Kenar çizgisi rengi ve kalınlığı
+      borderRadius: BorderRadius.circular(12.0),
+      border: Border.all(color: Colors.grey),
     ),
     child: Theme(
       data: ThemeData(
-        // Arama çubuğunun arka plan rengini sıfıra ayarla
         primaryColor: Colors.transparent,
         hintColor: Colors.transparent,
       ),
       child: const TextField(
-        cursorColor: Colors.black, // Metin imlecinin rengi
+        cursorColor: Colors.black,
         decoration: InputDecoration(
           hintText: "Add Hotel",
           hintStyle: TextStyle(
               color: Colors.black87,
               fontSize: 14.0,
-              fontWeight: FontWeight.w500), // Placeholder metin stili
-          prefixIcon:
-              Icon(Icons.search, color: iconColor), // Arama simgesi rengi
-          border: InputBorder.none, // Kenar çizgisini kaldır
-          contentPadding:
-              EdgeInsets.symmetric(horizontal: 15.0), // İçerik dolgusu
+              fontWeight: FontWeight.w500),
+          prefixIcon: Icon(Icons.search, color: iconColor),
+          border: InputBorder.none,
+          contentPadding: EdgeInsets.symmetric(horizontal: 15.0),
         ),
       ),
     ),
