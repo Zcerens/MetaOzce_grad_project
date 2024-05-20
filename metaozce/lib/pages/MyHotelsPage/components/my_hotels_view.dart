@@ -169,7 +169,8 @@ class _MyHotelsViewState extends State<MyHotelsView> {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
                   child: Text(
-                    "My Visited Hotel ${userIdSon}",
+                    "My Visited Hotel ",
+                    //${userIdSon}
                     style: TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.w500,

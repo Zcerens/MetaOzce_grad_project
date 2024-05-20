@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:metaozce/components/background.dart';
 import 'package:metaozce/const/constant.dart';
 import 'package:metaozce/pages/DetailPage/components/detail_view.dart';
 import 'package:metaozce/pages/DetailPage/detail_screen.dart';
@@ -159,19 +160,23 @@ class _HomeViewState extends State<HomeView> {
 
   @override
   Widget build(BuildContext context) {
-    return CustomScrollView(
-      slivers: [
-        SliverAppBar(
-          backgroundColor: Colors.white,
-          pinned: true,
-          snap: true,
-          floating: true,
-          //title: _builAppBar(),
-        ),
-        SliverToBoxAdapter(
-          child: _buildBody(context),
-        ),
-      ],
+    return Background(
+      title: "Welcome to MetaOzce App ",
+      //${allUserData['fullname']}
+      child: CustomScrollView(
+        slivers: [
+          // SliverAppBar(
+          //   backgroundColor: Colors.white,
+          //   pinned: true,
+          //   snap: true,
+          //   floating: true,
+          //   //title: _builAppBar(),
+          // ),
+          SliverToBoxAdapter(
+            child: _buildBody(context),
+          ),
+        ],
+      ),
     );
   }
 
@@ -183,15 +188,15 @@ class _HomeViewState extends State<HomeView> {
         children: [
           Padding(
             padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
-            child: Text(
+            // child: Text(
               
-              "Welcome to MetaOzce App ${allUserData['fullname']}",
-              style: TextStyle(
-                color: Color.fromARGB(255, 51, 51, 51),
-                fontWeight: FontWeight.w600,
-                fontSize: 22,
-              ),
-            ),
+            //   "Welcome to MetaOzce App ${allUserData['fullname']}",
+            //   style: TextStyle(
+            //     color: Color.fromARGB(255, 51, 51, 51),
+            //     fontWeight: FontWeight.w600,
+            //     fontSize: 22,
+            //   ),
+            // ),
           ),
           _buildSearch(),
           //_buildCities(),
@@ -425,7 +430,7 @@ class _HomeViewState extends State<HomeView> {
             );
           },
           style: TextButton.styleFrom(
-            backgroundColor: Color.fromARGB(255, 238, 151, 38),
+            backgroundColor: Color.fromARGB(255, 32, 209, 8),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(10),
@@ -439,12 +444,12 @@ class _HomeViewState extends State<HomeView> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Icon(
-                Icons.wallet_membership,
+                Icons.attach_money_outlined,
                 color: Colors.white,
               ),
               SizedBox(width: 8), // Simge ile metin arasına boşluk ekleyelim
               Text(
-                "Wallet",
+                "Fair - Price",
                 style: TextStyle(
                   fontSize: 16,
                   color: Colors.white,

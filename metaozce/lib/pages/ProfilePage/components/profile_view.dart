@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:metaozce/pages/FilterPage/filterpage_screen.dart';
 import 'package:metaozce/pages/MyHotelsPage/components/my_hotels_view.dart';
 import 'package:metaozce/pages/MyHotelsPage/my_hotels_screen.dart';
 
@@ -28,29 +29,29 @@ class ProfileScreenView extends StatelessWidget {
             press: () => {},
           ),
           ProfileMenu(
-            text: "Visited Hotels",
+            text: "Favorite Hotels",
             icon: Icon(Icons.hotel,  color: kPrimaryColor,),
             
             press: () {Navigator.push(context,
                 MaterialPageRoute(builder: (context) => MyHotelsScreen()));
                 },
           ),
-          ProfileMenu(
-            text: "Motification",
-            icon: Icon(Icons.notifications,  color: kPrimaryColor,),
+          // ProfileMenu(
+          //   text: "Motification",
+          //   icon: Icon(Icons.notifications,  color: kPrimaryColor,),
             
-            press: () {},
-          ),
+          //   press: () {},
+          // ),
+          // ProfileMenu(
+          //   text: "Settings",
+          //   icon: Icon(Icons.settings,  color: kPrimaryColor,),
+          //   press: () {},
+          // ),
           ProfileMenu(
-            text: "Settings",
-            icon: Icon(Icons.settings,  color: kPrimaryColor,),
-            press: () {},
-          ),
-          ProfileMenu(
-            text: "Feedback",
-            icon: Icon(Icons.feedback,  color: kPrimaryColor,),
+            text: "Fair-Price",
+            icon: Icon(Icons.money,  color: kPrimaryColor,),
             press: () => Navigator.push(context,
-                MaterialPageRoute(builder: (context) => HomeView())),
+                MaterialPageRoute(builder: (context) => FilterPageScreen())),
           ),
           ProfileMenu(
             text: "Logout",
