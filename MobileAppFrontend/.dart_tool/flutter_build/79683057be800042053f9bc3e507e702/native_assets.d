@@ -1,0 +1,1 @@
+ C:\\Users\\CASPER\\Downloads\\metaozce\\.dart_tool\\flutter_build\\79683057be800042053f9bc3e507e702\\native_assets.yaml: 

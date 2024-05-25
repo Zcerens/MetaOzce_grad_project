@@ -1,0 +1,16 @@
+com.example.metaozce.app-jetified-annotation-experimental-1.1.0-0 C:\Users\CASPER\.gradle\caches\transforms-3\21aa7eeff139f3ce871a75e6e76ef453\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.metaozce.app-jetified-window-java-1.0.0-beta04-1 C:\Users\CASPER\.gradle\caches\transforms-3\ba748562a4ebdd8d2942e9ed4d96f140\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.metaozce.app-jetified-window-1.0.0-beta04-2 C:\Users\CASPER\.gradle\caches\transforms-3\e2870fd59509493023ab61dfc6ac3853\transformed\jetified-window-1.0.0-beta04\res
+com.example.metaozce.app-core-1.6.0-3 C:\Users\CASPER\.gradle\caches\transforms-3\e602e5c6247611f6317705bb8c61a5a9\transformed\core-1.6.0\res
+com.example.metaozce.app-main-4 C:\Users\CASPER\Desktop\MetaOzce_grad_project\metaozce\android\app\src\main\res
+com.example.metaozce.app-release-5 C:\Users\CASPER\Desktop\MetaOzce_grad_project\metaozce\android\app\src\release\res
+com.example.metaozce.app-pngs-6 C:\Users\CASPER\Desktop\MetaOzce_grad_project\metaozce\build\app\generated\res\pngs\release
+com.example.metaozce.app-resValues-7 C:\Users\CASPER\Desktop\MetaOzce_grad_project\metaozce\build\app\generated\res\resValues\release
+com.example.metaozce.app-rs-8 C:\Users\CASPER\Desktop\MetaOzce_grad_project\metaozce\build\app\generated\res\rs\release
+com.example.metaozce.app-mergeReleaseResources-9 C:\Users\CASPER\Desktop\MetaOzce_grad_project\metaozce\build\app\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.example.metaozce.app-mergeReleaseResources-10 C:\Users\CASPER\Desktop\MetaOzce_grad_project\metaozce\build\app\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.example.metaozce.app-merged_res-11 C:\Users\CASPER\Desktop\MetaOzce_grad_project\metaozce\build\app\intermediates\merged_res\release
+com.example.metaozce.app-packaged_res-12 C:\Users\CASPER\Desktop\MetaOzce_grad_project\metaozce\build\fluttertoast\intermediates\packaged_res\release
+com.example.metaozce.app-packaged_res-13 C:\Users\CASPER\Desktop\MetaOzce_grad_project\metaozce\build\path_provider_android\intermediates\packaged_res\release
+com.example.metaozce.app-packaged_res-14 C:\Users\CASPER\Desktop\MetaOzce_grad_project\metaozce\build\shared_preferences_android\intermediates\packaged_res\release
+com.example.metaozce.app-packaged_res-15 C:\Users\CASPER\Desktop\MetaOzce_grad_project\metaozce\build\sqflite\intermediates\packaged_res\release
