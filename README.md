@@ -20,6 +20,6 @@ MetaOzce is a mobile application developed using Flutter. It operates with its o
 1. Clone this repository:
 
 ```bash
-git clone <repo-url.git>
+git clone <https://github.com/Zcerens/MetaOzce_grad_project/tree/mobile_app_frontend.git>
 cd MobileAppFrontend
 flutter pub get
