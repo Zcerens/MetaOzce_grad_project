@@ -1,0 +1,6 @@
+hotel_name,features
+Hotel A,spa,pool,restaurant,free_wifi,gym,childcare,parking,room_service,pet_friendly,beachfront
+Hotel B,restaurant,free_wifi,gym,parking,room_service,pet_friendly,beachfront
+Hotel C,spa,pool,restaurant,free_wifi,gym,parking,room_service,beachfront
+Hotel D,restaurant,gym,parking,room_service,pet_friendly,beachfront
+Hotel E,spa,pool,restaurant,free_wifi,childcare,parking,room_service,pet_friendly
