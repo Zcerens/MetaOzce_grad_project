@@ -1,0 +1,959 @@
+otel_ad,fiyat,Predicted Price,Price Difference,Fair Price Range,Fair Price Percentage,bar,a_la_carte_restoran,plaj,acik_havuz,kapali_havuz,fitness,iskele,acik_restoran,sauna,animasyon,kuafor,spa,masa_tenisi,market,su_kaydiragi,beach_voley,doktor,otopark,wireless_internet,sorf,kapali_restoran,kano,cocuk_parki,arac_kiralama,balo_salonu,masaj,cocuk_havuzu,parasut,denize_uzakligi
+La Brezza Suıte Hotel Akyarlar,10920.0,9549.0,1371.0,Overpriced,- 12.55,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,600.0
+Mersoy Exclusive Hotel,7014.8,11884.7,-4869.9,Significantly Overpriced (Underpriced),+ 69.42,1,1,-1.0,1,0,0,,1,1,0,0,1,1,1,0,0,1,1,1,1,1,1,0,1,0,1,1,0,100.0
+Marmaris Beach Hotel,9412.0,12630.7,-3218.7,Significantly Overpriced (Underpriced),+ 34.2,1,1,2.0,1,0,0,,1,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,1,0,0,1,1,0.0
+Mono Life Hotel Çeşme,7500.0,8521.8,-1021.8,Overpriced (Underpriced),+ 13.62,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,750.0
+Mic Royal Hotel,9871.9,11550.1,-1678.2,Overpriced (Underpriced),+ 17.0,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Miamai Butik Otel,45582.0,12214.7,33367.3,Significantly Overpriced,- 73.2,1,0,2.0,0,0,0,,1,0,0,0,1,0,0,0,0,1,1,1,0,1,1,0,1,0,1,0,0,0.0
+Mes Mudita Boutique Hotel,3200.0,8823.7,-5623.7,Significantly Overpriced (Underpriced),+ 175.74,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Mon Amour Alaçatı,7347.0,8594.8,-1247.8,Overpriced (Underpriced),+ 16.98,1,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,750.0
+Monreve Alaçatı,26700.0,11820.0,14880.0,Significantly Overpriced,- 55.73,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Mg Club Akman Beach,18931.2,11010.1,7921.1,Significantly Overpriced,- 41.84,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Modern Life Bodrum Otel,8429.0,10328.0,-1899.0,Significantly Overpriced (Underpriced),+ 22.53,0,1,-1.0,0,0,0,,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,1,1,0,300.0
+Mono Life Hotel,11800.0,11649.8,150.2,Fair,- 1.27,0,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0.0
+Kleopatra Beach Hotel,7875.0,13270.5,-5395.5,Significantly Overpriced (Underpriced),+ 68.51,2,1,2.0,2,0,1,,1,1,1,1,0,1,0,1,1,1,0,1,0,1,0,0,0,0,1,1,0,50.0
+Marmaris Park Hotel,13125.0,14497.4,-1372.4,Overpriced (Underpriced),+ 10.46,4,2,2.0,1,1,1,,1,1,1,1,0,1,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Seher Resort Spa,16640.0,14558.3,2081.7,Overpriced,- 12.51,4,2,2.0,1,1,1,,1,1,1,1,1,0,1,1,1,1,0,1,0,1,0,0,1,0,1,1,0,0.0
+Hotel Grand Kaptan,12959.5,14760.3,-1800.8,Overpriced (Underpriced),+ 13.9,5,1,2.0,2,0,1,,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Galeri Resort Hotel,16084.6,16084.7,-0.1,Fair (Underpriced),+ 0.0,7,4,2.0,1,1,1,,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,0,1,0,1,1,0,0.0
+Adalya Elite Lara,26990.5,15888.7,11101.8,Significantly Overpriced,- 41.13,5,5,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,50.0
+Swandor Hotels Resort Topkapı Palace,39312.0,16347.6,22964.4,Significantly Overpriced,- 58.42,8,3,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,0,0.0
+Mons Casa Boutique Otel,12000.0,11072.5,927.5,Slight Overpriced,- 7.73,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Selene Beach Spa Hotel,21024.0,13220.5,7803.5,Significantly Overpriced,- 37.12,2,1,2.0,1,0,1,,1,1,1,1,0,0,0,0,0,1,1,1,0,1,0,0,1,0,1,0,0,0.0
+Prenses Sealine Beach Hotel,15200.0,11114.2,4085.8,Significantly Overpriced,- 26.88,1,0,-1.0,1,0,0,,1,1,0,1,1,1,0,0,0,0,0,1,0,0,0,0,1,0,1,1,0,200.0
+Adalya Ocean Deluxe,28799.6,14553.2,14246.4,Significantly Overpriced,- 49.47,3,3,2.0,1,1,1,,1,1,1,1,1,1,0,1,1,1,0,1,0,1,0,1,1,0,1,1,0,0.0
+Hotel Terrace Beach Resort,17943.1,14235.5,3707.6,Significantly Overpriced,- 20.66,3,2,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,0,1,1,0,0.0
+Moy Side,4800.0,11312.6,-6512.6,Significantly Overpriced (Underpriced),+ 135.68,1,0,-1.0,0,0,0,,1,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,1,100.0
+Lara Otel,8158.2,13643.8,-5485.6,Significantly Overpriced (Underpriced),+ 67.24,3,2,2.0,1,0,0,,1,1,0,0,0,1,1,0,0,0,1,1,0,1,0,0,1,0,1,1,0,0.0
+Swissotel Büyük Efes İzmir,31304.5,12967.6,18336.9,Significantly Overpriced,- 58.58,1,1,2.0,1,1,1,,0,1,0,1,0,0,0,0,0,0,1,1,0,1,1,1,1,0,1,1,0,0.0
+Kleopatra Royal Palm Hotel,7875.0,13668.3,-5793.3,Significantly Overpriced (Underpriced),+ 73.57,2,1,2.0,2,0,1,,1,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,0,0,1,1,0,0.0
+Grand Ring Hotel,15600.0,14869.7,730.3,Fair,- 4.68,5,1,2.0,2,1,1,,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0.0
+Laren Seaside Hotel Spa,11156.5,12232.0,-1075.5,Slight Overpriced (Underpriced),+ 9.64,0,0,2.0,1,0,1,,1,1,0,1,1,1,0,0,0,0,1,1,0,1,0,1,1,0,0,0,0,0.0
+Adam Eve,31350.0,17498.6,13851.4,Significantly Overpriced,- 44.18,7,7,2.0,5,1,1,,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,0,1,0,1,0,0,0.0
+Lara World Hotel,5925.0,11712.5,-5787.5,Significantly Overpriced (Underpriced),+ 97.68,2,0,2.0,1,0,0,,1,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,200.0
+Royal Atlantis Beach,21692.0,14786.2,6905.8,Significantly Overpriced,- 31.84,4,2,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,1,1,0,1,1,0,0.0
+İnnvista Belek Antalya,15966.4,10520.3,5446.1,Significantly Overpriced,- 34.11,3,3,-1.0,0,1,1,,1,1,1,1,1,1,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,750.0
+Swissotel Resort Spa Çeşme,40600.6,14226.0,26374.6,Significantly Overpriced,- 64.96,3,3,2.0,1,1,1,,0,1,0,1,1,0,1,0,0,1,1,1,0,0,0,0,0,0,1,1,0,0.0
+The X Belek,19219.7,11714.0,7505.7,Significantly Overpriced,- 39.05,4,4,2.0,1,1,1,,1,1,1,1,1,1,0,1,1,1,0,1,0,1,0,0,1,0,1,1,0,750.0
+Mucho Butik Otel,8000.0,11390.9,-3390.9,Significantly Overpriced (Underpriced),+ 42.39,2,1,2.0,0,0,0,,1,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,300.0
+Green Nature Diamond,27072.0,16096.2,10975.8,Significantly Overpriced,- 40.54,8,3,2.0,1,1,1,,1,1,1,1,1,1,1,1,0,1,0,1,0,1,0,1,1,0,1,1,0,0.0
+Lavitas Hotel,7140.0,9143.5,-2003.5,Significantly Overpriced (Underpriced),+ 28.06,0,0,2.0,0,0,0,,0,0,0,1,0,0,1,0,0,1,1,1,0,0,0,0,1,0,0,0,0,600.0
+My Bitez Suites,14000.0,11099.9,2900.1,Significantly Overpriced,- 20.72,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0.0
+Sensitive Premium Resort Spa,18905.9,13386.1,5519.8,Significantly Overpriced,- 29.2,3,3,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,300.0
+Lonicera City Kleopatra Hotel,6068.7,11482.9,-5414.2,Significantly Overpriced (Underpriced),+ 89.22,1,0,-1.0,1,0,0,,1,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,1,0,50.0
+Adin Beach Hotel,27600.0,14419.5,13180.5,Significantly Overpriced,- 47.76,0,3,2.0,6,2,1,,1,1,1,1,0,1,1,1,0,1,1,1,1,2,1,1,1,0,1,1,1,0.0
+Justiniano Park Conti Club,20563.2,15295.6,5267.6,Significantly Overpriced,- 25.62,5,3,2.0,2,1,1,,0,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,0,1,1,0,0.0
+Nebilux Hotel,13176.4,11763.1,1413.3,Overpriced,- 10.73,1,1,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0.0
+Latanya Palm Hotel,7200.0,9013.9,-1813.9,Significantly Overpriced (Underpriced),+ 25.19,1,1,-1.0,0,1,1,,0,1,0,1,1,0,0,0,0,1,1,1,0,1,0,0,1,0,1,1,0,750.0
+Tui Blue Pascha Bay,16632.0,13543.8,3088.2,Overpriced,- 18.57,1,2,2.0,1,0,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Antique Roman Palace +16,11550.0,11550.1,-0.1,Fair (Underpriced),+ 0.0,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Nills Stone House Otel,28920.3,11550.1,17370.2,Significantly Overpriced,- 60.06,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Neva Hotel Alaçatı,10431.0,11550.1,-1119.1,Overpriced (Underpriced),+ 10.73,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Nilus Butik Otel,5700.0,8301.3,-2601.3,Significantly Overpriced (Underpriced),+ 45.64,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Lupo Libero Hotel Spa,9830.6,9768.8,61.8,Fair,- 0.63,0,0,2.0,0,0,1,,1,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,500.0
+Haydarpasha Palace,18900.0,16554.4,2345.6,Overpriced,- 12.41,7,4,2.0,3,1,1,,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,0,0.0
+Meriç Hotel Turunç,7481.2,12257.4,-4776.2,Significantly Overpriced (Underpriced),+ 63.84,2,0,2.0,1,0,0,,1,1,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,1,1,0,100.0
+Alaiye Resort Spa,15744.0,15826.6,-82.6,Fair (Underpriced),+ 0.52,6,3,2.0,4,1,1,,3,1,1,1,1,1,1,1,1,1,1,1,0,2,0,1,1,0,1,1,0,50.0
+Astoria Hotel,11186.0,12271.3,-1085.3,Slight Overpriced (Underpriced),+ 9.7,2,0,2.0,1,1,1,,1,1,1,0,1,1,0,0,0,1,0,1,0,1,0,1,0,0,1,1,0,200.0
+Marbas Select Beach,3752.0,12714.5,-8962.5,Significantly Overpriced (Underpriced),+ 238.87,1,1,2.0,2,0,0,,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0.0
+Kahya Resort Aqua Spa,23680.0,15171.7,8508.3,Significantly Overpriced,- 35.93,6,2,2.0,1,0,1,,1,1,1,1,1,1,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Sentido Kamelya Fulya Hotel,33526.6,17392.0,16134.6,Significantly Overpriced,- 48.12,6,5,2.0,8,4,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Nixie Hotel Beach Yalıkavak - Adult Only,8550.9,12469.8,-3918.9,Significantly Overpriced (Underpriced),+ 45.83,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0.0
+Şah Inn Paradise,28000.0,14627.6,13372.4,Significantly Overpriced,- 47.76,1,1,2.0,9,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Celeste Bella Luxury Hotel Spa,14257.2,11718.7,2538.5,Overpriced,- 17.81,2,1,2.0,1,0,0,,1,1,0,0,1,1,0,0,0,1,1,1,0,1,0,0,0,0,1,0,0,300.0
+Aletris Deluxe Hotel Spa,28124.0,13110.1,15013.9,Significantly Overpriced,- 53.38,6,3,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,4,0,0,1,0,1,1,1,600.0
+The Marmara Bodrum,27827.8,9742.6,18085.2,Significantly Overpriced,- 64.99,1,1,2.0,2,0,1,,1,1,0,1,1,0,1,0,0,0,1,1,0,1,0,0,1,0,1,0,0,750.0
+Tui Magic Life Bodrum +16 Adult Only,26573.4,11550.1,15023.3,Significantly Overpriced,- 56.54,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Kempinski Hotel Barbaros Bay,47376.0,14285.6,33090.4,Significantly Overpriced,- 69.85,2,3,2.0,1,1,1,,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0.0
+Hillstone Bodrum Hotel Spa,32400.0,10849.9,21550.1,Significantly Overpriced,- 66.51,3,1,2.0,4,1,1,,1,1,0,1,1,0,1,0,0,1,1,1,0,1,0,0,1,1,1,1,0,750.0
+Sentido Kamelya Selin Hotel,36708.0,17411.4,19296.6,Significantly Overpriced,- 52.57,7,6,2.0,5,2,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Marin Hotel Kemer,4500.0,10791.8,-6291.8,Significantly Overpriced (Underpriced),+ 139.82,0,0,2.0,0,1,0,,1,1,1,0,0,1,1,1,0,0,0,1,0,1,0,0,1,0,1,1,0,300.0
+No81 Hotel,12800.0,12744.7,55.3,Fair,- 0.43,1,1,2.0,0,0,1,,1,1,0,1,0,0,0,0,0,1,1,1,0,0,1,0,1,0,1,0,1,0.0
+Monte Carlo Hotel,10260.0,12534.3,-2274.3,Significantly Overpriced (Underpriced),+ 22.17,1,0,2.0,1,0,0,,1,1,1,0,1,1,0,1,1,1,1,1,0,1,0,0,1,0,1,1,0,50.0
+Odette Bodrum,15000.0,8555.8,6444.2,Significantly Overpriced,- 42.96,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Munamar Park Otel,7335.5,10884.0,-3548.5,Significantly Overpriced (Underpriced),+ 48.37,1,0,-1.0,1,0,0,,1,1,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,1,0,200.0
+Olympos Forest House Hotel,14400.0,7961.8,6438.2,Significantly Overpriced,- 44.71,0,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,750.0
+Aqı Pegasos Royal,20202.0,13775.8,6426.2,Significantly Overpriced,- 31.81,1,3,2.0,1,1,0,,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,0,1,1,1,0.0
+Hoşça Kal Alaçatı,11000.0,11440.3,-440.3,Fair (Underpriced),+ 4.0,1,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0.0
+Maris Beach Hotel,7247.0,11911.4,-4664.4,Significantly Overpriced (Underpriced),+ 64.36,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,1,0,0.0
+Kimeros Park Holiday Village,26784.0,14498.6,12285.4,Significantly Overpriced,- 45.87,4,1,2.0,2,0,1,,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,0,1,1,0,0.0
+Club Mermaid Village,10475.5,12237.8,-1762.3,Overpriced (Underpriced),+ 16.82,4,1,2.0,3,1,1,,1,1,1,1,0,1,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,500.0
+Sentido Trendy Verbena Beach,26400.0,16313.9,10086.1,Significantly Overpriced,- 38.2,6,5,2.0,3,1,1,,1,1,1,1,1,0,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Hotel Melas Lara,21420.0,14142.9,7277.1,Significantly Overpriced,- 33.97,2,3,2.0,1,1,1,,1,1,1,1,0,1,1,1,1,1,0,1,0,1,0,1,0,0,1,1,0,0.0
+Sesin Hotel,5280.0,13292.8,-8012.8,Significantly Overpriced (Underpriced),+ 151.76,3,1,2.0,1,0,1,,1,1,1,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,1,1,1,100.0
+Venosa Beach Resort,20160.0,15655.3,4504.7,Significantly Overpriced,- 22.34,4,5,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,1,1,1,0,0.0
+Orange County Alanya,13650.0,15912.8,-2262.8,Overpriced (Underpriced),+ 16.58,7,2,2.0,2,2,1,,1,1,1,1,1,0,1,1,1,1,1,1,0,1,0,1,1,0,1,1,1,0.0
+Mert Seaside Hotel,6960.0,11701.9,-4741.9,Significantly Overpriced (Underpriced),+ 68.13,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0.0
+My Dream Hotel,6120.0,11765.8,-5645.8,Significantly Overpriced (Underpriced),+ 92.25,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,1,1,0,50.0
+Kirman Arycanda De Luxe,26392.5,15586.5,10806.0,Significantly Overpriced,- 40.94,5,4,2.0,2,1,1,,1,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Armonia Holiday Village Spa,9578.8,15555.5,-5976.7,Significantly Overpriced (Underpriced),+ 62.4,5,3,2.0,3,0,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,0,1,1,1,0.0
+La Perla Hotel Kemer,11917.1,12321.3,-404.2,Fair (Underpriced),+ 3.39,0,0,2.0,0,0,1,,0,1,1,0,1,1,0,1,1,1,1,1,0,0,1,1,1,0,1,1,1,0.0
+Side Premium Hotel,35820.0,14526.1,21293.9,Significantly Overpriced,- 59.45,3,4,2.0,2,1,1,,1,1,1,1,0,1,1,1,1,1,0,1,1,1,0,1,0,0,1,1,0,100.0
+Oscar Garden Hotel,7560.0,9457.3,-1897.3,Significantly Overpriced (Underpriced),+ 25.1,1,0,-1.0,1,0,0,,1,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,500.0
+Martı Hemithea Hotel,41368.1,12961.3,28406.8,Significantly Overpriced,- 68.67,1,1,2.0,1,0,0,,1,1,0,1,1,0,1,0,0,1,1,1,1,1,1,0,1,0,1,0,0,0.0
+Mirage World Hotel,13177.2,13894.7,-717.5,Slight Overpriced (Underpriced),+ 5.45,3,0,2.0,4,0,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,0,50.0
+Miramor Garden Resort,11526.0,11271.6,254.4,Fair,- 2.21,0,0,2.0,0,0,1,,0,1,0,0,1,1,1,1,1,1,0,1,0,0,0,0,1,0,1,1,0,200.0
+Nex Royal Beach Hotel,9065.0,12076.2,-3011.2,Significantly Overpriced (Underpriced),+ 33.22,2,0,-1.0,1,0,0,,1,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0.0
+Aydınbey Gold Dreams Hotel,186300.0,14816.6,171483.4,Significantly Overpriced,- 92.05,5,1,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,1,0,0.0
+Otel Safran Palas,9693.8,11029.6,-1335.8,Overpriced (Underpriced),+ 13.78,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.0
+Side Royal Style,22199.8,12362.0,9837.8,Significantly Overpriced,- 44.31,1,1,2.0,1,0,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,0,1,1,0,200.0
+Mivara Luxury Resort Spa,28885.6,14110.5,14775.1,Significantly Overpriced,- 51.15,3,2,2.0,1,1,1,,1,1,0,1,1,0,0,0,0,1,1,1,0,1,0,1,1,1,1,1,0,0.0
+Otel Gümüşlük,11848.9,12265.7,-416.8,Fair (Underpriced),+ 3.52,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,50.0
+Kleopatra İkiz Otel,5283.5,12190.1,-6906.6,Significantly Overpriced (Underpriced),+ 130.72,1,1,-1.0,1,0,0,,1,1,0,0,1,1,0,1,1,1,1,1,1,1,1,0,1,0,1,1,1,50.0
+Old Town Point Hotel,8150.8,9307.3,-1156.5,Overpriced (Underpriced),+ 14.19,0,1,-1.0,0,0,0,,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,500.0
+Ni Marin Hotel,14599.2,13028.4,1570.8,Overpriced,- 10.76,2,1,2.0,2,0,1,,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,0.0
+Olive Tree Hotel,14400.0,11934.2,2465.8,Overpriced,- 17.12,0,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,50.0
+Otto Palace Boutique Hotel,8277.6,11239.0,-2961.4,Significantly Overpriced (Underpriced),+ 35.78,0,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0.0
+Park Ulusoy Hotel,8184.9,11550.1,-3365.2,Significantly Overpriced (Underpriced),+ 41.11,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Museum Resort Spa,5700.0,8509.4,-2809.4,Significantly Overpriced (Underpriced),+ 49.29,1,0,-1.0,1,0,0,,0,0,1,0,0,0,1,1,0,1,1,1,0,1,0,0,1,0,0,1,0,750.0
+Aydınbey Queen`s Palace Hotel,23120.0,11169.2,11950.8,Significantly Overpriced,- 51.69,4,2,2.0,2,1,1,,1,1,1,1,1,0,0,1,0,1,0,1,0,1,0,0,0,0,1,1,1,750.0
+Larissa Sultans Beach Hotel,8976.0,12895.7,-3919.7,Significantly Overpriced (Underpriced),+ 43.67,1,1,2.0,1,1,0,,1,1,1,1,0,0,1,0,1,1,1,1,0,1,0,1,1,0,1,1,0,50.0
+Kirman Calyptus Resort Spa,23922.8,13363.4,10559.4,Significantly Overpriced,- 44.14,6,2,2.0,1,1,1,,1,1,1,1,1,1,0,1,0,1,0,0,0,1,0,1,1,1,1,1,0,400.0
+Ramada Resort Bodrum,22110.0,10657.8,11452.2,Significantly Overpriced,- 51.8,4,1,2.0,1,1,1,,1,1,0,0,0,1,0,0,0,1,1,1,0,1,0,0,1,1,1,1,0,750.0
+Miranda Moral Beach Hotel,20659.2,11010.1,9649.1,Significantly Overpriced,- 46.71,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Morino Alaçatı,38400.0,11550.1,26849.9,Significantly Overpriced,- 69.92,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Mira Su Hotel,4866.4,9827.2,-4960.8,Significantly Overpriced (Underpriced),+ 101.94,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300.0
+Sirius Deluxe Hotel,20160.0,13372.1,6787.9,Significantly Overpriced,- 33.67,1,1,2.0,1,1,1,,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,0,1,0,1,1,1,0.0
+Payava Hotel By True Blue,23400.4,11260.7,12139.7,Significantly Overpriced,- 51.88,1,0,2.0,1,0,0,,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,200.0
+Meryem Ana,28800.0,12115.7,16684.3,Significantly Overpriced,- 57.93,1,0,-1.0,1,0,0,,1,1,1,0,0,0,1,0,0,1,1,1,0,1,0,1,0,0,1,1,0,0.0
+More Hotel,6238.0,11899.6,-5661.6,Significantly Overpriced (Underpriced),+ 90.76,2,0,-1.0,2,0,0,,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,50.0
+My Dream Alaçatı,18000.0,11214.7,6785.3,Significantly Overpriced,- 37.7,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+White City Resort Spa,18647.5,15615.4,3032.1,Overpriced,- 16.26,5,3,2.0,3,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Mustis Royal Plaza Hotel,12000.0,11984.8,15.2,Fair,- 0.13,0,1,2.0,0,0,0,,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0.0
+Belconti Resort Hotel,21234.2,16126.1,5108.1,Significantly Overpriced,- 24.06,7,3,2.0,2,1,1,,2,1,1,1,0,1,1,1,1,1,0,1,1,4,1,1,0,0,1,1,0,0.0
+Kirman Sidemarin Beach Spa,26392.5,16408.5,9984.0,Significantly Overpriced,- 37.83,8,4,2.0,1,1,1,,1,1,1,1,1,1,0,1,1,1,0,0,0,1,0,1,1,0,1,1,0,0.0
+Route Hotel Adult Only +12,12513.6,11550.1,963.5,Slight Overpriced,- 7.7,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Premier Nergis Beach,16392.4,13624.1,2768.3,Overpriced,- 16.89,3,1,2.0,1,0,1,,1,1,0,0,1,0,0,0,0,1,0,1,0,1,0,0,1,0,1,1,0,0.0
+Mysea Hotels Alara,12797.6,12878.8,-81.2,Fair (Underpriced),+ 0.63,1,0,2.0,1,1,1,,1,1,1,0,0,1,1,1,0,1,1,1,1,1,0,0,1,0,1,1,1,0.0
+Ramiz Alaçatı,8000.0,11010.1,-3010.1,Significantly Overpriced (Underpriced),+ 37.63,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Mylome Luxury Hotel Resort,27907.2,16745.0,11162.2,Significantly Overpriced,- 40.0,7,5,2.0,3,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Pure Blanche,19370.8,12155.9,7214.9,Significantly Overpriced,- 37.25,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0.0
+Rayana Hotel,9044.0,10908.0,-1864.0,Significantly Overpriced (Underpriced),+ 20.61,0,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,50.0
+Ramona Hotel,6594.6,10003.4,-3408.8,Significantly Overpriced (Underpriced),+ 51.69,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,1,0,300.0
+Rose Garden Butik,7786.2,10792.6,-3006.4,Significantly Overpriced (Underpriced),+ 38.61,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,100.0
+Bijal Hotel,13920.0,12673.5,1246.5,Slight Overpriced,- 8.95,0,2,2.0,1,0,1,,1,0,0,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,1,1,0,0.0
+Bera Hotel Alanya,9240.0,12790.5,-3550.5,Significantly Overpriced (Underpriced),+ 38.43,0,0,2.0,1,1,1,,1,1,1,1,1,1,1,1,0,1,1,1,0,2,0,0,1,1,1,1,0,0.0
+Myra Hotel,9431.5,10786.1,-1354.6,Overpriced (Underpriced),+ 14.36,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,200.0
+Saphir Resort Spa,24200.0,15131.0,9069.0,Significantly Overpriced,- 37.48,5,2,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0,0.0
+Side Su Hotel,8210.5,12945.7,-4735.2,Significantly Overpriced (Underpriced),+ 57.67,3,0,2.0,3,0,1,,1,1,1,1,1,1,1,0,0,1,1,1,1,0,1,0,1,0,1,0,1,200.0
+Ege Palas Business Hotel,13484.3,12861.4,622.9,Fair,- 4.62,1,1,2.0,1,0,1,,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,1,0,0,0.0
+Kirman Sidera Luxury Spa,27000.0,15939.6,11060.4,Significantly Overpriced,- 40.96,5,5,2.0,2,1,1,,1,1,1,1,1,1,0,1,1,1,1,0,0,1,0,1,1,0,1,1,0,0.0
+Vonresort Elite,32800.0,17265.7,15534.3,Significantly Overpriced,- 47.36,7,7,2.0,3,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,0.0
+Quadas Hotel,11880.0,13048.6,-1168.6,Slight Overpriced (Underpriced),+ 9.84,2,0,2.0,1,0,1,,1,1,0,0,1,0,1,0,0,1,1,1,0,1,0,0,0,0,1,0,0,0.0
+Nirvana Cosmopolitan Hotel,39511.8,14513.6,24998.2,Significantly Overpriced,- 63.27,1,5,2.0,1,1,1,,1,1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Royal Hayat Hotel,12000.0,11750.2,249.8,Fair,- 2.08,1,0,-1.0,0,0,0,,1,1,0,0,1,0,0,1,0,1,1,1,0,0,0,0,1,0,1,0,0,0.0
+Salbakos Herakleia Boutique Hotel,20000.0,7769.9,12230.1,Significantly Overpriced,- 61.15,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Wind Of Lara Hotel Spa,24684.8,10644.8,14040.0,Significantly Overpriced,- 56.88,1,3,2.0,1,1,1,,3,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,750.0
+Laguna Beach Alya Resort Spa,17486.4,13963.8,3522.6,Significantly Overpriced,- 20.14,4,1,2.0,4,0,1,,1,1,0,1,0,1,1,1,1,1,0,1,0,1,0,0,1,0,1,1,0,100.0
+Boyalık Beach Hotel Spa Thermal Resort,43040.4,13715.3,29325.1,Significantly Overpriced,- 68.13,2,0,2.0,2,2,1,,1,1,1,1,1,1,1,0,0,1,1,1,1,1,0,1,1,0,1,1,1,0.0
+Ramada By Wyndham İzmir Aliağa,13785.4,9641.2,4144.2,Significantly Overpriced,- 30.06,1,0,2.0,0,0,1,,1,0,0,0,1,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,600.0
+Salinas Wooden Houses,6400.0,8740.9,-2340.9,Significantly Overpriced (Underpriced),+ 36.58,0,1,2.0,0,0,0,,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,750.0
+Wome Deluxe Hotel,29700.0,15767.1,13932.9,Significantly Overpriced,- 46.91,4,1,2.0,12,1,1,,1,1,1,0,1,1,1,1,0,1,0,1,0,1,0,1,1,0,1,1,1,0.0
+Özlem Garden Hotel,5672.8,12236.0,-6563.2,Significantly Overpriced (Underpriced),+ 115.7,0,0,2.0,1,0,0,,1,1,0,0,1,1,1,0,0,1,1,1,0,1,0,0,1,0,1,1,0,0.0
+Notion Kesre Beach Hotel Spa,17570.5,14007.5,3563.0,Significantly Overpriced,- 20.28,4,0,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,0,0,1,1,0,0.0
+Aurasia Deluxe Hotel,7688.5,12560.0,-4871.5,Significantly Overpriced (Underpriced),+ 63.36,2,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,50.0
+May Park Hotel,6588.2,12421.8,-5833.6,Significantly Overpriced (Underpriced),+ 88.55,1,1,2.0,0,0,1,,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0.0
+Mb City Hotel,7925.2,12642.9,-4717.7,Significantly Overpriced (Underpriced),+ 59.53,0,4,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Dragut Point North Hotel,7468.4,12616.6,-5148.2,Significantly Overpriced (Underpriced),+ 68.93,1,0,2.0,1,0,1,,1,1,0,0,1,0,0,0,0,1,0,1,1,1,1,0,1,0,1,1,0,0.0
+Champion Holiday Village,30240.0,14306.2,15933.8,Significantly Overpriced,- 52.69,3,2,2.0,1,0,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,1,0,0.0
+Ramada Hotel Suites İzmir Kemalpaşa,12806.4,9219.9,3586.5,Significantly Overpriced,- 28.01,1,1,2.0,0,1,0,,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,1,0,750.0
+Yasmin Bodrum Resort,13323.1,14572.6,-1249.5,Slight Overpriced (Underpriced),+ 9.38,5,1,2.0,1,0,1,,1,1,1,0,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Sea View Otel,16680.0,12673.4,4006.6,Significantly Overpriced,- 24.02,2,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,1,0,0,0,0,0.0
+Xanadu Island Bodrum,23538.0,15530.6,8007.4,Significantly Overpriced,- 34.02,7,2,2.0,2,1,1,,1,1,1,0,1,1,0,0,0,1,0,1,0,1,1,1,0,0,1,1,0,0.0
+Limak Atlantis Deluxe Hotel Resort,15849.6,16121.7,-272.1,Fair (Underpriced),+ 1.72,4,5,2.0,5,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0.0
+Reis Maris Hotel,4727.3,10568.6,-5841.3,Significantly Overpriced (Underpriced),+ 123.57,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100.0
+Serez Otel Alaçatı By La Mira,8500.0,8238.9,261.1,Fair,- 3.07,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,750.0
+Flora Bodrum Hotel,9000.0,11784.5,-2784.5,Significantly Overpriced (Underpriced),+ 30.94,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,1,0,50.0
+Selimhan Otel Selimiye,15292.0,12193.9,3098.1,Significantly Overpriced,- 20.26,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0.0
+Pirate`s Beach Club,20790.0,15092.7,5697.3,Significantly Overpriced,- 27.4,6,3,2.0,4,0,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,200.0
+Ramitos Hotel Turunç,19576.8,9699.7,9877.1,Significantly Overpriced,- 50.45,2,1,2.0,1,0,0,,1,1,0,0,1,0,1,0,0,0,1,1,0,1,0,0,0,0,1,1,0,750.0
+Mio Mare Resort,7870.9,13006.0,-5135.1,Significantly Overpriced (Underpriced),+ 65.24,2,2,-1.0,1,0,1,,1,1,1,0,1,0,1,1,0,1,1,1,0,1,0,1,1,0,0,1,0,0.0
+Side Erenler Hotel,9000.0,11359.1,-2359.1,Significantly Overpriced (Underpriced),+ 26.21,1,1,-1.0,0,0,0,,1,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,100.0
+Club Paradiso,27900.0,12911.8,14988.2,Significantly Overpriced,- 53.72,8,2,2.0,3,1,1,,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,750.0
+Relax Beach Hotel,15300.0,12368.4,2931.6,Overpriced,- 19.16,0,1,2.0,1,0,0,,0,1,1,1,0,0,0,1,0,1,1,1,0,0,0,0,1,0,0,1,0,0.0
+Limak Lara Deluxe Hotel Resort,18707.2,16827.8,1879.4,Overpriced,- 10.05,8,4,2.0,3,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,1,0,0.0
+Adalya Resort Spa Adults Only,29907.3,15385.0,14522.3,Significantly Overpriced,- 48.56,5,3,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,1,1,0,1,1,0,0.0
+Side Güneş Pansiyon,6210.0,11550.1,-5340.1,Significantly Overpriced (Underpriced),+ 85.99,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Club Side Coast Hotel,29440.0,13042.4,16397.6,Significantly Overpriced,- 55.7,4,2,2.0,1,0,0,,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,1,0,0,1,1,0,300.0
+Rammos Managed By Dedeman,17660.6,12973.8,4686.8,Significantly Overpriced,- 26.54,1,2,2.0,1,0,1,,1,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Xanadu Resort Hotel,26573.4,16612.6,9960.8,Significantly Overpriced,- 37.48,6,6,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0.0
+Bitez Garden Life,9294.0,13496.8,-4202.8,Significantly Overpriced (Underpriced),+ 45.22,3,1,2.0,3,0,0,,1,1,1,1,1,1,1,1,0,1,1,1,0,1,0,0,0,0,1,1,0,100.0
+Signature Alaçatı,15651.0,8418.7,7232.3,Significantly Overpriced,- 46.21,1,0,-1.0,1,0,1,,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,750.0
+Naturella Apart Hotel,34187.5,9255.5,24932.0,Significantly Overpriced,- 72.93,0,1,2.0,0,0,0,,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,600.0
+Sealine Suite Hotel,12240.0,11842.7,397.3,Fair,- 3.25,2,1,2.0,2,0,0,,1,0,0,1,0,1,0,1,0,0,0,1,0,1,0,0,1,0,1,0,0,300.0
+Altis Resort Hotel Spa,27600.0,13370.4,14229.6,Significantly Overpriced,- 51.56,1,0,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,1,1,1,0.0
+Limak Limra Hotel Resort,21000.0,15997.4,5002.6,Significantly Overpriced,- 23.82,4,5,2.0,4,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,0.0
+Regulus Gümbet Beach Resort,7102.0,11758.8,-4656.8,Significantly Overpriced (Underpriced),+ 65.57,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0.0
+Commodore Elite Suites Spa,33840.0,13003.8,20836.2,Significantly Overpriced,- 61.57,0,2,2.0,1,1,1,,1,1,1,0,1,0,0,1,0,1,1,1,0,1,0,0,1,0,1,0,0,0.0
+Astoria Beach Hotel,4656.9,11677.2,-7020.3,Significantly Overpriced (Underpriced),+ 150.75,1,0,-1.0,1,0,0,,1,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,1,1,0,50.0
+Port Nature Luxury Resort Hotel Spa,24144.0,17071.7,7072.3,Significantly Overpriced,- 29.29,8,5,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.0
+Beach Club Doğanay,16976.4,14442.9,2533.5,Overpriced,- 14.92,4,1,2.0,2,1,1,,1,1,0,1,1,1,0,1,1,1,1,0,0,1,0,1,1,1,1,0,0,0.0
+Lonicera Resort Spa Hotel,14560.0,17218.9,-2658.9,Overpriced (Underpriced),+ 18.26,11,1,2.0,4,2,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Side Beach Club,10276.0,11240.5,-964.5,Slight Overpriced (Underpriced),+ 9.39,0,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0.0
+Rich Melissa Hotel,7752.0,8659.3,-907.3,Overpriced (Underpriced),+ 11.7,1,0,-1.0,1,0,1,,1,1,0,0,0,0,0,1,0,1,0,1,0,1,0,0,1,0,1,1,0,750.0
+Selin Otel Spa Belek,6017.9,11971.0,-5953.1,Significantly Overpriced (Underpriced),+ 98.92,1,0,-1.0,1,0,0,,0,1,0,0,1,1,1,1,0,1,1,1,0,1,0,0,1,0,1,0,0,0.0
+Kolibri Hotel,6967.2,11840.2,-4873.0,Significantly Overpriced (Underpriced),+ 69.94,1,0,2.0,1,0,0,,1,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,100.0
+Diamond Hill Resort,12960.0,13144.5,-184.5,Fair (Underpriced),+ 1.42,1,1,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,1,1,0,1,0,1,50.0
+Cornelia De Luxe Resort,32640.0,14039.9,18600.1,Significantly Overpriced,- 56.99,1,5,2.0,1,1,1,,1,0,0,1,1,0,0,1,0,1,0,0,1,1,0,0,1,0,1,0,0,0.0
+Malibu Resort Hotel,4171.2,11011.5,-6840.3,Significantly Overpriced (Underpriced),+ 163.99,1,0,2.0,1,0,0,,0,0,1,0,0,1,0,0,1,0,1,1,0,1,0,1,1,0,0,1,0,300.0
+Elementa Boutique Hotel,17400.0,11583.3,5816.7,Significantly Overpriced,- 33.43,2,1,-1.0,1,0,0,,1,1,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,1,0,0,200.0
+Hedef Beach Resort Spa,11400.0,13874.5,-2474.5,Significantly Overpriced (Underpriced),+ 21.71,5,0,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,0,1,1,0,100.0
+Smart City Bodrum,4952.5,11338.7,-6386.2,Significantly Overpriced (Underpriced),+ 128.95,0,0,-1.0,0,0,0,,1,0,0,1,0,0,1,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0.0
+Lrs Lake River Side Hotel Spa,15600.0,10950.3,4649.7,Significantly Overpriced,- 29.81,2,3,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,1,750.0
+Silver Hotel,8268.8,10398.6,-2129.8,Significantly Overpriced (Underpriced),+ 25.76,1,0,2.0,2,0,0,,1,1,0,0,0,0,0,1,1,0,0,1,0,0,0,1,0,0,1,1,0,500.0
+Olimpos Beach Hotel By Rrhr,10500.0,11646.9,-1146.9,Overpriced (Underpriced),+ 10.92,0,0,2.0,0,0,0,,1,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,50.0
+Sisyphos Hotel Patara,5100.0,9007.3,-3907.3,Significantly Overpriced (Underpriced),+ 76.61,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,500.0
+Side Amour Hotel,9750.0,9927.1,-177.1,Fair (Underpriced),+ 1.82,2,0,2.0,1,0,1,,1,1,1,1,1,1,0,0,1,1,1,1,0,1,0,0,1,0,1,1,1,750.0
+Siesta Beach Apart Hotel,7920.0,12808.1,-4888.1,Significantly Overpriced (Underpriced),+ 61.72,2,0,2.0,2,0,0,,1,1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0.0
+Romance Beach Hotel,13230.0,12537.4,692.6,Slight Overpriced,- 5.24,1,0,2.0,1,0,1,,1,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,1,0,0.0
+Sofa Kaleiçi,12495.0,11550.1,944.9,Slight Overpriced,- 7.56,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Hedef Resort Hotel Spa,10200.0,13334.9,-3134.9,Significantly Overpriced (Underpriced),+ 30.73,3,0,2.0,2,1,0,,1,1,1,1,1,1,0,1,1,1,0,1,0,1,0,1,1,0,1,1,0,100.0
+Porto Bello Hotel Resort Spa,21600.0,14498.3,7101.7,Significantly Overpriced,- 32.88,4,1,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,0,1,1,1,0.0
+Lrs Port River Hotel Spa,15951.0,13802.4,2148.6,Overpriced,- 13.47,4,2,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,1,200.0
+Crystal Admiral Resort Suites Spa,37440.0,16576.1,20863.9,Significantly Overpriced,- 55.73,6,4,2.0,5,2,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.0
+Sirene Luxury Bodrum,39281.0,13472.8,25808.2,Significantly Overpriced,- 65.7,2,1,2.0,2,1,1,,1,1,0,1,1,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0.0
+Solis Beach Hotel,3400.0,9977.3,-6577.3,Significantly Overpriced (Underpriced),+ 193.45,1,0,2.0,2,0,0,,1,1,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,1,1,0,600.0
+Sunrise Queen Luxury Resort Spa,27404.0,17455.6,9948.4,Significantly Overpriced,- 36.3,11,3,2.0,3,2,1,,1,1,1,1,1,1,0,1,1,0,0,1,0,1,0,1,1,1,1,1,0,0.0
+Spilos Gümüldür Hotel,4312.0,11009.9,-6697.9,Significantly Overpriced (Underpriced),+ 155.33,1,1,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,1,0,200.0
+Sun Arzum Bungalow,7360.0,7783.8,-423.8,Slight Overpriced (Underpriced),+ 5.76,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,1,0,750.0
+Soliport Hotel Spa Alaçatı,18360.0,10881.0,7479.0,Significantly Overpriced,- 40.74,1,0,-1.0,1,0,1,,1,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,200.0
+Surga Alaçatı,26432.0,8807.1,17624.9,Significantly Overpriced,- 66.68,1,0,2.0,1,0,0,,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,750.0
+Suite Laguna Otel,20904.6,8050.1,12854.5,Significantly Overpriced,- 61.49,0,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,750.0
+Holiday Park Resort Hotel,15300.0,14081.1,1218.9,Slight Overpriced,- 7.97,4,1,2.0,1,1,1,,1,1,1,1,0,1,0,1,0,0,1,1,0,1,0,1,1,0,1,1,0,0.0
+Orange County Kemer,13650.0,13537.3,112.7,Fair,- 0.83,1,1,2.0,2,1,1,,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,0,1,0,0,0.0
+Luna Blanca Resort Spa,22933.0,13614.1,9318.9,Significantly Overpriced,- 40.64,3,2,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,1,1,200.0
+Crystal De Luxe Resort Spa,31200.0,15359.2,15840.8,Significantly Overpriced,- 50.77,4,3,2.0,3,2,1,,3,1,1,1,1,1,1,1,1,1,1,1,1,4,1,1,1,0,1,1,1,50.0
+Marvida Family Eco (Ex. Otium Family Eco Club),40096.0,11550.1,28545.9,Significantly Overpriced,- 71.19,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Radisson Blu Resort Spa Çeşme,43608.0,13822.1,29785.9,Significantly Overpriced,- 68.3,3,1,2.0,1,1,1,,0,1,0,1,1,1,1,0,0,1,1,1,0,1,0,1,1,1,1,1,0,0.0
+Summer Rose Hotel,4915.2,8491.7,-3576.5,Significantly Overpriced (Underpriced),+ 72.76,0,0,2.0,0,0,0,,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,750.0
+Glamour Resort Spa,15377.5,12925.7,2451.8,Overpriced,- 15.94,3,2,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,300.0
+Casa Nonna Bodrum,65696.3,13276.2,52420.1,Significantly Overpriced,- 79.79,2,1,2.0,1,0,1,,1,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,1,0,1,0,0,0.0
+Şenyıldız Hotel,15000.0,11624.1,3375.9,Significantly Overpriced,- 22.51,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Sunny Hill Alya Hotel,12540.9,11839.6,701.3,Slight Overpriced,- 5.59,1,0,2.0,2,0,1,,1,1,0,0,0,1,0,0,1,1,1,1,0,1,0,0,0,0,1,1,0,200.0
+Anjeliq Downtown Boutique Hotel,4860.0,12402.5,-7542.5,Significantly Overpriced (Underpriced),+ 155.2,1,1,2.0,0,0,0,,0,1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0.0
+Crystal Family Resort Spa,28500.0,16800.2,11699.8,Significantly Overpriced,- 41.05,6,4,2.0,5,2,1,,5,1,1,1,1,0,1,1,1,1,1,1,1,2,1,1,1,0,1,1,0,0.0
+Rixos Downtown Antalya,34048.0,12761.7,21286.3,Significantly Overpriced,- 62.52,1,3,2.0,1,0,1,,1,1,0,1,1,1,1,0,0,1,1,1,0,1,0,1,0,0,1,1,0,200.0
+Sunpoint Hotel Bodrum,6600.0,11593.7,-4993.7,Significantly Overpriced (Underpriced),+ 75.66,1,0,2.0,1,0,0,,1,1,1,0,0,0,1,0,0,1,1,1,0,1,0,0,1,0,1,1,0,200.0
+Kırbıyık Resort Hotel,14600.0,14896.9,-296.9,Fair (Underpriced),+ 2.03,5,1,2.0,2,1,1,,1,1,1,1,0,1,1,1,1,1,1,1,1,2,1,1,1,0,1,1,1,0.0
+Mediterra Art Hotel,10511.4,8729.4,1782.0,Overpriced,- 16.95,1,1,-1.0,1,0,0,,1,1,0,0,0,0,1,0,0,1,1,1,0,1,0,0,1,0,0,0,0,750.0
+Surla Hotel,10500.0,12326.1,-1826.1,Overpriced (Underpriced),+ 17.39,1,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0.0
+Güler Butik Hotel,3228.0,14942.5,-11714.5,Significantly Overpriced (Underpriced),+ 362.9,1,15,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,300.0
+Orange County Belek,20160.0,13116.6,7043.4,Significantly Overpriced,- 34.94,1,1,2.0,1,1,1,,1,1,0,0,1,1,0,1,1,0,1,1,0,1,0,0,0,0,1,1,0,0.0
+İzmir Marriott,27057.8,13011.6,14046.2,Significantly Overpriced,- 51.91,1,2,2.0,1,1,0,,1,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,0.0
+Surya Butik Hotel,22400.0,11248.5,11151.5,Significantly Overpriced,- 49.78,0,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0.0
+Meridia Beach Hotel,19400.0,14548.1,4851.9,Significantly Overpriced,- 25.01,6,1,2.0,1,1,1,,1,1,1,0,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,1,0,100.0
+Crystal Palace Luxury Resort Spa,9008.4,17811.6,-8803.2,Significantly Overpriced (Underpriced),+ 97.72,10,5,2.0,2,1,1,,4,1,1,1,1,1,1,1,1,1,1,1,0,4,0,1,1,0,1,1,0,0.0
+Club Hotel Barbarossa Kaş,16957.5,13638.2,3319.3,Overpriced,- 19.57,3,1,2.0,2,0,0,,1,0,0,0,0,1,0,0,0,1,1,1,0,1,1,0,1,0,1,1,1,0.0
+Swan Boutique Hotel +12,12179.9,11550.1,629.8,Slight Overpriced,- 5.17,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Lonicera Premium Hotel,12941.1,13755.5,-814.4,Slight Overpriced (Underpriced),+ 6.29,4,0,2.0,1,1,1,,1,1,0,0,0,1,0,0,1,1,0,1,0,1,0,1,1,0,1,1,1,0.0
+Tal Beach Hotel,4710.2,11550.1,-6839.9,Significantly Overpriced (Underpriced),+ 145.21,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Robinson Club Pamfilya,39155.2,13984.2,25171.0,Significantly Overpriced,- 64.29,3,1,2.0,1,0,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Cotton Boutique Hotel,8994.2,9156.5,-162.3,Fair (Underpriced),+ 1.8,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Şavk Hotel,9000.0,13093.3,-4093.3,Significantly Overpriced (Underpriced),+ 45.48,1,1,2.0,1,0,1,,1,0,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,0,1,1,0,0.0
+Ege Tulip Çeşme Deluxe Hotel,8092.0,9147.2,-1055.2,Overpriced (Underpriced),+ 13.04,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1,0,0,1,0,750.0
+The Abc Hotel,15729.6,11010.1,4719.5,Significantly Overpriced,- 30.0,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Robinson Çamyuva,19140.0,14521.7,4618.3,Significantly Overpriced,- 24.13,4,2,2.0,1,0,1,,3,1,1,1,1,1,1,0,1,0,1,1,0,0,0,0,1,0,1,0,0,0.0
+Şirince Klaseas Hotel,22000.0,8496.2,13503.8,Significantly Overpriced,- 61.38,1,1,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,750.0
+Crystal Prestige Elite,18720.0,15766.1,2953.9,Overpriced,- 15.78,5,4,2.0,5,2,1,,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,100.0
+Meryan Beach Hotel Spa,22120.0,14762.2,7357.8,Significantly Overpriced,- 33.26,5,0,2.0,2,1,1,,2,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,0.0
+The Beachfront Hotel,20088.0,12911.0,7177.0,Significantly Overpriced,- 35.73,1,1,2.0,1,0,1,,1,1,0,0,1,0,1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,0.0
+Temple Hotel,4586.4,11938.7,-7352.3,Significantly Overpriced (Underpriced),+ 160.31,1,1,2.0,1,0,0,,1,1,0,1,0,1,1,0,0,1,1,1,0,1,0,0,1,0,1,1,0,200.0
+Klas More Beach Hotel,12000.0,13890.7,-1890.7,Overpriced (Underpriced),+ 15.76,3,1,2.0,2,0,1,,1,1,1,0,1,1,0,1,1,1,1,1,0,1,0,1,1,0,1,1,1,0.0
+The Yalı Konak Hotel İzmir,10857.6,11914.9,-1057.3,Slight Overpriced (Underpriced),+ 9.74,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+The Hello Hotel,7088.6,11302.2,-4213.6,Significantly Overpriced (Underpriced),+ 59.44,1,0,-1.0,1,0,0,,1,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,100.0
+Tangiers Hotel Yalıkavak,10500.0,11802.5,-1302.5,Overpriced (Underpriced),+ 12.4,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Golden Key Bördübet,15000.0,11828.8,3171.2,Significantly Overpriced,- 21.14,4,2,2.0,1,0,0,,2,0,0,0,0,1,0,0,0,1,1,1,1,0,1,0,1,0,1,0,0,500.0
+The Rest Port Argento,23895.9,8914.2,14981.7,Significantly Overpriced,- 62.7,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,750.0
+Saylam Suites,28480.0,8653.8,19826.2,Significantly Overpriced,- 69.61,1,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,750.0
+The New Zeybek Hotel,5283.5,8341.7,-3058.2,Significantly Overpriced (Underpriced),+ 57.88,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,750.0
+Mirada Del Mar,35280.0,17172.6,18107.4,Significantly Overpriced,- 51.32,8,5,2.0,3,1,1,,3,1,1,0,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,1,0,0.0
+Villa Rustica Hotel,18000.0,10310.4,7689.6,Significantly Overpriced,- 42.72,0,1,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,300.0
+Crystal Sunset Luxury,55440.0,15927.7,39512.3,Significantly Overpriced,- 71.27,13,6,2.0,4,2,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,750.0
+Seven Seas Hotel Blue,21000.0,16600.3,4399.7,Significantly Overpriced,- 20.95,8,3,2.0,4,0,1,,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,0.0
+Provence Mansion Alaçatı,11000.0,12509.7,-1509.7,Overpriced (Underpriced),+ 13.72,2,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0.0
+Royal Atlantis Spa Resort,30450.0,16295.9,14154.1,Significantly Overpriced,- 46.48,7,4,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,1,1,1,0,0.0
+Port Side Resort Hotel,24912.3,13852.8,11059.5,Significantly Overpriced,- 44.39,3,1,2.0,1,1,1,,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,0,1,0,1,1,0,0.0
+The Xon Hotel Çeşme,23400.0,8301.3,15098.7,Significantly Overpriced,- 64.52,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Tiny Town Kuyucak,16450.0,11440.9,5009.1,Significantly Overpriced,- 30.45,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,100.0
+Upperhouse Boutique Hotel,9200.0,11570.8,-2370.8,Significantly Overpriced (Underpriced),+ 25.77,1,0,2.0,0,0,0,,1,1,0,1,1,0,1,0,0,0,1,1,0,1,0,0,1,0,1,0,1,200.0
+Toll Garden,9300.0,11972.6,-2672.6,Significantly Overpriced (Underpriced),+ 28.74,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0.0
+Side Royal Palace Hotel Spa,29907.6,12894.5,17013.1,Significantly Overpriced,- 56.89,1,3,2.0,1,1,1,,1,1,1,1,1,1,0,1,1,1,0,1,0,1,0,0,0,0,1,1,0,200.0
+Crystal Waterworld Resort Spa,28050.0,20448.4,7601.6,Significantly Overpriced,- 27.1,13,11,2.0,4,2,1,,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0.0
+Tui Blue Angora Beach,19719.9,11408.0,8311.9,Significantly Overpriced,- 42.15,0,0,-1.0,1,0,1,,1,1,0,0,1,1,0,0,1,1,1,1,0,1,0,0,0,0,1,0,0,100.0
+Nirvana Mediterranean Excellence,11137.5,21977.4,-10839.9,Significantly Overpriced (Underpriced),+ 97.33,16,8,2.0,12,2,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0.0
+Wasa Hotel,8721.0,8738.4,-17.4,Fair (Underpriced),+ 0.2,1,1,-1.0,1,0,0,,1,0,0,0,0,1,0,0,0,1,1,1,0,1,0,0,1,0,0,1,0,750.0
+Kosa Otel Çeşme,8500.0,11320.5,-2820.5,Significantly Overpriced (Underpriced),+ 33.18,1,1,-1.0,2,0,1,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,200.0
+Radisson Collection Bodrum,27572.0,13390.3,14181.7,Significantly Overpriced,- 51.44,2,1,2.0,1,1,1,,2,1,0,1,1,0,1,0,1,1,1,1,1,1,0,0,0,1,1,0,0,50.0
+Royal Holiday Palace,30450.0,17467.1,12982.9,Significantly Overpriced,- 42.64,9,6,2.0,2,1,1,,1,1,1,0,1,1,0,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Zeybek Beach Hotel,3853.3,12122.5,-8269.2,Significantly Overpriced (Underpriced),+ 214.6,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.0
+Ramada By Wyndham Tire,14000.0,11915.2,2084.8,Overpriced,- 14.89,1,0,-1.0,1,1,0,,1,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,0.0
+Zeynel Hotel,8700.0,11597.5,-2897.5,Significantly Overpriced (Underpriced),+ 33.3,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0.0
+Alaçatı Bellezza Hotel,8128.4,9160.0,-1031.6,Overpriced (Underpriced),+ 12.69,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Anjeliq House Boutique Hotel,12524.4,12048.3,476.1,Fair,- 3.8,0,1,2.0,0,0,0,,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0.0
+Toscana Garden Bungalov,10800.0,11614.5,-814.5,Slight Overpriced (Underpriced),+ 7.54,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Raymar Resort Aqua,13440.0,14097.6,-657.6,Fair (Underpriced),+ 4.89,1,3,2.0,2,1,1,,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0.0
+Side Star Beach,22704.0,14473.3,8230.7,Significantly Overpriced,- 36.25,3,3,2.0,1,0,1,,1,1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Sorgun Akadia Hotel Luxury Resort Adult Only+16,31320.0,11550.1,19769.9,Significantly Overpriced,- 63.12,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Alaçatı Aura Plus Otel,9899.9,8657.5,1242.4,Overpriced,- 12.55,1,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,750.0
+Atalla Otel,5942.8,8225.4,-2282.6,Significantly Overpriced (Underpriced),+ 38.41,1,0,-1.0,0,0,0,,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,750.0
+Kaftans City Hotel By Rrhr,5037.8,10069.4,-5031.6,Significantly Overpriced (Underpriced),+ 99.88,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,400.0
+Cumbalıca Garden Hotel,28671.7,12322.8,16348.9,Significantly Overpriced,- 57.02,1,1,2.0,0,1,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.0
+Best Western Plus Konak,11400.0,12178.0,-778.0,Slight Overpriced (Underpriced),+ 6.82,2,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,100.0
+Mekvin Hotels Deniz Feneri Lighthouse +12 Adults Only,9523.8,11550.1,-2026.3,Significantly Overpriced (Underpriced),+ 21.28,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Riolavitas Resort Spa,13455.0,11968.9,1486.1,Overpriced,- 11.04,1,1,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,1,1,0,1,1,0,300.0
+Asrın Beach Hotel,8861.4,14128.8,-5267.4,Significantly Overpriced (Underpriced),+ 59.44,4,1,2.0,1,1,1,,1,1,1,1,1,0,1,1,0,1,0,1,0,1,1,0,1,0,1,1,0,0.0
+Crystal Boutique Beach Resort,14657.7,13720.0,937.7,Slight Overpriced,- 6.4,0,4,2.0,2,1,1,,1,1,0,1,1,0,0,1,0,1,1,1,1,1,1,0,0,0,1,0,0,0.0
+True Blue Boutique Hotel,21159.1,10712.0,10447.1,Significantly Overpriced,- 49.37,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,200.0
+Muup Alaçatı,12000.0,11754.7,245.3,Fair,- 2.04,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Seashell Vega,30536.4,11715.3,18821.1,Significantly Overpriced,- 61.63,2,0,2.0,1,1,1,,0,1,0,1,0,1,0,1,1,1,0,1,0,0,0,1,1,0,1,1,0,300.0
+Side Sunport Hotel Spa (Ex. Side Sungate),19207.2,11550.1,7657.1,Significantly Overpriced,- 39.87,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Numa Port Hotel,12400.0,11007.1,1392.9,Overpriced,- 11.23,1,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,300.0
+Fortuna Beach,6173.5,12581.1,-6407.6,Significantly Overpriced (Underpriced),+ 103.79,1,0,2.0,1,0,0,,1,1,1,1,0,1,0,0,0,1,0,1,0,1,0,0,1,0,1,1,0,0.0
+Royal Seginus Hotel,33180.0,17928.9,15251.1,Significantly Overpriced,- 45.96,9,9,2.0,6,1,1,,1,1,0,1,1,1,1,1,1,1,0,1,0,1,0,1,1,0,1,1,0,200.0
+Villa Side Hotel,21000.0,11662.4,9337.6,Significantly Overpriced,- 44.46,0,0,-1.0,1,1,1,,1,1,0,1,1,1,1,1,0,0,1,1,0,1,0,1,1,0,1,1,0,100.0
+Aurora Sığacık Hotel,4176.0,11010.1,-6834.1,Significantly Overpriced (Underpriced),+ 163.65,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Aura Village Alaçatı,7200.0,8767.5,-1567.5,Significantly Overpriced (Underpriced),+ 21.77,1,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Regia Mare Beach Hotel Bodrum,13440.0,12468.4,971.6,Slight Overpriced,- 7.23,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0.0
+Vonresort Golden Beach,28000.0,16321.5,11678.5,Significantly Overpriced,- 41.71,7,7,2.0,3,0,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,200.0
+Sarp Hotels Kadriye,4400.0,9150.3,-4750.3,Significantly Overpriced (Underpriced),+ 107.96,2,0,-1.0,2,0,0,,1,0,0,0,0,1,0,1,1,1,1,1,0,1,0,1,1,0,0,1,0,750.0
+Club Hotel Rama,12168.0,13401.0,-1233.0,Overpriced (Underpriced),+ 10.13,2,0,2.0,2,0,1,,1,1,1,0,1,1,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Un Amor Hotel +16 Adults Only,11000.0,11550.1,-550.1,Fair (Underpriced),+ 5.0,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Rizom Beach Hotel Kumluca,8640.0,13331.8,-4691.8,Significantly Overpriced (Underpriced),+ 54.3,1,1,2.0,1,1,0,,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,0,0.0
+The Raga Side Hotel,10485.9,14026.2,-3540.3,Significantly Overpriced (Underpriced),+ 33.76,5,1,2.0,1,1,1,,1,1,0,0,1,1,0,0,1,1,1,0,0,1,0,0,0,0,1,0,0,50.0
+The D Hotel Ceşme Spa Resort,15915.0,9191.8,6723.2,Significantly Overpriced,- 42.24,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,750.0
+The Local House Alaçatı,14466.6,12718.9,1747.7,Overpriced,- 12.08,1,1,2.0,1,0,1,,1,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0.0
+Türkay Hotel,9000.0,11392.0,-2392.0,Significantly Overpriced (Underpriced),+ 26.58,1,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0.0
+Send Apart Hotel,4000.0,9358.0,-5358.0,Significantly Overpriced (Underpriced),+ 133.95,1,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,500.0
+Via Perla Butik Otel,8010.0,10008.3,-1998.3,Significantly Overpriced (Underpriced),+ 24.95,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,400.0
+Lonicera World Hotel,8160.0,16623.7,-8463.7,Significantly Overpriced (Underpriced),+ 103.72,9,1,2.0,4,2,1,,2,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Elamir Resort Hotel,11700.0,12235.7,-535.7,Fair (Underpriced),+ 4.58,0,1,2.0,1,0,1,,1,1,1,0,1,1,0,0,1,0,0,1,0,1,1,0,0,0,1,0,0,100.0
+Elite World Marmaris (+16),17640.0,11550.1,6089.9,Significantly Overpriced,- 34.52,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Royal Wings Hotel,8400.0,18077.6,-9677.6,Significantly Overpriced (Underpriced),+ 115.21,10,6,2.0,4,1,1,,1,1,1,0,1,1,0,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Rox Royal Hotel,17529.7,12611.6,4918.1,Significantly Overpriced,- 28.06,1,0,2.0,1,1,1,,1,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,0,1,1,0,100.0
+Yalıhan Una Hotel,17064.0,14077.9,2986.1,Overpriced,- 17.5,3,2,2.0,1,0,1,,1,1,1,1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0,0.0
+Ambassador Plaza Hotel	,13817.7,11550.1,2267.6,Overpriced,- 16.41,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Nasa Flora Otel,7883.5,11524.2,-3640.7,Significantly Overpriced (Underpriced),+ 46.18,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,100.0
+Viento Hotel Alaçatı,22800.0,9166.0,13634.0,Significantly Overpriced,- 59.8,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,750.0
+Magna Manastır Suıt Hotel,19635.0,11153.0,8482.0,Significantly Overpriced,- 43.2,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,1,0,0,200.0
+Meis Exclusive Hotel,26460.0,12651.8,13808.2,Significantly Overpriced,- 52.19,1,1,2.0,1,0,1,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,1,0.0
+Ag Hotels Antalya,7012.4,8188.9,-1176.5,Overpriced (Underpriced),+ 16.78,0,1,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,750.0
+Çeşme Flowers Otel,10600.0,8901.1,1698.9,Overpriced,- 16.03,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,600.0
+Cumbalıca Beach Otel,11000.0,11723.0,-723.0,Slight Overpriced (Underpriced),+ 6.57,0,0,2.0,0,1,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Comfy Otel Antalya Lara,2016.0,10143.9,-8127.9,Significantly Overpriced (Underpriced),+ 403.17,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,400.0
+Cappari Aqua Princess Hotel,11192.8,12805.3,-1612.5,Overpriced (Underpriced),+ 14.41,2,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0.0
+Kuum Hotel,6993.0,13179.7,-6186.7,Significantly Overpriced (Underpriced),+ 88.47,1,2,2.0,0,1,1,,1,1,0,1,1,0,0,0,0,1,1,1,0,1,0,0,1,0,1,0,0,0.0
+La Kumsal Hotel +12,20412.0,11550.1,8861.9,Significantly Overpriced,- 43.42,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Royal Alhambra Palace,27300.0,16419.3,10880.7,Significantly Overpriced,- 39.86,7,8,2.0,2,1,1,,1,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,0,1,1,0,200.0
+Villa Peri Alaçatı,12232.4,11182.8,1049.6,Slight Overpriced,- 8.58,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0.0
+Scylax Family Club,18291.0,13271.2,5019.8,Significantly Overpriced,- 27.44,3,0,2.0,1,0,1,,1,1,1,0,1,1,0,1,0,1,0,1,0,1,0,0,0,0,1,1,0,0.0
+Villa Oliva Butik Hotel,16689.6,11292.0,5397.6,Significantly Overpriced,- 32.34,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0.0
+Alexius Beach Hotel,15000.0,13057.6,1942.4,Overpriced,- 12.95,2,0,2.0,1,0,1,,1,1,1,0,1,1,0,0,1,0,0,1,0,1,0,1,0,0,1,1,0,0.0
+Cappari Aquarius Hotel,9350.0,12804.9,-3454.9,Significantly Overpriced (Underpriced),+ 36.95,2,1,2.0,1,0,0,,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,1,1,0.0
+Via Farilya Hotel,21420.0,10978.9,10441.1,Significantly Overpriced,- 48.74,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,200.0
+Sunset Hotel Marmaris,16701.6,8657.5,8044.1,Significantly Overpriced,- 48.16,1,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,750.0
+Villamer Alaçatı,8342.4,11550.1,-3207.7,Significantly Overpriced (Underpriced),+ 38.45,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Get Enjoy Hotels,6138.0,12715.1,-6577.1,Significantly Overpriced (Underpriced),+ 107.15,3,0,2.0,2,0,1,,1,1,1,0,0,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,200.0
+Arya Otel,7488.0,11234.4,-3746.4,Significantly Overpriced (Underpriced),+ 50.03,1,0,-1.0,1,0,0,,1,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,100.0
+Royal Dragon Side,29400.0,17276.2,12123.8,Significantly Overpriced,- 41.24,10,4,2.0,3,1,1,,1,1,1,0,1,1,0,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Orfeus Park Hotel,12056.2,12203.5,-147.3,Fair (Underpriced),+ 1.22,2,0,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0,300.0
+Vinifera Hotel Yedibilgiler Vineyards,19604.6,12447.7,7156.9,Significantly Overpriced,- 36.51,2,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,1,0,0.0
+Seaden Valentine Resort Spa,23184.0,14002.0,9182.0,Significantly Overpriced,- 39.6,3,3,2.0,2,1,1,,1,1,1,1,1,1,1,0,0,1,1,1,0,1,0,0,1,0,1,0,0,100.0
+Megasaray Resort Side,13860.0,11782.8,2077.2,Overpriced,- 14.99,0,0,2.0,1,1,1,,1,1,0,1,1,1,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,200.0
+Ambrosia Hotel,14000.0,13819.2,180.8,Fair,- 1.29,3,1,2.0,1,0,1,,1,1,1,1,1,1,1,0,1,1,1,1,0,1,0,0,1,0,1,1,0,0.0
+Xanthos Boutique Hotel Patara,7299.6,11010.1,-3710.5,Significantly Overpriced (Underpriced),+ 50.83,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Xen Deluxe Boutique Hotel,23436.0,8553.7,14882.3,Significantly Overpriced,- 63.5,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Phoenix Sun Hotel Bodrum,8047.0,10457.8,-2410.8,Significantly Overpriced (Underpriced),+ 29.96,0,0,2.0,0,0,0,,0,1,1,0,1,1,1,1,0,1,1,1,0,0,0,1,1,0,1,1,0,400.0
+Anemon Ege Sağlık Oteli,12700.0,12426.3,273.7,Fair,- 2.16,1,0,2.0,1,0,1,,0,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,1,1,1,0,0,0.0
+Beetle House Coffee Hotel,6000.0,8547.4,-2547.4,Significantly Overpriced (Underpriced),+ 42.46,1,1,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,750.0
+Royal Taj Mahal,28539.0,16617.7,11921.3,Significantly Overpriced,- 41.77,8,3,2.0,4,1,1,,1,1,1,0,1,1,0,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Golden Age Hotel Yalıkavak,9720.0,14792.8,-5072.8,Significantly Overpriced (Underpriced),+ 52.19,4,2,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0.0
+Yayla Hotel,5561.6,11550.1,-5988.5,Significantly Overpriced (Underpriced),+ 107.68,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Orfeus Queen Spa,12045.8,11602.9,442.9,Fair,- 3.68,1,0,2.0,1,1,1,,1,1,0,1,1,1,0,0,1,0,1,1,0,1,1,1,1,0,1,1,0,300.0
+Yalıkavak Marina Garden Hotel,27045.0,12592.8,14452.2,Significantly Overpriced,- 53.44,1,1,2.0,0,0,1,,1,1,0,1,1,0,1,0,0,1,1,1,0,1,0,0,1,0,1,0,0,50.0
+Anemon İzmir,12408.0,12067.3,340.7,Fair,- 2.75,1,0,2.0,0,0,1,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Annabella Park Hotel,8280.0,10930.7,-2650.7,Significantly Overpriced (Underpriced),+ 32.01,1,0,2.0,1,0,0,,1,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,300.0
+Yelken Beach Otel,4766.4,11877.5,-7111.1,Significantly Overpriced (Underpriced),+ 149.19,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0.0
+Sentido Lycus Beach,18317.3,12151.3,6166.0,Significantly Overpriced,- 33.66,0,1,2.0,0,0,0,,0,1,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.0
+Hedef Kleopatra Hotel,10200.0,11841.0,-1641.0,Overpriced (Underpriced),+ 16.09,1,0,-1.0,1,0,0,,1,1,1,1,1,1,0,0,1,1,0,1,1,1,1,1,1,0,1,1,1,100.0
+Rubi Platinum Sign,35840.0,13352.6,22487.4,Significantly Overpriced,- 62.74,1,2,2.0,1,1,0,,1,1,1,0,0,1,0,1,1,0,0,1,0,1,1,1,0,0,1,1,0,0.0
+Salmakis Resort Spa,20250.0,14383.5,5866.5,Significantly Overpriced,- 28.97,4,1,2.0,1,1,1,,1,1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,1,1,1,0,0.0
+Sealife Family Resort,16426.6,14137.5,2289.1,Overpriced,- 13.94,1,2,2.0,3,1,1,,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.0
+Agon Hotel,3124.0,11958.2,-8834.2,Significantly Overpriced (Underpriced),+ 282.78,1,0,2.0,1,0,0,,1,1,1,0,1,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,100.0
+Yüzbaşı Beach Hotel,4352.0,11976.2,-7624.2,Significantly Overpriced (Underpriced),+ 175.19,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0.0
+Arabella World Hotel,4441.2,11923.1,-7481.9,Significantly Overpriced (Underpriced),+ 168.47,2,0,2.0,1,1,1,,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,1,0,1,1,0,300.0
+Alura Boutique Hotel Çeşme,27048.0,12393.9,14654.1,Significantly Overpriced,- 54.18,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0.0
+Side Square Hotel,14688.0,12813.2,1874.8,Overpriced,- 12.76,2,0,2.0,1,0,0,,1,1,1,0,0,0,0,0,0,1,1,1,1,1,0,0,1,0,1,0,1,0.0
+Alkan Hotel,5280.0,11469.9,-6189.9,Significantly Overpriced (Underpriced),+ 117.23,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,1,0,100.0
+Calimera Side Resort,18300.0,10994.6,7305.4,Significantly Overpriced,- 39.92,3,1,2.0,3,0,1,,2,1,1,1,1,1,1,1,1,1,0,1,0,1,0,1,1,0,1,1,0,750.0
+Seaden Sea World Resort Spa,19440.0,15357.4,4082.6,Significantly Overpriced,- 21.0,6,1,2.0,3,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Justiniano Club Alanya,18543.6,14697.1,3846.5,Significantly Overpriced,- 20.74,4,2,2.0,2,1,1,,1,1,1,1,1,0,1,1,1,1,0,1,1,1,0,1,1,0,1,1,0,0.0
+Ares Blue Hotel,9888.7,12127.4,-2238.7,Significantly Overpriced (Underpriced),+ 22.64,1,0,2.0,1,0,0,,1,1,1,0,0,0,0,1,0,1,0,1,1,1,1,1,0,0,1,1,1,100.0
+Mete Otel Bozburun,16000.0,11764.6,4235.4,Significantly Overpriced,- 26.47,1,0,-1.0,0,0,0,,3,0,0,0,0,1,0,0,0,0,1,1,0,0,1,0,1,0,0,0,0,0.0
+Seher Sun Palace,36800.0,13283.4,23516.6,Significantly Overpriced,- 63.9,4,2,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,0,1,1,0,300.0
+Hotel Villa Turka Alanya,10462.7,11278.3,-815.6,Slight Overpriced (Underpriced),+ 7.8,1,0,-1.0,1,0,0,,1,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,100.0
+Porto Fenari Köyiçi,6000.0,11390.3,-5390.3,Significantly Overpriced (Underpriced),+ 89.84,1,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Dores Residence,16142.6,11115.1,5027.5,Significantly Overpriced,- 31.14,0,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,100.0
+Grand Faik Hotel,6539.0,10651.9,-4112.9,Significantly Overpriced (Underpriced),+ 62.9,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,100.0
+Mielo Lara Hotel,7200.0,10633.0,-3433.0,Significantly Overpriced (Underpriced),+ 47.68,1,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,200.0
+Grand Hekimoğlu Hotel,8000.0,9288.3,-1288.3,Overpriced (Underpriced),+ 16.1,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,400.0
+Otel Zeytinada,10080.0,11501.2,-1421.2,Overpriced (Underpriced),+ 14.1,1,0,2.0,2,0,1,,1,1,0,0,0,1,1,0,0,1,1,1,0,1,0,1,1,0,1,1,0,300.0
+Akay Garden Family Club,8400.0,9774.3,-1374.3,Overpriced (Underpriced),+ 16.36,3,0,2.0,1,0,0,,1,0,1,0,0,1,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,750.0
+Artemis Princess Hotel,4895.2,11216.2,-6321.0,Significantly Overpriced (Underpriced),+ 129.13,1,0,-1.0,2,0,1,,1,1,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,0,1,1,0,200.0
+Ares City Hotel,4080.0,11005.6,-6925.6,Significantly Overpriced (Underpriced),+ 169.75,1,0,-1.0,1,0,0,,1,0,0,1,1,1,0,0,0,0,0,1,0,1,0,0,1,0,1,1,0,200.0
+Sealife Buket Beach Hotel,14955.2,15011.7,-56.5,Fair (Underpriced),+ 0.38,5,2,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Kamelya Aishen K Club,30736.8,20021.8,10715.0,Significantly Overpriced,- 34.86,13,6,2.0,7,2,1,,9,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Zeniva Hotel,16200.0,11914.9,4285.1,Significantly Overpriced,- 26.45,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Elamir Beach Bungalow,11700.0,11699.9,0.1,Fair,- 0.0,0,0,2.0,0,0,0,,0,1,1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,0,1,0,0,50.0
+Evergreen Glamping,8000.0,8301.3,-301.3,Fair (Underpriced),+ 3.77,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Asel Hotel Didim,9878.0,11225.4,-1347.4,Overpriced (Underpriced),+ 13.64,0,0,-1.0,1,0,0,,0,0,0,1,0,1,1,0,0,1,0,1,0,0,0,0,0,0,0,1,0,50.0
+Lulja Alaçatı,12400.0,11742.2,657.8,Slight Overpriced,- 5.3,1,1,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Luna Begonvil Taş Evler,21968.3,11605.2,10363.1,Significantly Overpriced,- 47.17,1,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,100.0
+Selge Beach Resort Spa,14101.6,13737.1,364.5,Fair,- 2.58,0,2,2.0,3,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,1,0.0
+Flamingo Residence,13454.8,7969.5,5485.3,Significantly Overpriced,- 40.77,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,1,0,750.0
+Atrium Hotel Bodrum,8251.6,11532.3,-3280.7,Significantly Overpriced (Underpriced),+ 39.76,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1,0,100.0
+Adrasan Eliz Apart Bungalow,14000.0,8487.5,5512.5,Significantly Overpriced,- 39.38,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,600.0
+Mysea Hotels İncekum,13500.0,13360.2,139.8,Fair,- 1.04,2,0,2.0,1,1,1,,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,0,0,1,1,0,0.0
+The Nowness Hotel,10900.0,13019.6,-2119.6,Overpriced (Underpriced),+ 19.45,1,1,2.0,1,0,1,,1,1,0,1,1,0,1,0,0,1,1,1,0,1,0,0,1,0,1,1,0,0.0
+Adenya Hotel Resort,31860.0,14374.3,17485.7,Significantly Overpriced,- 54.88,0,2,2.0,7,2,1,,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,0.0
+Aska Just İn Beach,18270.0,13644.9,4625.1,Significantly Overpriced,- 25.32,2,1,2.0,1,1,1,,1,1,1,1,1,1,1,0,1,1,0,1,0,1,1,1,1,0,1,1,0,0.0
+Golden World Suite Hotel,8976.0,8354.4,621.6,Slight Overpriced,- 6.93,1,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,1,0,750.0
+Afflon Hotels Loft City,6953.9,9063.4,-2109.5,Significantly Overpriced (Underpriced),+ 30.34,1,1,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,0,0,0,0,600.0
+Aurasia Sea Side,4590.0,12643.5,-8053.5,Significantly Overpriced (Underpriced),+ 175.46,1,1,2.0,1,0,0,,1,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,1,0,0.0
+Club Familia Hotel,15592.0,12599.3,2992.7,Overpriced,- 19.19,0,0,2.0,1,1,1,,1,1,1,1,0,1,1,0,1,1,1,1,0,1,0,0,1,0,1,0,0,0.0
+Pırıl Hotel Thermal Beauty Spa,11115.0,14085.1,-2970.1,Significantly Overpriced (Underpriced),+ 26.72,4,0,2.0,2,1,1,,1,1,0,1,1,1,0,0,0,1,1,1,0,1,0,1,1,1,1,1,0,0.0
+Serenis Hotel,18901.1,11771.5,7129.6,Significantly Overpriced,- 37.72,2,1,2.0,5,1,1,,1,1,1,0,0,1,0,1,0,1,0,1,0,1,0,1,0,0,1,1,0,500.0
+D Maris Bay,85648.6,17492.7,68155.9,Significantly Overpriced,- 79.58,10,5,2.0,2,1,1,,0,1,0,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0.0
+"Reges, A Luxury Collection Resort Spa",55250.0,11550.1,43699.9,Significantly Overpriced,- 79.09,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Vonresort Golden Coast,30400.0,17378.7,13021.3,Significantly Overpriced,- 42.83,7,7,2.0,3,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,0.0
+Sayanora Hotel,11520.0,12162.8,-642.8,Slight Overpriced (Underpriced),+ 5.58,1,0,2.0,1,0,0,,1,1,0,0,0,0,0,0,0,1,0,1,0,1,0,1,1,0,1,1,0,50.0
+Pineta Club Hotel,14070.0,11598.9,2471.1,Overpriced,- 17.56,1,0,-1.0,3,0,1,,0,1,1,1,1,1,1,0,0,1,1,0,0,1,0,1,0,0,1,1,0,200.0
+Barışcan Hotel,6256.8,11872.1,-5615.3,Significantly Overpriced (Underpriced),+ 89.75,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,100.0
+Blanca Hotel,14571.4,12238.2,2333.2,Overpriced,- 16.01,1,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Alasonya Otel Alaçatı By Lamira,6800.0,12104.5,-5304.5,Significantly Overpriced (Underpriced),+ 78.01,1,0,2.0,0,0,0,,1,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Bilem Hotel Beach Spa,11887.8,13771.2,-1883.4,Overpriced (Underpriced),+ 15.84,4,0,2.0,1,1,1,,1,1,0,1,1,0,0,0,0,1,1,1,0,1,0,0,1,0,1,1,0,0.0
+Serenity Queen Hotel,20160.0,15549.6,4610.4,Significantly Overpriced,- 22.87,7,2,2.0,2,1,1,,0,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,0,1,1,1,0.0
+Türkmen Boutique Bungalow Apart,5120.0,11010.1,-5890.1,Significantly Overpriced (Underpriced),+ 115.04,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Maxwell Holiday Marmaris,5335.2,11090.6,-5755.4,Significantly Overpriced (Underpriced),+ 107.88,1,1,-1.0,1,0,0,,1,1,1,1,1,0,1,1,0,0,0,1,0,1,0,0,1,0,1,1,0,300.0
+Cihantürk Hotel,10413.0,11811.9,-1398.9,Overpriced (Underpriced),+ 13.43,1,0,-1.0,1,0,0,,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0.0
+Vista Villas,9732.8,11799.7,-2066.9,Significantly Overpriced (Underpriced),+ 21.24,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,1,0,0.0
+Vita Bella Hotel Resort Spa,13799.9,13222.6,577.3,Fair,- 4.18,2,1,2.0,1,1,0,,1,1,0,0,1,0,0,0,0,1,1,0,0,1,0,1,1,0,1,1,0,0.0
+Ekici Hotel,8541.0,12237.5,-3696.5,Significantly Overpriced (Underpriced),+ 43.28,2,0,2.0,1,0,0,,1,0,0,0,0,1,0,0,0,1,1,1,0,1,0,1,0,0,0,1,0,100.0
+Blue Fish Hotel,15300.0,13426.6,1873.4,Overpriced,- 12.24,4,0,2.0,1,0,1,,1,0,1,0,0,1,1,1,0,1,0,0,0,1,0,1,0,0,1,1,0,50.0
+Cettia Beach Resort +16,12960.0,11550.1,1409.9,Overpriced,- 10.88,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Antalya Madi Hotel,4340.0,8232.1,-3892.1,Significantly Overpriced (Underpriced),+ 89.68,1,0,-1.0,1,0,0,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,750.0
+Seaden Corolla Hotel Side,9720.0,14284.5,-4564.5,Significantly Overpriced (Underpriced),+ 46.96,6,2,2.0,3,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,300.0
+Seven Seas Hotel Life,33267.6,15092.1,18175.5,Significantly Overpriced,- 54.63,5,1,2.0,3,0,1,,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0.0
+Asfiya Loft Apartments,10010.8,10563.4,-552.6,Slight Overpriced (Underpriced),+ 5.52,0,0,2.0,1,0,0,,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,300.0
+Arya Apart,6256.8,8985.1,-2728.3,Significantly Overpriced (Underpriced),+ 43.61,0,0,2.0,0,0,0,,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,600.0
+İrem Garden Hotel,6264.0,10678.7,-4414.7,Significantly Overpriced (Underpriced),+ 70.48,2,1,2.0,1,0,0,,1,1,0,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,1,600.0
+Alanya Sunset Hotels,8178.8,9975.5,-1796.7,Significantly Overpriced (Underpriced),+ 21.97,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,0,1,400.0
+Bahçe Apart,9411.7,8301.3,1110.4,Overpriced,- 11.8,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Golden Orange Hotel,13768.8,9972.9,3795.9,Significantly Overpriced,- 27.57,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,300.0
+Seher Kumköy Star Resort Spa,19125.0,14759.3,4365.7,Significantly Overpriced,- 22.83,5,2,2.0,1,1,1,,1,1,1,1,1,1,0,1,1,1,0,1,0,1,0,0,1,0,1,1,0,0.0
+Elista Boutique Hotel Spa,8967.2,12788.9,-3821.7,Significantly Overpriced (Underpriced),+ 42.62,1,1,2.0,1,0,0,,1,1,0,0,1,1,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0.0
+Bella Rose Apart Hotel,5453.5,9857.5,-4404.0,Significantly Overpriced (Underpriced),+ 80.76,1,0,-1.0,1,0,0,,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,400.0
+Side Star Elegance,7200.0,16843.3,-9643.3,Significantly Overpriced (Underpriced),+ 133.93,8,5,2.0,3,0,1,,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Eldar Resort Hotel,12417.6,11772.8,644.8,Slight Overpriced,- 5.19,1,0,2.0,1,1,1,,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,300.0
+Charm Beach Hotel,18992.4,14081.0,4911.4,Significantly Overpriced,- 25.86,3,2,2.0,1,0,1,,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,0,0,0,1,1,0,0.0
+Moda Beach Boutique Hotel,7616.0,11934.3,-4318.3,Significantly Overpriced (Underpriced),+ 56.7,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,50.0
+Theluna Suite Hotel,11669.8,11953.2,-283.4,Fair (Underpriced),+ 2.43,1,0,-1.0,1,0,0,,0,0,0,0,1,0,1,0,1,1,1,1,0,0,0,1,1,0,1,1,1,0.0
+Volley Hotel İzmir,9000.0,10626.1,-1626.1,Overpriced (Underpriced),+ 18.07,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,300.0
+Çeşme Kanuni Kervansaray Hotel,6800.0,11355.0,-4555.0,Significantly Overpriced (Underpriced),+ 66.99,1,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,50.0
+Sisus Marina Hotel,10226.4,9543.7,682.7,Slight Overpriced,- 6.68,2,1,-1.0,1,1,1,,1,1,0,1,1,0,0,0,0,1,1,1,1,1,0,0,1,1,1,1,0,750.0
+Blue Eden Hotel,6000.0,11098.3,-5098.3,Significantly Overpriced (Underpriced),+ 84.97,0,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0.0
+Blue Waters Club,29250.0,14897.8,14352.2,Significantly Overpriced,- 49.07,5,0,2.0,3,1,1,,2,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,0.0
+Delfi Hotel Spa Wellness,10000.0,12213.9,-2213.9,Significantly Overpriced (Underpriced),+ 22.14,1,0,2.0,1,0,1,,1,1,0,0,1,1,0,1,0,0,1,1,0,1,0,1,1,0,1,1,0,100.0
+Sky Business Hotel,29250.0,12418.4,16831.6,Significantly Overpriced,- 57.54,0,1,2.0,1,0,0,,1,0,0,1,0,0,0,0,0,1,1,1,0,2,0,1,1,1,0,1,0,0.0
+Crystal Land Of Paradise,18720.0,12519.2,6200.8,Significantly Overpriced,- 33.12,1,0,2.0,1,0,0,,1,0,1,0,1,1,0,1,0,1,0,1,0,1,0,0,1,0,1,0,0,0.0
+Grand Bahama Beach Hotel,9840.0,10819.4,-979.4,Slight Overpriced (Underpriced),+ 9.95,0,0,2.0,0,0,1,,0,1,1,0,0,1,0,1,0,1,1,1,0,0,0,1,1,0,1,1,0,300.0
+Taç Premier Hotel Spa,11545.5,12935.7,-1390.2,Overpriced (Underpriced),+ 12.04,1,0,2.0,1,1,1,,0,1,1,1,1,1,1,0,1,1,0,1,0,1,1,1,1,0,1,1,1,0.0
+Club Dedeman Bodrum,5610.0,9328.4,-3718.4,Significantly Overpriced (Underpriced),+ 66.28,1,0,2.0,1,0,1,,1,0,1,0,0,1,1,1,0,1,1,1,0,1,0,0,1,0,0,1,0,750.0
+Club Hotel Sera,26600.0,14027.5,12572.5,Significantly Overpriced,- 47.27,3,1,2.0,1,1,1,,1,1,1,1,1,1,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Erya Homes,4500.0,11010.1,-6510.1,Significantly Overpriced (Underpriced),+ 144.67,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Monottoman Otel,13120.0,8904.5,4215.5,Significantly Overpriced,- 32.13,1,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Enoya Suites Ilıca,6000.0,10890.7,-4890.7,Significantly Overpriced (Underpriced),+ 81.51,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,50.0
+Çiçek Apart Otel,5980.0,10884.7,-4904.7,Significantly Overpriced (Underpriced),+ 82.02,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,200.0
+Göncü Apart Otel,7200.0,11203.2,-4003.2,Significantly Overpriced (Underpriced),+ 55.6,0,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,100.0
+Finike Apart,9744.0,11882.7,-2138.7,Significantly Overpriced (Underpriced),+ 21.95,0,0,2.0,1,0,0,,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0.0
+Gündüzler Deluxe Hotel,5601.6,11132.5,-5530.9,Significantly Overpriced (Underpriced),+ 98.74,0,0,-1.0,0,0,0,,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0.0
+Hanbaba Otel,6000.0,9399.3,-3399.3,Significantly Overpriced (Underpriced),+ 56.66,1,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,600.0
+Hayal Fener,6952.0,9387.6,-2435.6,Significantly Overpriced (Underpriced),+ 35.03,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,500.0
+Greenport Hotel,5600.0,12693.2,-7093.2,Significantly Overpriced (Underpriced),+ 126.66,2,0,2.0,1,0,0,,1,0,1,0,0,0,1,0,0,1,0,1,0,1,0,1,1,0,0,1,0,0.0
+Trendy Side Beach,11000.0,13815.2,-2815.2,Significantly Overpriced (Underpriced),+ 25.59,2,2,2.0,1,1,1,,1,1,1,0,1,1,1,0,0,1,1,1,0,1,0,0,1,0,1,0,0,0.0
+Dosi Hotel,12600.0,10698.3,1901.7,Overpriced,- 15.09,2,0,2.0,2,0,1,,1,1,1,1,0,1,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,600.0
+Liman Pansiyon,14000.0,11550.1,2449.9,Overpriced,- 17.5,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Hotel Turan Prince,23904.0,17525.5,6378.5,Significantly Overpriced,- 26.68,11,3,2.0,3,1,1,,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,0.0
+Lara Marine Homes,15989.6,11595.0,4394.6,Significantly Overpriced,- 27.48,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0.0
+Sueno Hotels Deluxe Belek,27000.0,16574.1,10425.9,Significantly Overpriced,- 38.61,6,6,2.0,1,2,1,,2,1,0,1,0,1,1,1,1,1,1,1,1,2,1,1,1,0,1,1,0,0.0
+Çamyuva Beach Hotel,12000.0,13410.1,-1410.1,Overpriced (Underpriced),+ 11.75,3,0,2.0,2,0,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,1,0,100.0
+Kemer Residence,15294.4,11291.2,4003.2,Significantly Overpriced,- 26.17,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,100.0
+İbis İzmir Alsancak,12737.8,12326.3,411.5,Fair,- 3.23,1,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0.0
+Hotel Golden Sun,16008.0,11896.3,4111.7,Significantly Overpriced,- 25.69,5,0,2.0,2,0,0,,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,400.0
+House Of Marmaris,8453.6,9465.5,-1011.9,Overpriced (Underpriced),+ 11.97,0,0,-1.0,0,0,1,,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,400.0
+Kocaman Hotel,4572.0,8473.5,-3901.5,Significantly Overpriced (Underpriced),+ 85.33,0,0,2.0,0,0,0,,0,0,0,0,0,0,1,0,0,1,1,1,0,1,0,0,1,0,0,0,0,750.0
+Tu Casa Gelidonya Hotel,11588.8,13028.4,-1439.6,Overpriced (Underpriced),+ 12.42,4,0,2.0,2,1,0,,1,1,1,1,1,1,0,0,0,1,0,1,0,1,0,1,1,0,1,1,0,200.0
+Dionisus Hotel Belek Spa,6000.0,9288.0,-3288.0,Significantly Overpriced (Underpriced),+ 54.8,1,0,2.0,2,0,0,,1,1,0,0,1,1,0,0,0,0,1,1,0,1,0,0,0,0,1,1,0,750.0
+Kristal Beach Hotel,6960.0,11400.9,-4440.9,Significantly Overpriced (Underpriced),+ 63.81,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,1,0,0,0.0
+Maison 48 Apart,6234.0,10291.8,-4057.8,Significantly Overpriced (Underpriced),+ 65.09,1,0,-1.0,1,0,0,,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,300.0
+İncekum Beach Resort,34228.0,14546.5,19681.5,Significantly Overpriced,- 57.5,3,2,2.0,2,1,1,,2,1,1,1,1,1,0,1,1,1,0,1,1,1,0,1,0,0,1,1,1,0.0
+Güvenpark Residence Hotel,11200.0,8769.7,2430.3,Significantly Overpriced,- 21.7,0,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Trendy Aspendos Beach,28050.0,15550.2,12499.8,Significantly Overpriced,- 44.56,5,4,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Sunis Kumköy Beach Resort,50400.0,15202.3,35197.7,Significantly Overpriced,- 69.84,0,6,2.0,6,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,0.0
+Mavi Köşk Apart Sığacık,22000.0,11010.1,10989.9,Significantly Overpriced,- 49.95,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Lavin Garden Hotel,6000.0,9949.4,-3949.4,Significantly Overpriced (Underpriced),+ 65.82,1,0,-1.0,1,0,0,,1,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,400.0
+Nirvana Apart Hotel,14599.2,7879.5,6719.7,Significantly Overpriced,- 46.03,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,750.0
+New Safir Apart Hotel,9040.2,9442.5,-402.3,Fair (Underpriced),+ 4.45,0,0,-1.0,0,0,0,,0,0,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,400.0
+Gvar Apart Hotel,3754.0,9318.1,-5564.1,Significantly Overpriced (Underpriced),+ 148.22,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,400.0
+Leslion Luxury Hotel,8318.1,9167.2,-849.1,Overpriced (Underpriced),+ 10.21,1,1,2.0,0,0,0,,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,1,0,1,0,0,750.0
+Patara Evleri,10428.0,8353.5,2074.5,Overpriced,- 19.89,1,0,-1.0,1,0,0,,1,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,750.0
+Avena Resort Spa Hotel,12467.8,13455.8,-988.0,Slight Overpriced (Underpriced),+ 7.92,3,1,2.0,1,0,1,,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,1,1,0,1,1,0,100.0
+Doubletree By Hilton Alsancak,16200.0,9578.7,6621.3,Significantly Overpriced,- 40.87,1,1,2.0,1,0,1,,1,1,0,1,0,0,1,0,0,1,1,1,0,1,0,0,1,0,1,0,0,750.0
+Modern Saraylar Halal Hotel Spa,15120.0,9624.8,5495.2,Significantly Overpriced,- 36.34,0,1,2.0,1,1,1,,1,1,1,1,0,1,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,750.0
+Riva Hotel Alsancak,16297.2,10795.3,5501.9,Significantly Overpriced,- 33.76,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,200.0
+Ritim Apart Otel,9009.7,10157.6,-1147.9,Overpriced (Underpriced),+ 12.74,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,200.0
+Hakan Otel Bodrum,5466.8,12461.9,-6995.1,Significantly Overpriced (Underpriced),+ 127.96,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0.0
+Doubletree By Hilton Hotel İzmir Airport,16800.0,12569.8,4230.2,Significantly Overpriced,- 25.18,1,1,2.0,1,0,0,,0,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0.0
+Olympos Village Reluxury Hotel,10846.0,8735.4,2110.6,Overpriced,- 19.46,1,1,-1.0,1,0,0,,1,0,0,0,0,1,0,0,0,1,1,1,0,1,0,0,1,0,1,1,0,750.0
+Blue Wave Suite Hotel,8160.0,12174.0,-4014.0,Significantly Overpriced (Underpriced),+ 49.19,4,0,2.0,2,0,1,,1,1,1,0,1,1,0,1,1,0,0,1,0,1,0,1,1,0,1,1,1,400.0
+Dragut Point South Hotel,8860.8,12729.8,-3869.0,Significantly Overpriced (Underpriced),+ 43.66,1,0,2.0,1,0,1,,1,1,0,1,1,1,0,0,0,1,0,1,0,0,0,0,1,0,1,1,0,0.0
+Akra Hotel,22078.9,13503.5,8575.4,Significantly Overpriced,- 38.84,1,1,2.0,3,1,1,,1,1,0,1,0,1,1,0,1,1,1,1,0,1,0,0,1,0,1,1,0,0.0
+Rodinn Park Hotel,6120.0,11550.1,-5430.1,Significantly Overpriced (Underpriced),+ 88.73,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Saphir Hotel,23400.0,14275.8,9124.2,Significantly Overpriced,- 38.99,3,1,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,0.0
+Helios Hotel,19000.0,9746.9,9253.1,Significantly Overpriced,- 48.7,1,0,2.0,1,0,0,,1,0,1,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,1,1,0,600.0
+Mira Otel Alsancak,10347.5,11816.6,-1469.1,Overpriced (Underpriced),+ 14.2,0,0,2.0,0,0,0,,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0.0
+Elips Royal Hotel,8759.5,11834.2,-3074.7,Significantly Overpriced (Underpriced),+ 35.1,0,0,2.0,0,0,0,,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0.0
+Mene City Hotel,17240.9,8270.0,8970.9,Significantly Overpriced,- 52.03,1,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,750.0
+Sirena Apart Spa,8244.3,11010.1,-2765.8,Significantly Overpriced (Underpriced),+ 33.55,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Sardunya Apart,6400.0,9404.4,-3004.4,Significantly Overpriced (Underpriced),+ 46.94,1,1,-1.0,1,0,0,,1,0,0,1,0,0,1,0,0,1,1,1,0,1,0,0,1,0,0,1,0,600.0
+Mr Crane Hotel,15363.8,10391.6,4972.2,Significantly Overpriced,- 32.36,1,0,2.0,1,0,1,,0,1,1,0,0,1,0,0,0,1,0,1,1,1,1,0,0,0,1,1,1,500.0
+Four Points By Sheraton İzmir Otel,16267.6,10524.7,5742.9,Significantly Overpriced,- 35.3,0,0,2.0,0,0,0,,0,0,0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,300.0
+Premier İnn City Hotel Lara,5600.0,11057.0,-5457.0,Significantly Overpriced (Underpriced),+ 97.45,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0.0
+Sercan Apart Hotel,27808.0,11770.1,16037.9,Significantly Overpriced,- 57.67,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0.0
+Adalya Art Side Hotel,18017.2,14389.6,3627.6,Significantly Overpriced,- 20.13,5,5,2.0,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,300.0
+Falcon Hotel,22272.0,14755.0,7517.0,Significantly Overpriced,- 33.75,5,1,2.0,1,1,1,,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,0.0
+Solt Suites Bodum,9246.1,11625.5,-2379.4,Significantly Overpriced (Underpriced),+ 25.73,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Selenya Butik Apart Otel,7786.2,11152.3,-3366.1,Significantly Overpriced (Underpriced),+ 43.23,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Stile Suite Family Hotel,4800.0,8580.8,-3780.8,Significantly Overpriced (Underpriced),+ 78.77,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,600.0
+Hotel Berke Ranch Nature,5680.3,9991.7,-4311.4,Significantly Overpriced (Underpriced),+ 75.9,2,1,2.0,1,0,0,,1,1,0,0,1,1,1,0,1,1,1,1,0,1,0,1,1,0,1,0,0,750.0
+Muz Hotel,10924.2,12556.2,-1632.0,Overpriced (Underpriced),+ 14.94,1,0,2.0,1,0,0,,1,1,1,0,0,1,0,0,1,1,0,1,0,1,0,1,0,0,1,1,0,0.0
+Fun And Sun Smart Hane Sun,10965.6,10398.3,567.3,Slight Overpriced,- 5.17,1,0,2.0,1,0,1,,6,1,1,0,0,1,0,1,1,1,0,1,0,1,0,1,0,0,1,1,0,600.0
+Algora Halal Hotel,10530.0,12573.1,-2043.1,Overpriced (Underpriced),+ 19.4,2,0,2.0,3,0,0,,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,1,200.0
+Oranj Ranch Hotel,7980.0,8735.8,-755.8,Slight Overpriced (Underpriced),+ 9.47,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,1,750.0
+Özcan Beach Hotel,8011.6,12371.6,-4360.0,Significantly Overpriced (Underpriced),+ 54.42,2,1,-1.0,1,0,0,,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0.0
+Nagi Beach Hotel,8840.0,12432.7,-3592.7,Significantly Overpriced (Underpriced),+ 40.64,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0.0
+Tebriz Apart,12000.0,11756.7,243.3,Fair,- 2.03,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0.0
+Pasaport Pier Hotel,11970.0,12349.2,-379.2,Fair (Underpriced),+ 3.17,1,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Şahin Apart Otel,10000.0,10898.7,-898.7,Slight Overpriced (Underpriced),+ 8.99,1,0,-1.0,2,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,200.0
+Sunpark Garden Hotel,12513.6,9437.4,3076.2,Significantly Overpriced,- 24.58,1,1,-1.0,2,1,1,,1,1,1,1,0,1,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,750.0
+Garden Park Beldibi Hotel,5200.0,11689.2,-6489.2,Significantly Overpriced (Underpriced),+ 124.79,1,0,2.0,1,0,0,,1,1,1,0,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,1,0,200.0
+Rosy Hotel,4000.0,9038.3,-5038.3,Significantly Overpriced (Underpriced),+ 125.96,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,1,0,0,1,0,750.0
+Club Marco Polo,33660.0,15604.9,18055.1,Significantly Overpriced,- 53.64,4,3,2.0,6,0,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Annabella Diamond Hotel Spa,11178.0,13222.4,-2044.4,Overpriced (Underpriced),+ 18.29,1,1,2.0,1,0,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,1,0,0.0
+Arsi Enfi City Beach Hotel,11262.2,12535.2,-1273.0,Overpriced (Underpriced),+ 11.3,1,0,2.0,1,0,0,,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0.0
+Hotel Maison Vourla,16800.0,11356.0,5444.0,Significantly Overpriced,- 32.4,0,0,2.0,0,0,0,,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,100.0
+Ananas Hotel,11560.0,14101.1,-2541.1,Significantly Overpriced (Underpriced),+ 21.98,5,0,2.0,2,0,1,,1,1,1,0,0,1,0,1,0,1,0,1,0,0,0,0,1,0,1,1,0,0.0
+Can Garden Beach Hotel,18626.0,13161.1,5464.9,Significantly Overpriced,- 29.34,1,1,2.0,1,0,1,,1,1,1,1,1,1,1,1,0,1,1,0,0,1,0,0,1,0,1,1,1,0.0
+Umayra Hotel,7508.1,11695.2,-4187.1,Significantly Overpriced (Underpriced),+ 55.77,0,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0.0
+Anemon Çiğli Hotel,14060.0,12310.5,1749.5,Overpriced,- 12.44,1,0,2.0,0,1,1,,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,1,0,0,0.0
+Arbatt Marmaris,8820.0,12068.8,-3248.8,Significantly Overpriced (Underpriced),+ 36.83,1,1,2.0,1,0,0,,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1,0,0,100.0
+Villa Asoa,9464.2,8919.4,544.8,Slight Overpriced,- 5.76,1,0,2.0,1,0,0,,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,1,0,0,0,0,750.0
+Cape Bodrum Luxury Hotel Beach,46080.0,14063.5,32016.5,Significantly Overpriced,- 69.48,3,2,2.0,1,1,1,,1,1,0,1,1,0,0,0,0,1,1,1,0,2,0,0,1,0,1,1,0,0.0
+11 Oda Boutique Pension ( +12 Oteli ),25300.0,11550.1,13749.9,Significantly Overpriced,- 54.35,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Bells Beach Hotel,6000.0,11607.0,-5607.0,Significantly Overpriced (Underpriced),+ 93.45,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Santa Marina Hotel,6600.0,12570.0,-5970.0,Significantly Overpriced (Underpriced),+ 90.45,2,1,2.0,1,0,0,,1,0,0,1,0,0,1,0,0,1,1,1,0,1,0,1,1,0,0,1,0,100.0
+Begonvil Pansiyon Şirince,5287.0,11580.6,-6293.6,Significantly Overpriced (Underpriced),+ 119.04,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0.0
+Mavi Cennet Camping Pansiyon,2800.0,12012.2,-9212.2,Significantly Overpriced (Underpriced),+ 329.01,1,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Green Paradise Hotel,5742.8,12129.4,-6386.6,Significantly Overpriced (Underpriced),+ 111.21,0,0,2.0,0,0,0,,1,0,1,0,1,1,0,1,1,1,0,1,0,0,0,0,0,0,1,1,0,0.0
+Beta Guesthouse,5846.4,10249.4,-4403.0,Significantly Overpriced (Underpriced),+ 75.31,0,0,-1.0,0,0,0,,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,200.0
+Lord Hotel,10000.0,12078.2,-2078.2,Significantly Overpriced (Underpriced),+ 20.78,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,1,0,100.0
+Hotel Pirat,8968.1,12143.3,-3175.2,Significantly Overpriced (Underpriced),+ 35.41,1,1,-1.0,1,0,0,,1,1,1,0,0,1,1,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0.0
+Deruni Ilıca Otel,11600.0,9235.5,2364.5,Significantly Overpriced,- 20.38,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,600.0
+Finike Sever Otel,3000.0,10638.9,-7638.9,Significantly Overpriced (Underpriced),+ 254.63,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,100.0
+Casablanca Beach +12,11186.0,11550.1,-364.1,Fair (Underpriced),+ 3.25,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Gödence Hotel Restoran,7920.0,12126.1,-4206.1,Significantly Overpriced (Underpriced),+ 53.11,1,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0.0
+Hedefbeyt Hotel Resort Spa,9720.0,12315.3,-2595.3,Significantly Overpriced (Underpriced),+ 26.7,1,1,-1.0,2,2,0,,1,1,1,0,1,0,1,1,1,1,1,0,0,1,0,1,0,0,1,1,0,100.0
+Hoyran Wedre Köy Evleri,19493.5,11799.9,7693.6,Significantly Overpriced,- 39.47,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0.0
+Khans Bb Hotel,10800.0,10618.8,181.2,Fair,- 1.68,1,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300.0
+Club Grand Side Amazon Water World,26622.9,14074.3,12548.6,Significantly Overpriced,- 47.13,5,3,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,300.0
+Hotel Warszawski Alaçatı,9208.0,11010.1,-1802.1,Overpriced (Underpriced),+ 19.57,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Sunway Hotel Marmaris,7058.8,11848.0,-4789.2,Significantly Overpriced (Underpriced),+ 67.85,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0.0
+Club Beyy Resort Hotel,7660.8,11861.6,-4200.8,Significantly Overpriced (Underpriced),+ 54.84,0,0,2.0,0,0,0,,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0.0
+Sava Hotel,6356.7,11678.4,-5321.7,Significantly Overpriced (Underpriced),+ 83.72,1,1,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,50.0
+Tourist Hotel,6479.7,11730.4,-5250.7,Significantly Overpriced (Underpriced),+ 81.03,1,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,100.0
+Merhaba Pansiyon,4800.0,10644.2,-5844.2,Significantly Overpriced (Underpriced),+ 121.75,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,100.0
+Halikarnas Pansiyon,6400.0,10914.0,-4514.0,Significantly Overpriced (Underpriced),+ 70.53,0,0,-1.0,0,0,0,,1,0,0,1,0,0,1,0,0,0,1,1,0,0,0,1,1,0,0,0,0,100.0
+Mystic Konak,6000.0,11663.9,-5663.9,Significantly Overpriced (Underpriced),+ 94.4,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Hera Hotel Kaş,10800.0,13766.9,-2966.9,Significantly Overpriced (Underpriced),+ 27.47,3,2,2.0,1,0,1,,1,1,0,0,0,0,0,0,0,1,0,1,0,1,1,1,1,0,1,1,1,0.0
+Club Sun Heaven Family Hotel,12542.4,12779.0,-236.6,Fair (Underpriced),+ 1.89,1,1,2.0,2,1,1,,0,1,1,0,1,0,1,1,1,1,1,1,0,1,0,1,0,0,1,1,0,100.0
+Olimpos Vadi Otel,12000.0,8845.3,3154.7,Significantly Overpriced,- 26.29,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,750.0
+Alaroof Butik Otel,16000.0,8670.6,7329.4,Significantly Overpriced,- 45.81,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,750.0
+Vesta Fuar Hotel,6000.0,12408.2,-6408.2,Significantly Overpriced (Underpriced),+ 106.8,1,1,2.0,0,0,0,,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0.0
+Valeri Beach Hotel,13872.3,12954.0,918.3,Slight Overpriced,- 6.62,1,0,2.0,1,1,1,,2,1,0,1,0,1,1,0,0,1,1,1,1,1,1,1,0,0,1,1,0,0.0
+Titan House Hostel,1400.0,11550.1,-10150.1,Significantly Overpriced (Underpriced),+ 725.01,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Vesta Liman Otel,6000.0,12179.7,-6179.7,Significantly Overpriced (Underpriced),+ 102.99,1,1,2.0,0,0,0,,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,50.0
+Huma Elit Hotel Lara,10000.0,8522.7,1477.3,Overpriced,- 14.77,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,1,0,750.0
+Örsmaris Boutique Hotel,7933.3,12687.3,-4754.0,Significantly Overpriced (Underpriced),+ 59.92,1,1,2.0,2,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,1,0,0,1,0,0.0
+Sheriff Pansiyon,7200.0,10110.1,-2910.1,Significantly Overpriced (Underpriced),+ 40.42,1,1,-1.0,0,0,0,,1,0,0,0,0,1,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,400.0
+Cornelia Diamond Golf Resort Spa,17544.0,14226.8,3317.2,Overpriced,- 18.91,1,5,2.0,1,1,1,,1,0,1,1,1,1,1,1,1,1,0,0,0,1,0,0,0,0,1,1,0,0.0
+Hotel Babaylon,16380.0,13356.2,3023.8,Overpriced,- 18.46,3,0,2.0,1,0,0,,1,1,0,0,0,1,1,0,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Kaş Olympos Mocamp,9746.9,11010.1,-1263.2,Overpriced (Underpriced),+ 12.96,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Kadirs Tree Houses,10800.0,9071.6,1728.4,Overpriced,- 16.0,1,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,1,0,1,0,0,1,1,0,1,0,0,0,0,750.0
+Amos Hotel,8342.4,12438.7,-4096.3,Significantly Overpriced (Underpriced),+ 49.1,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0.0
+Yalıhan Aspendos Hotel,16495.2,13753.9,2741.3,Overpriced,- 16.62,3,1,2.0,1,0,1,,1,1,1,1,0,1,1,1,1,1,0,1,0,1,0,1,1,0,1,1,0,0.0
+Exporoyal Hotel,3153.4,8173.6,-5020.2,Significantly Overpriced (Underpriced),+ 159.2,1,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,750.0
+Hotel Bleu Nuit,7770.0,11900.3,-4130.3,Significantly Overpriced (Underpriced),+ 53.16,0,0,2.0,2,0,0,,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,50.0
+Tuthaliya Boutique Hotel,7200.0,8150.2,-950.2,Overpriced (Underpriced),+ 13.2,0,1,-1.0,0,0,0,,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Kemer Manastır Hotel,10000.0,11010.1,-1010.1,Overpriced (Underpriced),+ 10.1,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Yalıyanı Pansiyon,6400.0,11341.1,-4941.1,Significantly Overpriced (Underpriced),+ 77.2,1,1,-1.0,0,0,0,,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,100.0
+Akkan Beach Hotel,10033.9,12196.4,-2162.5,Significantly Overpriced (Underpriced),+ 21.55,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0.0
+Alaçatı Gerence Hotel By Lamira,6300.0,11010.1,-4710.1,Significantly Overpriced (Underpriced),+ 74.76,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Casa Dell’arte Hotel Of Arts Leisure,20647.4,11550.1,9097.3,Significantly Overpriced,- 44.06,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Hotel Sun Fire Beach,14696.5,12779.6,1916.9,Overpriced,- 13.04,1,0,2.0,1,0,1,,1,1,1,0,1,1,0,1,1,1,0,1,0,1,0,1,0,0,1,1,1,0.0
+Delta Hotels By Marriott Bodrum,16320.0,14164.5,2155.5,Overpriced,- 13.21,3,1,2.0,3,1,1,,1,1,1,1,1,0,1,1,0,1,1,1,0,1,0,0,1,0,1,1,0,0.0
+Leslion Hotel Turunç,8023.4,9864.8,-1841.4,Significantly Overpriced (Underpriced),+ 22.95,2,0,-1.0,2,0,0,,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,500.0
+La Boutique Hotel Suites,14389.3,13042.1,1347.2,Slight Overpriced,- 9.36,2,1,2.0,1,0,1,,0,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0.0
+Akkan Luxury Hotel,13150.3,11772.7,1377.6,Overpriced,- 10.48,0,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,50.0
+İncekum West Hotel,7936.8,13388.6,-5451.8,Significantly Overpriced (Underpriced),+ 68.69,3,0,2.0,1,1,1,,1,1,1,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,1,1,0,0.0
+Casamia Boutique Hotels,16000.0,12490.3,3509.7,Significantly Overpriced,- 21.94,1,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0.0
+Side Sunberk Hotel,7590.0,11759.9,-4169.9,Significantly Overpriced (Underpriced),+ 54.94,1,0,2.0,1,0,0,,1,1,1,0,1,1,0,0,1,1,1,1,0,1,1,0,1,0,1,1,1,200.0
+Diamond Elite Hotel Spa,19890.0,12818.9,7071.1,Significantly Overpriced,- 35.55,1,2,2.0,2,1,1,,1,1,1,1,1,1,1,1,0,1,1,1,0,1,0,0,1,0,1,1,0,200.0
+Palmalife Hotel,21492.0,13758.5,7733.5,Significantly Overpriced,- 35.98,3,1,2.0,1,1,1,,4,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,1,0,1,1,1,0.0
+Kaya Prestige Hotel,13056.0,9360.5,3695.5,Significantly Overpriced,- 28.3,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,600.0
+Casaoliva Alaçatı,18770.4,8823.7,9946.7,Significantly Overpriced,- 52.99,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Mirada Exclusive Bodrum,33696.0,15342.9,18353.1,Significantly Overpriced,- 54.47,6,3,2.0,1,1,1,,1,1,1,0,1,1,1,0,0,1,1,1,0,1,0,0,0,0,1,0,0,0.0
+Palmetto Resort,32941.1,12108.1,20833.0,Significantly Overpriced,- 63.24,0,1,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0.0
+Kleopatra Arsi Hotel,12178.3,12352.4,-174.1,Fair (Underpriced),+ 1.43,1,0,2.0,1,0,0,,1,1,0,1,1,1,1,0,0,1,0,1,0,0,0,0,1,0,1,1,0,50.0
+Moonshine Hotel Suites,7499.6,10237.7,-2738.1,Significantly Overpriced (Underpriced),+ 36.51,0,1,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,300.0
+Wa Çeşme Farm Hotel,6352.9,12513.5,-6160.6,Significantly Overpriced (Underpriced),+ 96.97,0,0,2.0,1,1,1,,1,1,0,1,1,1,1,0,1,0,0,1,0,1,0,1,0,0,1,1,0,0.0
+Diamond Premium Hotel Spa,20000.0,15545.7,4454.3,Significantly Overpriced,- 22.27,9,2,2.0,1,1,1,,3,1,1,1,1,1,1,1,1,0,1,1,0,3,0,1,1,0,1,1,0,200.0
+Club Hotel Mirabell,12299.4,14047.9,-1748.5,Overpriced (Underpriced),+ 14.22,5,0,2.0,2,0,1,,1,1,1,1,0,1,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,50.0
+Aelbistan Otel,4000.0,10417.7,-6417.7,Significantly Overpriced (Underpriced),+ 160.44,1,1,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,300.0
+01 Nova Otel,6900.0,8595.4,-1695.4,Significantly Overpriced (Underpriced),+ 24.57,1,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,750.0
+Doubletree By Hilton Antalya City Centre,22884.6,13063.4,9821.2,Significantly Overpriced,- 42.92,2,1,2.0,1,1,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,2,0,0,0,1,0,1,0,0.0
+Alanya Beach Hotel,7600.0,12135.2,-4535.2,Significantly Overpriced (Underpriced),+ 59.67,2,1,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0.0
+Costa Asmin Hotel,6668.0,8363.1,-1695.1,Significantly Overpriced (Underpriced),+ 25.42,1,0,-1.0,1,0,0,,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,750.0
+Akalia Suite Hotel Spa,5580.0,12793.3,-7213.3,Significantly Overpriced (Underpriced),+ 129.27,2,0,2.0,1,0,0,,1,1,1,0,0,0,0,1,0,1,0,1,0,1,0,0,1,0,1,1,0,0.0
+Papirus Hotel Adrasan,11818.4,10270.4,1548.0,Overpriced,- 13.1,1,1,-1.0,1,0,1,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,1,0,0,1,0,400.0
+Doubletree By Hilton Bodrum Işıl Club All Inclusive Resort,20400.0,14959.6,5440.4,Significantly Overpriced,- 26.67,5,2,2.0,1,0,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0.0
+Düşler Evim,7958.4,7812.2,146.2,Fair,- 1.84,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,750.0
+Doria Hotel Yacht Club,62251.2,12603.0,49648.2,Significantly Overpriced,- 79.75,1,1,2.0,1,0,0,,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0.0
+Değirmenburnu Residence,13236.6,10276.3,2960.3,Significantly Overpriced,- 22.36,1,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,1,0,300.0
+Almena City Hotel,3476.0,11131.4,-7655.4,Significantly Overpriced (Underpriced),+ 220.24,0,1,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,100.0
+Emens Hotel,11000.0,8453.3,2546.7,Significantly Overpriced,- 23.15,1,1,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,750.0
+Elysium Green Suites Lara,13296.4,9013.0,4283.4,Significantly Overpriced,- 32.21,0,1,2.0,1,0,1,,0,0,0,1,0,0,1,0,0,0,1,1,0,1,0,1,0,0,0,1,0,750.0
+Palmea Hotel,7819.9,12487.6,-4667.7,Significantly Overpriced (Underpriced),+ 59.69,3,0,-1.0,1,0,1,,1,1,0,1,0,1,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,100.0
+Elegance Hotel Marmaris,17722.8,14556.9,3165.9,Overpriced,- 17.86,4,2,2.0,2,0,1,,0,1,1,1,1,1,1,0,0,1,0,0,1,1,0,1,1,1,1,1,1,0.0
+Alanya Risus Park Hotel,5905.9,11739.4,-5833.5,Significantly Overpriced (Underpriced),+ 98.77,0,0,2.0,0,0,0,,1,1,1,0,0,1,0,1,1,1,0,1,0,0,1,1,1,0,1,1,1,100.0
+Filizce Alaçatı,7000.0,11116.3,-4116.3,Significantly Overpriced (Underpriced),+ 58.8,0,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0.0
+Falcon 1511,12800.0,11259.7,1540.3,Overpriced,- 12.03,0,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,100.0
+En Vie Beach Boutique Hotel,10461.6,12326.8,-1865.2,Overpriced (Underpriced),+ 17.83,1,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0.0
+Güllü Konak,23594.9,11934.9,11660.0,Significantly Overpriced,- 49.42,0,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0.0
+Pineta Park Deluxe Hotel,17640.0,11997.9,5642.1,Significantly Overpriced,- 31.98,3,1,-1.0,2,1,1,,0,1,1,1,0,1,1,0,0,1,0,0,0,1,0,1,0,0,1,1,0,300.0
+Foça Antik Otel,11800.0,11838.1,-38.1,Fair (Underpriced),+ 0.32,1,1,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0.0
+Ayhan Hotel Antalya,10811.7,8698.2,2113.5,Overpriced,- 19.55,1,0,2.0,0,0,0,,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Emelda Sun Club,14400.0,16832.4,-2432.4,Overpriced (Underpriced),+ 16.89,9,4,2.0,2,0,1,,1,1,1,1,0,1,1,1,1,1,0,1,0,1,0,1,0,0,1,1,0,0.0
+Patara Prince Resort,8868.3,15513.7,-6645.4,Significantly Overpriced (Underpriced),+ 74.93,5,3,2.0,3,1,1,,3,1,0,1,1,1,1,0,0,1,1,1,1,3,0,1,1,0,1,1,1,0.0
+Amossia Elite Otel,10567.0,11597.0,-1030.0,Slight Overpriced (Underpriced),+ 9.75,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0.0
+Bilkay Hotel,5100.0,11392.0,-6292.0,Significantly Overpriced (Underpriced),+ 123.37,1,1,-1.0,0,0,0,,1,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,100.0
+Belcan Hotel,2346.2,11688.7,-9342.5,Significantly Overpriced (Underpriced),+ 398.2,1,0,2.0,0,0,0,,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,1,100.0
+Patron Hotel,7200.0,10356.2,-3156.2,Significantly Overpriced (Underpriced),+ 43.84,0,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,300.0
+Ramada Encore By Wyndham İzmir,11969.3,12713.6,-744.3,Slight Overpriced (Underpriced),+ 6.22,1,1,2.0,0,0,1,,0,1,0,1,1,0,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0.0
+Blue Bay Beach Hotel,7500.0,12765.5,-5265.5,Significantly Overpriced (Underpriced),+ 70.21,1,1,2.0,1,0,0,,1,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,1,1,0,0.0
+Fortezza Beach Resort,11815.2,14246.5,-2431.3,Significantly Overpriced (Underpriced),+ 20.58,5,0,2.0,1,0,1,,1,1,1,1,1,1,1,1,1,1,0,1,1,2,1,0,1,0,1,1,1,0.0
+Casa Mimosa,20000.0,11688.2,8311.8,Significantly Overpriced,- 41.56,0,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Candan City Beach Otel,10000.0,11281.7,-1281.7,Overpriced (Underpriced),+ 12.82,1,1,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,100.0
+Peninsula Gardens Hotel,28080.5,12352.1,15728.4,Significantly Overpriced,- 56.01,1,1,2.0,1,1,0,,1,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,100.0
+Ramada Plaza By Wyndham İzmir,12780.0,9158.7,3621.3,Significantly Overpriced,- 28.34,1,1,2.0,0,0,1,,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,0,0,750.0
+Blue Marina Hotel Spa,7617.0,12275.7,-4658.7,Significantly Overpriced (Underpriced),+ 61.16,1,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Can Adalya Palace Hotel,4968.3,8708.7,-3740.4,Significantly Overpriced (Underpriced),+ 75.29,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,750.0
+Gümüldür Mavi Deniz Otel,15525.0,12318.6,3206.4,Significantly Overpriced,- 20.65,0,1,2.0,0,0,0,,1,0,0,0,0,1,0,0,0,1,1,1,0,1,1,1,1,0,1,0,1,0.0
+Club Marakesh Beach Kemer,5743.2,11951.3,-6208.1,Significantly Overpriced (Underpriced),+ 108.09,0,0,2.0,1,0,0,,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,1,0,1,0,0,0.0
+Club Sema Suite Hotel,13883.3,11070.0,2813.3,Significantly Overpriced,- 20.26,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,300.0
+Çandarlı Resort Otel,5550.0,11726.0,-6176.0,Significantly Overpriced (Underpriced),+ 111.28,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,100.0
+Hidayetin Yeri Butik Otel,12000.0,12000.1,-0.1,Fair (Underpriced),+ 0.0,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0.0
+Belpoint Beach Hotel,5850.0,11298.3,-5448.3,Significantly Overpriced (Underpriced),+ 93.13,2,0,-1.0,1,0,0,,0,1,1,0,0,0,0,1,0,1,0,1,0,1,0,0,1,0,1,1,0,200.0
+Petunya Konak Butik Otel,15196.0,8643.4,6552.6,Significantly Overpriced,- 43.12,1,1,-1.0,1,0,0,,1,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,750.0
+Amour Alaçatı Butik Otel,15996.0,10741.9,5254.1,Significantly Overpriced,- 32.85,1,1,2.0,1,0,0,,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,1,1,0,0,0,0,400.0
+Pyara Hotel Turunç,11654.9,11586.2,68.7,Fair,- 0.59,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50.0
+Silenos Boutique Hotel,12000.0,11826.7,173.3,Fair,- 1.44,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0.0
+Seçkin Best Hotel Bodrum,8486.4,8486.6,-0.2,Fair (Underpriced),+ 0.0,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,750.0
+Sealife Lounge Hotel,9200.0,11633.5,-2433.5,Significantly Overpriced (Underpriced),+ 26.45,1,0,-1.0,1,0,0,,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0.0
+Queen Boutique Hotel,5400.0,11830.2,-6430.2,Significantly Overpriced (Underpriced),+ 119.08,2,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,1,0,100.0
+Taşev Butik Otel,7647.2,10228.8,-2581.6,Significantly Overpriced (Underpriced),+ 33.76,1,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,400.0
+Solo Boutique Hotel,18400.0,10847.6,7552.4,Significantly Overpriced,- 41.05,1,1,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,200.0
+Blue Diamond Alya Hotel,10245.6,13318.0,-3072.4,Significantly Overpriced (Underpriced),+ 29.99,2,0,2.0,2,0,1,,1,1,1,0,0,1,1,1,1,1,0,1,0,1,0,0,0,0,1,1,0,0.0
+Kapela Taş Otel Alaçatı,8000.0,11472.2,-3472.2,Significantly Overpriced (Underpriced),+ 43.4,1,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Hotel Karacam,13765.0,11646.8,2118.2,Overpriced,- 15.39,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0.0
+İon Slow City Adult Only (+12),9600.0,11550.1,-1950.1,Significantly Overpriced (Underpriced),+ 20.31,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Hotel Gold Stone,3000.0,11338.2,-8338.2,Significantly Overpriced (Underpriced),+ 277.94,0,0,-1.0,1,0,0,,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,1,0,0.0
+Bodrum Vera Hotel,6952.0,8775.5,-1823.5,Significantly Overpriced (Underpriced),+ 26.23,1,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Çeşme Ladin Otel,9900.0,12641.0,-2741.0,Significantly Overpriced (Underpriced),+ 27.69,2,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0.0
+Hotel 212,10374.0,8626.0,1748.0,Overpriced,- 16.85,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,750.0
+Hildegard Hotel,9458.9,11763.6,-2304.7,Significantly Overpriced (Underpriced),+ 24.37,1,0,-1.0,1,0,0,,1,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,0,0.0
+Sey Beach Hotel Spa,13942.7,12977.2,965.5,Slight Overpriced,- 6.92,2,0,2.0,1,1,1,,1,1,1,0,1,1,1,1,0,1,1,1,0,0,0,0,1,0,1,1,0,50.0
+Veranda Suites,9476.5,8357.8,1118.7,Overpriced,- 11.8,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Vadi Boutique Hotel,8160.0,9354.0,-1194.0,Overpriced (Underpriced),+ 14.63,0,0,2.0,2,0,0,,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,600.0
+De Mare Family Hotel,4000.0,13106.6,-9106.6,Significantly Overpriced (Underpriced),+ 227.67,3,0,2.0,1,0,0,,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0.0
+Cleopatra Golden Beach,11100.0,12640.0,-1540.0,Overpriced (Underpriced),+ 13.87,1,1,2.0,1,0,0,,1,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,1,1,0,0.0
+Caprice Beach Hotel,12922.5,12790.5,132.0,Fair,- 1.02,0,1,2.0,1,0,1,,1,1,1,1,1,1,1,1,0,1,0,1,0,1,0,0,0,0,1,1,0,0.0
+Karyatit Hotel,6828.2,11061.6,-4233.4,Significantly Overpriced (Underpriced),+ 62.0,1,1,-1.0,1,0,0,,1,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,200.0
+Club Herakles Hotel,4200.0,11010.1,-6810.1,Significantly Overpriced (Underpriced),+ 162.15,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Start Otel,5686.2,8877.9,-3191.7,Significantly Overpriced (Underpriced),+ 56.13,1,0,2.0,0,0,0,,0,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,1,0,0,750.0
+Melissa Moment Apart,6750.0,10358.6,-3608.6,Significantly Overpriced (Underpriced),+ 53.46,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,400.0
+Lucky Angel Otel,9072.4,8413.0,659.4,Slight Overpriced,- 7.27,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,750.0
+Delta Hotel Didim,5200.0,12072.4,-6872.4,Significantly Overpriced (Underpriced),+ 132.16,2,0,-1.0,1,0,0,,1,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0.0
+Kekik Alaçatı Otel Mayko,5800.0,8236.0,-2436.0,Significantly Overpriced (Underpriced),+ 42.0,1,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,1,0,0,0,0,750.0
+My Adress Alaçatı,48956.3,8115.6,40840.7,Significantly Overpriced,- 83.42,1,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,750.0
+Khai Hotel Bodrum,28503.2,12586.3,15916.9,Significantly Overpriced,- 55.84,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0.0
+Doğan Beach Resort,18830.5,12805.0,6025.5,Significantly Overpriced,- 32.0,1,1,2.0,1,0,0,,1,1,0,0,1,0,0,1,1,1,0,1,0,1,0,0,1,0,1,1,0,0.0
+Vinifera Ephesus Hotel,10323.7,11944.5,-1620.8,Overpriced (Underpriced),+ 15.7,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0.0
+Villa Sonata Hotel,6575.2,11766.0,-5190.8,Significantly Overpriced (Underpriced),+ 78.95,1,1,2.0,1,0,1,,1,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,200.0
+La Siete Hotel,12513.6,12432.4,81.2,Fair,- 0.65,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0.0
+Club Hotel Sidelya,16184.0,13695.6,2488.4,Overpriced,- 15.38,6,1,2.0,2,0,1,,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,300.0
+La Mira Suites,7700.0,8301.3,-601.3,Slight Overpriced (Underpriced),+ 7.81,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Sun Pearl Resort Çeşme,10800.0,12481.4,-1681.4,Overpriced (Underpriced),+ 15.57,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Zübeyde Hanım Otel Alaçatı,4400.0,11010.1,-6610.1,Significantly Overpriced (Underpriced),+ 150.23,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Ados Hotel,3600.0,10297.4,-6697.4,Significantly Overpriced (Underpriced),+ 186.04,0,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,200.0
+Terra Rossa,4004.3,7782.2,-3777.9,Significantly Overpriced (Underpriced),+ 94.35,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Doğan Paradise Family Club,18830.5,12573.9,6256.6,Significantly Overpriced,- 33.23,1,0,2.0,1,0,0,,1,1,0,0,1,0,0,1,1,1,0,1,0,1,0,1,1,0,1,1,0,0.0
+Club Sun Heaven Sea Bird Beach Otel,6681.6,13760.4,-7078.8,Significantly Overpriced (Underpriced),+ 105.94,4,1,2.0,1,0,1,,0,1,1,0,1,0,1,1,1,1,1,1,0,1,0,0,1,0,1,1,0,50.0
+Cooks Club Alanya +12 Adult Only,11262.2,11550.1,-287.9,Fair (Underpriced),+ 2.56,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Qinn Hotel,9864.0,12324.3,-2460.3,Significantly Overpriced (Underpriced),+ 24.94,2,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,1,0,0.0
+Radisson Blu Hotel Kaş +12 Adults Only,30032.6,11550.1,18482.5,Significantly Overpriced,- 61.54,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Turunç Dream Hotel,6300.0,11737.5,-5437.5,Significantly Overpriced (Underpriced),+ 86.31,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,0,50.0
+Lemon Garden,17600.0,11173.7,6426.3,Significantly Overpriced,- 36.51,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,100.0
+Gün-ay Otel,5881.4,11498.5,-5617.1,Significantly Overpriced (Underpriced),+ 95.51,1,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0.0
+The Lifeco Bodrum,90376.0,12719.6,77656.4,Significantly Overpriced,- 85.93,1,1,2.0,1,0,1,,1,1,0,1,1,1,0,0,0,1,0,0,0,1,0,0,1,0,1,0,0,50.0
+Lara Park Hotel,8568.0,11228.2,-2660.2,Significantly Overpriced (Underpriced),+ 31.05,1,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,200.0
+Grand Zeybek İzmir,4449.2,8182.1,-3732.9,Significantly Overpriced (Underpriced),+ 83.9,1,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,750.0
+İsla Panorama,7938.0,12079.9,-4141.9,Significantly Overpriced (Underpriced),+ 52.18,2,0,2.0,1,0,0,,1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0,200.0
+Gümbet Anıl Beach,8971.5,12313.3,-3341.8,Significantly Overpriced (Underpriced),+ 37.25,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,1,0,0,1,1,0,1,0,1,1,0,0,1,0,0.0
+Extenso Hotel,9021.6,12300.0,-3278.4,Significantly Overpriced (Underpriced),+ 36.34,0,1,2.0,0,0,1,,0,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,1,1,1,0,0,0.0
+Costa Farilya Special Class Hotel Bodrum,20700.0,12888.2,7811.8,Significantly Overpriced,- 37.74,1,1,2.0,1,0,1,,1,1,0,0,1,1,0,0,0,0,1,1,0,1,0,0,1,0,1,1,0,0.0
+Life Point Boutique Hotel,12000.0,12588.4,-588.4,Fair (Underpriced),+ 4.9,1,1,2.0,1,0,0,,1,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0.0
+Alaçatı Private Otel,6003.0,8309.2,-2306.2,Significantly Overpriced (Underpriced),+ 38.42,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Hotel Labella Bergama,8400.0,11954.5,-3554.5,Significantly Overpriced (Underpriced),+ 42.32,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Yörük Ali Yayla Evleri,11720.0,11010.1,709.9,Slight Overpriced,- 6.06,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Alaçatı Limonaia Hotel +10,13596.0,11550.1,2045.9,Overpriced,- 15.05,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Hotel Finike Marine,5777.2,11058.7,-5281.5,Significantly Overpriced (Underpriced),+ 91.42,1,1,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,300.0
+Hotel Paris Prestige,8352.0,12085.3,-3733.3,Significantly Overpriced (Underpriced),+ 44.7,1,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0.0
+Hotel Royal Hill,9982.0,11944.4,-1962.4,Overpriced (Underpriced),+ 19.66,1,1,-1.0,1,0,1,,1,1,0,1,1,0,1,0,0,0,1,1,0,1,0,0,1,0,1,1,0,100.0
+Fun And Sun Club Saphire,12920.0,14980.4,-2060.4,Overpriced (Underpriced),+ 15.95,5,3,2.0,1,1,1,,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,0,1,0,1,1,0,0.0
+Göbene Otel Alaçatı,15316.4,11011.5,4304.9,Significantly Overpriced,- 28.11,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Lord Marina Hotel Bungalows,13600.0,12722.6,877.4,Slight Overpriced,- 6.45,1,0,2.0,1,0,1,,0,1,1,0,0,1,1,1,0,1,1,1,0,1,0,1,1,0,0,1,0,0.0
+Carmen Suite Hotel,5294.1,10458.5,-5164.4,Significantly Overpriced (Underpriced),+ 97.55,1,1,-1.0,1,0,0,,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0,1,0,1,1,1,400.0
+Maison Green Hill,10500.0,11385.4,-885.4,Slight Overpriced (Underpriced),+ 8.43,0,1,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0.0
+Hotel Torbahan Beach Resort,20973.9,13334.3,7639.6,Significantly Overpriced,- 36.42,3,1,2.0,1,0,0,,1,0,0,0,0,0,1,0,0,1,1,1,0,1,0,0,1,0,1,0,0,0.0
+İntermar Marmaris,4000.0,11953.2,-7953.2,Significantly Overpriced (Underpriced),+ 198.83,1,1,-1.0,1,0,0,,1,1,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,1,1,0,50.0
+Lvzz Hotel Residencess Spa,14000.0,9134.8,4865.2,Significantly Overpriced,- 34.75,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,750.0
+Villa Saray,10200.0,9471.5,728.5,Slight Overpriced,- 7.14,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,500.0
+Casa Luna Hotel Alaçatı,20384.0,9113.2,11270.8,Significantly Overpriced,- 55.29,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,750.0
+Jasmin Elite Residence Spa,13733.6,11792.0,1941.6,Overpriced,- 14.14,1,0,-1.0,1,1,1,,1,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,50.0
+Doğanın Ruhu Otel Bungalow,7940.0,12126.6,-4186.6,Significantly Overpriced (Underpriced),+ 52.73,0,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,1,0,0.0
+Çeşme Marina Konuk Evi,20173.8,11754.7,8419.1,Significantly Overpriced,- 41.73,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Zena Hotel Bodrum,6860.0,12331.1,-5471.1,Significantly Overpriced (Underpriced),+ 79.75,1,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0.0
+Serin Otel,10000.0,11143.1,-1143.1,Overpriced (Underpriced),+ 11.43,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+777 Alaçatı,16000.0,12142.9,3857.1,Significantly Overpriced,- 24.11,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0.0
+L`olive Homes Marmaris,13915.8,10947.7,2968.1,Significantly Overpriced,- 21.33,0,0,-1.0,0,0,0,,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,1,0,0,0,0,50.0
+1882 Alaçatı,13780.8,11258.5,2522.3,Overpriced,- 18.3,0,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0.0
+Adacan Alaçatı,14875.0,11290.5,3584.5,Significantly Overpriced,- 24.1,0,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Alacope Alaçatı,12000.0,11271.0,729.0,Slight Overpriced,- 6.08,0,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Ahsen Hotel,3291.7,8426.1,-5134.4,Significantly Overpriced (Underpriced),+ 155.98,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,750.0
+Dream Town Hotel,5040.0,11382.8,-6342.8,Significantly Overpriced (Underpriced),+ 125.85,2,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,1,0,1,1,1,0,0,1,1,300.0
+Alaçatı Balbadem Otel,11885.5,8584.8,3300.7,Significantly Overpriced,- 27.77,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,750.0
+Alaçatı Cadde 75 Luxury +18 Adult,21560.0,11550.1,10009.9,Significantly Overpriced,- 46.43,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Riva Alaçatı,8000.0,11148.2,-3148.2,Significantly Overpriced (Underpriced),+ 39.35,0,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Regulus Beach Resort,7600.0,11903.8,-4303.8,Significantly Overpriced (Underpriced),+ 56.63,0,0,2.0,0,0,0,,0,0,1,0,0,1,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0.0
+Kemerlihan Deluxe Hotel,3750.0,9280.4,-5530.4,Significantly Overpriced (Underpriced),+ 147.48,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,750.0
+Elegance East Hotel,6641.1,10542.5,-3901.4,Significantly Overpriced (Underpriced),+ 58.75,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,300.0
+Sakız Kızı Alaçatı Butik Otel,5500.0,11612.5,-6112.5,Significantly Overpriced (Underpriced),+ 111.14,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Kimera Lounge Hotel Çıralı,9040.0,12293.2,-3253.2,Significantly Overpriced (Underpriced),+ 35.99,1,1,2.0,1,0,0,,1,1,0,0,1,0,0,0,0,0,1,1,0,1,0,1,1,0,1,1,0,100.0
+Alaçatı Sörf Hotel,9350.0,7881.7,1468.3,Overpriced,- 15.7,0,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Apaz Alaçatı,13600.0,11066.3,2533.7,Overpriced,- 18.63,0,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Alaçatı Otel Rebetiko,5950.0,7769.2,-1819.2,Significantly Overpriced (Underpriced),+ 30.57,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Aybel İnn Hotel,4725.5,11549.4,-6823.9,Significantly Overpriced (Underpriced),+ 144.41,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Antalya Business Hotel,13017.8,8352.8,4665.0,Significantly Overpriced,- 35.84,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,750.0
+Anchor Alaçatı,7000.0,11290.5,-4290.5,Significantly Overpriced (Underpriced),+ 61.29,0,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Alaçatı Xl Luxury,7608.2,10731.5,-3123.3,Significantly Overpriced (Underpriced),+ 41.05,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,200.0
+Aslı Bungalow,12600.0,11550.1,1049.9,Slight Overpriced,- 8.33,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Anar Hotel,18000.0,12212.6,5787.4,Significantly Overpriced,- 32.15,1,1,2.0,0,0,0,,1,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,50.0
+Alya Sierra Villa Hotel,10000.0,8238.7,1761.3,Overpriced,- 17.61,0,0,-1.0,1,0,0,,1,1,1,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,0,1,0,750.0
+Artof Alaçatı,10000.0,11614.5,-1614.5,Overpriced (Underpriced),+ 16.14,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Bayındır Palme Hotel,4866.4,7782.2,-2915.8,Significantly Overpriced (Underpriced),+ 59.92,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Tema 242 Hotel,2113.4,11698.4,-9585.0,Significantly Overpriced (Underpriced),+ 453.53,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,0.0
+Bedroom Alaçatı,5750.0,11679.8,-5929.8,Significantly Overpriced (Underpriced),+ 103.13,1,1,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.0
+Bodrum Kayası Dağ Oteli,9000.0,12098.2,-3098.2,Significantly Overpriced (Underpriced),+ 34.42,1,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Bo Alaçatı,13000.0,11066.3,1933.7,Overpriced,- 14.87,0,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Veltur Turiya Hotel Spa,11600.0,12974.6,-1374.6,Overpriced (Underpriced),+ 11.85,1,1,2.0,1,1,1,,1,1,0,0,1,0,0,0,0,1,1,0,0,0,0,1,1,0,1,1,0,0.0
+Ada Capra Otel,14599.2,12286.6,2312.6,Overpriced,- 15.84,1,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0.0
+Boulevard Hotel,7480.0,12565.4,-5085.4,Significantly Overpriced (Underpriced),+ 67.99,1,1,2.0,1,0,1,,1,1,0,0,0,1,0,0,0,1,1,1,0,1,0,1,1,0,1,0,0,50.0
+Adrasan La Casita Boutique Hotel,8800.0,10239.8,-1439.8,Overpriced (Underpriced),+ 16.36,0,0,-1.0,0,0,0,,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,200.0
+Sonnen Hotel,9963.0,11570.6,-1607.6,Overpriced (Underpriced),+ 16.14,1,0,-1.0,1,0,0,,1,0,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0,50.0
+3 House Apart,23920.0,11128.7,12791.3,Significantly Overpriced,- 53.48,0,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Adil Butik Otel,15294.4,11492.0,3802.4,Significantly Overpriced,- 24.86,0,1,-1.0,0,0,0,,0,0,1,0,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0.0
+Şifne Thermal Hotel,14000.0,12293.6,1706.4,Overpriced,- 12.19,0,1,2.0,2,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0.0
+Tash Mekan Butik Otel,8500.0,8284.4,215.6,Fair,- 2.54,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Amour Köy İçi,11996.0,11116.3,879.7,Slight Overpriced,- 7.33,0,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0.0
+Alanarin Alaçatı,18200.3,11722.8,6477.5,Significantly Overpriced,- 35.59,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0.0
+Alaçatı Marina Palace,22400.0,12022.6,10377.4,Significantly Overpriced,- 46.33,1,0,-1.0,1,0,0,,1,0,0,1,1,0,1,0,0,1,1,1,1,0,0,1,1,0,1,0,0,0.0
+Alina Otel Kaş,13500.0,10568.6,2931.4,Significantly Overpriced,- 21.71,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100.0
+Alaçatı Sultan Konak,11509.0,8107.0,3402.0,Significantly Overpriced,- 29.56,0,1,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,750.0
+Ali`s Boutique Hotel,24000.0,12088.6,11911.4,Significantly Overpriced,- 49.63,0,1,2.0,0,0,0,,0,0,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0.0
+Alaçatı Sade Otel,17576.2,11896.5,5679.7,Significantly Overpriced,- 32.31,1,1,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0.0
+Alaçatı Roka Taş Otel,10000.0,8548.4,1451.6,Overpriced,- 14.52,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Alice Tatil Evi,16076.8,12135.0,3941.8,Significantly Overpriced,- 24.52,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Buca Residence Otel,7000.0,11563.1,-4563.1,Significantly Overpriced (Underpriced),+ 65.19,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Antmare Hotel,21516.6,12891.7,8624.9,Significantly Overpriced,- 40.08,1,1,2.0,1,1,1,,0,1,0,0,1,0,0,0,0,1,1,1,1,0,0,0,1,0,1,1,0,0.0
+Club Wasa Holiday Village,9253.4,11010.1,-1756.7,Overpriced (Underpriced),+ 18.98,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Boutique Nergiz Hotel,4800.0,9735.8,-4935.8,Significantly Overpriced (Underpriced),+ 102.83,1,1,2.0,1,0,1,,1,1,1,0,1,1,0,0,1,1,1,1,1,0,0,0,1,0,1,1,1,750.0
+Arts Hotel Bodrum Yalıkavak,6800.0,12521.0,-5721.0,Significantly Overpriced (Underpriced),+ 84.13,1,0,2.0,1,0,1,,1,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,1,0,0.0
+Aroma Butik Hotel,11200.0,12206.7,-1006.7,Slight Overpriced (Underpriced),+ 8.99,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,1,0.0
+Armel Alaçatı,13139.3,8791.8,4347.5,Significantly Overpriced,- 33.09,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,750.0
+Castle Old Town Hotel,8903.6,10913.2,-2009.6,Significantly Overpriced (Underpriced),+ 22.57,1,1,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,200.0
+Aspat Hotel Bodrum Beach Restaurant,48385.9,11683.3,36702.6,Significantly Overpriced,- 75.85,1,1,2.0,1,0,0,,1,0,0,0,0,0,1,0,0,0,1,1,1,0,1,0,1,0,0,1,0,200.0
+Coordinat Suits,9890.0,12532.9,-2642.9,Significantly Overpriced (Underpriced),+ 26.72,0,1,2.0,1,0,1,,0,1,0,1,1,1,1,0,0,0,1,1,0,1,0,0,1,0,1,0,0,0.0
+Aspen Hotel,6120.0,12542.3,-6422.3,Significantly Overpriced (Underpriced),+ 104.94,1,1,2.0,1,0,0,,1,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0.0
+Bergama Taşkonak,6200.0,11904.5,-5704.5,Significantly Overpriced (Underpriced),+ 92.01,1,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0.0
+Bambu Alaçatı,10000.0,11694.3,-1694.3,Overpriced (Underpriced),+ 16.94,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.0
+Costa Maya Bodrum,8934.7,11869.2,-2934.5,Significantly Overpriced (Underpriced),+ 32.84,1,0,2.0,1,0,0,,1,0,0,0,0,0,1,0,0,1,1,1,1,1,1,0,1,0,0,1,1,100.0
+Belsea Hotel,12520.8,10355.0,2165.8,Overpriced,- 17.3,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,200.0
+Belong Butik Hotel,4796.0,11010.1,-6214.1,Significantly Overpriced (Underpriced),+ 129.57,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Avantgarde Refined Yalıkavak,9732.8,12878.5,-3145.7,Significantly Overpriced (Underpriced),+ 32.32,1,1,2.0,1,0,1,,1,1,0,0,1,0,0,0,0,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Bu Bungalow Hotel,8800.0,8311.2,488.8,Slight Overpriced,- 5.55,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,1,0,750.0
+Blue White Hotel,13069.7,11958.0,1111.7,Slight Overpriced,- 8.51,1,0,2.0,0,0,0,,1,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1,1,0,1,0,0,50.0
+Bodrum Marma Otel,5940.0,8491.4,-2551.4,Significantly Overpriced (Underpriced),+ 42.95,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Chez Rumi Butik Otel Şirince,8000.0,11983.1,-3983.1,Significantly Overpriced (Underpriced),+ 49.79,1,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Dionisus Lara Otel,4896.0,11356.4,-6460.4,Significantly Overpriced (Underpriced),+ 131.95,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,200.0
+Char Me Hotel,18900.0,10768.7,8131.3,Significantly Overpriced,- 43.02,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,100.0
+Caresse A Luxury Collection Resort Spa,94828.2,13051.3,81776.9,Significantly Overpriced,- 86.24,1,1,2.0,1,1,1,,1,1,0,1,0,0,1,0,0,1,1,1,0,1,0,0,1,0,1,0,0,0.0
+Cocopalm Boutique Hotel,24000.0,11157.1,12842.9,Significantly Overpriced,- 53.51,0,0,-1.0,0,0,0,,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0.0
+Casa Bi Otel,43920.0,11637.5,32282.5,Significantly Overpriced,- 73.5,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0.0
+Coastline Boutique Hotel,7400.0,11018.4,-3618.4,Significantly Overpriced (Underpriced),+ 48.9,1,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,100.0
+Club Çapa,7195.1,12659.2,-5464.1,Significantly Overpriced (Underpriced),+ 75.94,1,1,2.0,2,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,1,0,0.0
+Elda Köyiçi Alaçatı,4840.0,11085.9,-6245.9,Significantly Overpriced (Underpriced),+ 129.05,0,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.0
+Elda Alaçatı Butik Otel,6700.0,7769.2,-1069.2,Overpriced (Underpriced),+ 15.96,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Çeşme Marin Butik Otel,18394.9,8612.8,9782.1,Significantly Overpriced,- 53.18,1,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,750.0
+The Sansa Hotel,7760.0,8946.4,-1186.4,Overpriced (Underpriced),+ 15.29,1,1,-1.0,0,1,1,,1,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,1,0,1,0,0,750.0
+Dionysos 1789 Boutique Hotel,6730.5,12651.5,-5921.0,Significantly Overpriced (Underpriced),+ 87.97,2,1,2.0,0,0,0,,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Der Inn Hotel Lara,6131.6,11528.5,-5396.9,Significantly Overpriced (Underpriced),+ 88.02,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,50.0
+Dolunay Suit Beach,11900.0,11612.5,287.5,Fair,- 2.42,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Dolphin Butik Otel,17850.0,12250.2,5599.8,Significantly Overpriced,- 31.37,1,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0.0
+Ena Boutique Hotel,15068.4,10236.4,4832.0,Significantly Overpriced,- 32.07,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,400.0
+Deniz Kızı Otel,13124.0,12282.2,841.8,Slight Overpriced,- 6.41,1,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Ena Serenity Boutique Hotel,6800.0,8669.1,-1869.1,Significantly Overpriced (Underpriced),+ 27.49,1,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,750.0
+Dream Time Hotel,8309.5,10826.0,-2516.5,Significantly Overpriced (Underpriced),+ 30.28,1,0,2.0,0,0,0,,1,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,300.0
+Esmeralda Butik Otel,22530.9,11451.7,11079.2,Significantly Overpriced,- 49.17,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,50.0
+Evin Park Suit,11386.6,9038.8,2347.8,Significantly Overpriced,- 20.62,0,0,2.0,0,0,0,,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,600.0
+Espira By Antioch,12400.0,9846.5,2553.5,Significantly Overpriced,- 20.59,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,400.0
+Fener Konaklama,20000.0,11582.0,8418.0,Significantly Overpriced,- 42.09,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0.0
+Espina Hotel,11298.2,8318.3,2979.9,Significantly Overpriced,- 26.37,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,750.0
+Ertan Otel Çeşme,10200.0,12062.2,-1862.2,Overpriced (Underpriced),+ 18.26,1,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0.0
+Perla Otel Dikili,6600.0,11614.2,-5014.2,Significantly Overpriced (Underpriced),+ 75.97,1,0,-1.0,0,0,1,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0.0
+Geo Beach Hotel,5500.0,12311.1,-6811.1,Significantly Overpriced (Underpriced),+ 123.84,1,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Gümüş Peninsula Hotel,20100.4,11908.2,8192.2,Significantly Overpriced,- 40.76,1,0,2.0,1,0,0,,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,50.0
+Etiz Hotels Alaçatı,4226.8,10765.5,-6538.7,Significantly Overpriced (Underpriced),+ 154.7,1,1,-1.0,1,0,0,,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,1,1,0,1,1,0,300.0
+Hera Hotels Alaçatı,10000.0,8411.6,1588.4,Overpriced,- 15.88,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,750.0
+Hill House (Adult Only),16267.6,11550.1,4717.5,Significantly Overpriced,- 29.0,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Helis Suites Bitez,20927.4,11298.7,9628.7,Significantly Overpriced,- 46.01,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,300.0
+Hillcity Hotel Kaş,12399.1,11405.1,994.0,Slight Overpriced,- 8.02,0,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0.0
+Hadrian Gate Hotel,9698.0,8531.7,1166.3,Overpriced,- 12.03,1,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,750.0
+Hotel 1207 Special Class,9708.1,10358.0,-649.9,Slight Overpriced (Underpriced),+ 6.69,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,400.0
+Hotel B House Alaçatı,34000.0,12135.0,21865.0,Significantly Overpriced,- 64.31,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Expo Park Hotel,17200.0,12525.7,4674.3,Significantly Overpriced,- 27.18,1,1,2.0,0,0,0,,1,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,1,1,1,0,0,0.0
+Houdini Hotel Urla,10000.0,12062.7,-2062.7,Significantly Overpriced (Underpriced),+ 20.63,1,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+İlios Butik Hotel,14520.0,12017.7,2502.3,Overpriced,- 17.23,1,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0.0
+"G Beyond Apartments Villas, Yalıkavak",13868.2,11550.1,2318.1,Overpriced,- 16.72,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+İğdeli Han Suite,18000.0,8639.6,9360.4,Significantly Overpriced,- 52.0,2,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,750.0
+Hotel Pier Bodrum,9760.0,7923.0,1837.0,Overpriced,- 18.82,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,750.0
+Gözegir Hotel +16,10010.8,11550.1,-1539.3,Overpriced (Underpriced),+ 15.38,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Isolina Bodrum,12902.8,12469.8,433.0,Fair,- 3.36,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0.0
+İberis Lara Hotel,5007.0,8238.9,-3231.9,Significantly Overpriced (Underpriced),+ 64.55,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,750.0
+Just Dream Suite,6000.0,8423.5,-2423.5,Significantly Overpriced (Underpriced),+ 40.39,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,600.0
+İmaj Beach Otel,11200.0,12521.9,-1321.9,Overpriced (Underpriced),+ 11.8,1,1,2.0,0,0,0,,1,0,0,0,0,0,1,0,1,0,1,1,0,1,1,0,1,0,0,0,0,0.0
+Joya Del Mar Hotel,28800.0,11939.4,16860.6,Significantly Overpriced,- 58.54,0,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+June Alaçatı (15+ Adult Only),19200.0,11550.1,7649.9,Significantly Overpriced,- 39.84,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+İrenic Hotel,9385.2,9740.1,-354.9,Fair (Underpriced),+ 3.78,1,1,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,600.0
+İnci Mira Hotel,7791.5,10314.8,-2523.3,Significantly Overpriced (Underpriced),+ 32.39,0,0,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,200.0
+Kalamar Hotel,8721.4,11950.8,-3229.4,Significantly Overpriced (Underpriced),+ 37.03,2,1,-1.0,2,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,100.0
+La Luna Butik Otel,10117.0,11550.1,-1433.1,Overpriced (Underpriced),+ 14.17,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Kaliptus Hotel,4200.0,10244.0,-6044.0,Significantly Overpriced (Underpriced),+ 143.9,1,1,-1.0,1,0,0,,1,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,400.0
+Lal Azure Hotel Alaçatı,9996.0,11008.7,-1012.7,Overpriced (Underpriced),+ 10.13,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Jura Hotels Bodrum Resort,8703.5,13059.2,-4355.7,Significantly Overpriced (Underpriced),+ 50.05,1,1,2.0,3,0,1,,1,1,1,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,1,1,0,0.0
+La Cactus Butik Otel,9732.8,12104.7,-2371.9,Significantly Overpriced (Underpriced),+ 24.37,1,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0.0
+Kalkan Saray Suites (Adult Only +13),13920.0,11550.1,2369.9,Overpriced,- 17.03,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Lacitrus Villa Hotel,10015.1,8095.4,1919.7,Overpriced,- 19.17,0,1,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,750.0
+Kamelya Otel Selimiye,10000.0,11491.0,-1491.0,Overpriced (Underpriced),+ 14.91,0,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,50.0
+Lavender Otel,4400.0,11659.1,-7259.1,Significantly Overpriced (Underpriced),+ 164.98,0,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+La Vida Triangulo Hotel,23000.0,8443.5,14556.5,Significantly Overpriced,- 63.29,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Lara Garden Hotel,7369.1,8856.3,-1487.2,Significantly Overpriced (Underpriced),+ 20.18,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,750.0
+Lazz Hotel By Ketenci,8148.0,11221.3,-3073.3,Significantly Overpriced (Underpriced),+ 37.72,1,0,2.0,0,0,0,,0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,200.0
+Lara Beach Homes,5151.4,8813.0,-3661.6,Significantly Overpriced (Underpriced),+ 71.08,1,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,750.0
+Korsan Ada Hotel,9465.8,11459.2,-1993.4,Significantly Overpriced (Underpriced),+ 21.06,0,0,-1.0,1,0,0,,1,0,0,0,0,0,1,0,0,1,1,1,0,1,1,0,0,0,0,0,1,0.0
+Likya Gardens Hotel,27484.0,12395.5,15088.5,Significantly Overpriced,- 54.9,1,0,2.0,1,0,1,,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0.0
+Leaf River Suites,11682.7,9046.0,2636.7,Significantly Overpriced,- 22.57,1,1,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,750.0
+Likya Pavilion Hotel,44009.5,8304.0,35705.5,Significantly Overpriced,- 81.13,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,750.0
+London House Hotel,2795.0,11552.1,-8757.1,Significantly Overpriced (Underpriced),+ 313.31,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.0
+Leylak Alaçatı,10000.0,11472.2,-1472.2,Overpriced (Underpriced),+ 14.72,1,0,-1.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Lemon Park House,4500.0,9418.1,-4918.1,Significantly Overpriced (Underpriced),+ 109.29,0,1,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,2,0,1,0,0,0,1,0,500.0
+Likya Residence Hotel Spa,25869.4,9524.4,16345.0,Significantly Overpriced,- 63.18,1,1,2.0,1,1,1,,1,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,750.0
+Lilyum Alaçatı Taş Ev,7900.0,11636.8,-3736.8,Significantly Overpriced (Underpriced),+ 47.3,0,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0.0
+Lukka Exclusive Hotel,24909.2,11702.8,13206.4,Significantly Overpriced,- 53.02,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0.0
+Lures Hotel,36960.0,13690.7,23269.3,Significantly Overpriced,- 62.96,3,2,2.0,1,1,1,,1,1,0,1,1,0,1,0,0,1,1,1,0,1,0,0,1,0,0,0,0,50.0
+Lilium Boutique Hotel,11394.6,8836.7,2557.9,Significantly Overpriced,- 22.45,1,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Livaneli Boutique Hotel,7000.0,11839.7,-4839.7,Significantly Overpriced (Underpriced),+ 69.14,1,1,-1.0,1,0,0,,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,1,0.0
+The Wind Sycamore Holiday Villas İn Belek,24192.9,8297.3,15895.6,Significantly Overpriced,- 65.7,0,0,-1.0,1,0,0,,0,1,0,0,1,0,0,0,1,0,1,1,1,0,0,1,1,0,1,0,0,750.0
+Mersoy Bellavista +14,8417.7,11550.1,-3132.4,Significantly Overpriced (Underpriced),+ 37.21,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Lupia Suite,19465.6,12556.1,6909.5,Significantly Overpriced,- 35.5,1,1,2.0,1,0,0,,0,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,1,0.0
+Luwi Life Concept,8904.1,7730.8,1173.3,Overpriced,- 13.18,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,750.0
+Mare Deluxe Residence,43178.1,12243.7,30934.4,Significantly Overpriced,- 71.64,0,1,2.0,1,0,0,,1,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Mara Bahçe Alaçatı,10000.0,11830.5,-1830.5,Overpriced (Underpriced),+ 18.3,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Villa Levante Hotel,18000.0,11550.1,6449.9,Significantly Overpriced,- 35.83,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Uk Blue Coast Hotel,13680.0,11294.9,2385.1,Overpriced,- 17.43,1,0,-1.0,1,0,0,,0,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,100.0
+Üstün Hotel Alsancak,6361.1,11967.3,-5606.2,Significantly Overpriced (Underpriced),+ 88.13,1,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0.0
+Villa Mila Alaçatı,12000.0,11584.0,416.0,Fair,- 3.47,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0.0
+Yalıpark Beach Hotel,17190.4,11591.3,5599.1,Significantly Overpriced,- 32.57,1,0,-1.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.0
+Alados Otel,39168.0,9017.2,30150.8,Significantly Overpriced,- 76.98,0,1,2.0,1,0,0,,1,0,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,1,0,750.0
+Z Otel Çeşme,7315.0,11085.5,-3770.5,Significantly Overpriced (Underpriced),+ 51.54,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.0
+Collesium Garden,7200.0,8301.3,-1101.3,Overpriced (Underpriced),+ 15.3,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,750.0
+Club Sideris Otel,41777.9,12085.8,29692.1,Significantly Overpriced,- 71.07,0,0,2.0,1,0,0,,1,0,1,0,0,1,0,1,1,0,1,1,0,0,0,1,0,0,0,1,0,0.0
+Alya Villa Butik Hotel,26070.0,8576.2,17493.8,Significantly Overpriced,- 67.1,0,0,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,750.0
+Drvilla Suits,3800.0,8841.8,-5041.8,Significantly Overpriced (Underpriced),+ 132.68,0,0,2.0,4,0,0,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,750.0
+Lujo Bodrum,93399.6,20558.3,72841.3,Significantly Overpriced,- 77.99,14,9,2.0,4,1,1,,5,1,1,1,1,1,1,1,1,1,1,1,1,4,1,1,1,1,1,1,0,0.0
+Regnum Carya,71400.0,23348.8,48051.2,Significantly Overpriced,- 67.3,17,15,2.0,6,2,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,0,0.0
+Sea Bird Hotel,5508.0,13147.1,-7639.1,Significantly Overpriced (Underpriced),+ 138.69,2,0,2.0,1,0,1,,1,1,1,0,1,1,0,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Suess Alaçatı,15600.0,9177.3,6422.7,Significantly Overpriced,- 41.17,1,1,2.0,1,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,750.0
+Kalinda Inn Otel,10268.0,11912.4,-1644.4,Overpriced (Underpriced),+ 16.01,1,0,2.0,0,0,0,,1,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,50.0
+Eldar Garden Resort,11169.6,12791.5,-1621.9,Overpriced (Underpriced),+ 14.52,3,0,2.0,1,0,0,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,200.0
+Club Bella Mare Beach,12900.0,13013.1,-113.1,Fair (Underpriced),+ 0.88,1,1,2.0,1,0,1,,1,1,0,0,1,0,1,0,0,1,1,1,0,1,0,1,1,0,1,1,0,0.0
+Adonis Hotel,22500.0,14818.7,7681.3,Significantly Overpriced,- 34.14,6,1,2.0,1,1,1,,1,1,1,1,1,1,0,1,0,1,0,1,0,1,0,0,0,0,1,1,0,0.0
+Aska Lara Resort Spa,29836.8,15172.7,14664.1,Significantly Overpriced,- 49.15,8,5,2.0,4,2,1,,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,500.0
+Blue Marlin Deluxe Spa Resort,13440.0,13758.0,-318.0,Fair (Underpriced),+ 2.37,4,0,2.0,2,1,1,,1,1,1,1,1,1,1,1,0,1,0,1,0,1,0,1,1,0,1,1,0,100.0
+Bodrum Holiday Resort,10500.0,15712.7,-5212.7,Significantly Overpriced (Underpriced),+ 49.64,6,3,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,0,1,1,0,0.0
+City Point Beach Spa Hotel,26623.9,13391.0,13232.9,Significantly Overpriced,- 49.7,4,3,-1.0,1,1,1,,0,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,100.0
+Club Grand Aqua,24192.0,13440.6,10751.4,Significantly Overpriced,- 44.44,5,2,2.0,1,1,1,,1,1,1,1,1,1,0,1,1,1,1,0,0,1,0,0,1,0,1,1,0,300.0
+Club Hotel Turan Prince World,15922.2,16232.3,-310.1,Fair (Underpriced),+ 1.95,7,3,2.0,3,1,1,,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,0.0
+Daima Biz Hotel,16065.0,15308.1,756.9,Fair,- 4.71,6,1,2.0,3,2,1,,2,1,1,0,1,1,1,1,0,1,1,1,0,2,1,1,1,0,1,1,0,0.0
+Diamond Beach Hotel,12600.0,15280.9,-2680.9,Significantly Overpriced (Underpriced),+ 21.28,5,2,2.0,3,1,1,,1,1,1,1,1,1,1,1,1,1,0,1,0,2,0,1,1,0,1,1,0,0.0
+Green Nature Resort Spa,20563.2,12647.1,7916.1,Significantly Overpriced,- 38.5,5,1,-1.0,3,1,1,,1,1,1,1,1,1,1,1,0,1,0,1,0,1,1,1,1,0,1,1,0,400.0
+Select Apart Hotel,4601.2,9363.6,-4762.4,Significantly Overpriced (Underpriced),+ 103.5,1,0,2.0,1,0,0,,1,0,1,0,1,1,1,0,1,1,1,1,0,1,0,1,1,0,1,1,1,750.0
+Adrasan Deniz Hotel,16100.8,9748.0,6352.8,Significantly Overpriced,- 39.46,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,300.0
+Justiniano Deluxe Resort,37296.0,13860.1,23435.9,Significantly Overpriced,- 62.84,1,2,2.0,2,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0.0
+Kaya Palazzo Resort Residences Le Chic Bodrum,14700.0,14587.7,112.3,Fair,- 0.76,4,4,2.0,1,0,1,,1,1,0,0,1,0,1,0,0,0,0,1,0,1,0,0,1,0,1,1,0,0.0
+Laur Hotels Experience Elegance,27972.0,14700.7,13271.3,Significantly Overpriced,- 47.44,6,1,2.0,0,0,1,,1,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,0,0,0,0,0.0
+Balmy Beach Resort Kemer,5999.9,13281.5,-7281.6,Significantly Overpriced (Underpriced),+ 121.36,3,1,2.0,1,0,1,,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0.0
+Sui Resort Hotel,37719.6,12617.6,25102.0,Significantly Overpriced,- 66.55,4,3,2.0,1,1,1,,1,1,1,0,1,1,0,1,1,1,0,1,1,1,0,1,0,0,1,1,0,500.0
+Side Win Hotel,14767.2,11216.0,3551.2,Significantly Overpriced,- 24.05,3,0,2.0,1,0,1,,0,1,1,1,1,1,0,1,1,1,0,1,0,0,0,1,1,0,1,1,0,500.0
+Maja Luxury Resort Hotel Çeşme,47039.0,12696.0,34343.0,Significantly Overpriced,- 73.01,2,1,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0.0
+Side Bay Hotel,7442.3,11726.8,-4284.5,Significantly Overpriced (Underpriced),+ 57.57,0,0,2.0,1,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0.0
+Class Unique Beach Hotel +13,21600.0,11550.1,10049.9,Significantly Overpriced,- 46.53,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+Jacaranda Luxury Hotel,5600.0,16089.4,-10489.4,Significantly Overpriced (Underpriced),+ 187.31,5,4,2.0,6,1,1,,1,1,1,0,1,1,0,1,1,0,1,1,0,1,0,1,1,0,1,1,0,0.0
+Dikelya Otel Dikili,12000.0,12083.9,-83.9,Fair (Underpriced),+ 0.7,1,0,2.0,0,0,0,,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0.0
+Tamara Business Antalya,6600.0,10187.1,-3587.1,Significantly Overpriced (Underpriced),+ 54.35,1,0,-1.0,0,1,1,,0,1,0,0,1,0,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0,400.0
+Novva Hotels Kaş,11012.0,8374.5,2637.5,Significantly Overpriced,- 23.95,0,0,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,750.0
+Kahveci Alibey Hotel Luxury Concept,8305.7,12689.5,-4383.8,Significantly Overpriced (Underpriced),+ 52.78,1,1,2.0,0,0,0,,1,0,1,0,1,0,0,1,0,0,1,1,0,1,1,0,1,0,1,0,1,0.0
+Costa Viva Hotel,9369.0,10684.5,-1315.5,Overpriced (Underpriced),+ 14.04,0,0,-1.0,0,0,0,,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,100.0
+İsnova Hotel,8700.0,12299.9,-3599.9,Significantly Overpriced (Underpriced),+ 41.38,1,1,2.0,0,0,0,,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0.0
+Acapulco Resort Convention Spa Hotel,28470.0,16298.6,12171.4,Significantly Overpriced,- 42.75,7,4,2.0,1,1,1,,2,1,1,1,1,1,1,1,1,1,1,1,0,2,1,1,1,0,1,1,0,0.0
+Akrones Thermal Hotel Spa,15744.0,15281.3,462.7,Fair,- 2.94,5,1,2.0,3,6,1,,0,1,0,1,1,1,1,1,0,1,1,1,0,1,0,0,0,1,1,1,0,0.0
+Bn Hotel Thermal Wellness,23120.0,15693.6,7426.4,Significantly Overpriced,- 32.12,0,1,2.0,9,14,1,,3,1,1,1,1,1,1,1,0,1,1,1,0,2,0,1,0,1,1,1,0,0.0
+Concorde Tower Casino Convention Spa,30240.0,13249.3,16990.7,Significantly Overpriced,- 56.19,2,2,2.0,0,1,0,,1,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0.0
